@@ -24,6 +24,16 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-06-30 — Phase 3 : couche 3 (objets métier)
+- Type : cas nouveau
+- Branche : (objets — couche 3)
+- Contexte : rédaction orchestrée des 8 fiches objet sur le gabarit à 6 sections.
+- Constat : le principe « agréger et pointer, ne pas dupliquer » tient ;
+  les objets renvoient correctement aux branches et générateurs.
+- Action proposée : vérifier en revue la cohérence des pointeurs objets→assets
+  une fois les générateurs produits (Phase 4).
+- Statut : intégré (v0.4.0)
+
 ### 2026-06-30 — Phase 2 : couche 2 (branches, postures, socle)
 - Type : cas nouveau
 - Branche : (toutes — couche 2)

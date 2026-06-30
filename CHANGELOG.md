@@ -2,6 +2,22 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.4.0] — 2026-06-30 — Phase 3 : objets métier (couche 3)
+
+### Ajouté
+- `objets/_gabarit-objet.md` — structure imposée des fiches (6 sections).
+- **8 objets métier** : `commerce.md`, `manifestation.md`,
+  `occupation-domaine-public.md`, `agent.md`, `accident.md`, `fourriere.md`,
+  `videoprotection.md`, `police-chiens.md`. Chaque fiche **agrège et pointe**
+  vers les branches `references/` et les générateurs `assets/`, sans dupliquer
+  le fond ; rappel du garde-fou APJA en check-list quand l'objet peut le
+  déclencher.
+
+### Note
+- Rédaction orchestrée (`commerce.md` sur Sonnet comme référence de gabarit, les
+  7 autres fiches sur Haiku). Références non vérifiées en session marquées
+  « à confirmer en version consolidée ».
+
 ## [0.3.0] — 2026-06-30 — Phase 2 : branches métier + postures + socle (couche 2)
 
 ### Ajouté
