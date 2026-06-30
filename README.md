@@ -62,4 +62,5 @@ Boucle `JOURNAL.md` (cas) → `CHANGELOG.md` (versions), décisions tracées dan
 
 ## Version
 
-v0.1.0 — socle (`SKILL.md` + dispositifs transverses). Couches 1 à 4 à dérouler.
+v0.7.0 — complet (4 couches déroulées) : routeur, 11 branches + 3 postures +
+socle, 8 objets, 5 générateurs, tests et vault d'index.

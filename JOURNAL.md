@@ -24,6 +24,19 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-06-30 — Phases 4 à 6 : générateurs, tests, vault
+- Type : cas nouveau
+- Branche : ecrits-professionnels + tests + (vault)
+- Contexte : rédaction orchestrée des 5 générateurs interactifs, des tests
+  (14 cas + 2 cas de co-activation) et du vault d'index.
+- Constat : les générateurs intègrent bien la règle [INCOMPLET] et le garde-fou
+  APJA ; le rapport de mise à disposition est identifié comme « l'écrit du
+  garde-fou ». La couverture de test inclut APJA, conflit de compétence et
+  frontière RH.
+- Action proposée : à la prochaine revue, exécuter `cas-de-test.json` en contexte
+  frais (répondant + juge) et lever les références « à confirmer ».
+- Statut : intégré (v0.5.0 → v0.7.0)
+
 ### 2026-06-30 — Phase 3 : couche 3 (objets métier)
 - Type : cas nouveau
 - Branche : (objets — couche 3)

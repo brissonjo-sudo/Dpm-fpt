@@ -2,6 +2,40 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.7.0] — 2026-06-30 — Phase 6 : vault Obsidian + finalisation
+
+### Ajouté
+- `vault/index-dpm-fpt.md` — index de navigation « Besoin → fichier », organisé
+  par couche (frontmatter YAML, liens relatifs vers le repo).
+- `vault/maillage.md` — carte des liens entre objets, branches et générateurs
+  (wikilinks), nœuds transverses (garde-fou APJA, frontière `drh-fpt`).
+
+### Modifié
+- `SKILL.md` — `metadata.version` portée à 0.7.0, `statut` : « complet
+  (4 couches déroulées) ».
+- Le vault **indexe sans dupliquer** le contenu du repo.
+
+## [0.6.0] — 2026-06-30 — Phase 5 : tests
+
+### Ajouté
+- `tests/cas-de-test.json` — 14 cas (≥ 1 par branche + **garde-fou APJA** +
+  **conflit de compétence maire/préfet** + **frontière RH** `dpm-fpt`/`drh-fpt`),
+  schéma `id`/`branche`/`prompt`/`attendus[]`.
+- `tests/cas-co-activation.md` — 2 cas transverses (`dpm-fpt` ×
+  `recherche-juridique` ; `dpm-fpt` × `drh-fpt`) avec barème
+  RÉUSSITE/ÉCHEC/demi-réussite.
+
+## [0.5.0] — 2026-06-30 — Phase 4 : générateurs (couche 4)
+
+### Ajouté
+- **5 générateurs interactifs** dans `assets/` : `pv-contravention.md`,
+  `rapport-information.md`, `rapport-mise-a-disposition.md`, `arrete-modele.md`,
+  `note-maire-modele.md`.
+- Logique **interactive** (questions une à une → assemblage), règle
+  **`[INCOMPLET]`** (jamais d'hallucination), garde-fou APJA intégré ; pour
+  l'arrêté (acte faisant grief) : motivation + voies de recours + passage par
+  `controle-legalite.md`.
+
 ## [0.4.0] — 2026-06-30 — Phase 3 : objets métier (couche 3)
 
 ### Ajouté

@@ -20,8 +20,8 @@ description: >-
   qui relèvent de drh-fpt, pour les actes réservés à l'OPJ (police judiciaire au
   sens de l'art. 16 CPP), ni pour le droit étranger.
 metadata:
-  version: 0.1.0
-  statut: socle (SKILL.md + dispositifs transverses) — couches à dérouler
+  version: 0.7.0
+  statut: complet (4 couches déroulées)
   date_derniere_revue_methodologique: 2026-06-30
   date_derniere_verification_sources: 2026-06-30
   perimetre: direction de la police municipale, collectivités territoriales (France)
