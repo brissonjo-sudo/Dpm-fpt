@@ -24,6 +24,17 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-06-30 — Phase 1 : routeur (Decision Engine)
+- Type : cas nouveau
+- Branche : analyse-situation (couche 1)
+- Contexte : rédaction du gabarit de branche et du routeur.
+- Constat : le garde-fou APJA doit être testé **avant** tout routage métier ;
+  les conflits de compétence (maire/préfet/OPJ) doivent être signalés et non
+  tranchés en silence.
+- Action proposée : conserver le garde-fou APJA en tête de routeur et de
+  checklist ; relier chaque règle SI…ALORS aux objets de la couche 3.
+- Statut : intégré (v0.2.0)
+
 ### 2026-06-30 — Phase 0 : pose du socle
 - Type : cas nouveau
 - Branche : (socle / SKILL)

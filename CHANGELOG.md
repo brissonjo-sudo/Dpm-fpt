@@ -2,6 +2,16 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.2.0] — 2026-06-30 — Phase 1 : Decision Engine (couche 1)
+
+### Ajouté
+- `references/_gabarit-branche.md` — gabarit décisionnel imposé des branches
+  (12 sections, bloc **Périmètre / Exclusions** obligatoire en ouverture).
+- `references/analyse-situation.md` — **routeur** (couche 1) appelé avant toute
+  autre branche : séquence de raisonnement imposée, garde-fou APJA en priorité,
+  signalement des conflits de compétence, règles `SI … ALORS …` (les 10 cas du
+  prompt + extensions vers objets et branches), checklist du routeur.
+
 ## [0.1.0] — 2026-06-30 — Phase 0 : socle du skill
 
 ### Ajouté
