@@ -24,6 +24,19 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-06-30 — Phase 2 : couche 2 (branches, postures, socle)
+- Type : cas nouveau
+- Branche : (toutes — couche 2)
+- Contexte : rédaction orchestrée des 11 branches métier, 3 briques posture et
+  du socle-sources (15 agents Sonnet en parallèle).
+- Constat : les agents ont vérifié les articles-pivots sur Légifrance et
+  remonté une liste de références « à confirmer » par fichier (conservée comme
+  matière première de la revue de rentrée).
+- Action proposée : lors de la prochaine revue, lever les références marquées
+  « à confirmer » (notamment CGCT L.2131-2, substitution préfet, transfert de
+  polices spéciales EPCI, catégorisation chiens dangereux, RSD).
+- Statut : intégré (v0.3.0)
+
 ### 2026-06-30 — Phase 1 : routeur (Decision Engine)
 - Type : cas nouveau
 - Branche : analyse-situation (couche 1)

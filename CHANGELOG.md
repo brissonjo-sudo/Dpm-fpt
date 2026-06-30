@@ -2,6 +2,30 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.3.0] — 2026-06-30 — Phase 2 : branches métier + postures + socle (couche 2)
+
+### Ajouté
+- `references/socle-sources-verification.md` — carte des sources propres à la PM
+  (hiérarchie, sources officielles, noyau minimal CGCT/CSI/CPP/code de la route/
+  déontologie, réflexes, déclencheurs `recherche-juridique`, conflits de normes,
+  règle de provenance).
+- **11 branches métier** : `pouvoirs-police.md`, `penal-procedure.md`,
+  `reglementation-appliquee.md`, `doctrine-operationnelle.md`,
+  `continuum-partenariats.md`, `armement-equipements.md`, `videoprotection.md`,
+  `rh-specificites-pm.md`, `pilotage-budget.md`,
+  `conformite-deontologie-donnees.md`, `ecrits-professionnels.md`.
+- **3 briques posture** : `controle-legalite.md`, `contentieux.md`, `retex.md`.
+- Chaque fichier ouvre sur un bloc **Périmètre / Exclusions** (tableau §6 du
+  prompt) et suit le gabarit de branche.
+
+### Note
+- Rédaction orchestrée (15 agents Sonnet en parallèle). Articles-pivots vérifiés
+  sur Légifrance le 2026-06-30 (CGCT L.2212-1/2, L.2215-1 ; CPP 16/21/21-2/73 ;
+  CSI L.251 et s., L.511-1 et s., L.512-4, L.132-* ; code de la route L.325-1,
+  R.417-10 ; CSP L.3332-15 ; CG3P L.2122-1 ; code rural L.211-11). Les
+  références non vérifiées en session restent marquées « à confirmer en version
+  consolidée ».
+
 ## [0.2.0] — 2026-06-30 — Phase 1 : Decision Engine (couche 1)
 
 ### Ajouté
