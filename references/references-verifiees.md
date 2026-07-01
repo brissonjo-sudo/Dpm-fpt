@@ -61,16 +61,20 @@ numérotation. À surveiller à chaque revue de rentrée.
 | **L. 511-1** | Missions des agents de police municipale | 01/07/2021 | LEGIARTI000041587492 |
 | **L. 511-5** | Autorisation préfectorale de port d'arme (sous convention de coordination) | 29/12/2019 | LEGIARTI000041411486 |
 | **L. 512-4** | Convention de coordination : **obligatoire dès 3 emplois** d'agent PM | 27/05/2021 | LEGIARTI000043540466 |
-| **L. 132-4** | Animation de la prévention par le maire ; **CLSPD obligatoire > 5000 hab ou QPV** | 23/03/2024 | *(identifiant non retenu — voir note)* |
+| **L. 132-4** | Animation de la prévention par le maire ; **CLSPD obligatoire > 5000 hab ou QPV** ; coordonnateur désigné **> 15 000 hab** | 23/03/2024 | LEGIARTI000049313006 |
 | **L. 132-5** | Groupes de travail et d'échange d'informations du CLSPD | 23/03/2024 | LEGIARTI000049313001 |
 | **L. 251-1 et s.** | Vidéoprotection voie publique : autorisation préfectorale, avis commission départementale | 21/05/2023 | LEGIARTI000047569469 |
+| **L. 252-5** | Vidéoprotection : destruction des enregistrements dans un **délai max. d'un mois** (hors enquête/flagrance) | 01/05/2012 | LEGIARTI000025505435 |
+| **R. 252-3** | Contenu de la demande d'autorisation : mention (8°) du délai de conservation, **sans fixer le plafond** (celui-ci = L. 252-5) | 30/11/2023 | LEGIARTI000048480362 |
 
-> **Note L. 132-4** : deux identifiants divergents ont été lus sur la même page
-> lors de la vérification ; par **prudence de provenance**, aucun identifiant
-> n'est retenu tant qu'il n'est pas confirmé de façon univoque. Le **numéro** et
-> le **seuil de 5000 habitants** sont confirmés.
-> **Note vidéoprotection** : la **durée de conservation** des images (usuellement
-> art. R. 252-3 CSI) n'a **pas** été lue en session → reste « à confirmer ».
+> **Note L. 132-4** : identifiant confirmé après lecture directe de la page —
+> `LEGIARTI000049313006` est la **version en vigueur** (23/03/2024), tandis que
+> l'identifiant `LEGIARTI000043541062` rencontré auparavant correspond au
+> **conteneur d'article / à une version antérieure**. L'incohérence relevée en
+> première passe est ainsi levée.
+> **Note vidéoprotection** : la **durée de conservation** est plafonnée à **un
+> mois** par l'art. **L. 252-5** (législatif) ; l'art. R. 252-3 ne fait
+> qu'exiger que le demandeur **indique** la durée retenue dans son dossier.
 
 ### Déontologie et armement (correctifs de source)
 
@@ -121,9 +125,11 @@ numérotation. À surveiller à chaque revue de rentrée.
 
 ## Références restées « non confirmées » (revue de rentrée)
 
-- **CSI L. 132-4** — identifiant LEGIARTI (numéro et seuil confirmés).
-- **CSI R. 252-3** — durée de conservation des images de vidéoprotection.
 - **Règlement sanitaire départemental (RSD)** — propre à chaque département,
   à se procurer localement (non consolidé sur Légifrance).
 - **Nouvelle numérotation du CPP** applicable au 01/01/2029 (ordonnance
   n° 2025-1091) — à intégrer avant cette échéance.
+
+> Levées le 2026-07-01 : `CSI L. 132-4` (identifiant confirmé,
+> `LEGIARTI000049313006`) et la durée de conservation vidéo (plafond d'un mois,
+> `CSI L. 252-5`, `LEGIARTI000025505435` ; `R. 252-3` = mention dans la demande).

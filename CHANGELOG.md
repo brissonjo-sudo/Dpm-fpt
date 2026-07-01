@@ -2,6 +2,26 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.8.1] — 2026-07-01 — Levée des deux derniers restes (L. 132-4, conservation vidéo)
+
+### Corrigé / Vérifié (sur Légifrance le 2026-07-01)
+- **CSI L. 132-4** (CLSPD) : identifiant confirmé de façon univoque —
+  `LEGIARTI000049313006` (version en vigueur depuis le 23/03/2024). L'ancien
+  identifiant `LEGIARTI000043541062` (conteneur / version antérieure) est
+  remplacé dans `continuum-partenariats.md`. Précision ajoutée : coordonnateur
+  désigné dans les communes **> 15 000 hab** (à distinguer du seuil de
+  constitution du CLSPD, **≥ 5 000 hab ou QPV**).
+- **Durée de conservation vidéo** : le plafond est **d'un mois** et relève de
+  l'art. **CSI L. 252-5** (`LEGIARTI000025505435`), et non de L. 252-3 ;
+  l'art. **R. 252-3** (`LEGIARTI000048480362`) n'exige que la mention de la
+  durée dans la demande. Corrigé dans `videoprotection.md` (branche + objet) et
+  consigné dans `references-verifiees.md`.
+
+### Modifié
+- `references/references-verifiees.md` : lignes L. 132-4 / L. 252-5 / R. 252-3
+  ajoutées ou complétées ; la liste « non confirmées » ne conserve que le RSD
+  (local) et la renumérotation du CPP (2029). `metadata.version` → 0.8.1.
+
 ## [0.8.0] — 2026-07-01 — Levée des références « à confirmer » (vérif. Légifrance)
 
 ### Ajouté

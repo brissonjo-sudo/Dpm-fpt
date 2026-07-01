@@ -62,6 +62,6 @@ Boucle `JOURNAL.md` (cas) → `CHANGELOG.md` (versions), décisions tracées dan
 
 ## Version
 
-v0.8.0 — complet (4 couches) : routeur, 11 branches + 3 postures + socle, 8
+v0.8.1 — complet (4 couches) : routeur, 11 branches + 3 postures + socle, 8
 objets, 5 générateurs, tests et vault d'index, plus un **socle de références
 vérifiées sur Légifrance** (`references/references-verifiees.md`).

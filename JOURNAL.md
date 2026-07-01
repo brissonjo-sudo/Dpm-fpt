@@ -24,6 +24,18 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-07-01 — Levée des deux derniers restes (L. 132-4, conservation vidéo)
+- Type : lacune (résolue)
+- Branche : continuum-partenariats + videoprotection (+ socle)
+- Contexte : levée sur Légifrance des deux références restées non confirmées.
+- Constat : (1) l'incohérence L. 132-4 s'expliquait par la confusion
+  conteneur/version — la version en vigueur (23/03/2024) porte
+  `LEGIARTI000049313006` ; (2) la durée de conservation vidéo (1 mois) relève de
+  L. 252-5, pas de L. 252-3 ; R. 252-3 n'exige que la mention de la durée.
+- Action proposée : identifiants et plafond intégrés aux branches et au socle
+  vérifié ; reste seulement le RSD (local) et la renumérotation CPP 2029.
+- Statut : intégré (v0.8.1)
+
 ### 2026-07-01 — Levée des références « à confirmer » sur Légifrance
 - Type : lacune (résolue)
 - Branche : socle + toutes branches citant un article-pivot
