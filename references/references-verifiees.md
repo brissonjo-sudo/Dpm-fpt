@@ -125,11 +125,14 @@ numérotation. À surveiller à chaque revue de rentrée.
 
 ## Références restées « non confirmées » (revue de rentrée)
 
-- **Règlement sanitaire départemental (RSD)** — propre à chaque département,
-  à se procurer localement (non consolidé sur Légifrance).
 - **Nouvelle numérotation du CPP** applicable au 01/01/2029 (ordonnance
   n° 2025-1091) — à intégrer avant cette échéance.
 
 > Levées le 2026-07-01 : `CSI L. 132-4` (identifiant confirmé,
 > `LEGIARTI000049313006`) et la durée de conservation vidéo (plafond d'un mois,
 > `CSI L. 252-5`, `LEGIARTI000025505435` ; `R. 252-3` = mention dans la demande).
+> **RSD** (règlement sanitaire départemental) : point **levé** — liens de
+> récupération vérifiés par département dans **`liste-RSD.md`** (96/101
+> départements avec lien officiel ARS/préfecture au 2026-07-01 ; 5 à obtenir sur
+> demande). Le RSD n'est pas consolidé sur Légifrance : il reste un arrêté
+> préfectoral local (fondement CSP L. 1311-1 et L. 1311-2).

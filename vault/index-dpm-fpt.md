@@ -20,6 +20,7 @@ version: 0.7.0
 | Qualifier une situation composée (Decision Engine, séquence de raisonnement) | `../references/analyse-situation.md` |
 | Carte des sources propres PM (CGCT, CSI, CPP, code de la route, déontologie) + conflit de normes | `../references/socle-sources-verification.md` |
 | Références vérifiées Légifrance (identifiants LEGIARTI, versions, alerte CPP 2029) | `../references/references-verifiees.md` |
+| Liens de récupération du RSD par département (ARS régionale / préfecture) | `../references/liste-RSD.md` |
 
 ### Couche 2 — Branches métier (11) + 3 briques posture
 

@@ -2,6 +2,34 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.8.2] — 2026-07-01 — Liens RSD par département (levée du dernier reste local)
+
+### Ajouté
+- `references/liste-RSD.md` — **liens de récupération du règlement sanitaire
+  départemental (RSD) pour chaque département**, organisés par région. Deux
+  niveaux d'agrégation officiels : **ARS régionale** (`*.ars.sante.fr`, page
+  listant le RSD de chaque département) quand elle existe, sinon **préfecture**
+  (`www.<departement>.gouv.fr`). Couverture **96/101** départements avec lien
+  officiel vérifié le 2026-07-01 ; **5** restent à obtenir sur demande
+  (Corse-du-Sud tentatif, Haute-Corse, Gironde, Haute-Vienne, Martinique).
+  Rappel du fondement (CSP L. 1311-1 et L. 1311-2), des réserves de version
+  (arrêtés modificatifs) et de la règle de provenance P1 (aucun lien de mémoire).
+
+### Modifié
+- `references/references-verifiees.md` : le **RSD** est **retiré** de la liste
+  « non confirmées » et renvoie désormais à `liste-RSD.md` ; il n'y reste que la
+  renumérotation du CPP (2029).
+- `references/reglementation-appliquee.md` : l'entrée RSD pointe vers
+  `liste-RSD.md` pour le lien de récupération par département.
+- `SKILL.md` : `metadata.version` → 0.8.2 ;
+  `date_derniere_verification_sources` → 2026-07-01.
+
+### Note
+- Vérification **orchestrée** (12 agents, un par région ARS / bloc, fetch et
+  recherche sur domaines officiels `.ars.sante.fr` / `.gouv.fr` / Légifrance).
+  Les 5 cibles non trouvées en ligne restent **communicables sur demande**
+  (RSD = acte public, CRPA L. 311-1) auprès de la préfecture ou de l'ARS.
+
 ## [0.8.1] — 2026-07-01 — Levée des deux derniers restes (L. 132-4, conservation vidéo)
 
 ### Corrigé / Vérifié (sur Légifrance le 2026-07-01)

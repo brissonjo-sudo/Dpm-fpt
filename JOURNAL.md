@@ -24,6 +24,25 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-07-01 — Levée du RSD : liens de récupération par département
+- Type : lacune (résolue)
+- Branche : reglementation-appliquee + socle (references-verifiees)
+- Contexte : le RSD restait le seul point « non confirmé » (avec la
+  renumérotation CPP 2029) car non consolidé sur Légifrance. Vérification
+  orchestrée (12 agents, un par région ARS / bloc) des liens de récupération.
+- Constat : deux niveaux d'agrégation officiels existent — (1) **ARS régionale**
+  (`*.ars.sante.fr`) qui publie une page listant le RSD de chaque département
+  (Auvergne-Rhône-Alpes, Bretagne, Centre-Val de Loire, Grand Est,
+  Hauts-de-France, Île-de-France partiel, Normandie, PACA, DROM) ; (2) sinon la
+  **préfecture** (`www.<departement>.gouv.fr`). Couverture : **96/101**
+  départements avec lien officiel vérifié ; 5 à obtenir sur demande (2A
+  tentatif, 2B, 33, 87, 972). Fondement du RSD : CSP L. 1311-1 et L. 1311-2.
+- Action proposée : liens consignés dans `references/liste-RSD.md` ; renvois
+  ajoutés depuis `reglementation-appliquee.md` et `references-verifiees.md` ;
+  point RSD retiré de la liste « non confirmées ». Recontrôler les URL à la
+  revue de rentrée (refontes de sites, arrêtés modificatifs bruit/brûlage).
+- Statut : intégré (v0.8.2)
+
 ### 2026-07-01 — Levée des deux derniers restes (L. 132-4, conservation vidéo)
 - Type : lacune (résolue)
 - Branche : continuum-partenariats + videoprotection (+ socle)
