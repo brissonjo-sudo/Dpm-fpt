@@ -41,6 +41,13 @@ Une entrée par cas, au format ci-dessous.
   ajoutés depuis `reglementation-appliquee.md` et `references-verifiees.md` ;
   point RSD retiré de la liste « non confirmées ». Recontrôler les URL à la
   revue de rentrée (refontes de sites, arrêtés modificatifs bruit/brûlage).
+- Suite (2e passe, 4 agents ciblés) : tentative de levée des 5 cibles restantes.
+  Résultat — aucune source officielle en ligne pour 2A, 2B, 33, 87, 972
+  (confirmé). Précisions acquises : (1) deux RSD corses distincts existent
+  (2A ≠ 2B) ; le doc ARS `media/100726` est officiel mais 403 (géo-blocage US
+  probable) et non attribuable ; (2) note ARS officielle 2023 (partielle) pour
+  33/87 ; (3) index national SNPCC utile en recoupement (cases 2A/2B vides,
+  972 = copie CACEM). §4 de `liste-RSD.md` enrichi des voies de secours.
 - Statut : intégré (v0.8.2)
 
 ### 2026-07-01 — Levée des deux derniers restes (L. 132-4, conservation vidéo)

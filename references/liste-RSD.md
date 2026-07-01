@@ -96,10 +96,15 @@ Page : `https://www.auvergne-rhone-alpes.ars.sante.fr/les-reglements-sanitaires-
 
 ### Corse — *partiel (voir §4)*
 
+Il existe **deux RSD distincts** (un pour la Corse-du-Sud, un pour la
+Haute-Corse — confirmé par les métadonnées de copies), mais aucun lien n'est à
+la fois **officiel et attribuable par département** avec certitude.
+
 | N° | Département | Lien de récupération | Source |
 |----|-------------|----------------------|--------|
-| 2A | Corse-du-Sud | https://www.corse.ars.sante.fr/media/100726/download | ARS Corse — ⚠️ **attribution départementale non confirmée** (voir §4) |
-| 2B | Haute-Corse | `non trouvé` | Voir §4 (récupération par demande à l'ARS/préfecture 2B) |
+| 2A/2B | Corse (doc ARS unique) | https://www.corse.ars.sante.fr/media/100726/download | ARS Corse — **officiel** mais **attribution 2A/2B indéterminée** ; renvoie 403 en accès automatisé (probable géo-blocage US — accessible depuis une IP française). Voir §4 |
+| 2A | Corse-du-Sud | `non trouvé (officiel)` | Voir §4 (copie tierce étiquetée « Préfet de la Corse-du-Sud », non officielle) |
+| 2B | Haute-Corse | `non trouvé (officiel)` | Voir §4 (RSD 2B distinct confirmé par copies tierces, non officielles) |
 
 ### Grand Est — *ARS agrège (10/10)*
 Page : `https://www.grand-est.ars.sante.fr/reglements-sanitaires-departementaux-4`
@@ -162,7 +167,7 @@ Page : `https://www.normandie.ars.sante.fr/regles-de-salubrites-publiques-les-re
 | 19 | Corrèze | https://www.correze.gouv.fr/contenu/telechargement/26902/197941/file/RSD_19.pdf | Préfecture |
 | 23 | Creuse | https://www.creuse.gouv.fr/contenu/telechargement/7005/57982/file/R%C3%A8glement+sanitaire+d%C3%A9partemental.pdf | Préfecture |
 | 24 | Dordogne | https://www.dordogne.gouv.fr/content/download/39316/268014/file/Annexe%20RSD.pdf | Préfecture (PDF scanné « Annexe RSD ») |
-| 33 | Gironde | `non trouvé` | Voir §4 (aucun PDF officiel localisé) |
+| 33 | Gironde | `non trouvé` (texte intégral) | Voir §4 — note ARS officielle d'évolution 2023 (partielle) : `https://www.nouvelle-aquitaine.ars.sante.fr/media/133611/download?inline=` |
 | 40 | Landes | https://www.landes.gouv.fr/contenu/telechargement/9339/117821/file/RSD_1985_cle5568b6.pdf | Préfecture (1985) |
 | 47 | Lot-et-Garonne | https://www.lot-et-garonne.gouv.fr/contenu/telechargement/5465/72561/file/rs47_cle56fd4e.pdf | Préfecture |
 | 64 | Pyrénées-Atlantiques | https://www.pyrenees-atlantiques.gouv.fr/Publications/Reglement-sanitaire-departemental | Préfecture — page HTML par titres |
@@ -227,29 +232,41 @@ Page : `https://www.paca.ars.sante.fr/reglements-sanitaires-departementaux-2`
 
 ## 4. Points restés « non confirmés » et voies de récupération alternatives
 
-Cinq entités n'ont **pas** de lien officiel vérifié en ligne au 2026-07-01.
-Toutes se récupèrent par **demande directe** (le RSD est un acte public
-communicable au titre du **CRPA art. L. 311-1**) :
+Cinq entités n'ont **pas** de lien officiel pleinement vérifié en ligne au
+2026-07-01 (recherche ciblée approfondie menée ce jour — archives, portails ARS,
+data.gouv, index nationaux). Toutes se récupèrent par **demande directe** (le
+RSD est un acte public communicable au titre du **CRPA art. L. 311-1**) :
 
-| Cible | Situation constatée | Voie de récupération |
+| Cible | Situation constatée (après recherche approfondie) | Voie de récupération |
 |-------|---------------------|----------------------|
-| **2A — Corse-du-Sud** | Un seul PDF RSD localisé sur ARS Corse (`/media/100726`), **attribution 2A/2B non confirmée** (serveur ARS renvoie 403 au téléchargement automatisé). | Confirmer auprès de l'**ARS de Corse** (délégation départementale) ou de la **préfecture de Corse-du-Sud**. |
-| **2B — Haute-Corse** | Aucun RSD intégral en ligne ; les sites préfecture ne portent que des arrêtés partiels (bruit de voisinage). | Demande à la **préfecture de Haute-Corse** / **ARS Corse**. |
-| **33 — Gironde** | Aucun PDF officiel `.gouv.fr`/`.ars.sante.fr` localisé (seules des copies non officielles existent). | Demande à la **préfecture de la Gironde** ou à l'**ARS Nouvelle-Aquitaine (délégation 33)**. |
-| **87 — Haute-Vienne** | Aucun PDF officiel localisé (copie non officielle sur un site associatif). | Demande à la **préfecture de la Haute-Vienne** / **ARS délégation 87**. |
-| **972 — Martinique** | RSD de 2009 existant mais publié uniquement hors source officielle (site d'un EPCI). | Demande à l'**ARS de Martinique** ou à la **préfecture de Martinique**. |
+| **2A — Corse-du-Sud** | Un doc RSD officiel existe sur l'ARS Corse (`/media/100726`) mais son **attribution 2A/2B reste indéterminée** (403 = probable géo-blocage US, lisible depuis une IP française). Une copie **tierce** étiquetée « Préfet de la Corse-du-Sud » existe (non officielle, probablement partielle). | Lire `/media/100726` depuis une **IP française**, ou solliciter l'**ARS Corse (DT2A)** / la **préfecture de Corse-du-Sud**. |
+| **2B — Haute-Corse** | Un **RSD 2B distinct** est **confirmé** (métadonnées de copies tierces : « Règlement sanitaire départemental 2B »), mais uniquement sur des sites tiers (association, docplayer) — aucun hébergement officiel. | Demande à l'**ARS Corse (DT2B)** / **préfecture de Haute-Corse**. |
+| **33 — Gironde** | Aucun **texte intégral** sur source officielle. Seul document officiel : une **note ARS d'évolution 2023** (`nouvelle-aquitaine.ars.sante.fr/media/133611`, partielle). Copie complète seulement sur site associatif. | Demande à la **préfecture de la Gironde** ou à l'**ARS N.-Aquitaine (DD33)** ; portail éducatif `tribu-sup.phm.education.gouv.fr` (espace ACM 33) qui le référence (accès authentifié). |
+| **87 — Haute-Vienne** | Aucun **texte intégral** sur source officielle (arrêté fondateur du 6 février 1979 seulement *cité* dans les RAA). Copie complète sur site associatif ; note ARS 2023 partielle (même `/media/133611`). | Demande à l'**ARS DD87** (ars-dd87-direction@ars.sante.fr) / **préfecture de la Haute-Vienne**. |
+| **972 — Martinique** | RSD consolidé « 2009 » existant mais publié **uniquement hors source officielle** (site de l'EPCI CACEM). L'index national SNPCC se rabat lui aussi sur cette même copie. | Demande à l'**ARS de Martinique** (service Santé-Environnement) ou consultation du **RAA 2009** de la **préfecture de Martinique**. |
 
 > **Règle d'usage DPM** : pour ces cinq cibles, ne **jamais** citer un RSD à
 > partir d'une copie non officielle. Fonder l'acte sur la **version obtenue de
 > la préfecture/ARS**, en vérifiant la date et les arrêtés modificatifs.
+
+> **Index national de recoupement** (non officiel, utile en secours) : le
+> syndicat professionnel **SNPCC** maintient une liste de liens RSD par
+> département (`https://snpcc.com/storage/2025/12/Liste-RS.pdf`). Elle pointe,
+> pour la plupart des départements, vers les **mêmes sources officielles** que
+> ce fichier ; ses cases **2A/2B sont vides** et sa case **972** renvoie à la
+> copie CACEM — ce qui **corrobore** l'absence de lien officiel courant pour ces
+> cibles. À utiliser comme point de départ, jamais comme source citable en acte.
 
 ---
 
 ## 5. Bilan de vérification
 
 - **Couverture** : **96 des 101 départements** (métropole + DROM) disposent d'un
-  **lien officiel vérifié** au 2026-07-01 ; **5** restent à récupérer par
-  demande directe (2A tentatif, 2B, 33, 87, 972).
+  **lien officiel vérifié et attribuable** au 2026-07-01 ; **5** restent à
+  récupérer/confirmer par demande directe (2A, 2B, 33, 87, 972). Une **recherche
+  ciblée approfondie** menée le 2026-07-01 (archives, portails ARS, data.gouv,
+  index national SNPCC) a **confirmé** qu'aucune source officielle en ligne ne
+  couvre ces 5 cibles à ce jour — voir le détail et les voies de secours au §4.
 - **Sources** : agrégation **ARS régionale** quand elle existe (Auvergne-
   Rhône-Alpes, Bretagne, Centre-Val de Loire, Grand Est, Hauts-de-France,
   Île-de-France partiel, Normandie, PACA, DROM) ; sinon **préfecture**
