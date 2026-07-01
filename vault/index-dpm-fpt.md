@@ -19,6 +19,7 @@ version: 0.7.0
 | Point d'entrée du skill, déclenchement, posture hybride, garde-fou APJA, frontière drh-fpt | `../SKILL.md` |
 | Qualifier une situation composée (Decision Engine, séquence de raisonnement) | `../references/analyse-situation.md` |
 | Carte des sources propres PM (CGCT, CSI, CPP, code de la route, déontologie) + conflit de normes | `../references/socle-sources-verification.md` |
+| Références vérifiées Légifrance (identifiants LEGIARTI, versions, alerte CPP 2029) | `../references/references-verifiees.md` |
 
 ### Couche 2 — Branches métier (11) + 3 briques posture
 

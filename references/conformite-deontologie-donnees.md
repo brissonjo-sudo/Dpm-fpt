@@ -85,13 +85,15 @@
 
 ### 4.1 Code de déontologie des agents de police municipale
 
-- Source : partie réglementaire du CSI (chapitre dédié à la déontologie des
-  agents de police municipale, articles **R515-1 et suivants** — *vérifié sur
-  Légifrance le 2026-06-30* : ce chapitre constitue le code de déontologie des
-  agents de police municipale et s'applique aux agents, chefs de service et
-  directeurs de police municipale). Origine historique : décret n° 2003-735
-  du 1er août 2003, depuis codifié — **à confirmer en version consolidée**
-  pour le numéro exact d'article applicable au fait examiné.
+- Source : partie réglementaire du CSI, **art. R. 515-1 à R. 515-21**
+  (*vérifié sur Légifrance le 2026-06-30*), créés par le **décret
+  n° 2013-1113 du 4 décembre 2013** (en vigueur au 01/01/2014) ; ce chapitre
+  constitue le code de déontologie des agents de police municipale et
+  s'applique aux agents, chefs de service et directeurs de police municipale.
+  L'ancien code autonome (décret n° 2003-735 du 1er août 2003) a été **abrogé
+  et recodifié** dans le CSI. ➜ Il n'existe **pas** de « décret déontologie
+  2022 ». Identifiants et versions consolidés → `references-verifiees.md` §3 ;
+  recontrôler l'article applicable au fait examiné avant citation en acte.
 - Contenu structurant (à vérifier article par article avant citation en
   acte) : respect de la loi et des libertés publiques, impartialité, probité,
   dignité en service et hors service, discrétion professionnelle, obéissance
