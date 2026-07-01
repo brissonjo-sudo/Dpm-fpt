@@ -2,6 +2,36 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.8.0] — 2026-07-01 — Levée des références « à confirmer » (vérif. Légifrance)
+
+### Ajouté
+- `references/references-verifiees.md` — **socle de références vérifiées** :
+  articles-pivots (CGCT, CPP, CSI, code de la route, code rural, CSP, CG3P,
+  Constitution) relevés sur Légifrance le 2026-06-30 avec **identifiants
+  `LEGIARTI`, dates de version et objets** (règle de provenance respectée).
+  Inclut une **alerte vigueur CPP** (abrogation programmée au 01/01/2029 par
+  l'ordonnance n° 2025-1091) et la liste des points restés non confirmés.
+
+### Corrigé
+- **Code de déontologie PM** : la mention « décret déontologie 2022 » (issue du
+  prompt d'exécution) est **inexacte**. Le code est codifié au CSI, art.
+  R. 515-1 à R. 515-21, créés par le **décret n° 2013-1113 du 4 décembre 2013**
+  (ancien code autonome : décret n° 2003-735 du 1er août 2003, abrogé).
+  Corrigé dans `conformite-deontologie-donnees.md` et `SKILL.md` §5.3.
+- `L. 5211-9-2` (transfert de police à l'EPCI) et `R. 417-10` (2e classe) :
+  identifiants corrigés après lecture réelle des pages (des identifiants
+  périmés apparaissaient en résultat de recherche).
+
+### Modifié
+- `SKILL.md` (§5.3) et `references/socle-sources-verification.md` pointent vers
+  `references-verifiees.md`. `metadata.version` → 0.8.0.
+
+### Note
+- Vérification **orchestrée** (5 agents, un par code, WebFetch sur Légifrance).
+  Restent « à confirmer » : identifiant de `CSI L. 132-4`, durée de conservation
+  vidéo (`CSI R. 252-3`), règlement sanitaire départemental (local), et la
+  future renumérotation du CPP (2029).
+
 ## [0.7.0] — 2026-06-30 — Phase 6 : vault Obsidian + finalisation
 
 ### Ajouté

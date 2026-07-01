@@ -56,6 +56,14 @@
 
 ---
 
+> **Socle de références vérifiées** : les articles-pivots du métier (CGCT, CPP,
+> CSI, code de la route, code rural, CSP, CG3P, Constitution) ont été relevés sur
+> Légifrance le 2026-06-30 avec leurs identifiants `LEGIARTI` et dates de
+> version dans **`references-verifiees.md`**. S'y reporter pour une citation
+> tracée ; **recontrôler néanmoins la version en vigueur à la date d'usage**
+> (dont l'**abrogation programmée du CPP au 01/01/2029** — ordonnance
+> n° 2025-1091 — signalée dans ce fichier).
+
 ## 2. Sources officielles à privilégier
 
 - **Légifrance** (legifrance.gouv.fr) — CGCT, CSI, CPP, code de la route,

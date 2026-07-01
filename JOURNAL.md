@@ -24,6 +24,21 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-07-01 — Levée des références « à confirmer » sur Légifrance
+- Type : lacune (résolue)
+- Branche : socle + toutes branches citant un article-pivot
+- Contexte : vérification orchestrée (5 agents, un par code) des références
+  structurelles flaggées non vérifiées en session.
+- Constat : tous les articles-pivots confirmés en vigueur avec identifiants
+  `LEGIARTI` réels ; trois découvertes notables — (1) le code de déontologie PM
+  n'est pas un « décret 2022 » mais le décret n° 2013-1113 (CSI R. 515-1 et s.) ;
+  (2) tout le CPP porte une abrogation programmée au 01/01/2029 (ord. 2025-1091) ;
+  (3) convention de coordination obligatoire dès 3 emplois (CSI L. 512-4).
+- Action proposée : socle consigné dans `references-verifiees.md` ; correctifs
+  déontologie appliqués. Restent à lever : identifiant `CSI L. 132-4`,
+  `CSI R. 252-3` (durée vidéo), RSD (local), renumérotation CPP 2029.
+- Statut : intégré (v0.8.0)
+
 ### 2026-06-30 — Phases 4 à 6 : générateurs, tests, vault
 - Type : cas nouveau
 - Branche : ecrits-professionnels + tests + (vault)

@@ -20,8 +20,8 @@ description: >-
   qui relèvent de drh-fpt, pour les actes réservés à l'OPJ (police judiciaire au
   sens de l'art. 16 CPP), ni pour le droit étranger.
 metadata:
-  version: 0.7.0
-  statut: complet (4 couches déroulées)
+  version: 0.8.0
+  statut: complet (4 couches) + socle de références vérifiées Légifrance
   date_derniere_revue_methodologique: 2026-06-30
   date_derniere_verification_sources: 2026-06-30
   perimetre: direction de la police municipale, collectivités territoriales (France)
@@ -210,8 +210,10 @@ référence, hiérarchie des normes, citation traçable, abstention motivée) re
 de `recherche-juridique` ; le skill en réplique les **réflexes** et fournit la
 **carte des sources propres à la PM** : CGCT (volet police du maire), CSI
 (Livres II et V), CPP (dispositions APJA), code de la route, code de déontologie
-des agents de police municipale (CSI, partie réglementaire — à confirmer en
-version consolidée).
+des agents de police municipale (CSI, art. R. 515-1 et s., décret n° 2013-1113).
+Les articles-pivots sont relevés avec leurs identifiants Légifrance dans
+`references/references-verifiees.md` (vérif. 2026-06-30) — à recontrôler à la
+date d'usage (dont l'abrogation programmée du CPP au 01/01/2029).
 
 **Les quatre réflexes du noyau** :
 1. **Primarité** — aucune affirmation juridique de mémoire. Tout numéro
