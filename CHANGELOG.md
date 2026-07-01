@@ -2,6 +2,30 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.8.4] — 2026-07-01 — 1re exécution de la suite de tests (contexte frais)
+
+### Ajouté
+- `tests/bareme-cas-de-test.md` — section **État d'exécution** renseignée :
+  premier run de la suite en contexte frais (répondant aveugle + juge
+  indépendant, 14 + 14 agents). **Score : 9 RÉUSSITE / 4 DEMI / 1 ÉCHEC.**
+
+### Note
+- **Comportements transverses de sécurité validés en conditions réelles** :
+  garde-fou APJA affiché en tête (cas 12), bascule `drh-fpt` franche (cas 14),
+  conflit maire/préfet signalé avant le fond (cas 13). **Discipline de sourcing
+  respectée 14/14** (attendu critique #5 : aucune référence de mémoire sans
+  réserve). **Aucune erreur juridique de fond.**
+- Les 5 non-RÉUSSITE tiennent **uniquement à un renvoi de fichier attendu non
+  émis** par le répondant (03, 08, 09, 13) et, pour le cas 04, à une
+  **duplication** du fond « convention de coordination » au lieu du renvoi
+  `continuum-partenariats.md`. Défauts de complétude de routage, non de justesse.
+- Point de déontologie tranché : la réserve d'un juge (cas 10) attribuant le
+  code de déontologie PM à un « décret 2022-210 » **n'est pas confirmée** ; les
+  sources officielles rattachent R. 515-1 et s. CSI au décret n° 2013-1113
+  (socle inchangé, cf. `references-verifiees.md`).
+- Amélioration différée à la revue de rentrée (réflexe de renvoi / requalif.
+  des attendus de pointeur en non éliminatoires). `metadata.version` → 0.8.4.
+
 ## [0.8.3] — 2026-07-01 — Audit complet (4 dimensions) : correctifs de sourcing, APJA, gabarits, tests
 
 ### Corrigé

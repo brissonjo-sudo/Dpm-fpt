@@ -24,6 +24,28 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-07-01 — 1re exécution de la suite de tests (contexte frais)
+- Type : cas nouveau (jalon)
+- Branche : (tests / transverse)
+- Contexte : premier run de `cas-de-test.json` en contexte frais, protocole
+  répondant aveugle (skill + prompt seuls) puis juge indépendant (réponse +
+  attendus + `bareme-cas-de-test.md`). 14 répondants + 14 juges orchestrés.
+- Constat : **9 RÉUSSITE / 4 DEMI / 1 ÉCHEC**. Points forts confirmés en
+  conditions réelles : garde-fou APJA affiché en tête (cas 12), bascule
+  `drh-fpt` franche (cas 14), conflit maire/préfet signalé avant le fond
+  (cas 13) ; **sourcing (attendu critique #5) respecté 14/14** (aucune
+  référence de mémoire sans réserve). **Aucune erreur juridique de fond.**
+  Les 5 non-RÉUSSITE tiennent toutes à un **renvoi de fichier attendu non
+  émis** par le répondant (03 procédure fourrière ; 04 renvois multiples +
+  duplication convention ; 08 objets/agent ; 09 controle-legalite ; 13
+  doctrine-operationnelle).
+- Action proposée : à la revue de rentrée, renforcer le réflexe « citer le
+  renvoi cible » dans les branches concernées, ou requalifier les attendus
+  « renvoi vers X.md » en critères non éliminatoires (un pointeur manquant
+  n'altère pas la validité de fond). Score consigné sans correction
+  rétroactive. Résultats détaillés dans `tests/bareme-cas-de-test.md`.
+- Statut : intégré (v0.8.4)
+
 ### 2026-07-01 — Audit complet du skill (4 dimensions) et correctifs
 - Type : erreur + lacune (résolues)
 - Branche : (transverse) — sourcing, garde-fou APJA, gabarits, tests

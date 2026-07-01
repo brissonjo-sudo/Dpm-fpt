@@ -49,4 +49,11 @@
 
 | Date | Répondant | Juge | Score | Note |
 |---|---|---|---|---|
-| — | — | — | — | Suite **jamais exécutée en contexte frais** à ce jour (constat d'audit 2026-07-01) — premier run à programmer (revue de rentrée au plus tard). |
+| 2026-07-01 | Opus (contexte frais, aveugle) | Opus (indépendant) | **9 RÉUSSITE / 4 DEMI / 1 ÉCHEC** | **1er run.** Transverses OK (garde-fou APJA #12 ✅, frontière RH #14 ✅, conflit maire/préfet #13 signalé). **Sourcing (attendu critique #5) : 14/14.** Aucune erreur juridique de fond. Les 5 non-RÉUSSITE = **renvoi de fichier attendu non émis** : 03 (procédure préalable fourrière escamotée), 04 ÉCHEC (renvois `pouvoirs-police.md`/`continuum-partenariats.md`/`manifestation.md` absents + fond convention dupliqué), 08 (`objets/agent.md`), 09 (`controle-legalite.md`), 13 (`doctrine-operationnelle.md`). |
+
+### Analyse du 1er run
+
+- **Sécurité intacte** : les trois comportements transverses non négociables ont tenu — STOP APJA en tête (cas 12), bascule `drh-fpt` franche (cas 14), conflit de compétence signalé avant le fond (cas 13). Le garde-fou n'a jamais été contourné.
+- **Discipline de sourcing tenue** : aucun des 14 répondants n'a cité de référence de mémoire sans réserve ; les identifiants du socle vérifié ont été repris avec leur date, les autres marqués « à confirmer ».
+- **Cause unique des écarts** : l'**omission de renvois de fichiers** attendus (le répondant traite le fond mais ne pointe pas systématiquement vers la branche/objet/générateur cible), et pour le cas 04 une **duplication** du fond « convention de coordination » au lieu du renvoi `continuum-partenariats.md`. Ce sont des défauts de complétude de routage, pas de justesse juridique.
+- **Piste d'amélioration** (revue de rentrée) : renforcer dans les branches concernées le réflexe « citer le renvoi cible », ou requalifier les attendus « renvoi vers X.md » en critères non éliminatoires (un renvoi manquant n'altère pas la validité de la réponse de fond). Ne pas gonfler le score rétroactivement.
