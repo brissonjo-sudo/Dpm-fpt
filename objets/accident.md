@@ -31,9 +31,10 @@ intervention sur un crime routier) ne doit être donné de mémoire.
   impliqués, identificateurs, contexte), **sécurise le site** (signalisation,
   éloignement des tiers, coordination avec les secours), **rend compte** sans
   délai au maire et à l'OPJ territorialement compétent (Police Nationale ou
-  Gendarmerie selon la juridiction). L'agent PM ne **jamais** n'interpelle,
-  n'auditionne ou ne retient un conducteur au-delà du temps nécessaire à la
-  constatation et à la transmission rapide à l'OPJ.
+  Gendarmerie selon la juridiction). L'agent PM n'auditionne **jamais** un
+  suspect et ne retient pas un conducteur au-delà du temps strictement
+  nécessaire à la mise à disposition de l'OPJ (art. 73 CPP — l'appréhension en
+  flagrance reste possible dans ce seul cadre).
 - **Les forces de l'État (OPJ — Police Nationale, Gendarmerie)** : seules
   compétentes pour les actes de police judiciaire (audition de suspects,
   interpellation, perquisition liée à l'accident), notamment en cas de crime
@@ -67,8 +68,8 @@ intervention sur un crime routier) ne doit être donné de mémoire.
 - Codes clés mobilisables (à confirmer en version consolidée avant toute
   citation en acte) : **code de la route** (livre V titre I et II —
   responsabilité, assurances, infractions) ; **code pénal** (homicide
-  involontaire art. 221-6, blessures involontaires art. 222-19 — crimes routiers
-  nécessitant saisine rapide de l'OPJ) ; **CPP** (art. 21 et 21-2 APJA, art. 73
+  involontaire art. 221-6, blessures involontaires art. 222-19 — délits routiers
+  graves nécessitant saisine rapide de l'OPJ) ; **CPP** (art. 21 et 21-2 APJA, art. 73
   mise à disposition en flagrance, art. 16 compétence OPJ).
 - **Réserve systématique** : aucun délai de transmission de PV au procureur,
   aucun seuil de gravité requérant assistance OPJ, aucune classification des
@@ -164,10 +165,12 @@ intervention sur un crime routier) ne doit être donné de mémoire.
    conducteur mais dispose d'une immatriculation (témoins, caméras) :
    - **Recherche rapide de l'immatriculation** via les outils PM disponibles
      (fichier de la préfecture ou OPJ, selon convention locale — à vérifier).
-   - Si conducteur identifié mais absent du site : rapport de fuite au procureur,
-     mise à disposition si rattrapé avant son départ de la zone.
+   - Si conducteur identifié mais absent du site : rapport de fuite à l'OPJ
+     territorialement compétent (liaison parquet assurée par l'OPJ, art. 21-2
+     CPP), mise à disposition si rattrapé avant son départ de la zone.
    - Si conducteur non identifié : description du véhicule pour diffusion
-     ultérieure, rapport d'information au procureur.
+     ultérieure, rapport d'information transmis via l'OPJ (jamais directement
+     au procureur — chaîne art. 21-2 CPP).
 
 4. **Appel à l'OPJ** : coordonnées et délai de réponse selon la convention de
    coordination locale (→ `../references/continuum-partenariats.md`). Fournir à

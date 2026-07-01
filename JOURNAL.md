@@ -24,6 +24,35 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-07-01 — Audit complet du skill (4 dimensions) et correctifs
+- Type : erreur + lacune (résolues)
+- Branche : (transverse) — sourcing, garde-fou APJA, gabarits, tests
+- Contexte : audit orchestré (4 agents : discipline de sourcing, garde-fou
+  APJA/frontières, conformité gabarits/duplication, tests/DoD) + contrôles
+  mécaniques (structure, YAML, JSON, liens, versions — tous OK).
+- Constat : garde-fou APJA jugé **étanche** ; couverture de tests **complète**
+  (11/11 branches + 3 cas transverses) ; architecture conforme aux gabarits.
+  Écarts détectés et corrigés : (1) **identifiant art. 537 CPP contradictoire**
+  entre le socle (`…893`, exact — reconfirmé sur Légifrance) et deux
+  générateurs (`…892`, version antérieure) ; (2) identifiant `…469` rattaché à
+  tort à L. 252-1 dans l'objet vidéo (il vise **L. 251-1**) ; (3) **12
+  identifiants** vérifiés en branche mais absents du registre — reconfirmés
+  12/12 sur Légifrance et consolidés (`references-verifiees.md` §6) ; (4)
+  `accident.md` faisait remonter l'agent PM directement « au procureur »
+  (chaîne corrigée : via l'OPJ, art. 21-2 CPP) + double négation fautive +
+  « crimes routiers » → délits ; (5) l'objet occupation-domaine-public
+  produisait des arrêtés faisant grief **sans passage par
+  controle-legalite.md** (renvoi ajouté, maillage corrigé) ; (6) catégorisation
+  chiens alignée sur le socle (L. 211-12, non L. 211-15) ; (7) version
+  L. 253-5 actualisée (21/05/2023) ; (8) **barème de passage créé**
+  (`tests/bareme-cas-de-test.md`) — la suite JSON n'avait aucune règle de
+  réussite.
+- Action proposée : reste **à exécuter la suite de tests en contexte frais**
+  (répondant + juge — jamais fait à ce jour, consigné dans le barème) ;
+  écarts cosmétiques de gabarit (numérotation de blocs d'ouverture, sections
+  additives) **acceptés** en l'état, documentés par l'audit.
+- Statut : intégré (v0.8.3)
+
 ### 2026-07-01 — Levée du RSD : liens de récupération par département
 - Type : lacune (résolue)
 - Branche : reglementation-appliquee + socle (references-verifiees)

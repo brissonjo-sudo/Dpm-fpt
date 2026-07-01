@@ -20,7 +20,7 @@ description: >-
   qui relèvent de drh-fpt, pour les actes réservés à l'OPJ (police judiciaire au
   sens de l'art. 16 CPP), ni pour le droit étranger.
 metadata:
-  version: 0.8.2
+  version: 0.8.3
   statut: complet (4 couches) + socle de références vérifiées Légifrance + liens RSD par département
   date_derniere_revue_methodologique: 2026-06-30
   date_derniere_verification_sources: 2026-07-01

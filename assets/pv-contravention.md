@@ -198,7 +198,7 @@ Toujours accompagner le PV produit du rappel suivant
 (`ecrits-professionnels.md` §5.2) :
 
 > **Art. 537 du CPP** *(contenu confirmé sur Légifrance le 2026-06-30,
-> identifiant LEGIARTI000006576892 — à reconfirmer en version consolidée à
+> identifiant LEGIARTI000006576893 — à reconfirmer en version consolidée à
 > la date d'usage)* : les contraventions sont prouvées soit par
 > procès-verbaux ou rapports, soit par témoins à défaut. Le présent PV, sous
 > réserve qu'il émane d'un agent auquel le texte d'incrimination attribue le

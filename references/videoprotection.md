@@ -347,8 +347,9 @@ consolidée avant tout acte, car ce titre évolue fréquemment) :
   d'un mois**, identifiant Légifrance LEGIARTI000025505435 (le plafond de
   conservation relève de cet article, pas de L. 252-3).
 - **Art. L. 253-5 CSI** — droit d'accès des personnes filmées, identifiant
-  Légifrance LEGIARTI000038791144 (version relevée le 16/10/2020 ; **revérifier
-  la version en vigueur** avant citation dans un acte).
+  Légifrance LEGIARTI000038791144 (version en vigueur depuis le **21/05/2023**,
+  loi n° 2023-380 — *reconfirmé sur Légifrance le 2026-07-01* ; revérifier la
+  version en vigueur avant citation dans un acte).
 
 **Non vérifiées dans cette session — à confirmer en version consolidée avant
 usage** :

@@ -181,8 +181,9 @@ administratif intense en cas d'erreur ou de violation de procédure.
 4. **Rapport transmis** : au maire et au propriétaire. Le propriétaire a le
    **droit de former des observations** en réaction au rapport (point clé : non
    respect de ce droit = vice de procédure = annulation possible).
-5. **Catégorisation** : selon le rapport et le code applicable (art. L. 211-15 et
-   s., code rural — à confirmer en version consolidée), l'animal est classé 1re
+5. **Catégorisation** : selon le rapport et le code applicable (art. L. 211-12
+   et s., code rural — *vérifié sur Légifrance le 2026-06-30*, cf.
+   `../references/references-verifiees.md`), l'animal est classé 1re
    catégorie (ex. : type dogue argentin, etc.) ou 2e catégorie (ex. : pit-bull,
    etc.) ou non soumis ; chaque catégorie entraîne des obligations distinctes
    (permis de détention, formation, assurance, etc.) — **à ne jamais confondre**.

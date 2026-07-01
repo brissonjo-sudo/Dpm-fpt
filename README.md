@@ -62,7 +62,7 @@ Boucle `JOURNAL.md` (cas) → `CHANGELOG.md` (versions), décisions tracées dan
 
 ## Version
 
-v0.8.2 — complet (4 couches) : routeur, 11 branches + 3 postures + socle, 8
+v0.8.3 — complet (4 couches), audité (sourcing, garde-fou APJA, gabarits, tests) : routeur, 11 branches + 3 postures + socle, 8
 objets, 5 générateurs, tests et vault d'index, plus un **socle de références
 vérifiées sur Légifrance** (`references/references-verifiees.md`) et les **liens
 de récupération du RSD par département** (`references/liste-RSD.md`, 96/101

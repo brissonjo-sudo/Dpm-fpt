@@ -72,6 +72,7 @@ version: 0.7.0
 |--------|--------------|
 | Cas de co-activation (dpm-fpt / drh-fpt / recherche-juridique) | `../tests/cas-co-activation.md` |
 | Jeu de cas de test structuré | `../tests/cas-de-test.json` |
+| Barème de passage des 14 cas (attendus critiques, score de suite) | `../tests/bareme-cas-de-test.md` |
 | Historique des versions (semver) | `../CHANGELOG.md` |
 | Journal des cas significatifs (apprentissage, anonymisé) | `../JOURNAL.md` |
 | ADR — adoption du pattern drh-fpt | `../docs/adr/0001-adoption-pattern-drh-fpt.md` |

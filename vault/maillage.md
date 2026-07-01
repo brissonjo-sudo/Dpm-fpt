@@ -50,7 +50,7 @@ tags: [skill/dpm-fpt, maillage]
 ### <a id="objet-occupation-domaine-public"></a>`objets/occupation-domaine-public.md` — Occupation du domaine public
 
 - Branches : pouvoirs-police, reglementation-appliquee
-- Posture : aucune posture explicitement appelée (pas d'acte pénal direct dans le fil type)
+- Posture : controle-legalite (arrêtés de mise en demeure / retrait = actes faisant grief)
 - Générateurs : rapport-information, arrete-modele, note-maire-modele
 
 ### <a id="objet-agent"></a>`objets/agent.md` — Agent PM

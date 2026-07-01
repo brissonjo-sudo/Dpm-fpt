@@ -121,6 +121,35 @@ numérotation. À surveiller à chaque revue de rentrée.
 > porté par les articles voisins (notamment **L. 2122-3**), et non par le corps
 > de L. 2122-1 — citer L. 2122-3 en complément dans `occupation-domaine-public.md`.
 
+## 6. Compléments consolidés depuis les branches (audit du 2026-07-01)
+
+Identifiants relevés en branche le 2026-06-30 mais absents du registre ;
+**reconfirmés par consultation directe de Légifrance le 2026-07-01** (12/12
+confirmés, tous en vigueur).
+
+| Référence | Objet | En vigueur depuis | Identifiant |
+|---|---|---|---|
+| **CSI L. 251-2** | Finalités légales de la vidéoprotection | 21/05/2023 | LEGIARTI000041599395 |
+| **CSI L. 252-2** | Conditions de visionnage et d'habilitation | 21/05/2023 | LEGIARTI000047569434 |
+| **CSI L. 252-3** | Accès et transmission des enregistrements | 27/05/2021 | LEGIARTI000043540807 |
+| **CSI L. 253-5** | Droit d'accès des personnes filmées / saisine de la commission | 21/05/2023 | LEGIARTI000038791144 |
+| **CSI R. 511-12** | Catégories d'armes autorisées pour la PM (décret n° 2020-1775) | 01/01/2021 | LEGIARTI000042957393 |
+| **CSI L. 435-1** | Cadre d'usage des armes (absolue nécessité, proportionnalité) | 02/03/2017 | LEGIARTI000034107970 |
+| **CSI L. 731-3** | Plan communal de sauvegarde | 27/11/2021 | LEGIARTI000044375292 |
+| **CSI L. 132-1** | Le maire concourt à la prévention de la délinquance (fondement CLSPD) | 01/05/2012 | LEGIARTI000025504999 |
+| **CSI L. 511-2** | Agrément préfectoral + assermentation des agents PM | 27/05/2021 | LEGIARTI000043540434 |
+| **CGCT L. 2312-1** | Débat / rapport d'orientation budgétaire (DOB) | 01/01/2026 | LEGIARTI000051731867 |
+| **CCP L. 2122-1** | Marché sans publicité ni mise en concurrence préalables | 09/12/2020 | LEGIARTI000042657232 |
+| **CCP R. 2123-1** | Procédure adaptée (MAPA) | 02/04/2021 | LEGIARTI000043316424 |
+
+> **Note L. 253-5** : la version en vigueur est celle du **21/05/2023** (loi
+> n° 2023-380) — la note « version 16/10/2020 » qui figurait dans la branche
+> vidéoprotection a été actualisée.
+> **Note art. 537 CPP** : l'audit du 2026-07-01 a détecté un identifiant
+> divergent (`LEGIARTI000006576892`, version antérieure) dans deux générateurs ;
+> ils ont été réalignés sur la valeur du registre (`LEGIARTI000006576893`,
+> version en vigueur 01/04/2005, reconfirmée le 2026-07-01).
+
 ---
 
 ## Références restées « non confirmées » (revue de rentrée)

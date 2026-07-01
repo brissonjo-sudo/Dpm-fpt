@@ -2,6 +2,54 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.8.3] — 2026-07-01 — Audit complet (4 dimensions) : correctifs de sourcing, APJA, gabarits, tests
+
+### Corrigé
+- **Art. 537 CPP** : deux générateurs (`ecrits-professionnels.md`,
+  `pv-contravention.md`) citaient `LEGIARTI000006576892` (version antérieure)
+  au lieu de la valeur du registre `LEGIARTI000006576893` (version en vigueur
+  01/04/2005, **reconfirmée sur Légifrance le 2026-07-01**). Réalignés.
+- **`objets/videoprotection.md`** : l'identifiant `LEGIARTI000047569469` était
+  rattaché à tort à **L. 252-1** ; il vise **L. 251-1** (conforme au registre
+  et à la branche). Corrigé.
+- **`objets/accident.md`** : la chaîne de compte rendu faisait remonter l'agent
+  PM **directement au procureur** (contraire à `penal-procedure.md` §4.2) —
+  corrigée en « via l'OPJ territorialement compétent (art. 21-2 CPP) » (2
+  occurrences) ; double négation fautive réécrite (l'appréhension art. 73 CPP
+  reste possible, l'audition jamais) ; « crimes routiers » → **délits** routiers
+  graves (221-6/222-19 sont des délits).
+- **`objets/occupation-domaine-public.md`** + `vault/maillage.md` : l'objet
+  produit des **arrêtés faisant grief** sans passage par
+  `controle-legalite.md` — renvoi obligatoire ajouté en §4, posture corrigée
+  au maillage.
+- **`objets/police-chiens.md`** : catégorisation alignée sur le socle vérifié
+  (**L. 211-12 et s.**, non « L. 211-15 et s. »).
+- **`references/videoprotection.md`** : note de version **L. 253-5** actualisée
+  (en vigueur depuis le **21/05/2023**, loi n° 2023-380 — l'ancienne note
+  « 16/10/2020 » était périmée).
+
+### Ajouté
+- `references/references-verifiees.md` **§6 — Compléments consolidés depuis les
+  branches** : 12 identifiants vérifiés en branche mais absents du registre,
+  **reconfirmés 12/12 par consultation directe de Légifrance le 2026-07-01**
+  (CSI L. 251-2, L. 252-2, L. 252-3, L. 253-5, R. 511-12, L. 435-1, L. 731-3,
+  L. 132-1, L. 511-2 ; CGCT L. 2312-1 ; CCP L. 2122-1, R. 2123-1). Le registre
+  redevient la source unique de vérité.
+- `tests/bareme-cas-de-test.md` — **barème de passage** des 14 cas (la suite
+  JSON n'avait aucune règle de réussite) : RÉUSSITE / DEMI-RÉUSSITE / ÉCHEC,
+  3 attendus critiques éliminatoires (garde-fou APJA, sourcing, frontière RH),
+  score de suite (≥ 12/14, 0 échec transverse), protocole répondant/juge,
+  état d'exécution (suite **jamais exécutée** à ce jour — à programmer).
+  Indexé au vault.
+
+### Note
+- Audit **orchestré** (4 agents : sourcing, garde-fou APJA, gabarits/
+  duplication, tests/DoD) + contrôles mécaniques (structure §10, YAML, JSON,
+  0 lien mort, versions alignées). Verdicts : garde-fou APJA **étanche** ;
+  couverture de tests **complète** (11/11 + 3 transverses) ; gabarits
+  conformes. Écarts cosmétiques (numérotation de blocs d'ouverture, sections
+  additives par pointeur) acceptés et documentés. `metadata.version` → 0.8.3.
+
 ## [0.8.2] — 2026-07-01 — Liens RSD par département (levée du dernier reste local)
 
 ### Ajouté

@@ -99,7 +99,9 @@ L'occupation du domaine public croise souvent d'autres polices spéciales :
 - Rapport de constat d'occupation sans titre ou non conforme : adressé à l'autorité compétente pour décision.
 - Champs : localisation précise (photos si possible), nature du trouble, identité de l'occupant identifié, demandes antérieures de régularisation, délai recommandé pour mise en demeure.
 
-**`../assets/arrete-modele.md`**
+**`../assets/arrete-modele.md`** — acte faisant grief : passer d'abord par
+**`../references/controle-legalite.md`** (motivation, voies de recours,
+transmission éventuelle).
 - Arrêté de mise en demeure de régularisation ou de retrait.
 - Champs : occupation précisée, titre absent ou non conforme, délai imparti, conséquence de l'absence de suite (enlèvement d'office + frais à charge de l'occupant), mention de la possibilité de recours.
 
