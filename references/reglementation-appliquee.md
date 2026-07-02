@@ -191,7 +191,8 @@ pratiques) relève des objets dédiés, à consulter en complément :
   et des espaces communs (dépôts sauvages, nuisibles, encombrants). Sa
   nature et son articulation avec le **code de la santé publique** et le
   **code de l'environnement** (déchets) sont à vérifier au cas par cas selon
-  le département.
+  le département. **Lien de récupération par département** : voir
+  `liste-RSD.md` (source ARS régionale ou préfecture, vérifiée le 2026-07-01).
 - **Habitat insalubre / péril** : police spéciale distincte (code de la
   construction et de l'habitation, CSP), avec procédures contradictoires
   propres et autorités parfois partagées entre maire et préfet selon la

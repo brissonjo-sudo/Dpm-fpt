@@ -24,6 +24,95 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-07-01 — 1re exécution de la suite de tests (contexte frais)
+- Type : cas nouveau (jalon)
+- Branche : (tests / transverse)
+- Contexte : premier run de `cas-de-test.json` en contexte frais, protocole
+  répondant aveugle (skill + prompt seuls) puis juge indépendant (réponse +
+  attendus + `bareme-cas-de-test.md`). 14 répondants + 14 juges orchestrés.
+- Constat : **9 RÉUSSITE / 4 DEMI / 1 ÉCHEC**. Points forts confirmés en
+  conditions réelles : garde-fou APJA affiché en tête (cas 12), bascule
+  `drh-fpt` franche (cas 14), conflit maire/préfet signalé avant le fond
+  (cas 13) ; **sourcing (attendu critique #5) respecté 14/14** (aucune
+  référence de mémoire sans réserve). **Aucune erreur juridique de fond.**
+  Les 5 non-RÉUSSITE tiennent toutes à un **renvoi de fichier attendu non
+  émis** par le répondant (03 procédure fourrière ; 04 renvois multiples +
+  duplication convention ; 08 objets/agent ; 09 controle-legalite ; 13
+  doctrine-operationnelle).
+- Action proposée : à la revue de rentrée, renforcer le réflexe « citer le
+  renvoi cible » dans les branches concernées, ou requalifier les attendus
+  « renvoi vers X.md » en critères non éliminatoires (un pointeur manquant
+  n'altère pas la validité de fond). Score consigné sans correction
+  rétroactive. Résultats détaillés dans `tests/bareme-cas-de-test.md`.
+- Statut : intégré (v0.8.4)
+
+### 2026-07-01 — Audit complet du skill (4 dimensions) et correctifs
+- Type : erreur + lacune (résolues)
+- Branche : (transverse) — sourcing, garde-fou APJA, gabarits, tests
+- Contexte : audit orchestré (4 agents : discipline de sourcing, garde-fou
+  APJA/frontières, conformité gabarits/duplication, tests/DoD) + contrôles
+  mécaniques (structure, YAML, JSON, liens, versions — tous OK).
+- Constat : garde-fou APJA jugé **étanche** ; couverture de tests **complète**
+  (11/11 branches + 3 cas transverses) ; architecture conforme aux gabarits.
+  Écarts détectés et corrigés : (1) **identifiant art. 537 CPP contradictoire**
+  entre le socle (`…893`, exact — reconfirmé sur Légifrance) et deux
+  générateurs (`…892`, version antérieure) ; (2) identifiant `…469` rattaché à
+  tort à L. 252-1 dans l'objet vidéo (il vise **L. 251-1**) ; (3) **12
+  identifiants** vérifiés en branche mais absents du registre — reconfirmés
+  12/12 sur Légifrance et consolidés (`references-verifiees.md` §6) ; (4)
+  `accident.md` faisait remonter l'agent PM directement « au procureur »
+  (chaîne corrigée : via l'OPJ, art. 21-2 CPP) + double négation fautive +
+  « crimes routiers » → délits ; (5) l'objet occupation-domaine-public
+  produisait des arrêtés faisant grief **sans passage par
+  controle-legalite.md** (renvoi ajouté, maillage corrigé) ; (6) catégorisation
+  chiens alignée sur le socle (L. 211-12, non L. 211-15) ; (7) version
+  L. 253-5 actualisée (21/05/2023) ; (8) **barème de passage créé**
+  (`tests/bareme-cas-de-test.md`) — la suite JSON n'avait aucune règle de
+  réussite.
+- Action proposée : reste **à exécuter la suite de tests en contexte frais**
+  (répondant + juge — jamais fait à ce jour, consigné dans le barème) ;
+  écarts cosmétiques de gabarit (numérotation de blocs d'ouverture, sections
+  additives) **acceptés** en l'état, documentés par l'audit.
+- Statut : intégré (v0.8.3)
+
+### 2026-07-01 — Levée du RSD : liens de récupération par département
+- Type : lacune (résolue)
+- Branche : reglementation-appliquee + socle (references-verifiees)
+- Contexte : le RSD restait le seul point « non confirmé » (avec la
+  renumérotation CPP 2029) car non consolidé sur Légifrance. Vérification
+  orchestrée (12 agents, un par région ARS / bloc) des liens de récupération.
+- Constat : deux niveaux d'agrégation officiels existent — (1) **ARS régionale**
+  (`*.ars.sante.fr`) qui publie une page listant le RSD de chaque département
+  (Auvergne-Rhône-Alpes, Bretagne, Centre-Val de Loire, Grand Est,
+  Hauts-de-France, Île-de-France partiel, Normandie, PACA, DROM) ; (2) sinon la
+  **préfecture** (`www.<departement>.gouv.fr`). Couverture : **96/101**
+  départements avec lien officiel vérifié ; 5 à obtenir sur demande (2A
+  tentatif, 2B, 33, 87, 972). Fondement du RSD : CSP L. 1311-1 et L. 1311-2.
+- Action proposée : liens consignés dans `references/liste-RSD.md` ; renvois
+  ajoutés depuis `reglementation-appliquee.md` et `references-verifiees.md` ;
+  point RSD retiré de la liste « non confirmées ». Recontrôler les URL à la
+  revue de rentrée (refontes de sites, arrêtés modificatifs bruit/brûlage).
+- Suite (2e passe, 4 agents ciblés) : tentative de levée des 5 cibles restantes.
+  Résultat — aucune source officielle en ligne pour 2A, 2B, 33, 87, 972
+  (confirmé). Précisions acquises : (1) deux RSD corses distincts existent
+  (2A ≠ 2B) ; le doc ARS `media/100726` est officiel mais 403 (géo-blocage US
+  probable) et non attribuable ; (2) note ARS officielle 2023 (partielle) pour
+  33/87 ; (3) index national SNPCC utile en recoupement (cases 2A/2B vides,
+  972 = copie CACEM). §4 de `liste-RSD.md` enrichi des voies de secours.
+- Statut : intégré (v0.8.2)
+
+### 2026-07-01 — Levée des deux derniers restes (L. 132-4, conservation vidéo)
+- Type : lacune (résolue)
+- Branche : continuum-partenariats + videoprotection (+ socle)
+- Contexte : levée sur Légifrance des deux références restées non confirmées.
+- Constat : (1) l'incohérence L. 132-4 s'expliquait par la confusion
+  conteneur/version — la version en vigueur (23/03/2024) porte
+  `LEGIARTI000049313006` ; (2) la durée de conservation vidéo (1 mois) relève de
+  L. 252-5, pas de L. 252-3 ; R. 252-3 n'exige que la mention de la durée.
+- Action proposée : identifiants et plafond intégrés aux branches et au socle
+  vérifié ; reste seulement le RSD (local) et la renumérotation CPP 2029.
+- Statut : intégré (v0.8.1)
+
 ### 2026-07-01 — Levée des références « à confirmer » sur Légifrance
 - Type : lacune (résolue)
 - Branche : socle + toutes branches citant un article-pivot

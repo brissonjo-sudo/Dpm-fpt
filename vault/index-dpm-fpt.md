@@ -20,6 +20,7 @@ version: 0.7.0
 | Qualifier une situation composée (Decision Engine, séquence de raisonnement) | `../references/analyse-situation.md` |
 | Carte des sources propres PM (CGCT, CSI, CPP, code de la route, déontologie) + conflit de normes | `../references/socle-sources-verification.md` |
 | Références vérifiées Légifrance (identifiants LEGIARTI, versions, alerte CPP 2029) | `../references/references-verifiees.md` |
+| Liens de récupération du RSD par département (ARS régionale / préfecture) | `../references/liste-RSD.md` |
 
 ### Couche 2 — Branches métier (11) + 3 briques posture
 
@@ -71,6 +72,7 @@ version: 0.7.0
 |--------|--------------|
 | Cas de co-activation (dpm-fpt / drh-fpt / recherche-juridique) | `../tests/cas-co-activation.md` |
 | Jeu de cas de test structuré | `../tests/cas-de-test.json` |
+| Barème de passage des 14 cas (attendus critiques, score de suite) | `../tests/bareme-cas-de-test.md` |
 | Historique des versions (semver) | `../CHANGELOG.md` |
 | Journal des cas significatifs (apprentissage, anonymisé) | `../JOURNAL.md` |
 | ADR — adoption du pattern drh-fpt | `../docs/adr/0001-adoption-pattern-drh-fpt.md` |

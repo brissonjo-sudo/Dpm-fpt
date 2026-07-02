@@ -132,7 +132,7 @@ cumuler PV (sur l'infraction constatée) et rapport de mise à disposition
 ### 5.2 Valeur probante du PV de contravention
 
 **Art. 537 du CPP** *(contenu confirmé sur Légifrance le 2026-06-30,
-identifiant LEGIARTI000006576892)* : les contraventions sont prouvées soit
+identifiant LEGIARTI000006576893)* : les contraventions sont prouvées soit
 par procès-verbaux ou rapports, soit par témoins à défaut de
 procès-verbaux ou rapports, ou à leur appui.
 
@@ -321,7 +321,7 @@ avant de conclure dès que :
 
 | Référence | Statut dans cette session |
 |---|---|
-| **Art. 537 CPP** (force probante des PV et rapports de contravention jusqu'à preuve contraire) | **Vérifié sur Légifrance le 2026-06-30**, identifiant LEGIARTI000006576892 ; version en vigueur à la date des faits à reconfirmer au cas d'usage |
+| **Art. 537 CPP** (force probante des PV et rapports de contravention jusqu'à preuve contraire) | **Vérifié sur Légifrance le 2026-06-30**, identifiant LEGIARTI000006576893 ; version en vigueur à la date des faits à reconfirmer au cas d'usage |
 | **Art. 21 et 21-2 CPP** (qualité APJA, compte rendu maire/OPJ) | Vérifiés sur Légifrance le 2026-06-30 — détail complet dans `penal-procedure.md` §4.1–4.2, pas de duplication ici |
 | **Art. 73 CPP** (flagrance, appréhension, mise à disposition) | Contenu confirmé sur Légifrance le 2026-06-30 ; identifiant LEGIARTI exact à reconfirmer au cas d'usage — détail dans `penal-procedure.md` §4.3 |
 | **Art. 16 CPP** (actes réservés OPJ, garde-fou) | Contenu général confirmé sur Légifrance le 2026-06-30 ; détail dans `penal-procedure.md` §4.4 |

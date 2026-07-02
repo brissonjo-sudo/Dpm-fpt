@@ -178,14 +178,18 @@ L'autorisation **fixe elle-même** les modalités de transmission des images,
 d'accès aux enregistrements, et la **durée de conservation**, dans la limite
 d'un plafond légal :
 
-> Art. L. 252-3, Code de la sécurité intérieure (vérifié sur Légifrance le
-> 30/06/2026) : durée de conservation plafonnée, fixée par l'autorisation,
-> **sans préjudice des nécessités de conservation pour une procédure
-> pénale**.
+> Art. L. 252-5, Code de la sécurité intérieure (vérifié sur Légifrance le
+> 2026-07-01, LEGIARTI000025505435) : hormis enquête de flagrance, enquête
+> préliminaire ou information judiciaire, les enregistrements sont détruits
+> dans un **délai maximum fixé par l'autorisation, qui ne peut excéder un
+> mois**. L'art. **R. 252-3** (LEGIARTI000048480362) exige seulement que le
+> demandeur **indique** la durée retenue dans son dossier — il ne fixe pas le
+> plafond.
 
 Règles à retenir :
-- la durée précise (plafond légal en jours) est une **valeur réglementaire à
-  vérifier** — ne jamais l'affirmer de mémoire (§9) ;
+- le **plafond légal est d'un mois** (art. L. 252-5 CSI) ; la durée effective
+  est fixée par l'arrêté d'autorisation, sous ce plafond — recontrôler à la
+  date d'usage (§9) ;
 - **hors réquisition judiciaire**, l'enregistrement doit être **détruit** au
   terme du délai fixé par l'autorisation ;
 - une **réquisition judiciaire** (sur le fondement du CPP, hors présente
@@ -337,11 +341,15 @@ consolidée avant tout acte, car ce titre évolue fréquemment) :
   précis de la version en vigueur à relever à nouveau au moment de l'usage).
 - **Art. L. 252-2 CSI** — conditions de visionnage et d'habilitation,
   identifiant Légifrance LEGIARTI000047569434.
-- **Art. L. 252-3 CSI** — durée de conservation et transmission,
+- **Art. L. 252-3 CSI** — accès et transmission des enregistrements,
   identifiant Légifrance LEGIARTI000043540807.
+- **Art. L. 252-5 CSI** — **destruction des enregistrements, délai maximum
+  d'un mois**, identifiant Légifrance LEGIARTI000025505435 (le plafond de
+  conservation relève de cet article, pas de L. 252-3).
 - **Art. L. 253-5 CSI** — droit d'accès des personnes filmées, identifiant
-  Légifrance LEGIARTI000038791144 (version relevée le 16/10/2020 ; **revérifier
-  la version en vigueur** avant citation dans un acte).
+  Légifrance LEGIARTI000038791144 (version en vigueur depuis le **21/05/2023**,
+  loi n° 2023-380 — *reconfirmé sur Légifrance le 2026-07-01* ; revérifier la
+  version en vigueur avant citation dans un acte).
 
 **Non vérifiées dans cette session — à confirmer en version consolidée avant
 usage** :

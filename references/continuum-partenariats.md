@@ -125,7 +125,7 @@ dans la commune concernée.
 - **Fondement** : CSI, Livre Ier, Titre III, chapitre prévention de la
   délinquance, **art. L. 132-1 et s. CSI** *(vérifié sur Légifrance le
   2026-06-30 — art. L. 132-1, identifiant LEGIARTI000025504999 ; art. L.
-  132-4, identifiant LEGIARTI000043541062 ; art. L. 132-5, identifiant
+  132-4, identifiant LEGIARTI000049313006 ; art. L. 132-5, identifiant
   LEGIARTI000049313001)*.
 - **Rôle du maire** : il participe, par ses pouvoirs de police, à la
   politique de prévention de la délinquance et de sécurité **(art. L. 132-1
@@ -145,10 +145,12 @@ dans la commune concernée.
   **président de l'EPCI**, lorsque la compétence a été transférée ou
   mutualisée. Articulation EPCI / communes membres à vérifier au cas par
   cas (statuts, délibérations).
-- **Coordonnateur** : dans les communes dépassant un **seuil démographique**
-  (vérifier le seuil en vigueur), le maire **désigne** un membre du conseil
-  municipal ou un agent territorial pour **animer, coordonner et piloter**
-  les travaux du conseil local **(art. L. 132-4 CSI)**. À défaut de
+- **Coordonnateur** : dans les communes de **plus de 15 000 habitants**
+  (art. L. 132-4 CSI, *vérifié sur Légifrance le 2026-07-01*), le maire
+  **désigne** un membre du conseil municipal ou un agent territorial pour
+  **animer, coordonner et piloter** les travaux du conseil local. À distinguer
+  du seuil de constitution du CLSPD lui-même (**obligatoire dès 5 000 hab ou en
+  présence d'un QPV**). À défaut de
   désignation par le maire, le **préfet désigne** un coordonnateur des
   services de l'État pour assister le maire dans ce pilotage **(art. L.
   132-4 CSI)** — point de **vigilance institutionnelle** : la carence
@@ -303,7 +305,7 @@ est traité à une date ultérieure, car le droit évolue) :
 - Art. L. 132-1 CSI, identifiant Légifrance LEGIARTI000025504999 — rôle du
   maire en prévention de la délinquance, articulation avec le plan
   départemental (vérifié sur Légifrance le 2026-06-30).
-- Art. L. 132-4 CSI, identifiant Légifrance LEGIARTI000043541062 —
+- Art. L. 132-4 CSI, identifiant Légifrance LEGIARTI000049313006 —
   désignation du coordonnateur CLSPD, suppléance préfectorale (vérifié sur
   Légifrance le 2026-06-30).
 - Art. L. 132-5 CSI, identifiant Légifrance LEGIARTI000049313001 — à

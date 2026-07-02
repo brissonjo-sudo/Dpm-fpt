@@ -2,6 +2,126 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.8.4] — 2026-07-01 — 1re exécution de la suite de tests (contexte frais)
+
+### Ajouté
+- `tests/bareme-cas-de-test.md` — section **État d'exécution** renseignée :
+  premier run de la suite en contexte frais (répondant aveugle + juge
+  indépendant, 14 + 14 agents). **Score : 9 RÉUSSITE / 4 DEMI / 1 ÉCHEC.**
+
+### Note
+- **Comportements transverses de sécurité validés en conditions réelles** :
+  garde-fou APJA affiché en tête (cas 12), bascule `drh-fpt` franche (cas 14),
+  conflit maire/préfet signalé avant le fond (cas 13). **Discipline de sourcing
+  respectée 14/14** (attendu critique #5 : aucune référence de mémoire sans
+  réserve). **Aucune erreur juridique de fond.**
+- Les 5 non-RÉUSSITE tiennent **uniquement à un renvoi de fichier attendu non
+  émis** par le répondant (03, 08, 09, 13) et, pour le cas 04, à une
+  **duplication** du fond « convention de coordination » au lieu du renvoi
+  `continuum-partenariats.md`. Défauts de complétude de routage, non de justesse.
+- Point de déontologie tranché : la réserve d'un juge (cas 10) attribuant le
+  code de déontologie PM à un « décret 2022-210 » **n'est pas confirmée** ; les
+  sources officielles rattachent R. 515-1 et s. CSI au décret n° 2013-1113
+  (socle inchangé, cf. `references-verifiees.md`).
+- Amélioration différée à la revue de rentrée (réflexe de renvoi / requalif.
+  des attendus de pointeur en non éliminatoires). `metadata.version` → 0.8.4.
+
+## [0.8.3] — 2026-07-01 — Audit complet (4 dimensions) : correctifs de sourcing, APJA, gabarits, tests
+
+### Corrigé
+- **Art. 537 CPP** : deux générateurs (`ecrits-professionnels.md`,
+  `pv-contravention.md`) citaient `LEGIARTI000006576892` (version antérieure)
+  au lieu de la valeur du registre `LEGIARTI000006576893` (version en vigueur
+  01/04/2005, **reconfirmée sur Légifrance le 2026-07-01**). Réalignés.
+- **`objets/videoprotection.md`** : l'identifiant `LEGIARTI000047569469` était
+  rattaché à tort à **L. 252-1** ; il vise **L. 251-1** (conforme au registre
+  et à la branche). Corrigé.
+- **`objets/accident.md`** : la chaîne de compte rendu faisait remonter l'agent
+  PM **directement au procureur** (contraire à `penal-procedure.md` §4.2) —
+  corrigée en « via l'OPJ territorialement compétent (art. 21-2 CPP) » (2
+  occurrences) ; double négation fautive réécrite (l'appréhension art. 73 CPP
+  reste possible, l'audition jamais) ; « crimes routiers » → **délits** routiers
+  graves (221-6/222-19 sont des délits).
+- **`objets/occupation-domaine-public.md`** + `vault/maillage.md` : l'objet
+  produit des **arrêtés faisant grief** sans passage par
+  `controle-legalite.md` — renvoi obligatoire ajouté en §4, posture corrigée
+  au maillage.
+- **`objets/police-chiens.md`** : catégorisation alignée sur le socle vérifié
+  (**L. 211-12 et s.**, non « L. 211-15 et s. »).
+- **`references/videoprotection.md`** : note de version **L. 253-5** actualisée
+  (en vigueur depuis le **21/05/2023**, loi n° 2023-380 — l'ancienne note
+  « 16/10/2020 » était périmée).
+
+### Ajouté
+- `references/references-verifiees.md` **§6 — Compléments consolidés depuis les
+  branches** : 12 identifiants vérifiés en branche mais absents du registre,
+  **reconfirmés 12/12 par consultation directe de Légifrance le 2026-07-01**
+  (CSI L. 251-2, L. 252-2, L. 252-3, L. 253-5, R. 511-12, L. 435-1, L. 731-3,
+  L. 132-1, L. 511-2 ; CGCT L. 2312-1 ; CCP L. 2122-1, R. 2123-1). Le registre
+  redevient la source unique de vérité.
+- `tests/bareme-cas-de-test.md` — **barème de passage** des 14 cas (la suite
+  JSON n'avait aucune règle de réussite) : RÉUSSITE / DEMI-RÉUSSITE / ÉCHEC,
+  3 attendus critiques éliminatoires (garde-fou APJA, sourcing, frontière RH),
+  score de suite (≥ 12/14, 0 échec transverse), protocole répondant/juge,
+  état d'exécution (suite **jamais exécutée** à ce jour — à programmer).
+  Indexé au vault.
+
+### Note
+- Audit **orchestré** (4 agents : sourcing, garde-fou APJA, gabarits/
+  duplication, tests/DoD) + contrôles mécaniques (structure §10, YAML, JSON,
+  0 lien mort, versions alignées). Verdicts : garde-fou APJA **étanche** ;
+  couverture de tests **complète** (11/11 + 3 transverses) ; gabarits
+  conformes. Écarts cosmétiques (numérotation de blocs d'ouverture, sections
+  additives par pointeur) acceptés et documentés. `metadata.version` → 0.8.3.
+
+## [0.8.2] — 2026-07-01 — Liens RSD par département (levée du dernier reste local)
+
+### Ajouté
+- `references/liste-RSD.md` — **liens de récupération du règlement sanitaire
+  départemental (RSD) pour chaque département**, organisés par région. Deux
+  niveaux d'agrégation officiels : **ARS régionale** (`*.ars.sante.fr`, page
+  listant le RSD de chaque département) quand elle existe, sinon **préfecture**
+  (`www.<departement>.gouv.fr`). Couverture **96/101** départements avec lien
+  officiel vérifié le 2026-07-01 ; **5** restent à obtenir sur demande
+  (Corse-du-Sud tentatif, Haute-Corse, Gironde, Haute-Vienne, Martinique).
+  Rappel du fondement (CSP L. 1311-1 et L. 1311-2), des réserves de version
+  (arrêtés modificatifs) et de la règle de provenance P1 (aucun lien de mémoire).
+
+### Modifié
+- `references/references-verifiees.md` : le **RSD** est **retiré** de la liste
+  « non confirmées » et renvoie désormais à `liste-RSD.md` ; il n'y reste que la
+  renumérotation du CPP (2029).
+- `references/reglementation-appliquee.md` : l'entrée RSD pointe vers
+  `liste-RSD.md` pour le lien de récupération par département.
+- `SKILL.md` : `metadata.version` → 0.8.2 ;
+  `date_derniere_verification_sources` → 2026-07-01.
+
+### Note
+- Vérification **orchestrée** (12 agents, un par région ARS / bloc, fetch et
+  recherche sur domaines officiels `.ars.sante.fr` / `.gouv.fr` / Légifrance).
+  Les 5 cibles non trouvées en ligne restent **communicables sur demande**
+  (RSD = acte public, CRPA L. 311-1) auprès de la préfecture ou de l'ARS.
+
+## [0.8.1] — 2026-07-01 — Levée des deux derniers restes (L. 132-4, conservation vidéo)
+
+### Corrigé / Vérifié (sur Légifrance le 2026-07-01)
+- **CSI L. 132-4** (CLSPD) : identifiant confirmé de façon univoque —
+  `LEGIARTI000049313006` (version en vigueur depuis le 23/03/2024). L'ancien
+  identifiant `LEGIARTI000043541062` (conteneur / version antérieure) est
+  remplacé dans `continuum-partenariats.md`. Précision ajoutée : coordonnateur
+  désigné dans les communes **> 15 000 hab** (à distinguer du seuil de
+  constitution du CLSPD, **≥ 5 000 hab ou QPV**).
+- **Durée de conservation vidéo** : le plafond est **d'un mois** et relève de
+  l'art. **CSI L. 252-5** (`LEGIARTI000025505435`), et non de L. 252-3 ;
+  l'art. **R. 252-3** (`LEGIARTI000048480362`) n'exige que la mention de la
+  durée dans la demande. Corrigé dans `videoprotection.md` (branche + objet) et
+  consigné dans `references-verifiees.md`.
+
+### Modifié
+- `references/references-verifiees.md` : lignes L. 132-4 / L. 252-5 / R. 252-3
+  ajoutées ou complétées ; la liste « non confirmées » ne conserve que le RSD
+  (local) et la renumérotation du CPP (2029). `metadata.version` → 0.8.1.
+
 ## [0.8.0] — 2026-07-01 — Levée des références « à confirmer » (vérif. Légifrance)
 
 ### Ajouté
