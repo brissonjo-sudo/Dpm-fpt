@@ -192,3 +192,139 @@ vague ou implicite (pas de signal explicite du changement de compétence) —
 **ou** la bascule vers `drh-fpt` est bien faite mais le constat textuel
 préalable (code de déontologie, cumul pénal/RGPD/disciplinaire) est absent ou
 superficiel.
+
+---
+
+## CAS 3 — `dpm-fpt` × `drh-fpt` : inaptitude au port d'arme (bascule)
+
+### Énoncé
+
+> Je suis Directeur de Police Municipale. La médecine préventive vient de
+> déclarer un de mes agents **inapte au port d'arme pour 6 mois**. Quelles
+> conséquences sur son **autorisation de port d'arme**, ses **missions**, et
+> sa **situation administrative** ?
+
+### Pourquoi ce cas co-active les deux skills
+
+- **`dpm-fpt`** : condition d'exercice de l'armement (aptitude = condition du
+  port effectif, `armement-equipements.md`), information du préfet,
+  réorganisation des missions du service.
+- **`drh-fpt`** : la « situation administrative » (aptitude médicale
+  statutaire, aménagement de poste, position de l'agent) relève du volet RH
+  statutaire — bascule `SKILL.md` §5.4.
+
+### Barème — RÉUSSITE si…
+
+1. `dpm-fpt` traite le volet métier : l'inaptitude suspend le port effectif ;
+   l'**autorisation préfectorale** est fragilisée (retrait/suspension possible,
+   information du préfet), références du socle ou « à confirmer ».
+2. Réorganisation opérationnelle proposée (missions sans port d'arme,
+   doublures) **sans** trancher la situation statutaire.
+3. **Bascule explicite vers `drh-fpt`** pour l'aptitude médicale statutaire,
+   l'aménagement de poste et la position administrative de l'agent.
+4. L'ordre des volets est cohérent : sécurité juridique de l'armement d'abord
+   (aucun port tant que l'aptitude n'est pas rétablie), statutaire ensuite.
+5. Aucune référence de mémoire sans réserve.
+
+### ÉCHEC si…
+
+- `dpm-fpt` instruit lui-même l'aménagement de poste ou la position
+  statutaire, ou aucune bascule n'est signalée.
+- La réponse laisse entendre que l'agent peut continuer à porter l'arme en
+  attendant.
+- Référence inventée/affirmée sans réserve.
+
+### Demi-réussite
+
+Volet armement correct mais bascule RH vague ou implicite — **ou** bascule
+nette mais volet armement incomplet (autorisation préfectorale non traitée).
+
+---
+
+## CAS 4 — `dpm-fpt` × `drh-fpt` : agent blessé en interpellation (double voie)
+
+### Énoncé
+
+> Un agent s'est blessé hier en **interpellant un individu violent** (entorse,
+> 10 jours d'arrêt). L'individu a été remis à la BAC. Qu'est-ce que je dois
+> faire **côté service** et **côté agent** ?
+
+### Pourquoi ce cas co-active les deux skills
+
+- **`dpm-fpt`** : volet opérationnel — écrit de l'interpellation (rapport de
+  mise à disposition, art. 73 CPP), RETEX (`retex.md`), constat des faits
+  utile à la protection fonctionnelle.
+- **`drh-fpt`** : accident de service (CITIS, imputabilité), droits de
+  l'agent, instruction de la protection fonctionnelle.
+
+### Barème — RÉUSSITE si…
+
+1. Volet opérationnel traité par `dpm-fpt` : rapport de mise à disposition
+   (déjà dû pour l'interpellation), RETEX du service via `retex.md`,
+   consignation factuelle des circonstances de la blessure.
+2. **Deux voies parallèles explicitement signalées** : opérationnelle
+   (service) et statutaire (agent), indépendantes et cumulatives.
+3. **Bascule explicite vers `drh-fpt`** pour l'accident de service (CITIS,
+   imputabilité) et l'instruction de la protection fonctionnelle — `dpm-fpt`
+   fournit le constat, ne conduit pas l'instruction.
+4. La protection fonctionnelle est signalée (agent blessé par un tiers dans
+   l'exercice de ses fonctions) sans être détaillée statutairement.
+5. Aucune référence de mémoire sans réserve.
+
+### ÉCHEC si…
+
+- Le CITIS ou la protection fonctionnelle sont instruits par `dpm-fpt`.
+- Le RETEX ou l'écrit d'interpellation sont absents (volet service oublié).
+- Une seule des deux voies est traitée.
+- Référence inventée/affirmée sans réserve.
+
+### Demi-réussite
+
+Les deux voies sont présentes mais la bascule n'est qu'implicite — **ou** la
+bascule est nette mais le RETEX ou le rapport de mise à disposition manque.
+
+---
+
+## CAS 5 — `dpm-fpt` × `drh-fpt` : création d'une brigade de nuit (co-construction)
+
+### Énoncé
+
+> Le maire veut une **brigade de nuit (22 h – 6 h)** à effectif constant.
+> Construis-moi le **projet** : organisation, moyens, et ce que ça implique
+> **pour les agents**.
+
+### Pourquoi ce cas co-active les deux skills
+
+- **`dpm-fpt`** : doctrine opérationnelle (missions de nuit, binômes,
+  armement/équipement nocturne, coordination avec les forces de l'État,
+  convention de coordination à réviser).
+- **`drh-fpt`** : cycles de travail, travail de nuit, repos, régime
+  indemnitaire — volet statutaire à ne pas chiffrer ni instruire côté
+  `dpm-fpt`.
+
+### Barème — RÉUSSITE si…
+
+1. Volet doctrine construit par `dpm-fpt` : missions nocturnes, patrouilles
+   en binôme minimum, équipement, articulation avec PN/gendarmerie de nuit et
+   **impact sur la convention de coordination** (plages horaires, armement de
+   nuit) — références du socle ou « à confirmer ».
+2. **Bascule explicite vers `drh-fpt`** pour cycles de travail, garanties du
+   travail de nuit, repos et régime indemnitaire.
+3. **Aucune indemnité ni durée réglementaire chiffrée de mémoire** (valeurs
+   volatiles).
+4. Le livrable final articule les deux volets (ex. note au maire unique
+   distinguant « dispositif » et « volet agents ») en attribuant chaque volet
+   au bon skill.
+5. Aucune référence de mémoire sans réserve.
+
+### ÉCHEC si…
+
+- `dpm-fpt` fixe les cycles, les compensations ou les indemnités de nuit.
+- Le projet ignore l'impact convention de coordination / armement de nuit.
+- Aucune bascule signalée.
+- Référence inventée/affirmée sans réserve.
+
+### Demi-réussite
+
+Doctrine solide mais bascule RH vague — **ou** bascule nette mais le volet
+doctrine omet la convention de coordination ou l'armement de nuit.
