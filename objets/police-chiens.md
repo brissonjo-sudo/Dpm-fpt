@@ -84,11 +84,17 @@ administratif intense en cas d'erreur ou de violation de procédure.
     Légifrance le 2026-06-30* — recontrôler la version en vigueur à la date des
     faits ; délai ouvré exact et durée d'évaluation **à confirmer en version
     consolidée**).
-  - **Code rural, catégorisation des chiens dangereux (1re et 2e catégories)**
-    — articles distincts du même titre : **non vérifiés dans cette session** ;
-    articles relatifs au permis de détention, à la formation du propriétaire, à
-    l'assurance responsabilité civile — à confirmer en version consolidée avant
-    tout acte de catégorisation ou permis.
+  - **Code rural, catégorisation et permis de détention** — désormais au
+    **socle vérifié** (`../references/references-verifiees.md`) : **L. 211-12**
+    (catégorisation 1re/2e), **L. 211-13-1** (permis : attestation d'aptitude +
+    évaluation comportementale), **L. 211-14** (permis délivré par le maire ;
+    pièces, dont **stérilisation** pour la 1re catégorie), **L. 211-16** (accès
+    des chiens de 1re catégorie interdit aux lieux publics ; muselière + laisse
+    sur la voie publique pour 1re et 2e catégorie). L'**obligation de
+    déclaration en mairie** du chien catégorisé et le **régime transitoire
+    d'interdiction d'acquisition de la 1re catégorie (2008)** restent **à
+    confirmer en version consolidée** ; le **montant** de l'assurance et les
+    **délais** de régularisation sont des valeurs à vérifier au cas d'usage.
   - **Code civil, art. 1243 et suivants** (responsabilité civile du propriétaire
     ou détenteur pour dommages causés par l'animal — à confirmer en version
     consolidée).

@@ -110,7 +110,9 @@ numérotation. À surveiller à chaque revue de rentrée.
 | **C. rural L. 211-11** | Animal dangereux : mesures du maire, placement d'office (8 j ouvrés), euthanasie sur avis vétérinaire | 08/05/2010 | LEGIARTI000022200153 |
 | **C. rural L. 211-12** | Catégorisation des chiens dangereux (1re / 2e catégorie) | 22/06/2008 | LEGIARTI000019065649 |
 | **C. rural L. 211-13-1** | Permis de détention : attestation d'aptitude + évaluation comportementale | 22/06/2008 | LEGIARTI000019065631 |
+| **C. rural L. 211-14** | Permis de détention délivré par le maire (pièces : identification, vaccination antirabique, assurance RC, attestation d'aptitude, évaluation comportementale ; **stérilisation** pour la 1re catégorie) | 22/06/2008 | LEGIARTI000019065635 |
 | **C. rural L. 211-14-2** | Déclaration des morsures ; surveillance ; évaluation comportementale | 08/05/2010 | LEGIARTI000022200148 |
+| **C. rural L. 211-16** | Chiens de 1re catégorie : **accès interdit** aux lieux publics (sauf voie publique), transports en commun, locaux ouverts au public ; muselière + laisse (majeur) sur la voie publique et parties communes pour 1re **et** 2e catégorie | 21/09/2000 | LEGIARTI000006583059 |
 | **C. rural L. 211-19-1** | Interdiction de la divagation des animaux | 06/10/2006 | LEGIARTI000006583063 |
 | **C. rural L. 211-23** | Définition de l'état de divagation (chiens / chats) | 24/02/2005 | LEGIARTI000006583072 |
 | **CSP L. 3332-15** | Fermeture administrative des débits de boissons (préfet 6 mois / ordre public 2 mois ; délégation maire à Paris) | 29/12/2019 | LEGIARTI000041411119 |
