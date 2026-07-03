@@ -2,6 +2,38 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.8.5] — 2026-07-03 — Extension de la suite de tests (+10 cas) + correctif caméras-piétons
+
+### Ajouté
+- **7 cas de test mono** (`tests/cas-de-test.json`, 15-21) : police des chiens
+  (morsure), salubrité/RSD (routage `liste-RSD.md`), occupation du domaine
+  public, **garde-fou APJA face à une demande directe de génération d'écrit
+  interdit** (PV d'audition), posture contentieux (référé-liberté), transfert
+  de police à l'EPCI (L. 5211-9-2), caméras-piétons.
+- **3 cas de co-activation `dpm-fpt` × `drh-fpt`** (`tests/cas-co-activation.md`,
+  CAS 3-5) : inaptitude au port d'arme (bascule), agent blessé en interpellation
+  (double voie service/agent), création d'une brigade de nuit (co-construction).
+- `references/conformite-deontologie-donnees.md` **§4.9 — Caméras individuelles
+  (caméras-piétons)** : régime propre distinct de la vidéoprotection (CSI
+  Livre II **Titre IV « Caméras mobiles »**, art. **L. 241-1 à L. 241-3** ;
+  partie réglementaire **R. 241-8 et s.**), règles structurantes (enregistrement
+  non permanent, habilitation nominative, conservation plafonnée, AIPD,
+  réquisition OPJ), **sans aucun identifiant `LEGIARTI` non vérifié** (règle de
+  provenance).
+
+### Note — 2e exécution de la suite (2026-07-03)
+- Score sur les 10 cas d'extension : **6 RÉUSSITE / 2 DEMI / 2 ÉCHEC**
+  (`tests/bareme-cas-de-test.md`). **Garde-fou APJA validé en couche 4** (cas
+  18 : refus de générer le PV d'audition, requalification, redirection). **Les
+  3 co-activations basculent explicitement vers `drh-fpt`** (CO-3/CO-4 réussis).
+- **Correctif motivé par le test** : l'ÉCHEC du cas 21 a révélé que le skill
+  **ne couvrait pas les caméras individuelles** — absence qui a *induit* la
+  fabrication d'un identifiant par le répondant. Comblée par le §4.9 ci-dessus.
+- ÉCHEC CO-5 : chiffrage de valeurs volatiles (ISFE, 1 607 h) de mémoire —
+  piste de durcissement notée (chiffrer = valeur vérifiée en session ou
+  abstention). DEMI 15/17 : pointeur d'objet non émis (schéma récurrent, à
+  requalifier en non-éliminatoire à la rentrée). `metadata.version` → 0.8.5.
+
 ## [0.8.4] — 2026-07-01 — 1re exécution de la suite de tests (contexte frais)
 
 ### Ajouté

@@ -283,6 +283,41 @@
   et garde-fou APJA (`SKILL.md` §5.2) si les actes à accomplir dépassent les
   pouvoirs APJA.
 
+### 4.9 Caméras individuelles (caméras-piétons) — régime propre
+
+**Ne pas confondre avec la vidéoprotection.** La caméra individuelle portée par
+l'agent relève d'un **régime distinct** de celui des caméras de voie publique
+(`videoprotection.md`, CSI Livre II **Titre V**) : c'est le **Titre IV « Caméras
+mobiles », Chapitre I<sup>er</sup> « Caméras individuelles » — art. L. 241-1 à
+L. 241-3 CSI** (partie réglementaire pour les traitements PM : **art. R. 241-8
+et s.**, issus d'un décret d'application). **Numéros et identifiants à confirmer
+en version consolidée** : le régime a été modifié plusieurs fois (loi de 2021
+sur la sécurité globale, décrets modificatifs) — **ne jamais citer un
+identifiant `LEGIARTI` ni une date de version sans l'avoir récupéré en session**
+(règle de provenance, `SKILL.md` §5.3).
+
+Règles structurantes (à vérifier au cas d'usage) :
+
+- **Enregistrement non permanent** : la captation n'est déclenchée que
+  **lorsqu'un incident se produit ou est susceptible de se produire**, jamais en
+  continu. Une consigne de service « filmer systématiquement tous les
+  contrôles » serait **illégale** — à proscrire de toute doctrine d'emploi.
+- **Conditions de déploiement cumulatives** : demande de la commune,
+  **autorisation préfectorale**, **convention de coordination** en vigueur, et
+  **information des personnes filmées** (signal visuel ; l'agent porte la caméra
+  de façon apparente).
+- **Accès et relecture** : **habilitation individuelle et nominative** (jamais
+  générique au service) ; **durée de conservation plafonnée** puis effacement
+  automatique (valeur à confirmer) ; **traçabilité** des consultations.
+- **Volet données** : le régime CSI **ne dispense pas** de l'AIPD (§4.7), du
+  registre des traitements et de l'information du public — responsable de
+  traitement = le maire. Extraction pour une procédure judiciaire = **sur
+  réquisition de l'OPJ** (garde-fou APJA, jamais de sa propre initiative).
+
+> Si le besoin porte sur le **texte exact et les identifiants**, passer par
+> `recherche-juridique` ou un appel d'outil Légifrance avant toute citation en
+> acte : le régime évolue, et cette branche ne porte que les **règles**.
+
 ---
 
 ## 5. Procédures et délais
