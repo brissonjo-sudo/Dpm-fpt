@@ -250,5 +250,65 @@
       "Renvoi vers conformite-deontologie-donnees.md et signalement de la frontière avec videoprotection.md",
       "Aucune référence juridique donnée de mémoire / non vérifiée"
     ]
+  },
+  {
+    "id": "22-permis-detention-obtention",
+    "branche": "Réglementation appliquée — chiens dangereux / permis de détention",
+    "prompt": "Un administré vient d'acquérir un American Staffordshire inscrit au LOF. Il me demande ce qu'il doit faire pour être en règle : quelles pièces réunir pour le permis de détention, et auprès de qui ?",
+    "attendus": [
+      "Identification du permis de détention comme obligation pour les chiens catégorisés, délivré par le maire (L. 211-13-1 pour les conditions ; L. 211-14 pour la délivrance — vérifié ou à confirmer selon le socle)",
+      "Énumération des pièces : attestation d'aptitude du détenteur (formation), évaluation comportementale du chien par un vétérinaire, identification (puce), vaccination antirabique, assurance responsabilité civile — points non vérifiés marqués à confirmer",
+      "Qualification : l'Am Staff LOF relève de la 2e catégorie (le même type non-LOF basculant en 1re) — L. 211-12, socle vérifié",
+      "Renvoi vers objets/police-chiens.md ; le maire est l'autorité de délivrance/refus (refus = acte faisant grief → controle-legalite.md)",
+      "Aucune référence juridique donnée de mémoire / non vérifiée"
+    ]
+  },
+  {
+    "id": "23-declaration-mairie-defaut-permis",
+    "branche": "Réglementation appliquée — chiens dangereux / déclaration",
+    "prompt": "Je découvre qu'un habitant détient depuis un an un chien de 2e catégorie sans l'avoir déclaré en mairie et sans permis. Que dois-je faire, et lui, quelle est sa situation ?",
+    "attendus": [
+      "Rappel de l'obligation de déclaration / permis de détention en mairie pour les chiens catégorisés (L. 211-14 — à confirmer en version consolidée, non présent au socle vérifié)",
+      "Conduite du DPM : mise en demeure de régulariser (constituer le dossier de permis) sous délai, constat écrit, information du maire",
+      "Conséquences du défaut : placement voire euthanasie possibles par le maire (L. 211-14 / L. 211-11) et sanction pénale du défaut de permis (à confirmer, cumul possible) → penal-procedure.md",
+      "Distinction claire entre volet administratif (régularisation, permis) et volet pénal (sanction du défaut), non exclusifs",
+      "Aucune référence juridique donnée de mémoire / non vérifiée"
+    ]
+  },
+  {
+    "id": "24-categorie-1-vs-2-obligations",
+    "branche": "Réglementation appliquée — chiens dangereux / catégories",
+    "prompt": "Concrètement, qu'est-ce qui change entre un chien de 1re et de 2e catégorie pour le propriétaire au quotidien ? Un chien de 1re catégorie peut-il se promener au parc ?",
+    "attendus": [
+      "Fondement de la catégorisation L. 211-12 (socle vérifié) : 1re catégorie = chiens d'attaque (non-LOF) ; 2e catégorie = chiens de garde et de défense (LOF)",
+      "Obligations communes aux deux catégories : permis de détention, muselière et laisse sur la voie publique, assurance, identification (modalités à confirmer)",
+      "Restrictions propres à la 1re catégorie : stérilisation obligatoire, interdiction d'acquisition/cession/importation, interdiction d'accès aux lieux publics/transports en commun et de stationnement en parties communes — donc pas de parc (à confirmer en version consolidée)",
+      "Signalement que ces obligations spécifiques ne sont pas toutes au socle vérifié (à confirmer avant tout acte) ; renvoi objets/police-chiens.md",
+      "Aucune référence juridique donnée de mémoire / non vérifiée"
+    ]
+  },
+  {
+    "id": "25-refus-evaluation-comportementale",
+    "branche": "Réglementation appliquée — chiens dangereux / évaluation",
+    "prompt": "Un détenteur de chien catégorisé refuse de présenter son animal à l'évaluation comportementale obligatoire. Puis-je le sanctionner directement et lui retirer le chien ?",
+    "attendus": [
+      "Rappel que l'évaluation comportementale est une condition du permis (L. 211-13-1, socle vérifié) et que son défaut fait obstacle à la régularisation",
+      "L'agent PM ne retire pas le chien de sa propre initiative : gradation mise en demeure → arrêté du maire (placement), le maire étant l'autorité décisionnaire",
+      "Tout arrêté (mise en demeure formelle, placement) est un acte faisant grief → motivation, voies de recours, passage par controle-legalite.md avant signature",
+      "Signalement du cumul possible avec la sanction pénale du défaut de permis, sans le présenter comme automatique ; renvoi reglementation-appliquee.md / penal-procedure.md",
+      "Aucune référence juridique donnée de mémoire / non vérifiée"
+    ]
+  },
+  {
+    "id": "26-qualification-non-lof-morphologie",
+    "branche": "Réglementation appliquée — chiens dangereux / qualification",
+    "prompt": "Un nouvel arrivant a un chien qu'il présente comme un \"croisé berger\", mais qui a toute la morphologie d'un pit-bull et n'a aucun papier LOF. Un voisin s'inquiète. Comment je qualifie ce chien et qu'est-ce que ça implique ?",
+    "attendus": [
+      "Qualification clé : un chien sans inscription LOF présentant les caractéristiques morphologiques d'un type visé (pit-bull / Am Staff non-LOF) relève de la 1re catégorie — L. 211-12, socle vérifié",
+      "Prudence : la qualification définitive suppose une vérification vétérinaire/morphologique ; ne pas trancher de mémoire sur la seule apparence rapportée ; documenter",
+      "Implications 1re catégorie (permis, stérilisation, interdictions d'accès — à confirmer) et conduite : inviter à régulariser, informer le maire, constat écrit",
+      "Rappel du cumul possible (défaut de permis, danger) et renvoi objets/police-chiens.md ; pas de garde-fou APJA sauf bascule pénale",
+      "Aucune référence juridique donnée de mémoire / non vérifiée"
+    ]
   }
 ]
