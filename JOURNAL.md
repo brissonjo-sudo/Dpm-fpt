@@ -24,6 +24,30 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-07-03 — 5 cas « chiens dangereux » (répondant Sonnet) + consolidation socle
+- Type : cas nouveau + lacune (résolue)
+- Branche : (tests) + reglementation-appliquee / objets police-chiens / socle
+- Contexte : à la demande de l'auteur, lot de 5 cas ciblant le **permis de
+  détention** et la **déclaration** des chiens catégorisés (22-26), exécuté avec
+  **répondant Sonnet** (aveugle) et juge Opus indépendant.
+- Constat : **2 RÉUSSITE / 3 DEMI / 0 ÉCHEC**. **Sourcing 5/5, aucune
+  fabrication, aucune erreur de fond.** Fait marquant : au **cas 24**, Sonnet a
+  **réellement consulté Légifrance en session** et cité **L. 211-14**
+  (`LEGIARTI000019065635`) et **L. 211-16** (`LEGIARTI000006583059`),
+  identifiants **confirmés réels** par recontrôle — provenance exemplaire, à
+  l'opposé du cas 21 (Opus avait fabriqué un identifiant faute de référence).
+  Le **cas 23** a correctement flaggé l'obligation de **déclaration en mairie**
+  « à confirmer » au lieu d'inventer L. 211-14. Les 3 DEMI = pointeur non émis
+  (25 : `penal-procedure.md`), attendu hors-scope (22 : refus de permis) ou
+  fondement définitionnel non ré-explicité (24).
+- Action proposée : **consolidation du socle** — **L. 211-14** (permis délivré
+  par le maire, stérilisation 1re cat.) et **L. 211-16** (accès des chiens de
+  1re cat. aux lieux publics) ajoutés à `references-verifiees.md` (vérifiés le
+  2026-07-03) ; note de l'objet `police-chiens.md` mise à jour en conséquence.
+  Restent « à confirmer » : obligation de déclaration en mairie et régime
+  transitoire d'interdiction d'acquisition de la 1re catégorie (2008).
+- Statut : intégré (v0.8.6)
+
 ### 2026-07-03 — Extension de la suite (10 cas) + 2e run + lacune caméras-piétons
 - Type : cas nouveau + lacune (résolue)
 - Branche : (tests) + conformite-deontologie-donnees

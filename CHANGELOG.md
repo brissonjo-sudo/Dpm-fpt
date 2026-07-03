@@ -2,6 +2,37 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.8.6] — 2026-07-03 — 5 cas « chiens dangereux » (run Sonnet) + consolidation socle L. 211-14 / L. 211-16
+
+### Ajouté
+- **5 cas de test** (`tests/cas-de-test.json`, 22-26) sur la **police des chiens
+  dangereux** : obtention du permis de détention, déclaration en mairie et
+  défaut de permis, distinction catégorie 1 / catégorie 2 et obligations,
+  refus d'évaluation comportementale, qualification morphologique d'un chien
+  non-LOF.
+- `references/references-verifiees.md` : **L. 211-14** (permis de détention
+  délivré par le maire ; pièces, stérilisation 1re catégorie —
+  `LEGIARTI000019065635`) et **L. 211-16** (accès des chiens de 1re catégorie
+  aux lieux publics ; muselière + laisse — `LEGIARTI000006583059`), **vérifiés
+  sur Légifrance le 2026-07-03**. Le régime permis/catégorisation/accès est
+  désormais au socle (L. 211-12, L. 211-13-1, L. 211-14, L. 211-16).
+
+### Modifié
+- `objets/police-chiens.md` (§2) : la note « catégorisation/permis non vérifiés »
+  est remplacée par le renvoi au socle vérifié ; ne restent « à confirmer » que
+  l'obligation de déclaration en mairie et le régime transitoire d'interdiction
+  d'acquisition de la 1re catégorie (2008).
+
+### Note — 3e exécution de la suite (répondant Sonnet)
+- Score sur les 5 cas : **2 RÉUSSITE / 3 DEMI / 0 ÉCHEC**
+  (`tests/bareme-cas-de-test.md`). **Sourcing 5/5, aucune fabrication, aucune
+  erreur de fond.** Fait marquant : au **cas 24**, le répondant **Sonnet a
+  réellement consulté Légifrance en session** et cité L. 211-14 / L. 211-16
+  avec des identifiants **confirmés réels** — provenance exemplaire (contraste
+  avec le cas 21 où Opus avait fabriqué). Les 3 DEMI relèvent du schéma connu
+  (pointeur non émis / attendu hors-scope), sans conséquence de fond.
+- `metadata.version` → 0.8.6.
+
 ## [0.8.5] — 2026-07-03 — Extension de la suite de tests (+10 cas) + correctif caméras-piétons
 
 ### Ajouté
