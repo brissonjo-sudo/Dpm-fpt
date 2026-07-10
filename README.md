@@ -62,8 +62,10 @@ Boucle `JOURNAL.md` (cas) → `CHANGELOG.md` (versions), décisions tracées dan
 
 ## Version
 
-v0.8.6 — complet (4 couches), audité et **testé en contexte frais** (26 cas + 5 co-activations, 3 runs ; sécurité transverse, sourcing et bascule drh-fpt validés) : routeur, 11 branches + 3 postures + socle, 8
-objets, 5 générateurs, tests et vault d'index, plus un **socle de références
-vérifiées sur Légifrance** (`references/references-verifiees.md`) et les **liens
-de récupération du RSD par département** (`references/liste-RSD.md`, 96/101
-départements vérifiés au 2026-07-01).
+**v1.0.0 — première release stable.** Complet (4 couches), audité et **testé en
+contexte frais** (26 cas + 5 co-activations, 3 runs ; sécurité transverse,
+sourcing et bascule drh-fpt validés) : routeur, 11 branches + 3 postures +
+socle, 8 objets, 5 générateurs, tests et vault d'index, plus un **socle de
+références vérifiées sur Légifrance** (`references/references-verifiees.md`) et
+les **liens de récupération du RSD par département** (`references/liste-RSD.md`,
+96/101 départements vérifiés au 2026-07-01).

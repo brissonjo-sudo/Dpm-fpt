@@ -2,6 +2,41 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [1.0.0] — 2026-07-03 — Première release stable
+
+Première **release** du skill `dpm-fpt` (système expert d'aide à la décision
+pour un Directeur de Police Municipale). Aboutissement des versions 0.1.0 →
+0.8.6 : architecture complète, socle vérifié, et validation par tests.
+
+### Contenu de la release
+- **Architecture en 4 couches** : routeur `analyse-situation.md` (couche 1) ;
+  11 branches métier + 3 briques posture + socle-sources (couche 2) ; 8 objets
+  système expert (couche 3) ; 5 générateurs d'écrits interactifs (couche 4).
+- **Dispositifs transverses** (`SKILL.md` §5) : double échelle confiance × risque,
+  **garde-fou APJA** (« Hard Stop »), socle-sources autonome, **délégation
+  `drh-fpt`** (frontière stricte), hiérarchie de co-activation.
+- **Socle de références vérifiées sur Légifrance** (`references-verifiees.md`) :
+  articles-pivots (CGCT, CPP, CSI, code de la route, code rural — dont le régime
+  complet des chiens dangereux, CSP, CG3P, Constitution) avec identifiants
+  `LEGIARTI` et dates ; alerte vigueur CPP (abrogation programmée 01/01/2029).
+- **Liens de récupération du RSD par département** (`liste-RSD.md`) : 96/101
+  départements avec lien officiel vérifié.
+- **Tests** : 26 cas (`cas-de-test.json`) + 5 co-activations + barème de passage,
+  **exécutés en contexte frais sur 3 runs** (Opus ×2, Sonnet ×1).
+
+### Qualité validée
+- **Garde-fou APJA étanche** — au routeur et en génération d'écrit (refus de
+  produire un acte réservé à l'OPJ, cas de test dédié).
+- **Frontière `drh-fpt`** — bascule statutaire explicite (co-activations).
+- **Discipline de sourcing** — aucune référence de mémoire sans réserve ; audit
+  complet (4 dimensions) passé ; identifiants consolidés et reconfirmés.
+
+### Note
+- Améliorations différées à la revue de rentrée (1er septembre), documentées
+  dans `bareme-cas-de-test.md` et `JOURNAL.md` : requalifier les attendus de
+  renvoi de fichier en non-éliminatoires ; durcir la règle « chiffrer = valeur
+  vérifiée en session ou abstention ». `metadata.version` → 1.0.0.
+
 ## [0.8.6] — 2026-07-03 — 5 cas « chiens dangereux » (run Sonnet) + consolidation socle L. 211-14 / L. 211-16
 
 ### Ajouté

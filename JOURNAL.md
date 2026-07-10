@@ -24,6 +24,20 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-07-03 — Release v1.0.0 (première release stable)
+- Type : cas nouveau (jalon)
+- Branche : (release / SKILL)
+- Contexte : matérialisation de la **première release** du skill, non encore
+  effectuée. Le skill est complet (4 couches), audité (4 dimensions) et testé
+  en contexte frais sur 3 runs (26 cas + 5 co-activations).
+- Constat : la version faisait foi via `SKILL.md`/`CHANGELOG` mais **aucun tag
+  de release** n'existait (ni ici, ni dans les skills voisins). Choix de
+  l'auteur : promouvoir en **v1.0.0** (release stable) plutôt que taguer 0.8.6.
+- Action proposée : bump `SKILL.md`/`README`/`CHANGELOG` en 1.0.0, entrée
+  CHANGELOG de release récapitulant contenu et qualité validée, **tag git
+  `v1.0.0`** + GitHub Release.
+- Statut : intégré (v1.0.0)
+
 ### 2026-07-03 — 5 cas « chiens dangereux » (répondant Sonnet) + consolidation socle
 - Type : cas nouveau + lacune (résolue)
 - Branche : (tests) + reglementation-appliquee / objets police-chiens / socle
