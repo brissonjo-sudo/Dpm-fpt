@@ -62,7 +62,9 @@ Boucle `JOURNAL.md` (cas) → `CHANGELOG.md` (versions), décisions tracées dan
 
 ## Version
 
-**v1.0.0 — première release stable.** Complet (4 couches), audité et **testé en
+**v1.0.0 — première release stable.** Frontmatter `SKILL.md` conforme aux
+règles Agent Skills de Claude (description ≤ 1 024 caractères, métadonnées
+dans le corps). Complet (4 couches), audité et **testé en
 contexte frais** (26 cas + 5 co-activations, 3 runs ; sécurité transverse,
 sourcing et bascule drh-fpt validés) : routeur, 11 branches + 3 postures +
 socle, 8 objets, 5 générateurs, tests et vault d'index, plus un **socle de
