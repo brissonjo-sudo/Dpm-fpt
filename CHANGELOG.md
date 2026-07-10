@@ -31,11 +31,25 @@ pour un Directeur de Police Municipale). Aboutissement des versions 0.1.0 →
 - **Discipline de sourcing** — aucune référence de mémoire sans réserve ; audit
   complet (4 dimensions) passé ; identifiants consolidés et reconfirmés.
 
+### Corrigé (2026-07-10, avant publication de la release)
+- **Frontmatter `SKILL.md` mis en conformité** avec les règles de validation
+  des Agent Skills de Claude (upload claude.ai / API) :
+  - `description` réécrite de **1 319 → 1 013 caractères** (limite : 1 024),
+    sans perte des déclencheurs d'activation ni des trois exclusions
+    (RH statutaire → `drh-fpt`, actes OPJ, droit étranger) ;
+  - **bloc `metadata:` retiré du frontmatter** (champs non prévus par la spec —
+    seuls `name` et `description` sont garantis acceptés) et déplacé dans le
+    corps du fichier (encadré « Métadonnées » sous le titre) ;
+  - titre du corps réaligné (`v0.1.0` résiduel → v1.0.0).
+- Aucun changement de fond : contenu métier, garde-fous et références
+  inchangés. La release v1.0.0 n'étant pas encore publiée, la correction est
+  intégrée sans incrément de version.
+
 ### Note
 - Améliorations différées à la revue de rentrée (1er septembre), documentées
   dans `bareme-cas-de-test.md` et `JOURNAL.md` : requalifier les attendus de
   renvoi de fichier en non-éliminatoires ; durcir la règle « chiffrer = valeur
-  vérifiée en session ou abstention ». `metadata.version` → 1.0.0.
+  vérifiée en session ou abstention ».
 
 ## [0.8.6] — 2026-07-03 — 5 cas « chiens dangereux » (run Sonnet) + consolidation socle L. 211-14 / L. 211-16
 

@@ -2,39 +2,30 @@
 name: dpm-fpt
 description: >-
   Système expert d'aide à la décision pour un Directeur de Police Municipale
-  (DPM) en collectivité territoriale. Active ce skill pour toute question
-  relevant du métier de police municipale : pouvoirs de police du maire (police
-  générale et polices spéciales), pouvoirs et limites des agents de police
-  municipale comme APJA, procédure pénale applicable à la PM, réglementation
-  appliquée (route, stationnement et fourrière, débits de boissons, salubrité,
-  domaine public, animaux dangereux), doctrine opérationnelle et gestion
-  d'événements, continuum de sécurité et partenariats (convention de
-  coordination, CLSPD), armement et équipements, vidéoprotection, déontologie
-  et données, pilotage et budget du service ; pour qualifier une situation
-  opérationnelle, sécuriser un acte (arrêté, note au maire, règlement) ou
-  produire un écrit professionnel (PV de contravention, rapport d'information,
-  rapport de mise à disposition). Pour toute règle reposant sur un texte, une
-  procédure, un délai, une compétence ou une jurisprudence, le skill vérifie la
-  source officielle avant de conclure. Ne pas activer pour les questions RH
-  statutaires des agents (carrière, paie, instances, procédure disciplinaire)
-  qui relèvent de drh-fpt, pour les actes réservés à l'OPJ (police judiciaire au
-  sens de l'art. 16 CPP), ni pour le droit étranger.
-metadata:
-  version: 1.0.0
-  statut: release stable — complet (4 couches), audité, testé en contexte frais (3 runs) ; socle de références vérifiées Légifrance + liens RSD par département
-  date_derniere_revue_methodologique: 2026-06-30
-  date_derniere_verification_sources: 2026-07-03
-  perimetre: direction de la police municipale, collectivités territoriales (France)
-  dependances:
-    - recherche-juridique (recommandé, validateur de fond et de vigueur)
-    - drh-fpt (recommandé, pour le volet RH statutaire des agents PM)
-  compatibilite:
-    - Claude Opus
-    - Claude Sonnet
-  langue: français
+  (DPM) en collectivité territoriale française. Activer pour toute question du
+  métier de police municipale : pouvoirs de police du maire (générale et
+  spéciales), pouvoirs et limites des agents PM comme APJA, procédure pénale
+  applicable à la PM, réglementation appliquée (route, stationnement et
+  fourrière, débits de boissons, salubrité, domaine public, animaux dangereux),
+  doctrine opérationnelle, continuum de sécurité (convention de coordination,
+  CLSPD), armement et équipements, vidéoprotection, déontologie et données,
+  pilotage et budget ; pour qualifier une situation opérationnelle, sécuriser
+  un acte (arrêté, note au maire) ou produire un écrit professionnel (PV,
+  rapport, mise à disposition). Toute règle reposant sur un texte est vérifiée
+  à la source officielle avant conclusion. Ne pas activer pour le RH statutaire
+  des agents (carrière, paie, discipline : drh-fpt), les actes réservés à
+  l'OPJ (art. 16 CPP), ni le droit étranger.
 ---
 
-# Skill : dpm-fpt (v0.1.0)
+# Skill : dpm-fpt (v1.0.0)
+
+> **Métadonnées** — version : **1.0.0** · statut : release stable — complet
+> (4 couches), audité, testé en contexte frais (3 runs) · dernière revue
+> méthodologique : 2026-06-30 · dernière vérification des sources : 2026-07-03
+> · périmètre : direction de la police municipale, collectivités territoriales
+> (France) · dépendances recommandées : `recherche-juridique` (validateur de
+> fond et de vigueur), `drh-fpt` (volet RH statutaire des agents PM) ·
+> compatibilité : Claude Opus, Claude Sonnet · langue : français.
 
 > **Objet** : expertise d'un **Directeur de Police Municipale**, à la fois
 > **opérationnelle** (rapide, orientée décision, écrit et terrain) et

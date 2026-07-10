@@ -24,6 +24,21 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-07-10 — Conformité frontmatter aux règles Agent Skills (v1.0.0)
+- Type : erreur (non-conformité de packaging, pas de fond)
+- Branche : (SKILL / packaging)
+- Contexte : l'upload du skill sur claude.ai a été refusé — le `SKILL.md`
+  ne respectait pas les règles de validation des Agent Skills.
+- Constat : `description` de 1 319 caractères (limite : 1 024) et bloc
+  `metadata:` non standard dans le frontmatter (la spec ne garantit que
+  `name` et `description`). Titre du corps resté à « v0.1.0 ».
+- Action proposée : description réécrite à 1 013 caractères (déclencheurs et
+  exclusions conservés), métadonnées déplacées dans un encadré du corps,
+  titre réaligné. Zip de release reconstruit (contenu à la racine). La
+  release v1.0.0 n'étant pas encore publiée, correction intégrée **sans
+  incrément de version** (décision de l'auteur).
+- Statut : intégré (v1.0.0)
+
 ### 2026-07-03 — Release v1.0.0 (première release stable)
 - Type : cas nouveau (jalon)
 - Branche : (release / SKILL)
