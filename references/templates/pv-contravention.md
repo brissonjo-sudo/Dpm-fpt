@@ -1,6 +1,6 @@
 # Générateur interactif — PV de contravention (v0.1.0)
 
-> Couche 4 (`assets/`), piloté par `references/ecrits-professionnels.md`
+> Couche 4 (`references/templates/`), piloté par `references/ecrits-professionnels.md`
 > (§4, §5, §6, §10). Avant tout usage de ce générateur, le routeur
 > `references/analyse-situation.md` et le test du **garde-fou APJA**
 > (`SKILL.md` §5.2) doivent déjà avoir validé que la situation relève bien
@@ -24,9 +24,11 @@
 1. **Garde-fou APJA testé** (`SKILL.md` §5.2, `penal-procedure.md` §4.4-4.5) :
    le fait constaté reste-t-il dans le périmètre de l'art. 21 CPP (à
    confirmer en version consolidée) ? Si la situation bascule vers un acte
-   réservé OPJ (art. 16 CPP), afficher le **STOP** avant toute chose et
-   réorienter vers `assets/rapport-mise-a-disposition.md` — ce générateur
-   ne produit **pas** de PV dans ce cas.
+   réservé à l'OPJ, afficher le **STOP** avant toute chose et
+   rendre compte immédiatement à l'OPJ. Ne réorienter vers
+   `references/templates/rapport-mise-a-disposition.md` que si une route 53/73 ou 78-6 est
+   établie ; sinon ne retenir personne et utiliser le rapport d'information
+   adapté. Ce générateur ne produit **pas** de PV d'acte réservé.
 2. **Choix de l'écrit confirmé** (`ecrits-professionnels.md` §5.1) :
    constatation **directe** d'une **contravention**, dans le champ de
    compétence matérielle de l'agent. En cas de doute sur la compétence de
@@ -35,9 +37,10 @@
    route — vérifié sur Légifrance le 2026-06-30, identifiant
    LEGIARTI000045072417, périmètre exact par catégorie d'agent à confirmer
    en version consolidée) **avant** de poursuivre.
-3. Si une appréhension a également eu lieu (art. 73 CPP) : ce PV se cumule
-   avec un `assets/rapport-mise-a-disposition.md` distinct — ne pas
-   fusionner les deux écrits (`ecrits-professionnels.md` §5.1, point 1).
+3. Si une mesure sur la personne a également eu lieu sur un fondement
+   établi (art. 53 + 73 CPP, ou art. 78-6) : ce PV se cumule avec un
+   `references/templates/rapport-mise-a-disposition.md` distinct — ne pas fusionner les
+   deux écrits (`ecrits-professionnels.md` §5.1, point 1).
 
 ---
 
@@ -130,10 +133,10 @@ qualification / témoins / suites** imposée par `SKILL.md` §6 et
 - Q7.1 : « Une notification ou un avis a-t-il été remis au contrevenant
   (PV papier remis sur place, avis de contravention différé, verbalisation
   électronique) ? Selon quelle procédure locale ? »
-- Q7.2 : « Y a-t-il eu appréhension de la personne (art. 73 CPP) en plus de
-  la constatation ? » — si oui, ne pas documenter la mesure de contrainte
-  dans ce PV : orienter vers `assets/rapport-mise-a-disposition.md` en
-  écrit distinct et complémentaire (`ecrits-professionnels.md` §5.1).
+- Q7.2 : « Une route 53/73 ou 78-6 est-elle établie en plus de la
+  constatation ? » — si oui, ne pas documenter la mesure de contrainte dans
+  ce PV : orienter vers `references/templates/rapport-mise-a-disposition.md`
+  en écrit distinct et complémentaire (`ecrits-professionnels.md` §5.1).
 - Q7.3 : « Quel circuit de transmission est applicable localement
   (officier du ministère public via verbalisation électronique, transmission
   papier au tribunal de police, autre circuit propre à la collectivité) ? »
@@ -259,9 +262,9 @@ Observations recueillies du contrevenant : [contenu, si recueillies — ou :
 Notification : [modalités — PV remis sur place / avis différé /
 verbalisation électronique — circuit local [INCOMPLET] si non précisé].
 
-[Le cas échéant, en écrit distinct : une appréhension a été réalisée au
-titre de l'art. 73 CPP — voir rapport de mise à disposition n° [référence],
-non détaillée dans le présent PV.]
+[Le cas échéant, en écrit distinct : une mesure fondée sur les art. 53 et 73
+CPP ou sur l'art. 78-6 CPP a été réalisée — voir rapport de mise à
+disposition n° [référence], non détaillée dans le présent PV.]
 
 Le présent procès-verbal est transmis à [officier du ministère public /
 circuit de verbalisation électronique / tribunal de police compétent —
@@ -284,10 +287,9 @@ Fait à [lieu], le [date].
   version consolidée et selon l'organisation locale**
   (`ecrits-professionnels.md` §6, point 5) ; aucun délai chiffré n'est
   avancé de mémoire dans ce générateur.
-- Si une appréhension a eu lieu en parallèle (art. 73 CPP), la transmission
-  du PV reste **distincte** du circuit de mise à disposition de l'OPJ pour
-  le rapport de mise à disposition — ne pas confondre les deux flux
-  (`ecrits-professionnels.md` §5.1).
+- Si une route 53/73 ou 78-6 est établie en parallèle, la transmission du PV
+  reste **distincte** du circuit propre au rapport de mise à disposition —
+  ne pas confondre les deux flux (`ecrits-professionnels.md` §5.1).
 - **Archivage** : conserver une trace de la version transmise (date, mode
   d'envoi, accusé de réception le cas échéant), notamment en vue d'une
   éventuelle contestation ultérieure mettant en jeu la valeur probante de
@@ -305,7 +307,7 @@ Fait à [lieu], le [date].
   de l'autorité territoriale) : il ne requiert donc **ni motivation CRPA,
   ni voies et délais de recours administratifs, ni transmission au contrôle
   de légalité** au sens de l'art. L. 2131-2 CGCT. Ne pas confondre avec
-  l'**arrêté** (`assets/arrete-modele.md`), qui lui reste soumis à
+  l'**arrêté** (`references/templates/arrete-modele.md`), qui lui reste soumis à
   `controle-legalite.md` avant toute production.
 - Si, en cours de séquence de questions, il apparaît que les faits
   dépassent le périmètre de l'art. 21 CPP (acte réservé à l'OPJ, art. 16
@@ -339,8 +341,9 @@ Fait à [lieu], le [date].
 9. Circuit de transmission OMP identifié ou marqué `[INCOMPLET]` — pas de
    délai chiffré inventé.
 10. Rappel de la valeur probante (§4) joint au PV produit.
-11. Si appréhension associée (art. 73 CPP) : signalée comme écrit distinct
-    (`assets/rapport-mise-a-disposition.md`), non fusionnée dans ce PV.
+11. Si route 53/73 ou 78-6 associée : signalée comme écrit distinct
+    (`references/templates/rapport-mise-a-disposition.md`), non fusionnée dans
+    ce PV.
 12. PV non transmis, non visé comme définitif tant qu'un `[INCOMPLET]`
     subsiste (§3, §6).
 

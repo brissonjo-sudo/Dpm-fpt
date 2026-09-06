@@ -1,6 +1,6 @@
 # Générateur interactif — Arrêté (modèle) (v0.1.0)
 
-> Couche 4 (`assets/`), piloté par `references/ecrits-professionnels.md`
+> Couche 4 (`references/templates/`), piloté par `references/ecrits-professionnels.md`
 > (§4, §5.1, §6 point 4, §10). Cet écrit n'est **pas** un écrit de
 > constatation (PV, rapport) : c'est un **acte administratif de l'autorité
 > territoriale**, susceptible de **faire grief**. À ce titre, ce générateur
@@ -35,8 +35,9 @@
 2. **Garde-fou APJA testé** (`SKILL.md` §5.2) : un arrêté de police ne
    couvre jamais un acte réservé à l'OPJ. Si le contexte qui motive
    l'arrêté révèle une situation dépassant l'art. 21 CPP, afficher le
-   **STOP** avant toute chose et traiter l'aspect pénal séparément
-   (`penal-procedure.md`, `assets/rapport-mise-a-disposition.md`).
+   **STOP** avant toute chose, rendre compte à l'OPJ et traiter l'aspect
+   pénal séparément. Un rapport de mise à disposition ne se justifie que si
+   une route 53/73 ou 78-6 est établie (`penal-procedure.md`).
 3. **Conflit de compétence** (maire / préfet / OPJ) écarté ou signalé
    (`analyse-situation.md` §3, `controle-legalite.md` §4.1) : l'autorité
    envisagée comme signataire est-elle bien compétente sur cet objet
@@ -131,9 +132,11 @@ légale »).
   libertés** parmi celles permettant d'atteindre l'objectif ? Une mesure
   alternative moins restrictive a-t-elle été envisagée et, le cas
   échéant, pourquoi a-t-elle été écartée ? » — test de proportionnalité
-  obligatoire (`controle-legalite.md` §4.5, principe constant illustré
-  par CE, Sect., 19 mai 1933, *Benjamin*, Lebon p. 541 — fiche complète
-  et déclinaisons à vérifier via `recherche-juridique` en cas de doute).
+  obligatoire (`controle-legalite.md` §4.5, principe posé par CE, Sect.,
+  19 mai 1933, *Benjamin*, req. n° 17413 et 17520, Lebon p. 541,
+  `CETATEXT000007636694` — vérifié le 2026-09-06, socle
+  `references-verifiees.md` §7 ; déclinaisons récentes à vérifier via
+  `recherche-juridique` en cas de doute).
   Si la mesure est générale et absolue dans le temps ou l'espace alors
   qu'une mesure ciblée suffirait, **signaler le risque élevé
   d'annulation** avant de poursuivre.
@@ -197,7 +200,9 @@ légale »).
   procédure** statutaire relève de `drh-fpt` (`SKILL.md` §5.4) — le
   signaler explicitement et orienter l'utilisateur.
 - Si, à l'**Étape 4**, le contexte motivant l'arrêté révèle une situation
-  dépassant le pouvoir APJA (acte réservé OPJ, art. 16 CPP) : afficher le
+  dépassant le pouvoir APJA (acte réservé à l'OPJ ; l'art. 16 CPP définit
+  notamment la qualité d'OPJ, mais le texte propre à l'acte doit être cité) :
+  afficher le
   **STOP** (`SKILL.md` §5.2) avant toute chose ; l'arrêté de police ne
   peut pas se substituer à l'action pénale requise.
 
@@ -468,9 +473,10 @@ Fait à [lieu], le [date].
 [risque : critique — acte faisant grief, exposition contentieuse directe
 sur la collectivité en cas d'irrégularité (compétence, motivation,
 proportionnalité, transmission) / confiance : stable sur les principes
-de `controle-legalite.md` (compétence, motivation CRPA, proportionnalité
-*Benjamin*, art. L. 2131-1 et L. 2131-2 CGCT — vérifiés sur Légifrance le
-2026-06-30), à vérifier systématiquement sur la base légale de fond
+de `controle-legalite.md` (compétence, motivation CRPA, art. L. 2131-1 et
+L. 2131-2 CGCT — vérifiés sur Légifrance le 2026-06-30 ; proportionnalité
+*Benjamin*, req. n° 17413 et 17520, Lebon p. 541, `CETATEXT000007636694` —
+vérifié le 2026-09-06), à vérifier systématiquement sur la base légale de fond
 propre à chaque police (générale ou spéciale), sur l'existence et le
 périmètre exact d'une délégation de signature, et sur les seuils/délais
 chiffrés de transmission (à confirmer en version consolidée)]

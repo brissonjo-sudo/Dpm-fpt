@@ -19,34 +19,37 @@
 Le **rapport d'information** est l'écrit de **compte rendu factuel** d'une
 situation ou d'une intervention, à destination du maire et/ou de la
 hiérarchie (et le cas échéant de l'OPJ territorialement compétent), **sans
-appréhension** d'une personne et **sans qu'un PV de contravention** ne soit
+route 53/73 ou 78-6 établie** et **sans qu'un PV de contravention** ne soit
 nécessairement dressé sur les mêmes faits.
 
 **Avant d'ouvrir ce générateur**, dérouler le test de
 `references/ecrits-professionnels.md` §5.1 :
 
-1. **Y a-t-il eu appréhension (art. 73 CPP) ?**
+1. **Une mesure sur la personne est-elle fondée sur une route 53/73 ou
+   78-6 ?**
    Oui → ce n'est **pas** (seulement) un rapport d'information : ouvrir
-   `assets/rapport-mise-a-disposition.md`. Un rapport d'information peut
-   être produit **en complément** pour le contexte général, mais ne se
-   substitue pas au rapport de mise à disposition.
+   `references/templates/rapport-mise-a-disposition.md`. Un rapport
+   d'information peut être produit **en complément** pour le contexte général,
+   mais ne se substitue pas au rapport de mise à disposition.
 2. **L'agent a-t-il personnellement constaté une contravention relevant de
    sa compétence de verbalisation ?**
-   Oui, et seulement cela → orienter plutôt vers `assets/pv-contravention.md`.
+   Oui, et seulement cela → orienter plutôt vers `references/templates/pv-contravention.md`.
    Un rapport d'information reste possible **en parallèle** (ex. compte
    rendu au maire d'un fait plus large que la seule contravention).
-3. **Le fait dépasse-t-il le pouvoir APJA (art. 16 CPP — garde-fou
-   `SKILL.md` §5.2) ?**
+3. **Le fait comporte-t-il une demande d'acte hors pouvoir APJA
+   (`SKILL.md` §5.2 ; l'art. 16 CPP définit notamment la qualité d'OPJ) ?**
    Oui → afficher le **STOP** (bloc ci-dessous) **avant tout autre
    contenu**, quelle que soit la réponse aux points 1 et 2. Le rapport
    d'information reste alors limité à la trace de l'action APJA conforme
    (constatation, préservation, compte rendu à l'OPJ et au maire) — jamais
    un compte rendu d'audition ou d'acte réservé OPJ.
+   Le STOP ne déclenche pas automatiquement une rétention : qualifier
+   séparément les art. 53/73 ou 78-6 ; à défaut, ne pas retenir.
 
 ```
-STOP — Cet acte relève de la compétence exclusive de l'OPJ
-(Police Nationale / Gendarmerie).
-Procéder à la mise à disposition immédiate (art. 73 CPP) et figer les lieux.
+STOP — Cet acte dépasse les pouvoirs de l'agent de police municipale.
+Ne pas l'accomplir ni le formaliser.
+Rendre compte immédiatement à l'OPJ territorialement compétent.
 ```
 
 Si aucun de ces trois cas ne s'applique en bloquant : le **rapport
@@ -120,12 +123,12 @@ Ordre imposé des questions :
 > *Question posée* : « Y a-t-il des témoins ? Ont-ils donné des
 > observations spontanées ? »
 
-### Étape 9 — Confirmation : absence d'appréhension
+### Étape 9 — Confirmation : absence de route de mise à disposition
 - Mention **obligatoire** distinguant ce rapport du rapport de mise à
   disposition (`ecrits-professionnels.md` §5.3).
-> *Question posée* : « Confirmez-vous qu'aucune appréhension (art. 73 CPP)
-> n'a eu lieu sur ce fait ? » — Si la réponse est négative, interrompre ce
-> générateur et rediriger vers `assets/rapport-mise-a-disposition.md`.
+> *Question posée* : « Confirmez-vous qu'aucune route 53/73 ou 78-6 n'est
+> établie sur ce fait ? » — Si la réponse est négative, interrompre ce
+> générateur et rediriger vers `references/templates/rapport-mise-a-disposition.md`.
 
 ### Étape 10 — Suites données et destinataires
 - Suites déjà engagées (rien, signalement oral, transmission immédiate) et
@@ -194,17 +197,17 @@ obligatoire : « qualification non tranchée par le présent rapport, à
 vérifier — renvoi reglementation-appliquee.md / penal-procedure.md ».
 Si aucune qualification n'est envisagée : « sans objet ».]
 
-V. ABSENCE D'APPRÉHENSION
-Il est précisé qu'aucune appréhension au sens de l'article 73 du Code de
-procédure pénale n'a été pratiquée sur ce fait (étape 9). [Si une
-appréhension a eu lieu : ne pas utiliser ce générateur — voir
-assets/rapport-mise-a-disposition.md.]
+V. ABSENCE DE ROUTE DE MISE À DISPOSITION
+Il est précisé qu'aucune route fondée sur les articles 53 et 73 ou sur
+l'article 78-6 du Code de procédure pénale n'est établie sur ce fait
+(étape 9). [Si une route est établie : utiliser en écrit principal
+references/templates/rapport-mise-a-disposition.md.]
 
 VI. SUITES DONNÉES ET PROPOSÉES
 [Suites déjà engagées et suites proposées par le rédacteur — étape 10.
 Toute proposition d'acte (ex. arrêté) reste une proposition : elle ne vaut
 pas décision et doit, le cas échéant, être instruite via
-assets/arrete-modele.md après passage par references/controle-legalite.md.]
+references/templates/arrete-modele.md après passage par references/controle-legalite.md.]
 
 VII. DESTINATAIRE(S)
 [Maire / OPJ territorialement compétent / les deux — étape 10. Si double
@@ -235,9 +238,14 @@ Fait à [lieu], le [date].
   `SKILL.md` §5.3).
 - **Pas de qualification pénale tranchée** dans ce document : renvoi
   systématique aux branches compétentes (§0, §1 étape 6).
-- **Pas d'audition formalisée** consignée dans ce rapport (observations
-  spontanées seulement) : toute trace de questions-réponses circonstanciées
-  fait basculer vers un acte réservé OPJ (garde-fou, §0 point 3).
+- **Pas d'audition formalisée** consignée dans ce rapport. Distinguer les
+  propos spontanés, les éventuelles observations du contrevenant recueillies
+  lors d'une constatation et un questionnement structuré. Les seuls mots
+  « entendu » ou « a avoué » ne suffisent pas : demander l'initiative des
+  propos, les questions posées, la contrainte, la forme questions-réponses et
+  les droits notifiés. Si une audition formelle apparaît, appliquer le
+  garde-fou (§0 point 3). Ne jamais reconstruire l'échange ni le requalifier
+  catégoriquement faute d'éléments.
 
 ---
 
@@ -289,7 +297,7 @@ champs ne sont pas renseignés.
 - Si le rapport mentionne une **suite proposée prenant la forme d'un acte**
   (ex. projet d'arrêté du maire), ce rapport reste un **document
   d'information** : il ne vaut pas décision. Le projet d'acte lui-même doit
-  être instruit séparément via `assets/arrete-modele.md`, **après passage
+  être instruit séparément via `references/templates/arrete-modele.md`, **après passage
   obligatoire** par `references/controle-legalite.md` (grille de contrôle
   a priori, motivation en fait et en droit, voies et délais de recours,
   vérification de la transmission au contrôle de légalité — CGCT, art.
@@ -306,7 +314,7 @@ champs ne sont pas renseignés.
 ## 6. Articulation avec le garde-fou APJA (rappel)
 
 Si, à n'importe quelle étape du recueil (§1), il apparaît que la situation
-**dépasse le pouvoir APJA** (art. 16 CPP), interrompre la séquence de
+**dépasse le pouvoir APJA**, interrompre la séquence de
 questions et afficher immédiatement le bloc **STOP** (§0) **avant** de
 poursuivre quoi que ce soit d'autre. La suite se limite alors à :
 1. l'affichage du STOP en premier ;
@@ -314,7 +322,9 @@ poursuivre quoi que ce soit d'autre. La suite se limite alors à :
    lieux/traces) ;
 3. le compte rendu à l'OPJ et au maire, le cas échéant via ce même gabarit
    de rapport d'information, limité aux faits objectivement constatés
-   avant le basculement — jamais une reconstitution d'audition.
+   avant le basculement — jamais une reconstitution d'audition ;
+4. la qualification explicite du fondement de toute contrainte : art. 53/73,
+   art. 78-6, ou aucun.
 
 ---
 
@@ -337,8 +347,8 @@ poursuivre quoi que ce soit d'autre. La suite se limite alors à :
    reconstitué comme s'il relevait de l'APJA.
 2. Toutes les étapes du §1 parcourues **une à une**, avec confirmation à
    chaque étape.
-3. Absence d'appréhension explicitement confirmée (étape 9) — sinon,
-   redirection vers `assets/rapport-mise-a-disposition.md`.
+3. Absence de route 53/73 ou 78-6 explicitement confirmée — sinon, redirection
+   vers `references/templates/rapport-mise-a-disposition.md`.
 4. Aucune donnée manquante comblée par supposition — règle `[INCOMPLET]`
    (§4) appliquée et champs listés explicitement si nécessaire.
 5. Faits rédigés de façon strictement factuelle, observation directe

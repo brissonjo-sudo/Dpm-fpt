@@ -17,7 +17,7 @@
 > autre décision faisant grief, la **base légale citée dans la note doit être
 > rigoureuse** dès ce stade, car elle conditionne la suite : passage
 > obligatoire par `references/controle-legalite.md` avant toute production
-> de l'acte qui en découlerait (`assets/arrete-modele.md`).
+> de l'acte qui en découlerait (`references/templates/arrete-modele.md`).
 >
 > **Ce fichier ne tranche jamais seul** la qualification pénale ou
 > réglementaire d'un fait (renvoi `references/penal-procedure.md` /
@@ -39,28 +39,28 @@ habilité), sans décider à sa place.
 note de pilotage et non un autre type de document :
 
 1. **S'agit-il de constater un fait avec valeur probante (contravention) ?**
-   Oui → `assets/pv-contravention.md`, pas ce générateur.
+   Oui → `references/templates/pv-contravention.md`, pas ce générateur.
 2. **S'agit-il de rendre compte d'une intervention ou d'une appréhension ?**
-   Oui → `assets/rapport-information.md` ou
-   `assets/rapport-mise-a-disposition.md` selon le cas
+   Oui → `references/templates/rapport-information.md` ou
+   `references/templates/rapport-mise-a-disposition.md` selon le cas
    (`references/ecrits-professionnels.md` §5.1), pas ce générateur.
 3. **S'agit-il de rédiger directement l'acte décisionnel (arrêté) ?**
-   Oui → `assets/arrete-modele.md`, après passage par
+   Oui → `references/templates/arrete-modele.md`, après passage par
    `references/controle-legalite.md`. La note au maire peut **précéder**
    cette rédaction (note d'aide à la décision en amont de l'arrêté), mais
    ne s'y substitue jamais.
-4. **Le fait sous-jacent dépasse-t-il le pouvoir APJA (art. 16 CPP — garde-fou
-   `SKILL.md` §5.2) ?**
+4. **Le fait sous-jacent comporte-t-il une demande d'acte hors pouvoir APJA
+   (`SKILL.md` §5.2 ; l'art. 16 CPP définit notamment la qualité d'OPJ) ?**
    Oui → afficher le **STOP** (bloc ci-dessous) **avant tout autre
    contenu**. La note au maire, si elle est néanmoins produite, se limite
-   alors à rendre compte de l'action APJA conforme et de la mise à
-   disposition réalisée — jamais à présenter des options sur un acte
-   réservé à l'OPJ.
+   alors à rendre compte de l'action APJA conforme et, si un fondement a été
+   qualifié, de la présentation réalisée au titre des art. 53/73 ou 78-6 —
+   jamais à présenter des options sur un acte réservé à l'OPJ.
 
 ```
-STOP — Cet acte relève de la compétence exclusive de l'OPJ
-(Police Nationale / Gendarmerie).
-Procéder à la mise à disposition immédiate (art. 73 CPP) et figer les lieux.
+STOP — Cet acte dépasse les pouvoirs de l'agent de police municipale.
+Ne pas l'accomplir ni le formaliser.
+Rendre compte immédiatement à l'OPJ territorialement compétent.
 ```
 
 Si aucun de ces quatre cas ne redirige ailleurs : la **note au maire** est
@@ -241,7 +241,7 @@ appartient. »]
 VI. SUITES ET CALENDRIER PROPOSÉ
 [Étapes suivantes si la recommandation est suivie, calendrier indicatif —
 étape 10. Si une option implique la rédaction d'un arrêté : rappel que ce
-projet d'acte devra être instruit séparément via assets/arrete-modele.md,
+projet d'acte devra être instruit séparément via references/templates/arrete-modele.md,
 après passage obligatoire par references/controle-legalite.md.]
 
 Fait à [lieu], le [date].
@@ -330,7 +330,7 @@ pas renseignés.
   comme tenant lieu d'un arrêté ou d'une décision.
 - Si la **recommandation retenue** par le maire implique la rédaction d'un
   acte (typiquement un arrêté) : ce projet d'acte doit être instruit
-  **séparément** via `assets/arrete-modele.md`, **après passage
+  **séparément** via `references/templates/arrete-modele.md`, **après passage
   obligatoire** par `references/controle-legalite.md` (grille de contrôle
   a priori §4 : compétence et délégation, procédure préalable, base
   légale précise, motivation en fait et en droit si l'acte fait grief,
@@ -347,19 +347,20 @@ pas renseignés.
 ## 6. Articulation avec le garde-fou APJA (rappel)
 
 Si, à n'importe quelle étape du recueil (§1), il apparaît que la situation
-sous-jacente **dépasse le pouvoir APJA** (art. 16 CPP), interrompre la
+sous-jacente **dépasse le pouvoir APJA**, interrompre la
 séquence de questions et afficher immédiatement le bloc **STOP** (§0)
 **avant** de poursuivre quoi que ce soit d'autre. La suite se limite alors
 à :
 1. l'affichage du STOP en premier ;
 2. le rappel que la note au maire, si elle est néanmoins utile, se borne à
    rendre compte de l'action APJA conforme (constatation, préservation,
-   mise à disposition) — jamais à présenter des « options » sur un acte
-   réservé à l'OPJ ;
-3. le renvoi au compte rendu déjà transmis à l'OPJ via
-   `assets/rapport-mise-a-disposition.md`, la note au maire n'ajoutant
-   qu'un éclairage de pilotage en aval (ex. communication, mesures
-   complémentaires relevant du maire).
+   compte rendu et, seulement sur fondement qualifié, présentation à l'OPJ) —
+   jamais à présenter des « options » sur un acte réservé à l'OPJ ;
+3. le renvoi au compte rendu déjà transmis à l'OPJ : rapport de mise à
+   disposition uniquement si une route 53/73 ou 78-6 est établie, sinon
+   rapport d'information. La note au maire n'ajoute qu'un éclairage de
+   pilotage en aval (ex. communication, mesures complémentaires relevant du
+   maire).
 
 ---
 
@@ -398,7 +399,7 @@ séquence de questions et afficher immédiatement le bloc **STOP** (§0)
    renseignée avec les points de fragilité identifiés via
    `references/controle-legalite.md`, et rappel explicite que cette note
    ne se substitue pas à l'instruction séparée de l'acte
-   (`assets/arrete-modele.md`).
+   (`references/templates/arrete-modele.md`).
 8. Aucune donnée nominative exposée inutilement (`SKILL.md` §7 point 11).
 9. Couple **[risque / confiance]** indiqué pour chaque option (§7), pas
    seulement pour l'option recommandée.
