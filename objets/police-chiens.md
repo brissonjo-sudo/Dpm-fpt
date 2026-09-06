@@ -84,9 +84,14 @@ administratif intense en cas d'erreur ou de violation de procédure.
     Légifrance le 2026-06-30* — recontrôler la version en vigueur à la date des
     faits ; délai ouvré exact et durée d'évaluation **à confirmer en version
     consolidée**).
-  - **Code rural, catégorisation et permis de détention** — désormais au
+  - **Code rural, catégorisation et permis de détention** — au
     **socle vérifié** (`../references/references-verifiees.md`) : **L. 211-12**
-    (catégorisation 1re/2e), **L. 211-13-1** (permis : attestation d'aptitude +
+    définit les 1re et 2e catégories mais renvoie la liste des types de chiens
+    à un arrêté ministériel ; **l'arrêté du 27 avril 1999, art. 1 et 2** établit
+    cette liste et porte notamment la distinction entre American Staffordshire
+    terrier inscrit à un livre généalogique reconnu (2e catégorie) et type
+    morphologique non inscrit (1re catégorie). **L. 211-13-1** traite du permis
+    (attestation d'aptitude +
     évaluation comportementale), **L. 211-14** (permis délivré par le maire ;
     pièces, dont **stérilisation** pour la 1re catégorie), **L. 211-16** (accès
     des chiens de 1re catégorie interdit aux lieux publics ; muselière + laisse
@@ -95,6 +100,12 @@ administratif intense en cas d'erreur ou de violation de procédure.
     d'interdiction d'acquisition de la 1re catégorie (2008)** restent **à
     confirmer en version consolidée** ; le **montant** de l'assurance et les
     **délais** de régularisation sont des valeurs à vérifier au cas d'usage.
+  - **Refus de permis** : L. 211-14 autorise le maire à refuser la délivrance
+    lorsque les résultats de l'évaluation comportementale le justifient. Ce
+    refus d'autorisation est une **décision administrative individuelle
+    défavorable faisant grief**, à motiver notamment au titre de l'art.
+    **L. 211-2 CRPA**. Toute réponse évoquant un refus doit donc renvoyer à
+    `../references/controle-legalite.md` avant production de la décision.
   - **Code civil, art. 1243 et suivants** (responsabilité civile du propriétaire
     ou détenteur pour dommages causés par l'animal — à confirmer en version
     consolidée).
@@ -187,12 +198,15 @@ administratif intense en cas d'erreur ou de violation de procédure.
 4. **Rapport transmis** : au maire et au propriétaire. Le propriétaire a le
    **droit de former des observations** en réaction au rapport (point clé : non
    respect de ce droit = vice de procédure = annulation possible).
-5. **Catégorisation** : selon le rapport et le code applicable (art. L. 211-12
-   et s., code rural — *vérifié sur Légifrance le 2026-06-30*, cf.
-   `../references/references-verifiees.md`), l'animal est classé 1re
-   catégorie (ex. : type dogue argentin, etc.) ou 2e catégorie (ex. : pit-bull,
-   etc.) ou non soumis ; chaque catégorie entraîne des obligations distinctes
-   (permis de détention, formation, assurance, etc.) — **à ne jamais confondre**.
+5. **Catégorisation** : appliquer ensemble l'art. L. 211-12 du code rural et
+   l'arrêté du 27 avril 1999 (art. 1, art. 2 et annexe), vérifiés au socle le
+   2026-08-03. Pour les Staffordshire/American Staffordshire, l'inscription à
+   un livre généalogique reconnu est un critère décisif : la race inscrite
+   relève de la 2e catégorie, tandis que le type morphologique correspondant
+   non inscrit relève de la 1re. Ne pas généraliser cette opposition à toutes
+   les races : l'arrêté classe aussi le Rottweiler et le type assimilable non
+   inscrit en 2e catégorie. Si la race, le pedigree ou la morphologie ne sont
+   pas établis, marquer `[INCOMPLET]` et demander les justificatifs.
 
 ### 3.4 Mesures de prévention — garde sécurisée
 
@@ -308,18 +322,18 @@ administratif intense en cas d'erreur ou de violation de procédure.
 - **Fiche de signalement ou rapport d'information** (constatation d'un animal
   divaguant ou dangereux, agression, morsure) — transmi à l'autorité de police
   (maire/DPM) avec tous les faits, photos si possible, identité du propriétaire
-  ou de la victime → `../assets/rapport-information.md`.
+  ou de la victime → `../references/templates/rapport-information.md`.
 
 - **PV de constatation** (si infractions pénales concomitantes : blessures
   involontaires, vente d'une race interdite sans permis, mise en danger d'autrui
-  par défaut de garde) → `../assets/pv-contravention.md` et coordination avec
+  par défaut de garde) → `../references/templates/pv-contravention.md` et coordination avec
   `../references/penal-procedure.md`.
 
 - **Arrêté municipal** prescrivant au propriétaire des mesures de prévention
   (cage, muselière, assurance, formation) suite à évaluation vétérinaire — acte
   faisant grief : motivation en fait et en droit, voies de recours, transmission
   au contrôle de légalité obligatoires → `../references/controle-legalite.md`
-  avant signature, puis `../assets/arrete-modele.md`.
+  avant signature, puis `../references/templates/arrete-modele.md`.
 
 - **Arrêté municipal** ordonnant le placement de l'animal en lieu de dépôt (cas
   de défaut de garanties ou de danger grave immédiat) — motivation en fait et en
@@ -339,15 +353,16 @@ administratif intense en cas d'erreur ou de violation de procédure.
   - Voies et délais de recours indiqués (délai de recours contentieux auprès du
     tribunal administratif — à confirmer en version consolidée).
   - Transmission au contrôle de légalité **impérative** avant toute exécution
-    (`../references/controle-legalite.md`), puis `../assets/arrete-modele.md`.
+    (`../references/controle-legalite.md`), puis `../references/templates/arrete-modele.md`.
 
 - **Note au maire** (situation à fort enjeu contentieux : risque d'annulation,
   doute sur la catégorisation, problème de procédure) — propositions d'arbitrage,
-  points de vigilance juridiques → `../assets/note-maire-modele.md`.
+  points de vigilance juridiques → `../references/templates/note-maire-modele.md`.
 
-- **Rapport de mise à disposition** (si la situation bascule vers un acte réservé
-  à l'OPJ — ex. : enquête pour blessures volontaires aggravées, pénalité plus
-  grave) → `../assets/rapport-mise-a-disposition.md` + `../references/penal-procedure.md`.
+- **Rapport de mise à disposition** seulement si les faits établissent une
+  route 53/73 ou 78-6 ; le seul basculement vers un acte réservé à l'OPJ ne
+  suffit pas → `../references/templates/rapport-mise-a-disposition.md` +
+  `../references/penal-procedure.md`.
 
 - **Procès-verbal de réception en lieu de dépôt** : établi conjointement avec
   fourrière animale ou refuge, documentant l'état de l'animal, date/heure
@@ -443,7 +458,7 @@ d'euthanasie :
 7. **Arrêtés éventuels rédigés correctement** — motivation en fait et en droit,
    délais clairs, droits du propriétaire indiqués (présentation d'observations,
    délai), voies de recours précisées → `../references/controle-legalite.md` avant
-   signature, puis `../assets/arrete-modele.md`.
+   signature, puis `../references/templates/arrete-modele.md`.
 
 8. **Transmission au contrôle de légalité** — tout arrêté faisant grief (ordre
    de régularisation, placement en dépôt, euthanasie, cession) doit être

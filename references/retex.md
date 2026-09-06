@@ -264,7 +264,7 @@ d'événements (consigne interne du service, pas une règle de droit générale)
 3. **Note de synthèse au maire/DGS** : version condensée orientée décision,
    quand le RETEX appelle un arbitrage hiérarchique ou budgétaire
    (`pilotage-budget.md` si impact sur moyens/équipements) →
-   `assets/note-maire-modele.md`.
+   `references/templates/note-maire-modele.md`.
 4. **Versement à la doctrine** : mise à jour de fiches réflexes ou de la
    doctrine d'emploi → `doctrine-operationnelle.md`.
 

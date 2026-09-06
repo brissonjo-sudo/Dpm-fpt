@@ -38,9 +38,12 @@ d'élucidation locale) ; reporting au maire et au conseil municipal.
 
 `question → variables à lever (§4) → décision → vérification (§7) → écrit/livrable (§10)`
 
-Ne pas chiffrer ni qualifier une procédure de marché tant que le **montant
-estimé du besoin** et la **nature de l'achat** (fournitures/services vs
-travaux) ne sont pas connus.
+Ne pas chiffrer ni qualifier une procédure de marché tant que les quatre
+données suivantes ne sont pas connues : **nature de l'achat**
+(fournitures/services ou travaux), **montant HT total sur toute la durée**,
+**périmètre homogène du besoin** et **allotissement envisagé**. Si l'une manque,
+la demander, marquer l'analyse `[INCOMPLET]` et s'abstenir de conclure sur la
+procédure applicable.
 
 ## 4. Variables à lever
 
@@ -286,7 +289,7 @@ Appliquer le socle-sources (matrice §2.2 du `SKILL.md`) dès que :
    définir avec le maire) ; note de synthèse annuelle au maire et, si
    présentée, au conseil municipal.
 
-Gabarits → `assets/` (note au maire : `assets/note-maire-modele.md`).
+Gabarits → `references/templates/` (note au maire : `references/templates/note-maire-modele.md`).
 
 ## 11. Double échelle [risque / confiance]
 
@@ -304,8 +307,8 @@ Gabarits → `assets/` (note au maire : `assets/note-maire-modele.md`).
 ## 12. Checklist de branche
 
 1. Masse salariale exclue du chiffrage détaillé et renvoyée à `drh-fpt` ?
-2. Montant estimé du besoin (HT, sur la durée totale) et nature de l'achat
-   (fournitures/services vs travaux) levés avant de qualifier la procédure ?
+2. Nature de l'achat, montant HT total sur la durée, périmètre homogène du
+   besoin et allotissement envisagé levés avant de qualifier la procédure ?
 3. Seuil de procédure (dispense / MAPA / formalisée) vérifié en version
    consolidée à la date de lancement, pas cité de mémoire ?
 4. Absence de saucissonnage du besoin vérifiée ?

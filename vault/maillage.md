@@ -11,9 +11,10 @@ tags: [skill/dpm-fpt, maillage]
 
 - **[[index-dpm-fpt#Couche 1 — Routeur|Garde-fou APJA]]** (`SKILL.md` §5.2,
   détaillé dans `references/penal-procedure.md` §4.5) — dès qu'un objet ou un
-  générateur touche un acte réservé à l'OPJ (garde à vue, audition de suspect,
-  perquisition hors flagrance, réquisition judiciaire), le **STOP** s'affiche
-  avant tout autre contenu. Objets concernés : [[#objet-accident|accident]],
+  générateur touche un acte hors pouvoir PM (garde à vue, audition formelle,
+  perquisition, réquisition judiciaire), le **STOP** s'affiche avant tout autre
+  contenu, puis le fondement d'une éventuelle contrainte est qualifié
+  (53/73, 78-6, ou aucun). Objets concernés : [[#objet-accident|accident]],
   [[#objet-agent|agent]], [[#objet-commerce|commerce]],
   [[#objet-fourriere|fourrière]], [[#objet-manifestation|manifestation]],
   [[#objet-occupation-domaine-public|occupation domaine public]],
@@ -83,16 +84,16 @@ tags: [skill/dpm-fpt, maillage]
 
 ## Générateurs → branche pilote → posture de contrôle
 
-Les 5 générateurs de la couche 4 (`assets/*.md`) sont **tous** pilotés par la
+Les 5 générateurs de la couche 4 (`references/templates/*.md`) sont **tous** pilotés par la
 même branche et soumis à la même posture pour les actes faisant grief :
 
 | Générateur | Branche pilote | Posture (avant production si acte faisant grief) |
 |---|---|---|
-| `assets/pv-contravention.md` | `references/ecrits-professionnels.md` | garde-fou APJA (`penal-procedure.md`) en amont du choix d'écrit |
-| `assets/rapport-information.md` | `references/ecrits-professionnels.md` | garde-fou APJA en amont |
-| `assets/rapport-mise-a-disposition.md` | `references/ecrits-professionnels.md` | garde-fou APJA — c'est l'écrit de bascule vers l'OPJ (art. 73 CPP) |
-| `assets/arrete-modele.md` | `references/ecrits-professionnels.md` | `references/controle-legalite.md` obligatoire (acte faisant grief : motivation, voies de recours, contrôle de légalité) |
-| `assets/note-maire-modele.md` | `references/ecrits-professionnels.md` | `references/controle-legalite.md` si la note porte une décision défavorable |
+| `references/templates/pv-contravention.md` | `references/ecrits-professionnels.md` | garde-fou APJA (`penal-procedure.md`) en amont du choix d'écrit |
+| `references/templates/rapport-information.md` | `references/ecrits-professionnels.md` | garde-fou APJA en amont |
+| `references/templates/rapport-mise-a-disposition.md` | `references/ecrits-professionnels.md` | uniquement si une route 53/73 ou 78-6 est établie ; jamais par le seul effet du STOP |
+| `references/templates/arrete-modele.md` | `references/ecrits-professionnels.md` | `references/controle-legalite.md` obligatoire (acte faisant grief : motivation, voies de recours, contrôle de légalité) |
+| `references/templates/note-maire-modele.md` | `references/ecrits-professionnels.md` | `references/controle-legalite.md` si la note porte une décision défavorable |
 
 Articulation posture après production / en anticipation contentieuse :
 `references/contentieux.md` (stress-test adversarial avocat / juge / préfet,

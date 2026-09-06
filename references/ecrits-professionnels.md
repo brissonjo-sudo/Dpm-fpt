@@ -9,7 +9,7 @@
 
 - **Périmètre** : **PV de contravention**, **rapport d'information**,
   **rapport de mise à disposition**. Cette branche pilote le **générateur
-  interactif de la couche 4** (`assets/*.md`) : typologie des écrits,
+  interactif de la couche 4** (`references/templates/*.md`) : typologie des écrits,
   mentions obligatoires, valeur probante, et logique d'assemblage du
   document, y compris la règle `[INCOMPLET]`.
 - **Exclusions** : le **fond de la qualification pénale** (nature de
@@ -17,8 +17,8 @@
   (lien croisé, pas de duplication) ; le **contenu réglementaire** d'une
   infraction par domaine (route, débits de boissons, salubrité, animaux) →
   `reglementation-appliquee.md` ; le **formalisme d'un acte administratif**
-  (arrêté, note au maire) → `assets/arrete-modele.md` et
-  `assets/note-maire-modele.md`, sous contrôle préalable de
+  (arrêté, note au maire) → `references/templates/arrete-modele.md` et
+  `references/templates/note-maire-modele.md`, sous contrôle préalable de
   `controle-legalite.md` ; la **jurisprudence de fond** sur la régularité
   d'un écrit contesté → `recherche-juridique`.
 
@@ -31,7 +31,7 @@
 - Quelles sont les mentions obligatoires de chaque écrit ?
 - Quelle est la **valeur probante** du PV, et jusqu'à quand peut-elle être
   combattue ?
-- Comment piloter le générateur interactif (`assets/`) : quelles questions
+- Comment piloter le générateur interactif (`references/templates/`) : quelles questions
   poser, dans quel ordre, comment gérer une donnée manquante ?
 - Que faire si l'écrit ne peut pas être complété faute de donnée (règle
   `[INCOMPLET]`) ?
@@ -41,10 +41,10 @@
 
 ## 2. Arbre de traitement
 
-`identifier la situation (constatation seule / appréhension / fait porté à
-connaissance sans constatation directe) → qualifier le pouvoir mobilisé
-(renvoi penal-procedure.md : art. 21 / 21-2 / 73 CPP, garde-fou art. 16 CPP)
-→ déterminer le type d'écrit (§5.1) → ouvrir le générateur assets/
+`identifier la situation (constatation seule / mesure sur la personne / fait
+porté à connaissance sans constatation directe) → qualifier le pouvoir
+mobilisé (renvoi penal-procedure.md : art. 21 / 21-2 / 53 et 73 / 78-6 CPP)
+→ déterminer le type d'écrit (§5.1) → ouvrir le générateur references/templates/
 correspondant → poser les questions une à une (qui / quand / où / pourquoi /
 qualification / témoins / suites) → si donnée manquante : marquer
 [INCOMPLET] et la demander explicitement (jamais halluciner) → assembler le
@@ -52,9 +52,11 @@ document → vérifier les mentions obligatoires (§5) → vérifier la
 transmission requise (§6) → produire le livrable`.
 
 Le test du **garde-fou APJA** (`SKILL.md` §5.2, `penal-procedure.md` §4.5)
-précède toujours le choix de l'écrit : un fait qui bascule en acte réservé
-OPJ n'autorise **aucun** des trois écrits de cette branche tant que la
-mise à disposition n'a pas eu lieu — voir §5.4 pour l'articulation exacte.
+précède toujours le choix de l'écrit. Une demande d'acte réservé à l'OPJ
+impose le STOP et le compte rendu immédiat à l'OPJ ; elle ne crée, à elle
+seule, aucun pouvoir de retenir ou de mettre une personne à disposition.
+Le rapport de mise à disposition n'est produit que si l'une des routes
+juridiques des articles 53 et 73 ou de l'article 78-6 du CPP est établie.
 
 ---
 
@@ -86,9 +88,9 @@ mise à disposition n'a pas eu lieu — voir §5.4 pour l'articulation exacte.
 
 | Écrit | Déclencheur | Nature | Générateur |
 |---|---|---|---|
-| **PV de contravention** | Constatation directe d'une **contravention** dans le cadre du pouvoir de l'agent (art. 21 CPP) | Acte de constatation à **valeur probante particulière** (§5.2) | `assets/pv-contravention.md` |
-| **Rapport d'information** | Fait porté à la connaissance du maire / de l'OPJ, **sans appréhension** ni constatation par PV (ex. délit constaté hors compétence de verbalisation, observation, signalement) | Écrit de **compte rendu**, valeur probante ordinaire (simple rapport) | `assets/rapport-information.md` |
-| **Rapport de mise à disposition** | **Appréhension en flagrance** (art. 73 CPP) suivie de remise immédiate à l'OPJ | Écrit de **compte rendu d'une mesure de contrainte ponctuelle**, trace l'heure d'appréhension et l'heure de remise | `assets/rapport-mise-a-disposition.md` |
+| **PV de contravention** | Constatation directe d'une **contravention** dans le cadre du pouvoir de l'agent (art. 21 CPP) | Acte de constatation à **valeur probante particulière** (§5.2) | `references/templates/pv-contravention.md` |
+| **Rapport d'information** | Fait porté à la connaissance du maire / de l'OPJ, sans route 53/73 ou 78-6 établie ni constatation par PV (ex. délit constaté hors compétence de verbalisation, observation, signalement) | Écrit de **compte rendu**, valeur probante ordinaire (simple rapport) | `references/templates/rapport-information.md` |
+| **Rapport de mise à disposition** | Route A : appréhension d'un crime flagrant ou d'un délit flagrant puni d'emprisonnement (art. 53 et 73 CPP) ; route B : refus ou impossibilité de justifier son identité après relevé autorisé, puis présentation ou rétention sur ordre de l'OPJ (art. 78-6 CPP) | Écrit de **compte rendu d'une mesure légalement fondée**, avec sa base exacte et sa chronologie | `references/templates/rapport-mise-a-disposition.md` |
 
 **Autres écrits pilotés par cette branche** (actes, hors écrits de
 constatation stricto sensu — rappel de cohérence, détail dans `SKILL.md`
@@ -96,8 +98,8 @@ constatation stricto sensu — rappel de cohérence, détail dans `SKILL.md`
 
 | Écrit | Nature | Générateur |
 |---|---|---|
-| **Arrêté (modèle)** | Acte faisant grief le cas échéant → `controle-legalite.md` **avant** production | `assets/arrete-modele.md` |
-| **Note au maire (modèle)** | Note de pilotage / aide à la décision, pas un acte | `assets/note-maire-modele.md` |
+| **Arrêté (modèle)** | Acte faisant grief le cas échéant → `controle-legalite.md` **avant** production | `references/templates/arrete-modele.md` |
+| **Note au maire (modèle)** | Note de pilotage / aide à la décision, pas un acte | `references/templates/note-maire-modele.md` |
 
 > Ne jamais confondre rapport d'information et rapport de mise à
 > disposition : le second documente une **mesure de contrainte sur la
@@ -109,10 +111,15 @@ constatation stricto sensu — rappel de cohérence, détail dans `SKILL.md`
 
 ### 5.1 Choix de l'écrit — logique de décision
 
-1. **Y a-t-il eu appréhension d'une personne (art. 73 CPP) ?**
-   - Oui → **rapport de mise à disposition**, en plus de tout PV éventuel
+1. **Une route légale de mise à disposition est-elle établie ?**
+   - **Route A** : crime flagrant ou délit flagrant puni d'emprisonnement,
+     qualifié au regard de l'art. 53 CPP, puis appréhension sur l'art. 73.
+   - **Route B** : relevé d'identité légalement autorisé, refus ou
+     impossibilité de justifier l'identité, compte rendu immédiat à l'OPJ,
+     puis présentation ou rétention sur son ordre (art. 78-6).
+   - Si oui → **rapport de mise à disposition**, en plus de tout PV éventuel
      sur les faits eux-mêmes.
-   - Non → passer à 2.
+   - Si aucune route n'est établie → aucune rétention ; passer à 2.
 2. **L'agent a-t-il constaté lui-même une contravention dans le cadre de
    son pouvoir de verbalisation (renvoi `reglementation-appliquee.md` pour
    vérifier que la contravention relève bien de sa compétence
@@ -120,13 +127,14 @@ constatation stricto sensu — rappel de cohérence, détail dans `SKILL.md`
    - Oui → **PV de contravention**.
    - Non → **rapport d'information** (fait porté à connaissance, délit hors
      compétence de constatation directe par PV, observation simple).
-3. **Le fait dépasse-t-il le pouvoir APJA (art. 16 CPP) ?** → tester le
+3. **La demande comporte-t-elle un acte réservé à l'OPJ ?** → tester le
    garde-fou (§5.4) **avant** de conclure sur l'écrit, quelle que soit la
-   réponse aux points 1 et 2.
+   réponse aux points 1 et 2. L'art. 16 CPP définit notamment la qualité
+   d'OPJ ; la base de chaque acte réservé doit être citée séparément.
 
 Ces trois écrits ne sont **pas exclusifs** : une même situation peut
 cumuler PV (sur l'infraction constatée) et rapport de mise à disposition
-(sur l'appréhension de son auteur), avec une double transmission
+(sur la mesure fondée selon la route retenue), avec une double transmission
 (`penal-procedure.md` §4.2).
 
 ### 5.2 Valeur probante du PV de contravention
@@ -199,30 +207,48 @@ Avant tout détail propre à chaque écrit, **toujours** consigner :
 
 **Mentions propres au rapport de mise à disposition** — en sus du socle
 commun :
-- **heure exacte de l'appréhension** (art. 73 CPP) ;
-- **heure exacte de la mise à disposition** de l'OPJ ;
+- **route juridique exacte** : art. 53 et 73 CPP, ou art. 78-6 CPP ;
+- **faits établissant toutes les conditions** de la route retenue ;
+- **heure exacte de l'appréhension** (route 53/73), ou du refus / de
+  l'impossibilité de justifier l'identité et du compte rendu à l'OPJ
+  (route 78-6) ;
+- **heure exacte de la présentation, de la rétention ordonnée ou de la
+  remise** à l'OPJ ;
+- pour la route 78-6, **ordre ou décision de l'OPJ** et heure de réception ;
 - **identité ou qualité de l'OPJ destinataire**, si connue ;
 - description de la **contrainte exercée**, strictement limitée à ce qui
   a été nécessaire (`penal-procedure.md` §4.3) — ne jamais laisser entendre
   une mesure d'audition ou de fouille relevant de l'OPJ.
 
 **Mentions propres au rapport d'information** — en sus du socle commun :
-- préciser explicitement qu'**aucune appréhension** n'a eu lieu (pour
-  distinguer sans ambiguïté du rapport de mise à disposition) ;
+- préciser explicitement qu'**aucune route 53/73 ou 78-6** n'est établie
+  (pour distinguer sans ambiguïté du rapport de mise à disposition) ;
 - préciser le **canal de transmission** retenu (maire, OPJ territorialement
   compétent, procureur via l'OPJ — `penal-procedure.md` §4.2).
 
 ### 5.4 Articulation avec le garde-fou APJA
 
 Si, au cours du recueil des informations pour l'écrit, il apparaît que la
-situation **dépasse le pouvoir APJA** (acte réservé OPJ, art. 16 CPP), le
+situation **dépasse le pouvoir APJA** par une demande d'acte réservé à l'OPJ, le
 **garde-fou** (`SKILL.md` §5.2, `penal-procedure.md` §4.5) prime sur la
 production de l'écrit :
 1. Afficher le **STOP** en premier livrable.
-2. Limiter la suite à l'action APJA conforme.
-3. Seul le **rapport de mise à disposition** peut alors être produit
-   (documentant l'appréhension et la remise à l'OPJ) — **aucun** écrit
-   d'audition ou assimilé à un acte réservé OPJ.
+2. Rendre compte immédiatement à l'OPJ et limiter la suite à l'action APJA
+   conforme.
+3. Qualifier séparément une éventuelle route 53/73 ou 78-6. Si aucune route
+   n'est établie, ne retenir personne et produire seulement l'écrit de
+   constatation ou d'information adapté.
+4. Produire un **rapport de mise à disposition** uniquement lorsqu'une route
+   est établie — **aucun** écrit d'audition ou assimilé à un acte réservé OPJ.
+
+Le vocabulaire de la demande ne suffit pas à qualifier l'échange : « entendu »
+ou « a avoué » peut désigner des propos spontanés, des observations recueillies
+lors d'une constatation ou un questionnement structuré. Avant toute
+requalification, demander l'initiative des propos, les questions posées, la
+contrainte éventuelle, la forme questions-réponses et les droits notifiés. Le
+rapport licite décrit seulement les circonstances et les propos effectivement
+perçus ; il ne reconstruit jamais un PV d'audition et ne qualifie pas
+catégoriquement l'échange en l'absence de faits suffisants.
 
 ### 5.5 Règle `[INCOMPLET]` — donnée manquante
 
@@ -323,8 +349,10 @@ avant de conclure dès que :
 |---|---|
 | **Art. 537 CPP** (force probante des PV et rapports de contravention jusqu'à preuve contraire) | **Vérifié sur Légifrance le 2026-06-30**, identifiant LEGIARTI000006576893 ; version en vigueur à la date des faits à reconfirmer au cas d'usage |
 | **Art. 21 et 21-2 CPP** (qualité APJA, compte rendu maire/OPJ) | Vérifiés sur Légifrance le 2026-06-30 — détail complet dans `penal-procedure.md` §4.1–4.2, pas de duplication ici |
-| **Art. 73 CPP** (flagrance, appréhension, mise à disposition) | Contenu confirmé sur Légifrance le 2026-06-30 ; identifiant LEGIARTI exact à reconfirmer au cas d'usage — détail dans `penal-procedure.md` §4.3 |
-| **Art. 16 CPP** (actes réservés OPJ, garde-fou) | Contenu général confirmé sur Légifrance le 2026-06-30 ; détail dans `penal-procedure.md` §4.4 |
+| **Art. 53 et 73 CPP** (qualification de la flagrance et appréhension) | Vérifiés sur Légifrance le 2026-07-28 ; identifiants LEGIARTI000006575016 et LEGIARTI000029000766 — détail dans `penal-procedure.md` §4.3 |
+| **Art. 78-6 CPP** (relevé d'identité, compte rendu à l'OPJ, présentation ou rétention sur ordre) | Vérifié sur Légifrance le 2026-07-28 ; identifiant LEGIARTI000034114850 — détail dans `penal-procedure.md` §4.3 |
+| **Art. 16 CPP** (qualité d'OPJ) | Vérifié sur Légifrance le 2026-07-28 ; identifiant LEGIARTI000047052868. Cet article ne fonde pas à lui seul tous les actes réservés ; citer le texte propre à l'acte concerné |
+| **Art. 56 CPP** (perquisition de flagrance par l'OPJ) | Vérifié sur Légifrance le 2026-07-28 ; identifiant LEGIARTI000049778813 — aucune perquisition par l'agent de police municipale, y compris en flagrance |
 | **Art. L. 130-4 du code de la route** (catégories d'agents habilités à constater les contraventions routières par PV, renvoi aux art. L. 511-1 et L. 512-2 CSI pour les agents PM) | **Vérifié sur Légifrance le 2026-06-30**, identifiant LEGIARTI000045072417 ; contraventions précises constatables par catégorie d'agent **à confirmer en version consolidée** et selon le texte réglementaire d'application |
 | **Art. L. 511-1 et L. 512-2 CSI** (régime des agents de police municipale, compétences de constatation) | À confirmer en version consolidée — non revérifié dans cette session, voir `socle-sources-verification.md` |
 | Jurisprudence sur l'exigence de précision (localisation) conditionnant la force probante du PV (art. 537 CPP) | À vérifier au cas par cas via `recherche-juridique` avant citation en acte — aucune décision nommément citée de mémoire dans cette branche |
@@ -332,33 +360,34 @@ avant de conclure dès que :
 
 ---
 
-## 10. Écrits & livrables — pilotage des générateurs `assets/`
+## 10. Écrits & livrables — pilotage des générateurs `references/templates/`
 
 Cette branche **pilote** les générateurs interactifs de la couche 4. Elle
 ne contient pas elle-même les gabarits de document : ceux-ci vivent dans
-`assets/`, qui n'est pas encore peuplé à ce stade du skill (couche 4,
-phase ultérieure). Quand `assets/` sera produit, chaque générateur devra
+`references/templates/`, qui n'est pas encore peuplé à ce stade du skill (couche 4,
+phase ultérieure). Quand `references/templates/` sera produit, chaque générateur devra
 respecter :
 
-1. **PV de contravention** — `assets/pv-contravention.md`.
+1. **PV de contravention** — `references/templates/pv-contravention.md`.
    Vérifier au préalable la base légale de l'infraction
    (`reglementation-appliquee.md`) et la compétence de constatation de
    l'agent (art. 21 CPP + texte spécial, ex. art. L. 130-4 code de la
    route, §5.3, §9). Respecter les mentions de §5.3 et l'exigence de
    précision conditionnant l'art. 537 CPP (§5.2).
-2. **Rapport d'information** — `assets/rapport-information.md`. Préciser
-   l'absence d'appréhension ; double destinataire maire/OPJ
+2. **Rapport d'information** — `references/templates/rapport-information.md`. Préciser
+   l'absence de route 53/73 ou 78-6 ; double destinataire maire/OPJ
    (`penal-procedure.md` §4.2).
-3. **Rapport de mise à disposition** — `assets/rapport-mise-a-disposition.md`.
-   Mentionner systématiquement l'heure d'appréhension, l'heure de mise à
-   disposition, et le destinataire (OPJ nommément identifié si possible) ;
-   articulation garde-fou §5.4.
-4. **Arrêté (modèle)** — `assets/arrete-modele.md`. Acte faisant grief le
+3. **Rapport de mise à disposition** — `references/templates/rapport-mise-a-disposition.md`.
+   Mentionner systématiquement la route 53/73 ou 78-6, les faits qui en
+   établissent les conditions, la chronologie complète, la décision de l'OPJ
+   lorsque l'art. 78-6 est mobilisé, et le destinataire ; articulation
+   garde-fou §5.4.
+4. **Arrêté (modèle)** — `references/templates/arrete-modele.md`. Acte faisant grief le
    cas échéant : motivation en fait et en droit + voies et délais de
    recours + vérification de la transmission au contrôle de légalité
    (CGCT — à confirmer) ; passage **obligatoire** par
    `controle-legalite.md` avant production.
-5. **Note au maire (modèle)** — `assets/note-maire-modele.md`. Note de
+5. **Note au maire (modèle)** — `references/templates/note-maire-modele.md`. Note de
    pilotage, pas un acte ; pas de voies de recours, mais rigueur sur la
    base légale citée si elle conditionne une décision du maire.
 
@@ -384,9 +413,10 @@ les champs manquants (§5.5).
 
 ## 12. Checklist de branche
 
-1. **Garde-fou APJA testé** : la situation dépasse-t-elle l'art. 21 CPP ?
-   Si oui, STOP affiché avant toute production d'écrit, et seul le
-   rapport de mise à disposition reste mobilisable (§5.4).
+1. **Garde-fou APJA testé** : la demande comporte-t-elle un acte réservé à
+   l'OPJ ? Si oui, STOP affiché avant toute production d'écrit et compte rendu
+   immédiat à l'OPJ. Le rapport de mise à disposition ne reste mobilisable
+   que si une route 53/73 ou 78-6 est établie (§5.4).
 2. **Type d'écrit correctement choisi** selon la logique de décision (§5.1) :
    PV / rapport d'information / rapport de mise à disposition, non
    exclusifs les uns des autres.

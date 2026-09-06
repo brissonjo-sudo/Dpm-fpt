@@ -5,7 +5,7 @@
 > traitement, la grille de contrôle et la checklist ; on retire les sections
 > sans objet pour une posture (pas de « procédures et délais » dédiées, pas de
 > sous-domaines métier). Appelée **avant toute production d'acte** via
-> `assets/` (arrêté, note au maire, règlement) — voir `SKILL.md` §6 et
+> `references/templates/` (arrêté, note au maire, règlement) — voir `SKILL.md` §6 et
 > `analyse-situation.md` §4.
 
 ## Périmètre / Exclusions
@@ -217,7 +217,7 @@ souvent dans cette séquence ; le juge administratif raisonne de même
   Mode B.
 - Anticipation des faiblesses après édiction de l'acte, stratégie de défense
   en cas de recours → `contentieux.md`.
-- Production effective de l'écrit (gabarit interactif) → `assets/`, pilotée
+- Production effective de l'écrit (gabarit interactif) → `references/templates/`, pilotée
   par `ecrits-professionnels.md`.
 - Frontière RH (acte individuel concernant un agent : sanction, refus
   d'avancement) → `drh-fpt` dès que la procédure RH statutaire est en jeu
@@ -282,9 +282,11 @@ car le contrôle de légalité porte par construction sur des lignes « Oui » :
   selon l'objet exact de l'acte.
 - **CGCT**, art. **L. 2131-4** (actes non transmissibles) — à confirmer en
   version consolidée.
-- **CE, Sect., 19 mai 1933, Benjamin**, Lebon p. 541 (principe de
-  proportionnalité des mesures de police) — arrêt de principe constant ; sa
-  fiche complète et ses déclinaisons jurisprudentielles récentes relèvent de
+- **CE, Sect., 19 mai 1933, *Benjamin*** (principe de proportionnalité des
+  mesures de police) — requêtes n° **17413** et **17520**, **Lebon p. 541**,
+  `CETATEXT000007636694`, **vérifié sur Légifrance le 2026-09-06** et porté au
+  socle (`references-verifiees.md` §7) : **le citer avec cette provenance**,
+  jamais de mémoire. Ses déclinaisons jurisprudentielles récentes relèvent de
   `recherche-juridique`.
 - **Délai de transmission des décisions individuelles** (ordre de grandeur
   15 jours) — à confirmer en version consolidée, article exact selon nature
@@ -298,10 +300,10 @@ car le contrôle de légalité porte par construction sur des lignes « Oui » :
 ## 9. Écrits & livrables
 
 Cette brique ne produit pas d'écrit en propre. Elle **conditionne** la
-production de tout acte via `assets/` :
-- **Arrêté** (`assets/arrete-modele.md`) — passer la grille §4 avant
+production de tout acte via `references/templates/` :
+- **Arrêté** (`references/templates/arrete-modele.md`) — passer la grille §4 avant
   rédaction ; intégrer motivation + voies de recours si acte faisant grief.
-- **Note au maire** (`assets/note-maire-modele.md`) — signaler les points de
+- **Note au maire** (`references/templates/note-maire-modele.md`) — signaler les points de
   fragilité identifiés par la grille, même si la décision finale appartient
   au maire.
 - **Règlement / décision** — même grille, adaptée au caractère réglementaire

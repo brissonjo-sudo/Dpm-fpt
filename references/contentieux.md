@@ -284,7 +284,7 @@ Pour la fabrication de l'acte en amont avec cette grille → `controle-legalite.
   diagnostic et les éléments factuels ; la rédaction du mémoire relève de
   l'avocat de la collectivité — ne pas se substituer à lui sur la stratégie
   contentieuse.
-- Pas de générateur dédié dans `assets/` à ce stade : produire la note
+- Pas de générateur dédié dans `references/templates/` à ce stade : produire la note
   d'analyse au format libre, en respectant la structure de cette brique.
 
 ---

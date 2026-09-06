@@ -32,9 +32,10 @@ intervention sur un crime routier) ne doit être donné de mémoire.
   éloignement des tiers, coordination avec les secours), **rend compte** sans
   délai au maire et à l'OPJ territorialement compétent (Police Nationale ou
   Gendarmerie selon la juridiction). L'agent PM n'auditionne **jamais** un
-  suspect et ne retient pas un conducteur au-delà du temps strictement
-  nécessaire à la mise à disposition de l'OPJ (art. 73 CPP — l'appréhension en
-  flagrance reste possible dans ce seul cadre).
+  suspect et ne retient un conducteur que sur un fondement qualifié : art. 53
+  + 73 CPP en cas de crime flagrant ou de délit flagrant puni
+  d'emprisonnement, ou art. 78-6 CPP dans le cadre strict d'un relevé
+  d'identité et selon la décision de l'OPJ.
 - **Les forces de l'État (OPJ — Police Nationale, Gendarmerie)** : seules
   compétentes pour les actes de police judiciaire (audition de suspects,
   interpellation, perquisition liée à l'accident), notamment en cas de crime
@@ -57,7 +58,7 @@ intervention sur un crime routier) ne doit être donné de mémoire.
 > Le fond juridique n'est pas reproduit ici. Pointeurs vers les branches :
 
 - **`../references/penal-procedure.md`** §4.1 à §4.5 (qualité APJA de l'agent
-  PM, constatation de faits, relations avec l'OPJ, mise à disposition art. 73
+  PM, constatation de faits, relations avec l'OPJ, routes art. 53/73 et 78-6
   CPP) et garde-fou APJA (actes réservés à l'OPJ).
 - **`../references/reglementation-appliquee.md`** §5.1 (code de la route : vitesse
   excessive, défaut d'assurance, défaut de permis, fuite, stationnement gênant
@@ -121,9 +122,9 @@ intervention sur un crime routier) ne doit être donné de mémoire.
      les conducteurs circuler (sauf immobilisation d'urgence si véhicule
      dangereux).
    - **Accident grave ou soupçon de délit** (fuite, vitesse extrême, signes
-     d'imprégnation alcoolique) : **mise à disposition immédiate** d'un
-     conducteur soupçonné d'infraction, appel d'un OPJ sur le site (cf. 3.3 et
-     garde-fou §6).
+     d'imprégnation alcoolique) : appel immédiat de l'OPJ et qualification du
+     fondement avant toute contrainte. Le soupçon seul ne suffit pas à retenir
+     le conducteur (cf. 3.3 et garde-fou §6).
 
 ### 3.2 Accidents sans infraction pénale aparente (matériel seul)
 
@@ -167,7 +168,8 @@ intervention sur un crime routier) ne doit être donné de mémoire.
      (fichier de la préfecture ou OPJ, selon convention locale — à vérifier).
    - Si conducteur identifié mais absent du site : rapport de fuite à l'OPJ
      territorialement compétent (liaison parquet assurée par l'OPJ, art. 21-2
-     CPP), mise à disposition si rattrapé avant son départ de la zone.
+     CPP). S'il est retrouvé, ne le retenir que si les conditions des art.
+     53/73 ou 78-6 sont réunies.
    - Si conducteur non identifié : description du véhicule pour diffusion
      ultérieure, rapport d'information transmis via l'OPJ (jamais directement
      au procureur — chaîne art. 21-2 CPP).
@@ -190,7 +192,7 @@ intervention sur un crime routier) ne doit être donné de mémoire.
    - Défaut de permis de conduire valide (suspension, retrait, expiration) ?
    - Franchissement de feu rouge ou stop ?
    - Non-respect de priorité de passage ?
-3. **Produire un PV de contravention** (→ `../assets/pv-contravention.md`) avec
+3. **Produire un PV de contravention** (→ `../references/templates/pv-contravention.md`) avec
    les éléments factuels bruts. La mention du dispositif de constatation
    (radar, observation directe, repérage au compas si localisation) renforce la
    valeur probante du PV.
@@ -203,16 +205,17 @@ intervention sur un crime routier) ne doit être donné de mémoire.
 
 - **Rapport d'information** (accident matériel seul, informant le maire de la
   circonstance, lieux, véhicules et suites données, destiné à l'information
-  générale et suivi de l'accidentalité) → `../assets/rapport-information.md`.
+  générale et suivi de l'accidentalité) → `../references/templates/rapport-information.md`.
 - **PV de contravention** (infraction routière simple constatée : vitesse,
   défaut d'assurance, défaut de permis, franchissement de feu) →
-  `../assets/pv-contravention.md`.
-- **Rapport de mise à disposition** (appréhension d'un conducteur en flagrance
-  de crime ou délit routier grave, remise immédiate à un OPJ) →
-  `../assets/rapport-mise-a-disposition.md`.
+  `../references/templates/pv-contravention.md`.
+- **Rapport de mise à disposition** seulement si l'accident établit un crime
+  flagrant ou un délit flagrant puni d'emprisonnement (art. 53 et 73 CPP), ou
+  une route 78-6 ; conduite devant l'OPJ sans délai indu →
+  `../references/templates/rapport-mise-a-disposition.md`.
 - **Note au maire** (accident grave ou mortel, suivi statistique, coordination
   interservices, demande d'appui OPJ ou mesures de sécurisation du carrefour) →
-  `../assets/note-maire-modele.md`.
+  `../references/templates/note-maire-modele.md`.
 - **Communication OPJ** : si mise à disposition ou simple transmission de
   constatations (schéma, photos, noms de témoins) en attente d'enquête OPJ,
   documenter le transfert d'informations par un compte rendu écrit au protocole
@@ -267,23 +270,24 @@ Thèmes jurisprudentiels sensibles à signaler et à faire approfondir par
    la route. L'infraction est le manquement antérieur (vitesse, priorité, défaut
    d'assurance).
 6. **Test d'alcoolémie ou dépistage de substances** : **jamais tenté par la PM
-   seule**. Observations d'indices transmises à l'OPJ, mise à disposition
-   systématique en cas de soupçon.
-7. **Délai de mise à disposition respecté** si flagrance de crime ou délit grave
-   (art. 73 CPP — délai exact à confirmer en version consolidée) : l'appel d'un
-   OPJ doit être immédiat, pas différé.
+   seule**. Transmettre immédiatement les indices observés à l'OPJ. Ne pas
+   déduire du seul soupçon un pouvoir de rétention.
+7. **Fondement de la présentation qualifié** : art. 53 + 73 en cas de crime
+   flagrant ou de délit flagrant puni d'emprisonnement ; art. 78-6 si le
+   relevé d'identité entre dans son champ ; sinon aucune rétention. L'appel à
+   l'OPJ doit être immédiat.
 8. **Garde-fou APJA (carte 1 de la décision)** : **STOP** si l'accident bascule
    vers un acte réservé OPJ (enquête, audition formelle, interpellation prolongée
-   au-delà du temps de mise à disposition). Afficher le **STOP** en premier,
-   procéder à la mise à disposition sans délai et figer les lieux, puis se
-   limiter à l'action APJA conforme (constatation brute, compte rendu écrit au
-   maire et à l'OPJ compétent, →  `../references/penal-procedure.md` §4.5 et
-   `SKILL.md` §5.2).
+   au-delà du fondement qualifié). Afficher le **STOP** en premier, rendre
+   compte à l'OPJ, puis appliquer le routeur art. 53/73/78-6. Préserver les
+   lieux de manière proportionnée sans entrer, fouiller, saisir ou déplacer
+   hors habilitation (→ `../references/penal-procedure.md` §4.5 et `SKILL.md`
+   §5.2).
 9. **Écrit produit correspondant à la situation** : rapport d'information si
    accident matériel seul, PV si infraction routière mineure et conducteur
-   identifié, rapport de mise à disposition si appréhension en flagrance avec
-   remise OPJ. Ne jamais dupliquer deux PV du même accident sur des qualifications
-   différentes (ex. vitesse excessive ET fuite) — hiérarchiser.
+   identifié, rapport de mise à disposition seulement si une route 53/73 ou
+   78-6 est établie. Ne jamais dupliquer deux PV du même accident sur des
+   qualifications différentes (ex. vitesse excessive ET fuite) — hiérarchiser.
 10. **Information du maire assurée** en parallèle ou immédiatement après
     l'intervention, sauf urgence OPJ en cours (en ce cas, rapide compte rendu
     dès OPJ arrivée ou prise de relais).

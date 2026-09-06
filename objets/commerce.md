@@ -140,19 +140,20 @@ tranquillité ou la sécurité publiques.
 ## 4. Écrits associés (pointeurs)
 
 - **PV de contravention** (vente d'alcool à mineur, manquement aux horaires,
-  infraction constatée lors du contrôle) → `../assets/pv-contravention.md`.
+  infraction constatée lors du contrôle) → `../references/templates/pv-contravention.md`.
 - **Rapport d'information** (signalement à l'autorité de police d'un fait
   justifiant une décision : projet de fermeture, trouble récurrent, vente
-  litigieuse) → `../assets/rapport-information.md`.
+  litigieuse) → `../references/templates/rapport-information.md`.
 - **Arrêté de fermeture administrative** (maire ou préfet) — acte faisant
   grief : motivation en fait et en droit + voies de recours + contrôle de
   légalité obligatoires → `../references/controle-legalite.md` puis
-  `../assets/arrete-modele.md`.
+  `../references/templates/arrete-modele.md`.
 - **Note au maire** (conflit de compétence maire/préfet, carence exposant à
   une substitution, situation à fort enjeu nécessitant un arbitrage rapide) →
-  `../assets/note-maire-modele.md`.
-- **Rapport de mise à disposition** — si la constatation bascule vers un acte
-  réservé à l'OPJ → `../assets/rapport-mise-a-disposition.md` (→ §6).
+  `../references/templates/note-maire-modele.md`.
+- **Rapport de mise à disposition** — seulement si une route 53/73 ou 78-6
+  est établie ; le seul basculement vers un acte réservé à l'OPJ ne suffit
+  pas → `../references/templates/rapport-mise-a-disposition.md` (→ §6).
 
 ---
 
@@ -165,9 +166,10 @@ tranquillité ou la sécurité publiques.
 Thèmes jurisprudentiels sensibles à signaler et à faire approfondir par
 `recherche-juridique` avant usage en acte contentieux :
 - **Proportionnalité** de la durée et du motif de fermeture au regard des
-  faits (principe général de proportionnalité des mesures de police, repère
-  doctrinal `CE, Sect., 19 mai 1933, Benjamin` — référence précise non vérifiée
-  dans cette session, à confirmer).
+  faits (principe général de proportionnalité des mesures de police —
+  `CE, Sect., 19 mai 1933, Benjamin`, req. n° 17413 et 17520, Lebon p. 541,
+  `CETATEXT000007636694`, **vérifié le 2026-09-06**, socle
+  `../references/references-verifiees.md` §7 : citer avec cette provenance).
 - **Motivation insuffisante** d'un arrêté de fermeture (faits non assez
   circonstanciés, texte de fondement imprécis) comme cause classique
   d'annulation contentieuse.
@@ -206,11 +208,10 @@ Thèmes jurisprudentiels sensibles à signaler et à faire approfondir par
    donnés de mémoire dans un écrit ou à l'exploitant.
 8. **Garde-fou APJA** : si le contrôle dérive vers un acte réservé à l'OPJ
    (vérification approfondie d'imprégnation, audition formelle d'un suspect,
-   interpellation prolongée, perquisition hors flagrance stricte), afficher en
-   premier le **STOP** (`SKILL.md` §5.2 ; CPP, art. 16 — à confirmer) avant
-   toute autre sortie, procéder à la **mise à disposition immédiate** (art. 73
-   CPP — à confirmer) et figer la situation, puis se limiter à l'action APJA
-   conforme (constatation, compte rendu au maire et à l'OPJ) et renvoyer à
+   interpellation prolongée, perquisition), afficher en premier le **STOP**
+   (`SKILL.md` §5.2), rendre compte à l'OPJ, puis qualifier séparément le
+   fondement d'une éventuelle contrainte : art. 53 + 73, art. 78-6, ou aucun.
+   Se limiter à l'action APJA conforme et renvoyer à
    `../references/penal-procedure.md`.
 9. **Écrit produit** correspondant à la situation (§4), ou brouillon
    `[INCOMPLET]` si une donnée manquante empêche de le finaliser — ne jamais

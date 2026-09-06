@@ -159,11 +159,11 @@ La commune peut **organiser** un événement ; cela ne transfère pas le pouvoir
 
 | Écrit | Pointeur assets | Contenu clé | Responsabilité |
 |-------|--------|---------|-----------------|
-| **Arrêté de police** | [../assets/arrete-modele.md](../assets/arrete-modele.md) | Mesures de circulation, fermeture de voies, horaires, zones, interdictions temporaires. Motivation en fait/droit. Transmission contrôle de légalité. | Maire (signature) ; DPM (draft) |
-| **Note au maire** | [../assets/note-maire-modele.md](../assets/note-maire-modele.md) | Enjeu sécurité de l'événement, recommandations sur mesures d'ordre public, conflit de compétence détecté (si s'applique). | DPM |
+| **Arrêté de police** | [../references/templates/arrete-modele.md](../references/templates/arrete-modele.md) | Mesures de circulation, fermeture de voies, horaires, zones, interdictions temporaires. Motivation en fait/droit. Transmission contrôle de légalité. | Maire (signature) ; DPM (draft) |
+| **Note au maire** | [../references/templates/note-maire-modele.md](../references/templates/note-maire-modele.md) | Enjeu sécurité de l'événement, recommandations sur mesures d'ordre public, conflit de compétence détecté (si s'applique). | DPM |
 | **Ordre d'opération PM** | Interne DPM | Fiche de dispositif : effectifs, secteurs, missions, chaînes de commandement, procédure d'escalade. | DPM / responsable opérationnel |
-| **Constatations / PV** | [../assets/pv-contravention.md](../assets/pv-contravention.md) | Infractions constatées à l'arrêté municipal ou à lois/règlements pertinents (circulation, ordre public). Lien avec OPJ si infraction pénale parallèle. | Agent PM (constatation) |
-| **Rapport d'information / événement** | [../assets/rapport-information.md](../assets/rapport-information.md) | Bilan sécurité de l'événement, incidents, réaction du dispositif. | DPM |
+| **Constatations / PV** | [../references/templates/pv-contravention.md](../references/templates/pv-contravention.md) | Infractions constatées à l'arrêté municipal ou à lois/règlements pertinents (circulation, ordre public). Lien avec OPJ si infraction pénale parallèle. | Agent PM (constatation) |
+| **Rapport d'information / événement** | [../references/templates/rapport-information.md](../references/templates/rapport-information.md) | Bilan sécurité de l'événement, incidents, réaction du dispositif. | DPM |
 
 Pas de générateur particulier pour « fiche de qualification événement » ni « ordre de coordination préfectorale » : ces documents sont produits par la mairie (qualification) et la préfecture (coordination). Le DPM fournit l'avis technique à l'appui.
 
@@ -174,7 +174,7 @@ Pas de générateur particulier pour « fiche de qualification événement » ni
 | Thème | Pointeur recherche-juridique | Enjeu |
 |-------|--------|---------|
 | **Régime des rassemblements revendicatifs** (déclaration, autorisation, interdiction) | [Consulter recherche-juridique via balise [sourcé]] | Distinction régime préfectoral (spécifique aux manifestations) vs police générale du maire. Délai de réaction, conditions légales d'interdiction. |
-| **Proportionnalité des mesures de police** (Arrêt Benjamin CE 1933 et suivants) | [Consulter recherche-juridique via balise [lookup]] | Tout arrêté de police doit être motivé, nécessaire et proportionné. Doctrine ancienne stable (Benjamin), mais jurisprudence en évolution sur liberté d'expression / restriction légale. |
+| **Proportionnalité des mesures de police** (CE, Sect., 19 mai 1933, *Benjamin*) | **Au socle vérifié** : req. n° 17413 et 17520, Lebon p. 541, `CETATEXT000007636694`, vérifié le 2026-09-06 (`../references/references-verifiees.md` §7) — citer avec cette provenance. Déclinaisons récentes : [recherche-juridique via balise [lookup]] | Tout arrêté de police doit être motivé, nécessaire et proportionné. Principe stable, mais jurisprudence en évolution sur liberté d'expression / de manifestation. |
 | **Cumul police administrative / police judiciaire en contexte manifestation** | [Consulter recherche-juridique via balise [lookup]] | Une mesure de police administrative (interdiction, fermeture) n'empêche pas poursuite pénale parallèle ; distinction impérative entre la finalité préventive (maire) et la finalité répressive (OPJ). |
 | **Responsabilité commune en cas de carence dispositif événementiel** | [Consulter recherche-juridique via balise [sourcé]] | Risque contentieux si maire/PM n'ont pas prévu un dispositif adapté au risque identifié ou si conflit de compétence non clarifié. |
 | **Police d'État et grands rassemblements** (communes à police étatisée) | [Consulter recherche-juridique via balise [lookup]] | CGCT L. 2214-4 stable ; mais jurisprudence administrative sur la notion « grands rassemblements occasionnels » à vérifier (cas d'espèce). |
@@ -227,7 +227,7 @@ Ne pas citer de jurisprudence de mémoire ; utiliser les balises `[sourcé]` et 
 ### Garde-fou APJA
 
 **Rappel critique** : aucun pouvoir APJA n'est étendu par la présence renforcée d'agents PM en dispositif événementiel.
-- [ ] **Situation impliquant garde à vue, audition de suspect, perquisition non-flagrante, réquisition judiciaire** ? → **STOP immédiat**. Laisser l'OPJ compétent (Police Nationale / Gendarmerie) exercer. PM = constatation et liaison.
+- [ ] **Situation impliquant garde à vue, audition formelle de suspect, perquisition ou réquisition judiciaire** ? → **STOP immédiat**. Laisser l'OPJ compétent exercer. PM = constatation et liaison ; aucune contrainte sans qualification des art. 53/73 ou 78-6.
 - [ ] **Infraction constatée lors du dispositif** : qualifiée pour APJA (art. 21/21-2 CPP) ou dépassant ce cadre ? → Signalement OPJ sans poursuite unilaterale.
 
 ### Conflit de compétence détecté

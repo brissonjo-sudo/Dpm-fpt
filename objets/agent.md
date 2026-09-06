@@ -78,8 +78,8 @@
 ## 4. Écrits associés
 
 ### Écrits de constatation et suivi
-- **Rapport de constat de manquement déontologique** — `../assets/rapport-information.md` (gabarit via `ecrits-professionnels.md`) : description factuelle, identification des articles du code de déontologie potentiellement concernés (sous réserve de vérification du numéro exact), remontée hiérarchique.
-- **Note au maire sur l'état des agréments** — `../assets/note-maire-modele.md` : agents agréés et assermentés en cours de validité, agréments à surveiller, suspensions/retraits en cours, dates d'expiration attendues (mutations), autorisations de port d'armes à renouveler.
+- **Rapport de constat de manquement déontologique** — `../references/templates/rapport-information.md` (gabarit via `ecrits-professionnels.md`) : description factuelle, identification des articles du code de déontologie potentiellement concernés (sous réserve de vérification du numéro exact), remontée hiérarchique.
+- **Note au maire sur l'état des agréments** — `../references/templates/note-maire-modele.md` : agents agréés et assermentés en cours de validité, agréments à surveiller, suspensions/retraits en cours, dates d'expiration attendues (mutations), autorisations de port d'armes à renouveler.
 - **Courrier au préfet** (demande d'agrément, signalement d'une situation) : sujet spécifique, identité de l'agent, motif.
 
 ### Écrits en cas de dimension pénale
@@ -123,8 +123,8 @@ Thèmes sensibles à signaler en amont :
 - [ ] **Responsable de traitement RGPD** (le maire, pas le DPM) notifié en cas d'incident de données ?
 
 ### Avant toute sortie — Garde-fou APJA
-- [ ] La situation décrite relève-t-elle **exclusivement des pouvoirs APJA** (art. 21 / 21-2 CPP) ou **dépasse-t-elle** ce cadre (garde à vue, audition formelle, perquisition hors flagrance stricte, réquisition judiciaire) ?
-- [ ] Si dépassement détecté → **STOP** affiché **en priorité** : « Cet acte relève de la compétence exclusive de l'OPJ (PN / Gendarmerie). Mise à disposition immédiate et figement des lieux. »
+- [ ] La situation décrite relève-t-elle **exclusivement des pouvoirs APJA** (art. 21 / 21-2 CPP) ou **dépasse-t-elle** ce cadre (garde à vue, audition formelle, perquisition, réquisition judiciaire) ?
+- [ ] Si dépassement détecté → **STOP** affiché **en priorité**, compte rendu immédiat à l'OPJ, puis qualification du seul fondement de contrainte possible : art. 53 + 73, art. 78-6, ou aucun.
 
 ### Contrôles transverses
 - [ ] Autorités compétentes (maire / préfet / procureur) et leurs rôles respectifs correctement identifiées ?

@@ -359,11 +359,12 @@ Ne **jamais trancher en silence**. Séquence obligatoire :
 - Articles relatifs au **transfert de pouvoirs de police au président
   d'EPCI** (matière connexe, hors détail de cette branche) — à vérifier au
   cas par cas si la commune appartient à un EPCI ayant reçu transfert.
-- **CE, Sect., 19 mai 1933, Benjamin** — principe de proportionnalité des
-  mesures de police ; numéro de requête et référence Lebon précise **à
-  confirmer** auprès de `recherche-juridique` avant citation en acte
-  contentieux (repère doctrinal stable, non vérifié sur source officielle
-  dans cette session).
+- **CE, Sect., 19 mai 1933, *Benjamin*** — principe de proportionnalité des
+  mesures de police ; requêtes n° **17413** et **17520**, **Lebon p. 541**,
+  `CETATEXT000007636694` — **vérifié sur Légifrance le 2026-09-06**, au socle
+  (`references-verifiees.md` §7). Citable avec cette provenance ; ses
+  **déclinaisons jurisprudentielles récentes** restent à faire approfondir par
+  `recherche-juridique` avant usage en acte contentieux.
 
 ---
 
@@ -373,18 +374,18 @@ Ne **jamais trancher en silence**. Séquence obligatoire :
    mise en demeure, substitution). Acte faisant grief si défavorable :
    **motivation en fait et en droit + voies de recours** + vérification de
    la transmission au **contrôle de légalité** → `controle-legalite.md`
-   avant production, puis `assets/arrete-modele.md`.
+   avant production, puis `references/templates/arrete-modele.md`.
 2. **Note au maire** — sur l'étendue de son pouvoir, un conflit de
    compétence détecté, ou une carence exposant à une substitution
-   préfectorale → `assets/note-maire-modele.md`.
+   préfectorale → `references/templates/note-maire-modele.md`.
 3. **Signalement à la préfecture** — information, alerte sur péril, demande
-   de clarification de compétence. Pas de gabarit dédié dans `assets/` à ce
+   de clarification de compétence. Pas de gabarit dédié dans `references/templates/` à ce
    stade : produire en forme de courrier ou note structurée reprenant la
    qualification des faits, l'autorité présumée compétente, les mesures déjà
    prises, la demande explicite.
 4. **Rapport d'information** — constat d'agent PM sur un fait relevant
    potentiellement d'une police spéciale d'État ou d'une infraction
-   concomitante → `assets/rapport-information.md` + `penal-procedure.md`.
+   concomitante → `references/templates/rapport-information.md` + `penal-procedure.md`.
 
 ---
 

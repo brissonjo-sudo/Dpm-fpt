@@ -91,7 +91,7 @@
 
 ### Écrits de demande et de projet
 - **Dossier de demande d'autorisation préfectorale** : à constituer selon les pièces réglementaires (parties réglementaires CSI) ; brouillon `[INCOMPLET]` si une pièce manque (plan de situation, note de présentation, estimation de durée de conservation, calendrier, budget, sécurité du CSU).
-- **Note au maire** — `../assets/note-maire-modele.md` : opportunité du projet, choix de la finalité (avec justification du risque identifié), articulation avec la convention de coordination existante, impacts RGPD, coût d'exploitation, calendrier de demande d'autorisation.
+- **Note au maire** — `../references/templates/note-maire-modele.md` : opportunité du projet, choix de la finalité (avec justification du risque identifié), articulation avec la convention de coordination existante, impacts RGPD, coût d'exploitation, calendrier de demande d'autorisation.
 
 ### Écrits opérationnels du CSU
 - **Fiche de procédure CSU** : organisation du centre (locaux, accès physiques, droits informatiques), habilitations individuelles (liste nominative tracée), traçabilité des accès (journal, modalités, conservation), modalités de transmission aux forces de l'État, procédure d'extraction sur réquisition, destruction programée des images.
@@ -157,7 +157,7 @@ Thèmes sensibles à signaler en amont :
 
 ### Avant toute sortie — Garde-fou APJA
 - [ ] L'exploitation du CSU relève-t-elle **uniquement de la constatation et de la transmission** (rôle APJA) ou franchit-elle ce cadre (analyse poussée, rapprochement actif, demande à l'OPJ d'effectuer des actes réservés) ?
-- [ ] Si **dépassement détecté** (exploitation pénale active hors cadre APJA) → **STOP** affiché **en priorité** : « Cet acte relève de la compétence exclusive de l'OPJ (Police Nationale / Gendarmerie). Mise à disposition immédiate et figement des lieux. »
+- [ ] Si **dépassement détecté** (exploitation pénale active hors cadre APJA) → **STOP** affiché **en priorité**, compte rendu immédiat à l'OPJ et aucune contrainte sur une personne en l'absence d'un fondement distinct vérifié.
 
 ### Contrôles transverses
 - [ ] **Commission départementale de vidéoprotection** : composition et modalités de saisine vérifiées à la préfecture (ne pas inventer de mémoire) ?

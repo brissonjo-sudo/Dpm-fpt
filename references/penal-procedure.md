@@ -44,13 +44,12 @@
 
 ## 2. Arbre de traitement
 
-`qualifier le fait → identifier l'infraction (nature, gravité) → vérifier la
-flagrance ou non → situer le pouvoir mobilisé sur l'échelle APJA (art. 21/
-21-2 CPP) → tester le garde-fou APJA (acte réservé OPJ, art. 16 CPP) → si
-dépassement : STOP + mise à disposition (art. 73 CPP) → si dans le
-périmètre APJA : constater, recueillir, préserver les traces → rendre
-compte (maire + OPJ/procureur) → orienter vers l'écrit (PV, rapport
-d'information, rapport de mise à disposition)`.
+`qualifier le fait → identifier l'infraction (nature, gravité) → situer le
+pouvoir mobilisé sur l'échelle APJA (art. 21/21-2 CPP) → tester le garde-fou
+APJA → si dépassement : STOP + compte rendu OPJ → qualifier séparément le
+fondement d'une contrainte : flagrance art. 53 + conditions art. 73, relevé
+d'identité art. 78-6, ou aucun → constater et préserver sans acte réservé →
+orienter vers l'écrit licite`.
 
 Ne jamais inverser l'ordre : le test du garde-fou APJA précède toute
 description du pouvoir d'action (cf. `analyse-situation.md` §2).
@@ -68,14 +67,14 @@ description du pouvoir d'action (cf. `analyse-situation.md` §2).
   sous condition d'agrément et d'assermentation — vérifier ces conditions,
   `rh-specificites-pm.md`) ou garde champêtre (régime propre, à vérifier).
 - **Présence ou délai d'arrivée d'un OPJ territorialement compétent**
-  (police nationale ou gendarmerie) — conditionne le séquençage de la mise
-  à disposition.
+  (police nationale ou gendarmerie) — conditionne le séquençage du compte
+  rendu et, lorsqu'un texte l'autorise, de la présentation.
 - **Existence et contenu d'une convention de coordination** PM/forces de
   l'État (modalités pratiques de transmission, pas créatrice de pouvoir) →
   `continuum-partenariats.md`.
-- **Personne en cause consentante ou non** à rester sur place dans l'attente
-  de l'OPJ (la contrainte physique au-delà du temps strictement nécessaire
-  à la mise à disposition relève de l'OPJ).
+- **Fondement précis d'une contrainte éventuelle** : appréhension de droit
+  commun (art. 53 + 73 CPP), relevé d'identité avec refus ou impossibilité
+  de justification (art. 78-6 CPP), ou aucun.
 
 ---
 
@@ -99,10 +98,9 @@ En cette qualité, l'agent PM :
   à la loi pénale et **rassemble tous renseignements** en vue de découvrir
   les auteurs de ces infractions, **dans le cadre et les formes prévus par
   les lois organiques ou spéciales** qui leur sont propres ;
-- peut **recueillir, par procès-verbal, les déclarations** de toute personne
-  susceptible de fournir des renseignements sur les faits constatés ;
-- lorsqu'il dresse un procès-verbal de contravention, peut **recueillir les
-  observations** du contrevenant.
+- lorsqu'il constate une infraction par procès-verbal, peut **recueillir les
+  éventuelles observations du contrevenant**. Cette faculté limitée ne doit pas
+  être transformée en audition formelle de suspect.
 
 **Faculté / obligation** : le compte rendu hiérarchique et le compte rendu
 judiciaire (§4.2) sont une **obligation**, pas une faculté. La constatation
@@ -130,29 +128,29 @@ rendre compte au **maire** :
 L'agent PM ne rend pas compte directement au procureur : la chaîne passe par
 l'OPJ. Ne jamais présenter l'agent PM comme interlocuteur direct du parquet.
 
-### 4.3 Flagrance — art. 73 CPP, et son articulation avec l'art. 21 CPP
+### 4.3 Flagrance et appréhension — art. 53 et 73 CPP
 
-**Flagrance** : un crime ou un délit puni d'emprisonnement, qui se commet
-actuellement ou qui vient de se commettre (régime fixé par les art. 53 et
-suivants du CPP — à confirmer en version consolidée pour le périmètre exact
-et les seuils de gravité).
+**Flagrance — art. 53 CPP** *(vérifié sur Légifrance le 2026-07-28 ;
+LEGIARTI000006575016)* : est notamment qualifié de flagrant le crime ou le
+délit qui se commet actuellement ou qui vient de se commettre. La condition
+tenant, pour un délit, à une peine d'emprisonnement relève ensuite de
+l'art. 73 pour autoriser l'appréhension ; elle ne doit pas être ajoutée à la
+définition de l'art. 53.
 
-**Art. 73 du CPP** *(contenu confirmé sur Légifrance le 2026-06-30 ;
-identifiant LEGIARTI précis à reconfirmer au cas d'usage — plusieurs
-versions historiques disponibles)* : en cas de crime flagrant ou de délit
-flagrant puni d'une peine d'emprisonnement, **toute personne** — donc pas
-seulement l'OPJ ou l'APJA — a qualité pour **appréhender l'auteur** et le
-**conduire devant l'officier de police judiciaire le plus proche**.
+**Art. 73 du CPP** *(vérifié sur Légifrance le 2026-07-28 ;
+LEGIARTI000029000766)* : en cas de crime flagrant ou de délit flagrant puni
+d'une peine d'emprisonnement, **toute personne** — donc pas seulement l'OPJ
+ou l'APJA — a qualité pour **appréhender l'auteur** et le **conduire devant
+l'officier de police judiciaire le plus proche**.
 
 **Ce que cela signifie pour l'agent PM** :
 - L'agent PM peut appréhender l'auteur d'un crime ou délit flagrant puni
   d'emprisonnement, **au même titre que tout citoyen** — ce pouvoir ne
   dérive pas de sa qualité d'APJA mais du droit commun de l'art. 73 CPP.
 - Une fois l'appréhension faite, l'obligation est de conduire la personne
-  **devant l'OPJ le plus proche**, ou, en pratique, d'assurer une **mise à
-  disposition immédiate** des forces compétentes (police nationale ou
-  gendarmerie) — *modalités pratiques à vérifier selon le territoire et la
-  convention de coordination*.
+  **devant l'OPJ le plus proche**, sans délai indu. Les modalités pratiques
+  locales ne créent aucun pouvoir supplémentaire et ne peuvent retarder cette
+  conduite.
 - La rétention de la personne dans l'attente de l'OPJ doit être **strictement
   limitée au temps nécessaire** à cette mise à disposition. Au-delà, ou en
   cas de contrainte prolongée, on bascule sur un acte réservé à l'OPJ
@@ -160,53 +158,83 @@ seulement l'OPJ ou l'APJA — a qualité pour **appréhender l'auteur** et le
 - L'art. 73 CPP ne crée **aucun pouvoir de garde à vue, d'audition formelle
   ou de fouille** : seul l'OPJ peut décider de ces mesures.
 
-### 4.4 Liste des actes réservés à l'OPJ — art. 16 CPP
+#### Relevé d'identité et présentation — art. 78-6 CPP
+
+Ce régime est **distinct** de l'appréhension de l'art. 73. Il s'applique
+seulement lorsque l'agent relève l'identité d'un contrevenant pour dresser un
+PV entrant dans son champ légal de verbalisation.
+
+En cas de refus ou d'impossibilité de justifier l'identité :
+
+1. rendre compte immédiatement à l'OPJ territorialement compétent ;
+2. pendant le temps nécessaire à cette information et à la décision de l'OPJ,
+   informer la personne qu'elle est tenue de demeurer à disposition, dans les
+   limites du texte ;
+3. présenter sur-le-champ le contrevenant ou le retenir jusqu'à l'arrivée de
+   l'OPJ ou de l'APJ **uniquement si l'OPJ l'ordonne** ;
+4. à défaut d'ordre, ne pas prolonger la rétention.
+
+Ne jamais substituer l'art. 78-6 à l'art. 73, ni l'utiliser hors d'un relevé
+d'identité légalement autorisé.
+
+### 4.4 Actes hors pouvoir APJA — qualité d'OPJ et textes propres
 
 **Art. 16 du CPP** *(contenu confirmé sur Légifrance le 2026-06-30 :
-détermine la qualité d'officier de police judiciaire — directeurs et
-sous-directeurs de la police judiciaire, officiers et gradés de la
-gendarmerie, commissaires et officiers de police habilités par décision du
-procureur général ; identifiant LEGIARTI précis à reconfirmer au cas
-d'usage)*.
+détermine la qualité d'officier de police judiciaire, dont les maires et leurs
+adjoints ; identifiant LEGIARTI précis à reconfirmer au cas d'usage)*.
+Cet article **ne fonde pas à lui seul** chaque pouvoir d'enquête : vérifier la
+disposition procédurale propre à l'acte concerné.
 
 **Actes hors périmètre APJA, réservés à l'OPJ** (liste non exhaustive,
 détail des conditions à vérifier au cas par cas) :
 - **garde à vue** (décision, prolongation, notification des droits) ;
 - **audition formelle de suspect** (régime de l'audition libre ou de la
   garde à vue, droits attachés) ;
-- **perquisition** hors les cas de flagrance stricte où la loi l'autorise
-  exceptionnellement (régime propre à vérifier — ne jamais présumer un
-  pouvoir de perquisition pour un agent PM) ;
+- **perquisition** : l'agent PM n'en réalise aucune, y compris en flagrance ;
+  l'art. 56 CPP confie la perquisition de flagrance à l'OPJ ;
 - **réquisition judiciaire** (réquisition à personne qualifiée, réquisition
   d'information) ;
 - **enquête préliminaire ou de flagrance** au sens procédural (ouverture,
   conduite, clôture) ;
-- toute mesure de **contrainte sur la personne** au-delà de l'appréhension
-  ponctuelle de l'art. 73 CPP (fouille de sécurité mise à part, encadrée par
-  des textes propres — à vérifier séparément, hors champ pénal stricto
-  sensu).
+- toute mesure de **contrainte sur la personne** hors des conditions exactes
+  des art. 53 et 73 ou de l'art. 78-6 CPP (fouille de sécurité mise à part,
+  encadrée par des textes propres — à vérifier séparément, hors champ pénal
+  stricto sensu).
+
+**Qualification du recueil de paroles** : les seuls mots « entendu » ou « a
+avoué » ne permettent pas de décider si les propos ont été spontanés, s'ils
+constituent de simples observations recueillies lors d'une constatation, ou
+s'ils résultent d'un questionnement structuré relevant d'une audition. Demander
+les circonstances exactes : initiative des propos, questions posées, contrainte
+éventuelle, formalisation en questions-réponses et droits notifiés. Ne jamais
+requalifier rétroactivement et catégoriquement sans ces faits. Si une audition
+formelle est demandée ou apparaît, appliquer immédiatement le STOP (§4.5) ; un
+rapport licite peut seulement relater objectivement les circonstances et les
+propos effectivement perçus, sans reconstruire un échange d'audition.
 
 ### 4.5 Garde-fou APJA — Hard Stop (rappel opérationnel de branche)
 
 Reprend `SKILL.md` §5.2, appliqué au pénal : dès qu'un fait constaté ou une
-demande **dépasse le périmètre des art. 21 / 21-2 CPP** et entre dans la
-liste de l'**art. 16 CPP** (§4.4 ci-dessus), le **premier livrable**, avant
-tout autre contenu, est :
+demande **dépasse le périmètre des art. 21 / 21-2 CPP**, le **premier
+livrable**, avant tout autre contenu, est :
 
 ```
-STOP — Cet acte relève de la compétence exclusive de l'OPJ
-(Police Nationale / Gendarmerie).
-Procéder à la mise à disposition immédiate (art. 73 CPP) et figer les lieux.
+STOP — Cet acte dépasse les pouvoirs de l'agent de police municipale.
+Ne pas l'accomplir ni le formaliser.
+Rendre compte immédiatement à l'OPJ territorialement compétent.
 ```
 
 Après ce STOP, la branche se limite à :
 1. **Constater** les faits dans le cadre strict de l'art. 21 CPP (ce qui est
    déjà visible, sans provoquer ni interroger formellement).
-2. **Préserver les traces et indices** (figer les lieux, ne rien déplacer,
-   limiter l'accès).
-3. **Mettre à disposition** la personne appréhendée (art. 73 CPP) auprès de
-   l'OPJ territorialement compétent, dans le délai le plus court possible.
-4. **Rendre compte** au maire et à l'OPJ (art. 21-2 CPP, §4.2).
+2. **Rendre compte** au maire et à l'OPJ (art. 21-2 CPP, §4.2).
+3. **Qualifier le fondement de la contrainte**, sans automatisme :
+   - art. 53 + 73 si crime flagrant ou délit flagrant puni d'emprisonnement ;
+   - art. 78-6 si relevé d'identité autorisé, refus ou impossibilité, puis
+     ordre de l'OPJ pour la présentation ou la rétention prolongée ;
+   - aucun de ces fondements : aucune rétention.
+4. **Préserver les traces et indices** de manière proportionnée, sans entrer,
+   fouiller, saisir ni déplacer ce que l'agent n'est pas autorisé à traiter.
 
 **Aucune formalisation d'acte réservé** (PV d'audition, procès-verbal de
 garde à vue, compte rendu de perquisition) ne doit être ni rédigée, ni
@@ -222,20 +250,22 @@ esquissée, ni suggérée par l'agent PM ou par le skill.
 2. **Test flagrance** — fait en train de se commettre ou venant de se
    commettre, et gravité (crime ou délit puni d'emprisonnement) → ouvre la
    faculté d'appréhension de l'art. 73 CPP.
-3. **Test garde-fou APJA** — le traitement de la suite (audition, fouille,
+3. **Test relevé d'identité** — si contravention verbalisable et refus ou
+   impossibilité de justifier l'identité, appliquer l'art. 78-6 : information
+   immédiate de l'OPJ, puis présentation ou rétention selon son ordre.
+4. **Test garde-fou APJA** — le traitement de la suite (audition, fouille,
    contrainte prolongée) excède-t-il l'art. 21 CPP ? Si oui → STOP (§4.5).
-4. **Mise à disposition** — conduite de la personne appréhendée devant l'OPJ
-   le plus proche, ou appel et attente sur place selon les consignes
-   locales et la convention de coordination (`continuum-partenariats.md`).
+5. **Présentation / conduite** — appliquer seulement le fondement qualifié :
+   art. 73 ou art. 78-6. À défaut, ne pas retenir la personne.
    **Délai** : le code ne fixe pas de délai chiffré pour l'agent PM lui-même
    au titre de l'art. 73 CPP — la contrainte doit rester **strictement
    proportionnée au temps nécessaire** à la mise à disposition ; au-delà,
    risque de voie de fait / séquestration arbitraire — *vérifier la
    jurisprudence applicable via `recherche-juridique` en cas de doute*.
-5. **Compte rendu hiérarchique et judiciaire** — maire + OPJ territorialement
+6. **Compte rendu hiérarchique et judiciaire** — maire + OPJ territorialement
    compétent (art. 21-2 CPP), **immédiatement**, sans attendre la rédaction
    définitive de l'écrit.
-6. **Écrit** — rapport de mise à disposition ou rapport d'information selon
+7. **Écrit** — rapport de mise à disposition ou rapport d'information selon
    le cas (§10), transmis selon le circuit local.
 
 > Annoncer toute hypothèse retenue sur les délais et demander confirmation
@@ -275,9 +305,10 @@ avant de conclure dès que :
 4. Présumer un **pouvoir de perquisition** ou de **fouille** hors cadre
    spécifique vérifié : c'est un acte réservé OPJ (sauf texte propre
    distinct à vérifier séparément).
-5. Prolonger la **rétention d'une personne appréhendée** au-delà du temps
-   strictement nécessaire à la mise à disposition : risque de basculer hors
-   du cadre légal (voie de fait).
+5. Prolonger une **rétention** au-delà du fondement exact : pour la route
+   53/73, ne pas excéder le temps strictement nécessaire à la conduite devant
+   l'OPJ ; pour la route 78-6, ne présenter ou retenir que sur ordre de l'OPJ.
+   Sans fondement, ne retenir personne.
 6. Omettre le **STOP** avant de décrire la suite d'une situation qui dépasse
    manifestement l'art. 21 CPP : le garde-fou est **prioritaire sur toute
    autre sortie** (`SKILL.md` §5.2).
@@ -295,9 +326,11 @@ avant de conclure dès que :
 |---|---|
 | **Art. 21 CPP** (qualité d'APJA, missions, cadre d'exercice) | **Vérifié sur Légifrance le 2026-06-30** (contenu confirmé ; identifiant LEGIARTI exact et version en vigueur à la date des faits à reconfirmer au cas d'usage) |
 | **Art. 21-2 CPP** (compte rendu au maire et à l'OPJ territorialement compétent) | **Vérifié sur Légifrance le 2026-06-30** (contenu confirmé ; identifiant LEGIARTI exact à reconfirmer au cas d'usage) |
-| **Art. 16 CPP** (qualité d'OPJ, actes réservés) | Contenu général confirmé via Légifrance le 2026-06-30 ; liste précise des actes réservés et identifiant LEGIARTI exact **à confirmer en version consolidée** avant citation dans un acte |
-| **Art. 73 CPP** (flagrance, appréhension par toute personne, mise à disposition) | Contenu confirmé via Légifrance le 2026-06-30 ; identifiant LEGIARTI exact (plusieurs versions historiques recensées) **à confirmer en version consolidée** avant citation dans un acte |
-| **Art. 53 et s. CPP** (régime de la flagrance, seuils de gravité) | **À confirmer en version consolidée** — non vérifié dans cette session |
+| **Art. 16 CPP** (qualité d'OPJ) | Vérifié sur Légifrance le 2026-07-28 ; identifiant LEGIARTI000047052868. Cet article ne fonde pas à lui seul chaque acte d'enquête |
+| **Art. 53 CPP** (qualification de la flagrance) | Vérifié sur Légifrance le 2026-07-28 ; identifiant LEGIARTI000006575016 |
+| **Art. 56 CPP** (perquisition de flagrance par l'OPJ) | Vérifié sur Légifrance le 2026-07-28 ; identifiant LEGIARTI000049778813 ; aucune perquisition par l'agent PM |
+| **Art. 73 CPP** (crime flagrant ou délit flagrant puni d'emprisonnement, appréhension par toute personne) | Vérifié sur Légifrance le 2026-07-28 ; identifiant LEGIARTI000029000766 |
+| **Art. 78-6 CPP** (relevé d'identité, refus ou impossibilité, décision de l'OPJ) | Vérifié sur Légifrance le 2026-07-28 ; identifiant LEGIARTI000034114850 |
 | Conditions d'agrément et d'assermentation conditionnant la qualité d'APJA | Voir `rh-specificites-pm.md` — à confirmer en version consolidée |
 | Jurisprudence sur la régularité des actes APJA et la durée admissible de rétention avant mise à disposition | À vérifier via `recherche-juridique` — aucune décision citée de mémoire |
 
@@ -305,20 +338,21 @@ avant de conclure dès que :
 
 ## 9. Écrits & livrables
 
-Tous pilotés par `ecrits-professionnels.md` (générateurs `assets/`). Lien
+Tous pilotés par `ecrits-professionnels.md` (générateurs `references/templates/`). Lien
 croisé **uniquement** sur les références CPP ci-dessus ; le formalisme
 rédactionnel complet relève de cette branche dédiée, pas de
 `penal-procedure.md`.
 
-1. **Écrit de constatation** — PV de contravention (`assets/pv-contravention.md`).
+1. **Écrit de constatation** — PV de contravention (`references/templates/pv-contravention.md`).
    Vérifier la base légale de l'infraction (`reglementation-appliquee.md`)
    et la qualité APJA mobilisée (art. 21 CPP).
 2. **Rapport d'information** — fait porté à la connaissance du maire / de
-   l'OPJ sans appréhension (`assets/rapport-information.md`).
-3. **Rapport de mise à disposition** — appréhension en flagrance (art. 73
-   CPP) suivie de remise à l'OPJ (`assets/rapport-mise-a-disposition.md`) :
-   mentionner systématiquement l'heure d'appréhension, l'heure de mise à
-   disposition, et le destinataire (OPJ nommément identifié si possible).
+   l'OPJ sans route 53/73 ou 78-6 établie
+   (`references/templates/rapport-information.md`).
+3. **Rapport de mise à disposition** — route 53/73 ou 78-6 établie
+   (`references/templates/rapport-mise-a-disposition.md`) : mentionner le
+   fondement exact, les conditions factuelles, la chronologie, la décision de
+   l'OPJ lorsqu'elle est requise, l'issue et le destinataire.
 4. **Compte rendu hiérarchique** — au maire, distinct du compte rendu
    judiciaire (art. 21-2 CPP) ; ne pas fusionner les deux destinataires dans
    un même acte sans préciser la double transmission.
@@ -334,8 +368,9 @@ rendu de perquisition) ne doit être généré par ce skill (§4.5).
 |---|---|---|---|
 | Qualification pénale d'un fait | Élevé | À vérifier | Citation obligatoire + réserve « à confirmer » |
 | Étendue du pouvoir APJA (art. 21/21-2 CPP) | Critique | Stable sur le principe, à confirmer sur le numéro exact | Citation obligatoire + double vérification si acte produit |
-| Détection d'un acte réservé OPJ (art. 16 CPP) | Critique | Stable sur le principe | Abstention stricte dès le doute — basculer en garde-fou |
-| Flagrance et appréhension (art. 73 CPP) | Élevé | À vérifier (durée admissible de rétention) | Citation + réserve, vérification ponctuelle obligatoire |
+| Détection d'un acte réservé à l'OPJ (texte propre à l'acte ; art. 16 pour la qualité) | Critique | Stable sur le principe | Abstention stricte dès le doute — basculer en garde-fou |
+| Flagrance et appréhension (art. 53 et 73 CPP) | Élevé | Vérifié le 2026-07-28 | Qualifier toutes les conditions avant toute contrainte |
+| Relevé d'identité et décision de l'OPJ (art. 78-6 CPP) | Élevé | Vérifié le 2026-07-28 | Tracer l'information, la décision et l'ordre éventuel |
 | Compte rendu OPJ/procureur | Moyen | Stable | Vérification ponctuelle avant usage en acte |
 
 ---
@@ -343,8 +378,9 @@ rendu de perquisition) ne doit être généré par ce skill (§4.5).
 ## 11. Checklist de branche
 
 1. **Garde-fou APJA testé en premier** : le fait dépasse-t-il l'art. 21 CPP
-   et entre-t-il dans la liste de l'art. 16 CPP ? Si oui, STOP affiché
-   **avant** tout autre contenu.
+   ou appelle-t-il un acte réservé à l'OPJ ? Si oui, STOP affiché **avant**
+   tout autre contenu. L'art. 16 définit la qualité d'OPJ, pas une liste
+   exhaustive de ses actes.
 2. **Flagrance qualifiée** : fait en train de se commettre / venant de se
    commettre, et gravité (peine d'emprisonnement encourue) ?
 3. **Pouvoir mobilisé identifié** : art. 21 CPP (constatation/APJA) ou

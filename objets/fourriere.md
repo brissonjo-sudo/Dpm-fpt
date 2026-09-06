@@ -126,7 +126,7 @@ préfecture avant communication au public.
 5. **Rédaction du PV de contravention** : si le conducteur ne s'exécute pas ou
    ne peut pas être joint, consigner le constat détaillé dans un PV (date,
    heure, lieu, plaque, fait précis, articles applicables, tentatives de
-   contact) → `../assets/pv-contravention.md`.
+   contact) → `../references/templates/pv-contravention.md`.
 
 ### 3.2 Décision d'enlèvement (acte de l'autorité de police)
 
@@ -244,17 +244,17 @@ préfecture avant communication au public.
 ## 4. Écrits associés (pointeurs)
 
 - **PV de contravention** (constatation du stationnement gênant, injonction,
-  refus d'obtempérer) → `../assets/pv-contravention.md`.
+  refus d'obtempérer) → `../references/templates/pv-contravention.md`.
 - **Fiche ou ordre d'enlèvement** (demande du service PM à la fourrière) :
   formulaire interne décrivant le cas, plaque du véhicule, lieu et heure,
   signature du DPM ou du maire. Non détaillé ici (objet opérationnel local) ;
   doit être conservé en dossier.
 - **Rapport d'information** (situation contentieuse : véhicule enlевé à tort,
   propriétaire contestataire, demande de restitution non satisfaite,
-  nécessité d'arbitrage juridique) → `../assets/rapport-information.md`.
+  nécessité d'arbitrage juridique) → `../references/templates/rapport-information.md`.
 - **Note au maire** (situation imposant un arbitrage rapide : conflit de
   compétence maire/préfet, risque de recours, décision sur le bien-fondé d'une
-  restitution) → `../assets/note-maire-modele.md`.
+  restitution) → `../references/templates/note-maire-modele.md`.
 - **Convention avec le gestionnaire de fourrière** : acte de l'autorité (maire),
   non produit par cette branche, mais indispensable à consulter pour vérifier
   les délais, frais, procédure de notification et de restitution applicables
@@ -343,15 +343,14 @@ Avant d'engager une constatation de stationnement gênant et un enlèvement :
     d'assurance, ou autre infraction complexe** sont détectés (ex. : conducteur
     à bord, comportement suspect, verbalisation pour d'autres chefs
     d'accusation), **basculer immédiatement** vers le **STOP** de garde-fou APJA
-    (`SKILL.md` §5.2 ; CPP art. 16) : cet acte relève de la compétence exclusive
-    de l'OPJ (PN / Gendarmerie). Procéder à la **mise à disposition immédiate**
-    (art. 73 CPP — à confirmer) et figer la situation. Se limiter à
-    l'action APJA conforme (constatation du stationnement gênant seul, compte
-    rendu au maire et à l'OPJ) et renvoyer à `../references/penal-procedure.md`.
+    (`SKILL.md` §5.2), rendre compte immédiatement à l'OPJ et qualifier
+    séparément l'éventuelle contrainte : art. 53 + 73, art. 78-6, ou aucun.
+    Se limiter à l'action APJA conforme et renvoyer à
+    `../references/penal-procedure.md`.
 13. **Risque contentieux anticipé** — propriétaire présente-t-il des éléments
     d'urgence ou de contestation évidente (ex. : urgence médicale au moment de
     l'enlèvement, signalisation insuffisante de l'interdiction) ? Note au maire
-    recommandée (`../assets/note-maire-modele.md`) si risque élevé.
+    recommandée (`../references/templates/note-maire-modele.md`) si risque élevé.
 14. **Écrit produit** correspondant à la situation (§4), ou brouillon
     `[INCOMPLET]` si donnée manquante — ne jamais halluciner une information
     absente (plaque du véhicule, lieu exact, horaire, identification de

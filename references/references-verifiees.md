@@ -10,6 +10,13 @@
 >
 > Format retenu : `Réf. — objet — en vigueur depuis JJ/MM/AAAA — LEGIARTI…
 > (consulté le 2026-06-30)`.
+>
+> Compléments de sûreté : art. 56 et 78-6 CPP vérifiés le **2026-07-28** ;
+> arrêté du 27 avril 1999, art. 1 et 2, et CRPA L. 211-2 vérifiés le
+> **2026-08-03** ; **art. 122-5 du code pénal** et **CE, Sect., 19 mai 1933,
+> *Benjamin*** vérifiés le **2026-09-06** (correctif issu de la campagne `r3` :
+> ces deux références, citées en incise sans provenance, étaient la cause
+> directe d'échecs de sourcing — voir §7 pour la jurisprudence).
 
 ---
 
@@ -47,11 +54,13 @@ numérotation. À surveiller à chaque revue de rentrée.
 
 | Référence | Objet | En vigueur depuis | Identifiant |
 |---|---|---|---|
-| **art. 16** | Officiers de police judiciaire (actes réservés OPJ) | 26/01/2023 | LEGIARTI000047052868 |
+| **art. 16** | Qualité d'officier de police judiciaire ; ne fonde pas à lui seul les actes d'enquête | 26/01/2023 | LEGIARTI000047052868 |
 | **art. 21** | Agents de police judiciaire adjoints ; **PM au 2°** | 12/07/2023 | LEGIARTI000047810871 |
 | **art. 21-2** | Compte rendu immédiat de la PM à l'OPJ ; transmission au maire + procureur | 16/04/1999 | LEGIARTI000006574893 |
 | **art. 73** | Appréhension de l'auteur d'un crime/délit flagrant puni d'emprisonnement ; conduite devant l'OPJ | 02/06/2014 | LEGIARTI000029000766 |
 | **art. 53** | Définition du flagrant délit ; enquête de flagrance (8 j, prorogeable) | 10/03/2004 | LEGIARTI000006575016 |
+| **art. 56** | Perquisition de flagrance réalisée par l'OPJ ; aucun pouvoir de perquisition de l'agent PM | 26/06/2024 | LEGIARTI000049778813 |
+| **art. 78-6** | Relevé d'identité par l'APJA ; refus ou impossibilité, décision et ordre éventuel de l'OPJ | 02/03/2017 | LEGIARTI000034114850 |
 | **art. 537** | Force probante des PV de contravention (foi jusqu'à preuve contraire) | 01/04/2005 | LEGIARTI000006576893 |
 
 ## 3. CSI — police municipale, coordination, vidéoprotection, déontologie
@@ -103,12 +112,14 @@ numérotation. À surveiller à chaque revue de rentrée.
 | **R. 325-1** | Modalités de la fourrière (chapitre R. 325-1 à R. 325-52) | 05/01/2012 | LEGIARTI000025111479 |
 | **R. 417-10** | Arrêt / stationnement gênant — **contravention de 2e classe** | 16/01/2022 | LEGIARTI000045025551 |
 
-## 5. Divers — animaux, débits de boissons, domaine public, Constitution
+## 5. Divers — animaux, débits de boissons, domaine public, Constitution, code pénal
 
 | Référence | Objet | En vigueur depuis | Identifiant |
 |---|---|---|---|
 | **C. rural L. 211-11** | Animal dangereux : mesures du maire, placement d'office (8 j ouvrés), euthanasie sur avis vétérinaire | 08/05/2010 | LEGIARTI000022200153 |
 | **C. rural L. 211-12** | Catégorisation des chiens dangereux (1re / 2e catégorie) | 22/06/2008 | LEGIARTI000019065649 |
+| **Arrêté du 27/04/1999, art. 1** | Liste de la 1re catégorie : notamment types Staffordshire/American Staffordshire non inscrits à un livre généalogique reconnu | 21/09/2000 | LEGIARTI000006608534 |
+| **Arrêté du 27/04/1999, art. 2** | Liste de la 2e catégorie : races Staffordshire/American Staffordshire, Rottweiler, Tosa ; type Rottweiler non inscrit également inclus | 21/09/2000 | LEGIARTI000006608536 |
 | **C. rural L. 211-13-1** | Permis de détention : attestation d'aptitude + évaluation comportementale | 22/06/2008 | LEGIARTI000019065631 |
 | **C. rural L. 211-14** | Permis de détention délivré par le maire (pièces : identification, vaccination antirabique, assurance RC, attestation d'aptitude, évaluation comportementale ; **stérilisation** pour la 1re catégorie) | 22/06/2008 | LEGIARTI000019065635 |
 | **C. rural L. 211-14-2** | Déclaration des morsures ; surveillance ; évaluation comportementale | 08/05/2010 | LEGIARTI000022200148 |
@@ -118,6 +129,8 @@ numérotation. À surveiller à chaque revue de rentrée.
 | **CSP L. 3332-15** | Fermeture administrative des débits de boissons (préfet 6 mois / ordre public 2 mois ; délégation maire à Paris) | 29/12/2019 | LEGIARTI000041411119 |
 | **CG3P L. 2122-1** | Occupation du domaine public subordonnée à un **titre** | 21/04/2017 | LEGIARTI000034448110 |
 | **Constitution art. 66** | L'autorité judiciaire gardienne de la liberté individuelle | 05/10/1958 | LEGIARTI000006527558 |
+| **CRPA L. 211-2** | Motivation des décisions administratives individuelles défavorables, dont les refus d'autorisation | 01/01/2016 | LEGIARTI000031367505 |
+| **Code pénal art. 122-5** | Légitime défense des personnes (al. 1) et des biens (al. 2) ; exigence de proportionnalité entre les moyens employés et la gravité de l'atteinte — fondement autonome, distinct du cadre d'usage des armes de l'art. L. 435-1 CSI | 01/03/1994 | LEGIARTI000006417218 (consulté le 2026-09-06 ; aucune abrogation programmée signalée) |
 
 > **Note CG3P** : le caractère **précaire et révocable** de l'autorisation est
 > porté par les articles voisins (notamment **L. 2122-3**), et non par le corps
@@ -151,6 +164,29 @@ confirmés, tous en vigueur).
 > divergent (`LEGIARTI000006576892`, version antérieure) dans deux générateurs ;
 > ils ont été réalignés sur la valeur du registre (`LEGIARTI000006576893`,
 > version en vigueur 01/04/2005, reconfirmée le 2026-07-01).
+
+---
+
+## 7. Jurisprudence vérifiée
+
+> **Pourquoi cette section existe** : le socle ne couvrait que des articles de
+> codes. Les arrêts de principe, cités par leur **nom d'usage**, échappaient de
+> ce fait au dispositif de provenance et se retrouvaient affirmés sans réserve —
+> cause directe d'échecs de sourcing sur deux campagnes de test (cas 01 de
+> l'exécution du 2026-08-03, cas 15 de la campagne `r3`). Une décision
+> juridictionnelle se cite **comme un article** : avec sa référence et sa date
+> de vérification, ou avec sa réserve.
+
+| Décision | Objet | Références | Identifiant |
+|---|---|---|---|
+| **CE, Sect., 19 mai 1933, *Benjamin*** | Principe de **proportionnalité des mesures de police administrative** : le maire doit concilier ses pouvoirs de police avec la liberté de réunion et ne peut interdire une réunion dont les troubles pouvaient être prévenus par des mesures moins attentatoires | Requêtes n° **17413** et **17520** ; publié au **recueil Lebon, p. 541** ; annulation sur recours pour excès de pouvoir | CETATEXT000007636694 (Légifrance, consulté le **2026-09-06** ; recoupé sur ArianeWeb — Conseil d'État) |
+
+> **Portée** : cet arrêt est le **fondement du test de proportionnalité** appliqué
+> par `controle-legalite.md` avant toute production d'acte de police. Il est
+> désormais citable avec sa provenance. Ses **déclinaisons jurisprudentielles
+> récentes** (application à un cas d'espèce, évolutions sur la liberté
+> d'expression ou de manifestation) restent hors socle et relèvent de
+> `recherche-juridique`.
 
 ---
 

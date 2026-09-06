@@ -324,12 +324,12 @@ Appliquer le socle-sources (matrice §2.2 `SKILL.md`) dès que :
 2. **Dispositif événementiel** — ordre d'opération / fiche de dispositif
    (effectifs, missions, points de regroupement, procédure dégradée) ;
    distinct des **autorisations administratives** sous-jacentes, à produire
-   via `assets/arrete-modele.md` le cas échéant.
+   via `references/templates/arrete-modele.md` le cas échéant.
 3. **Gestion de crise** — maincourante de crise, fiche réflexe par type de
    risque, contribution PM au PCS communal.
 4. **Pilotage** — note au maire/DGS sur le dimensionnement du service ou sur
    l'articulation avec un dispositif territorial (ZSP ou équivalent) →
-   `assets/note-maire-modele.md`.
+   `references/templates/note-maire-modele.md`.
 5. **Retour d'expérience** — après tout dispositif événementiel à enjeu ou
    toute gestion de crise → `retex.md`.
 

@@ -131,8 +131,11 @@ vérifié sur Légifrance le 2026-06-30* — LEGIARTI000042957393) fixe :
 L'agent de police municipale autorisé à porter une arme dans les conditions
 de l'art. L. 511-5 CSI ne peut en faire usage que dans le cadre fixé par le
 CSI :
-- **Légitime défense** (art. 122-5 du code pénal, *à confirmer en version
-  consolidée*) : fondement constant et autonome.
+- **Légitime défense** (art. **122-5** du code pénal — *vérifié sur Légifrance
+  le 2026-09-06*, `LEGIARTI000006417218`, en vigueur depuis le 01/03/1994) :
+  fondement constant et **autonome**, distinct du cadre d'usage des armes de
+  l'art. L. 435-1 CSI ; il suppose la **proportionnalité** entre les moyens de
+  défense employés et la gravité de l'atteinte.
 - **Cas d'usage des armes à feu prévus à l'art. L. 435-1, premier alinéa, et
   au 1° du même article, CSI** (régime applicable aux agents de police
   municipale autorisés au port, *vérifié sur Légifrance le 2026-06-30* —
@@ -314,8 +317,10 @@ que :
   applicable aux agents PM autorisés) — *vérifié sur Légifrance le
   2026-06-30*, identifiant LEGIARTI000034107970 ; vérifier précisément
   l'alinéa/cas applicable aux agents PM avant toute affirmation.
-- **Code pénal, art. 122-5** (légitime défense) — à confirmer en version
-  consolidée.
+- **Code pénal, art. 122-5** (légitime défense des personnes et des biens) —
+  *vérifié sur Légifrance le 2026-09-06*, identifiant `LEGIARTI000006417218`,
+  en vigueur depuis le 01/03/1994 (aucune abrogation programmée signalée) ;
+  au socle `references-verifiees.md` §5.
 - **Décret n° 2013-1113 du 4 décembre 2013** relatif à l'armement des agents
   de police municipale (texte fondateur du dispositif codifié) — *identifié
   via recherche Légifrance*, à confirmer en version consolidée et croiser
@@ -338,7 +343,7 @@ que :
 1. **Décision/acte** :
    - **Délibération du conseil municipal** sur le principe de l'armement —
      non couverte par un générateur dédié dans cette version ; s'appuyer sur
-     `assets/arrete-modele.md` à adapter et passer par
+     `references/templates/arrete-modele.md` à adapter et passer par
      `controle-legalite.md` avant production.
    - **Demande motivée du maire au préfet** (autorisation de port d'arme) —
      courrier motivé, identité de l'agent, catégorie d'arme visée, mission
@@ -349,7 +354,7 @@ que :
    ne pas improviser un format ici.
 3. **Note** : note au maire sur l'état de l'armement du service (agents
    autorisés, autorisations à renouveler, échéances d'entraînement) —
-   `assets/note-maire-modele.md`.
+   `references/templates/note-maire-modele.md`.
 4. **Acte faisant grief** : un éventuel **retrait d'autorisation** par le
    préfet ou une décision communale défavorable à un agent (refus de
    dotation individuelle) doit être **motivé**, assorti des **voies et

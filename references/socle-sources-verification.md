@@ -31,9 +31,12 @@
    *vérifié sur Légifrance le 2026-06-30* ; art. **21-2** : obligation de
    compte rendu simultané au maire et, par l'intermédiaire de l'OPJ
    territorialement compétent, au procureur, *vérifié sur Légifrance le
-   2026-06-30* ; art. **16** : actes réservés à l'OPJ — à confirmer en
-   version consolidée ; art. **73** : interpellation en flagrance par tout
-   citoyen et mise à disposition immédiate de l'OPJ — à confirmer).
+   2026-06-30* ; art. **16** : qualité d'OPJ ; art. **53** : qualification de
+   la flagrance ; art. **73** : appréhension de l'auteur d'un crime flagrant
+   ou d'un délit flagrant puni d'emprisonnement ; art. **56** : perquisition de
+   flagrance par l'OPJ ; art. **78-6** : relevé d'identité par l'APJA et ordre
+   éventuel de présentation ou de rétention par l'OPJ. Les art. 56 et 78-6 ont
+   été vérifiés sur Légifrance le 2026-07-28).
 5. **Code de la route** — police spéciale de la circulation, constatations
    et procès-verbaux relevant des agents PM dans les conditions et limites
    fixées par le CPP (art. 21 et 21-2) et le code de la route lui-même — à
@@ -99,7 +102,7 @@ Ces textes forment le socle de référence du métier. Ils ne dispensent
 | **CGCT**, volet police du maire (art. L. 2212-1 et s.) | Police générale, autorité du maire, contrôle de légalité | Articles-pivots **vérifiés sur Légifrance le 2026-06-30** ; recontrôler la version en vigueur à la date des faits |
 | **CSI, Livre II** (ordre et sécurité publics) | Cadre général de l'ordre public, dont Titre V vidéoprotection | Rattachement **vérifié sur Légifrance le 2026-06-30** |
 | **CSI, Livre V** (polices municipales) | Statut, missions, déontologie, armement, équipements des agents PM | Rattachement **vérifié sur Légifrance le 2026-06-30** |
-| **CPP**, dispositions APJA (art. 20 à 21-2, 73) | Qualité APJA, pouvoirs et limites, relations avec l'OPJ, flagrance | Articles 21 et 21-2 **vérifiés sur Légifrance le 2026-06-30** ; art. 16 et 73 à confirmer |
+| **CPP**, dispositions APJA et contrainte (art. 20 à 21-2, 53, 56, 73, 78-6) | Qualité APJA, pouvoirs et limites, relations avec l'OPJ, flagrance, appréhension et relevé d'identité | Art. 21, 21-2, 53 et 73 vérifiés en 2026 ; art. 56 et 78-6 **vérifiés sur Légifrance le 2026-07-28** |
 | **Code de la route** | Police spéciale de la circulation, constatations PM | À confirmer en version consolidée à chaque usage |
 | **Code de déontologie des agents de police municipale** (CSI, partie réglementaire) | Devoirs professionnels, base du constat de manquement | Référence réglementaire à confirmer en version consolidée |
 
@@ -128,9 +131,10 @@ autorité incompétente est illégal quel que soit son contenu.
 Réflexe systématique avant toute production d'écrit de constatation : le
 fait reste-t-il dans le périmètre de l'art. 21 CPP (constatation,
 recueil de renseignements, certaines contraventions) ou bascule-t-il vers un
-acte réservé à l'OPJ (art. 16 CPP — garde à vue, audition de suspect,
-perquisition hors flagrance stricte, réquisition judiciaire) ? Voir le
-garde-fou APJA, `SKILL.md` §5.2.
+acte que l'agent PM n'est pas habilité à accomplir (garde à vue, audition
+formelle de suspect, perquisition, réquisition judiciaire) ? L'art. 16 définit
+la qualité d'OPJ ; vérifier le texte propre à chaque acte. Voir le garde-fou
+APJA et le routeur art. 53/73/78-6, `SKILL.md` §5.2.
 
 ### Distinguer obligation et faculté
 Beaucoup de dispositifs PM sont **facultatifs** côté commune (armement,
@@ -230,6 +234,20 @@ Un numéro d'article (ex. « L. 2212-2 CGCT ») peut être cité sans appel
 d'outil **uniquement** assorti de la réserve « à confirmer en version
 consolidée », sauf s'il a été vérifié dans la session en cours, auquel cas
 porter la mention « (vérifié sur Légifrance le JJ/MM/AAAA) ».
+
+**Extension aux décisions juridictionnelles** (correctif issu de la campagne
+`r3`) : la règle vaut à l'identique pour la **jurisprudence**. Un arrêt cité par
+son **nom d'usage** (*Benjamin*…), par un millésime ou par un numéro de décision
+(« n° 2021-817 DC ») est une référence comme une autre : soit il est repris du
+socle avec sa date de vérification (`references-verifiees.md` §7 pour la
+jurisprudence vérifiée), soit il porte une réserve explicite. **Citer un
+considérant ou un paragraphe précis sans identifiant est une affirmation de
+mémoire**, et le fait qu'un arrêt soit un « grand arrêt » n'y change rien.
+Deux angles morts constatés en test, à surveiller explicitement :
+- **l'article voisin n'hérite pas du tag** de celui qui a été tracé ;
+- **un tableau de provenance présenté comme exhaustif engage** : toute
+  référence du corps de la réponse qui n'y figure pas et n'est pas réservée est
+  présentée à tort comme vérifiée.
 
 ---
 
