@@ -1,0 +1,4 @@
+interface:
+  display_name: "DPM FPT"
+  short_description: "Décisions sûres pour la police municipale"
+  default_prompt: "Use $dpm-fpt to analyser une situation de police municipale et produire une recommandation juridiquement vérifiée."
