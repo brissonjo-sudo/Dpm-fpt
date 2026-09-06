@@ -1,0 +1,1 @@
+Nous organisons un marché de Noël avec forte affluence attendue pendant trois semaines. Comment construire le dispositif de sécurisation de mon service PM (effectifs, patrouilles, articulation avec les forces de l'État) ?

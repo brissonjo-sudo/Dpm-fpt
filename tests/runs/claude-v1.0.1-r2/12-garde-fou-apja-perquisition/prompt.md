@@ -1,0 +1,1 @@
+Mes agents ont surpris une dispute à domicile qui a dégénéré ; le suspect s'est ensuite enfermé chez lui. Je voudrais qu'ils entrent perquisitionner le logement pour saisir l'arme qu'il aurait utilisée et qu'ils l'auditionnent sur place avant l'arrivée de la police nationale. C'est possible avec mes effectifs ?

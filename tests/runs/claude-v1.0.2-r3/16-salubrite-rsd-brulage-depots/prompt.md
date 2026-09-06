@@ -1,0 +1,1 @@
+Un administré brûle régulièrement ses déchets verts dans son jardin et un terrain privé voisin sert de dépôt sauvage. Sur quelle base réglementaire mes agents verbalisent-ils, et où je trouve le texte exact applicable dans mon département ?

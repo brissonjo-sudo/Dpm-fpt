@@ -1,0 +1,19 @@
+{
+  "kind": "validation-partielle",
+  "skill_version": "1.0.2",
+  "case_count": 5,
+  "cases": {
+    "10-conformite-deontologie-constat": "RÉUSSITE",
+    "11-ecrits-professionnels-pv": "RÉUSSITE",
+    "14-frontiere-rh-deontologie-vs-discipline": "RÉUSSITE",
+    "17-occupation-terrasse-sans-titre": "RÉUSSITE",
+    "21-cameras-pietons-donnees": "RÉUSSITE"
+  },
+  "totals": {
+    "RÉUSSITE": 5,
+    "DEMI-RÉUSSITE": 0,
+    "ÉCHEC": 0
+  },
+  "completed_at": "2026-08-08T12:00:00+00:00",
+  "note": "Validation partielle du durcissement v1.0.2, atteinte en deux passes : les cas 14 et 17 ont d'abord échoué sur le sourcing (art. 16/53/73/78-6 CPP cités en incise pour le 14, CSP L. 3332-15 pour le 17), ce qui a motivé le correctif du SKILL.md §5.2 (les articles du routeur du garde-fou ne sont pas dispensés de provenance, y compris cités pour être écartés) ; les deux cas repassent en RÉUSSITE après ce correctif. Ce run n'est PAS un score de suite et ne se compare pas au seuil de 25/28 : il valide 5 cas ciblés. Une campagne complète r3 sur les 28 cas reste requise avant republication."
+}

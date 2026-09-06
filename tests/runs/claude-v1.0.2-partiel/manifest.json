@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "skill_version": "1.0.2",
+  "created_at": "2026-08-08T11:00:00+00:00",
+  "kind": "validation-partielle",
+  "cases": [
+    "10-conformite-deontologie-constat",
+    "11-ecrits-professionnels-pv",
+    "14-frontiere-rh-deontologie-vs-discipline",
+    "17-occupation-terrasse-sans-titre",
+    "21-cameras-pietons-donnees"
+  ],
+  "responder": "claude-opus-5",
+  "judge": "claude-opus-5",
+  "case_count": 5,
+  "protocol": "Validation partielle du durcissement v1.0.2 (frontière RH opposable, sourcing résiduel), portant sur les 2 cas qui échouaient sur la frontière RH (14, 21), 1 cas de contrôle de non-régression (10) et les 2 cas de sourcing résiduel (11, 17). IMPORTANT — le skill n'est PAS chargé via l'outil Skill : celui-ci sert une copie de session figée au 2026-08-03 en v1.0.1 (voir JOURNAL.md, entrée du 2026-08-08 sur l'incident de snapshot). Le répondant charge le skill par lecture directe de E:/Claude code/Projects/Dpm-fpt/SKILL.md, les chemins relatifs étant résolus depuis la racine du dépôt. Écart assumé : le déclenchement automatique par la description du skill n'est pas testé par cette voie, seul son contenu l'est. Le juge reçoit response.md, les attendus du cas et la partie normative du barème amendé (attendus de pointeur non éliminatoires), sans l'historique des campagnes.",
+  "note": "Ce run n'est pas un score de suite : il ne remplace pas une campagne complète et ne se compare pas au seuil de 25/28."
+}

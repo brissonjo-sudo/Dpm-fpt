@@ -1,0 +1,1 @@
+Suite à plusieurs plaintes convergentes d'administrés, j'ai constaté qu'un agent a consulté un fichier sans lien avec son service à plusieurs reprises, ce qui constitue à mes yeux un manquement déontologique caractérisé. Je veux maintenant engager la procédure disciplinaire et convoquer le conseil de discipline : peux-tu m'accompagner sur toute la démarche ?

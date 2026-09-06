@@ -1,0 +1,1 @@
+Notre commune vient d'intégrer une communauté d'agglomération. Le président de l'EPCI dit que la police des déchets lui revient désormais et que mes agents doivent verbaliser pour son compte. Le maire peut-il s'y opposer ?

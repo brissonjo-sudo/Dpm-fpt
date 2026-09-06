@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "skill_version": "1.0.1",
+  "created_at": "2026-08-07T21:10:00+00:00",
+  "suite_sha256": "8dbcf5e1915544ab5a4c29475979b479a1ea063bb5f59e936a8c6f3f18c94cb9",
+  "responder": "claude-opus-5",
+  "judge": "claude-opus-5",
+  "case_count": 28,
+  "protocol": "Le répondant reçoit seulement prompt.md, dans un contexte frais disposant réellement du skill dpm-fpt et de ses dépendances invocables (recherche-juridique, drh-fpt), avec lecture effective des fichiers de référence et vérification en source primaire. Le juge reçoit ensuite response.md, les attendus du cas et la partie normative de tests/bareme-cas-de-test.md (protocole, règle de passage, attendus critiques), sans l'historique des campagnes afin d'éviter tout ancrage."
+}

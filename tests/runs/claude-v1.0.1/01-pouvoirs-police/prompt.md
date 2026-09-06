@@ -1,0 +1,1 @@
+Ma commune n'est pas en police étatisée. Un voisinage se plaint depuis trois semaines d'un atelier de mécanique qui fait un bruit important tard le soir, en limite de deux communes. Le maire veut prendre un arrêté pour faire cesser le trouble : a-t-il le pouvoir de le faire seul, ou dois-je solliciter le préfet ?

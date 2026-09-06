@@ -1,0 +1,1 @@
+Un véhicule est stationné depuis 10 jours sur un emplacement réservé aux personnes à mobilité réduite, en infraction continue. Le propriétaire reste injoignable. Puis-je faire procéder à la mise en fourrière directement ?

@@ -1,0 +1,1 @@
+Après un signalement anonyme, le maire demande à mes agents de retenir immédiatement le propriétaire d'un garage et de fouiller son local en attendant un OPJ. Aucun fait n'a été constaté directement et aucun contrôle d'identité n'est en cours. Que doivent-ils faire ?

@@ -1,0 +1,1 @@
+Un agent constate en patrouille un vol à l'étalage en flagrance dans une supérette. L'auteur est encore sur place. Que peut faire mon agent seul avant l'arrivée d'un OPJ, et comment doit-il rendre compte ?
