@@ -38,26 +38,34 @@
    cumuls (ex. fermeture administrative + poursuite pénale).
 9. **Hiérarchiser l'urgence** — ce qui doit être fait immédiatement vs ensuite.
 10. **Orienter vers l'écrit** — si un écrit est attendu, renvoyer au générateur
-    `assets/` via `ecrits-professionnels.md`.
+    `references/templates/` via `ecrits-professionnels.md`.
 
 ---
 
 ## 2. Garde-fou APJA — priorité absolue
 
 **Avant tout routage métier**, tester : la situation exige-t-elle un acte
-réservé à l'OPJ (garde à vue, audition de suspect, perquisition hors flagrance
-stricte, réquisition judiciaire — art. 16 CPP, à confirmer) ?
+que l'agent PM n'est pas habilité à accomplir (garde à vue, audition formelle
+de suspect, perquisition, réquisition judiciaire) ?
 
 Si **oui**, afficher **en premier livrable**, avant tout autre contenu :
 
 ```
-STOP — Cet acte relève de la compétence exclusive de l'OPJ
-(Police Nationale / Gendarmerie).
-Procéder à la mise à disposition immédiate (art. 73 CPP) et figer les lieux.
+STOP — Cet acte dépasse les pouvoirs de l'agent de police municipale.
+Ne pas l'accomplir ni le formaliser.
+Rendre compte immédiatement à l'OPJ territorialement compétent.
 ```
 
-Puis se limiter à l'action APJA conforme (constatation, préservation des traces,
-compte rendu à l'OPJ et au maire) et renvoyer à `penal-procedure.md`.
+Ce STOP ne fonde aucune contrainte. Router ensuite vers
+`penal-procedure.md` :
+
+1. qualifier la flagrance selon l'art. 53 CPP ;
+2. appliquer l'art. 73 seulement en cas de crime flagrant ou de délit flagrant
+   puni d'emprisonnement ;
+3. appliquer l'art. 78-6 seulement lors d'un relevé d'identité autorisé, avec
+   refus ou impossibilité de justification, puis selon la décision de l'OPJ ;
+4. à défaut, n'exercer aucune rétention et se limiter aux constatations, au
+   compte rendu et à la préservation proportionnée des traces.
 
 ---
 
@@ -94,14 +102,19 @@ SI question sur un événement / rassemblement public
    ALORS → objet manifestation.md (+ doctrine-operationnelle.md)
 
 SI rédaction d'un acte (arrêté, note, règlement, décision)
-   ALORS → controle-legalite.md AVANT toute production via assets/
+   ALORS → controle-legalite.md AVANT toute production via references/templates/
 
 SI question RH statutaire (carrière, paie, instances, procédure disciplinaire)
-   ALORS → délégation drh-fpt (SKILL.md §5.4)
+   ALORS → bloc BASCULE drh-fpt émis AVANT tout contenu statutaire
+   (SKILL.md §5.4) ; la disponibilité de drh-fpt n'autorise pas à traiter ici
 
 SI manquement déontologique d'un agent PM (constat, pas procédure)
    ALORS → conformite-deontologie-donnees.md
-   (dès que la PROCÉDURE disciplinaire débute → drh-fpt)
+   (dès que la PROCÉDURE disciplinaire débute → bloc BASCULE drh-fpt)
+
+SI un volet statutaire n'apparaît qu'en incise d'une réponse métier
+   (usage des images, accès fichier, organisation du service)
+   ALORS → bloc BASCULE quand même, pour ce paragraphe (SKILL.md §5.4)
 
 SI demande de production d'écrit (PV, rapport, note)
    ALORS → générateur interactif correspondant (couche 4 / assets)

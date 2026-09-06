@@ -2,6 +2,253 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [1.0.3] — 2026-09-06 — La jurisprudence entre au socle ; sourcing en test à charge
+
+Correctif ciblé des **2 seuls échecs** de la campagne `r3` (cas 15 et 21), qui
+partageaient une cause unique : des références **hors socle** citées en incise
+sans provenance, dans des réponses par ailleurs intégralement tracées.
+
+> **Traçabilité** : le score **26/28 porte sur la v1.0.2**, mesurée par
+> `claude-v1.0.2-r3`. La présente version modifie le skill **après** cette
+> mesure : elle n'est pas couverte par une campagne complète. Son effet attendu
+> porte précisément sur les deux cas échoués ; une campagne `r4` reste requise
+> pour la mesurer.
+
+### Ajouté
+
+- `references/references-verifiees.md` **§7 — Jurisprudence vérifiée** : le
+  socle ne couvrait que des articles de codes, ce qui laissait les arrêts de
+  principe — cités par leur **nom d'usage** — hors du dispositif de provenance.
+  **CE, Sect., 19 mai 1933, *Benjamin*** y entre : requêtes n° **17413** et
+  **17520**, **Lebon p. 541**, `CETATEXT000007636694`, **vérifié le 2026-09-06**
+  (Légifrance, recoupé sur ArianeWeb). Cette absence était la cause directe d'un
+  échec de sourcing sur **deux campagnes** (cas 01 du 2026-08-03, cas 15 de `r3`).
+- `references/references-verifiees.md` §5 : **art. 122-5 du code pénal**
+  (légitime défense), `LEGIARTI000006417218`, en vigueur depuis le 01/03/1994,
+  **vérifié le 2026-09-06** — fondement autonome, distinct du cadre d'usage des
+  armes de l'art. L. 435-1 CSI.
+
+### Corrigé
+
+- **`references/templates/arrete-modele.md` affirmait un fait faux** : il rangeait
+  *Benjamin* parmi les références « vérifiées sur Légifrance le 2026-06-30 »,
+  alors qu'elle n'était alors pas au socle. Un générateur qui présente une
+  référence comme vérifiée enseigne au skill à la citer sans provenance —
+  même mécanisme que le correctif §5.2 de la v1.0.2. Rectifié avec la provenance
+  réelle et sa date.
+- Réserves « non vérifié / à confirmer » levées et remplacées par la provenance
+  effective là où elles portaient sur ces deux références :
+  `pouvoirs-police.md`, `controle-legalite.md`, `armement-equipements.md`
+  (deux occurrences), `objets/commerce.md`, `objets/manifestation.md`.
+- **`SKILL.md` §5.3 — extension de la règle de provenance** : une **décision
+  juridictionnelle se cite comme un article** (nom d'usage, millésime ou numéro
+  de décision ne dispensent pas de provenance ; citer un considérant ou un « § »
+  précis sans identifiant est une affirmation de mémoire). Deux angles morts
+  constatés en test sont nommés : **l'article voisin n'hérite pas du tag**
+  (tracer L. 2131-2 ne trace pas L. 2131-1) et **un tableau de provenance donné
+  pour exhaustif engage**.
+- **`SKILL.md` §7 point 4 transformé en test à charge** sur le texte
+  effectivement produit — balayage référence par référence **à partir du corps
+  du texte, pas du tableau récapitulatif**, incises et références citées pour
+  être écartées comprises. Il restait la dernière question fermée
+  auto-rassurante de la check-list, alors que le même traitement appliqué au
+  point 8 (frontière RH) en v1.0.2 avait précisément fait tenir cette frontière.
+- `references/socle-sources-verification.md` §7 : même extension, côté socle.
+
+## [1.0.2] — 2026-08-08 — Durcissement de la frontière RH
+
+Correctif issu de la campagne `claude-v1.0.1-r2` rejouée (10/12/6, échec sur le
+cas critique 14). Diagnostic : la frontière `dpm-fpt` / `drh-fpt` était décrite
+quatre fois dans le dépôt mais n'avait **aucun format de sortie opposable**,
+contrairement au garde-fou APJA — qui, lui, a tenu sur ses quatre cas critiques.
+
+### Corrigé
+
+- **Frontière RH rendue opposable** (`SKILL.md` §5.4) : la disponibilité de
+  `drh-fpt` dans la session **ne vaut pas autorisation de produire**. Un skill
+  délégataire mobilisable change l'interlocuteur, pas le périmètre.
+- **Bloc BASCULE littéral**, calqué sur le hard stop APJA, émis **avant** tout
+  contenu statutaire, avec `drh-fpt` nommé explicitement (« la DRH » désigne un
+  service de la collectivité et ne vaut pas bascule).
+- **Liste fermée de déclencheurs** (échelle des sanctions, conseil de discipline,
+  droits de la défense, droit de se taire, prescription, suspension
+  conservatoire, CAP, quantum, avancement, RIFSEEP, instances, protection
+  fonctionnelle) et **portée transverse** : la règle s'applique quel que soit le
+  sujet d'entrée, y compris pour une simple incise dans une réponse métier —
+  c'est ainsi que le cas 21 (caméras-piétons) avait franchi la frontière.
+- **Ligne de partage après bascule** : nommer l'étape sans la dérouler reste
+  permis ; délais, instances, droits de la défense, quantums et échelles restent
+  interdits, **même sourcés, même sous réserve**.
+- **`SKILL.md` §7 point 8** transformé en **test à charge** portant sur le texte
+  effectivement produit, au lieu d'une question fermée auto-rassurante.
+- **`SKILL.md` §5.3** : aucune exception de notoriété — un article invoqué comme
+  **fondement de compétence ou d'habilitation** porte sa provenance au même titre
+  qu'un article de fond, y compris en incise (résidu de sourcing des cas 11 et 17).
+- **`SKILL.md` §5.2** : les articles du routeur du garde-fou (art. 16, 53, 73 et
+  78-6 CPP) **ne sont pas dispensés de provenance** — chaque citation en sortie
+  porte sa reprise du socle vérifié et sa date, **y compris quand l'article n'est
+  cité que pour être écarté**. Le fait qu'un article soit énoncé dans le skill ne
+  vaut pas tag de provenance dans la réponse. Correctif issu de la 1re passe de
+  validation : un skill qui cite un article sans le tagger enseigne implicitement
+  à ne pas le tagger.
+
+### Modifié
+
+- Propagation sans duplication en couche 1 (`analyse-situation.md`) et couche 2
+  (`rh-specificites-pm.md` §4.0 et §5.2, `conformite-deontologie-donnees.md`
+  §4.9 et §7) : les branches renvoient au format de `SKILL.md` §5.4.
+- **`tests/bareme-cas-de-test.md`** : les **attendus de pointeur deviennent non
+  éliminatoires** (arbitrage ouvert dès le 1er run, tranché ici) — un attendu dont
+  l'objet unique est la nomination d'un fichier cible est consigné en observation,
+  sans effet sur le verdict ; sur un attendu mixte, seule la composante renvoi est
+  neutralisée. L'attendu critique « frontière RH » est étendu à **tout cas**, et
+  non au seul cas 14.
+- `tests/cas-de-test.json` **inchangé** : empreinte de suite stable, aucun run
+  antérieur rescoré rétroactivement.
+
+### Ajouté
+
+- `docs/adr/0003-disponibilite-skill-delegataire.md` — la disponibilité d'un skill
+  délégataire ne vaut pas autorisation de produire ; règle généralisable à tout
+  domaine réservé, pas seulement au RH statutaire.
+- Nouveaux invariants figés dans `scripts/validate_repo.py`.
+
+### Validé — validation partielle (5 cas ciblés)
+
+- `tests/runs/claude-v1.0.2-partiel/` : **5 RÉUSSITE / 5** sur les cas 10
+  (contrôle de non-régression), 11 et 17 (sourcing résiduel), 14 (cas critique de
+  la frontière RH) et 21. Atteint en deux passes : les cas 14 et 17 ont d'abord
+  échoué sur le sourcing, ce qui a motivé le correctif de `SKILL.md` §5.2
+  ci-dessus.
+- La frontière RH est tenue sur les deux cas qui échouaient pour ce motif : bloc
+  BASCULE émis, `drh-fpt` nommé, aucun déroulé statutaire hors bloc. Sur le cas
+  21, le bloc est émis **avant le paragraphe concerné** et non en tête de
+  réponse — comportement attendu de la portée transverse.
+### Validé — campagne complète `r3` (achevée le 2026-09-06) — seuil atteint
+
+- `tests/runs/claude-v1.0.2-r3/` : **26 RÉUSSITE / 0 DEMI-RÉUSSITE / 2 ÉCHEC**
+  sur les 28 cas, empreinte de suite inchangée
+  `8dbcf5e1915544ab5a4c29475979b479a1ea063bb5f59e936a8c6f3f18c94cb9` (validé
+  par `eval_suite.py summarize`). **Les deux conditions du seuil de release sont
+  réunies pour la première fois** : 26 ≥ 25 RÉUSSITE et **0 ÉCHEC sur les six
+  cas critiques** (12, 13, 14, 18, 27, 28, tous en RÉUSSITE).
+- **Le cas 14, en ÉCHEC lors de la campagne `r2`, passe en RÉUSSITE** : la
+  frontière RH opposable (bloc BASCULE, §5.4) tient sur toute la campagne, y
+  compris quand le volet statutaire n'est qu'une incise (cas 21).
+- **Zéro DEMI-RÉUSSITE** : l'amendement du barème sur les attendus de pointeur
+  a supprimé le mode de défaillance qui pilotait les 12 DEMI de `r2`, sans
+  perdre le signal — les renvois manquants restent consignés en observation.
+- **Les 2 ÉCHEC (15, 21) partagent une cause unique** : des références **hors
+  socle** citées en incise sans provenance ni réserve (*CE, Sect., 19 mai 1933,
+  Benjamin*, CPP R. 15-33-29-4 et CGCT L. 2131-1 pour le cas 15 ; décision
+  n° 2021-817 DC, § 120 pour le cas 21), dans des réponses dont le tableau de
+  provenance est pourtant donné pour exhaustif. Correctif identifié pour la
+  suite (porter la jurisprudence de principe au socle) : **amélioration
+  continue, non bloquante** — détail dans `tests/bareme-cas-de-test.md` et
+  `JOURNAL.md`.
+- **Réserves de protocole** : skill lu depuis le dépôt (déclenchement
+  automatique par la `description` non testé par cette voie) ; répondant et juge
+  de la même famille de modèle, déclarés au manifest, isolation des contextes
+  conservée ; jugements rendus en deux temps (18 le 2026-08-08, 10 le
+  2026-09-06) sous barème normatif et protocole identiques.
+
+- **Ce run n'est pas un score de suite** et ne se compare pas au seuil de 25/28 :
+  une **campagne complète `r3`** sur les 28 cas reste requise avant
+  republication — **exigence satisfaite le 2026-09-06**, voir la section
+  « Validé — campagne complète `r3` » ci-dessus.
+- **Incident de protocole documenté** (`JOURNAL.md`) : l'outil Skill sert une
+  copie de session figée, pas le dépôt. Toute validation d'une version non
+  publiée doit charger le skill par lecture directe du dépôt et le déclarer dans
+  le `manifest.json` du run.
+
+## [1.0.1] — 2026-07-28 — Correctif de sûreté APJA et packaging
+
+### Corrigé
+
+- Suppression de toute mise à disposition automatique après un STOP.
+- Routage explicite entre la flagrance des art. 53 et 73 CPP, le relevé
+  d'identité de l'art. 78-6 CPP et l'absence de pouvoir de rétention.
+- Interdiction explicite de toute perquisition par l'agent PM, y compris en
+  flagrance ; art. 56 CPP cité pour l'acte réalisé par l'OPJ.
+- Art. 16 CPP limité à son objet : qualité d'OPJ, sans lui attribuer à lui
+  seul le fondement de tous les actes d'enquête.
+- Déclenchement du skill étendu aux demandes qui approchent ou dépassent les
+  pouvoirs APJA afin que le garde-fou puisse effectivement répondre.
+- Lien inter-skill `drh-fpt` corrigé.
+
+### Ajouté
+
+- Cas 27 (relevé d'identité art. 78-6) et 28 (STOP sans fondement de
+  rétention), soit 28 cas structurés.
+- Métadonnées d'interface `agents/openai.yaml`.
+- `AGENTS.md` projet.
+- Scripts reproductibles de validation, préparation/synthèse des évaluations
+  et packaging déterministe.
+
+### Modifié
+
+- Modèles Markdown déplacés de `assets/` vers `references/templates/`.
+- Package d'exécution limité à `SKILL.md`, `agents/openai.yaml`,
+  `references/` et `objets/`; documentation, journal, tests et outils restent
+  dans le dépôt sans polluer le runtime.
+- Les résultats d'évaluation antérieurs sont explicitement historiques :
+  aucune réussite complète v1.0.1 n'est revendiquée avant le nouveau run.
+
+### Évalué et corrigé — baseline Claude
+
+- Run complet Claude Sonnet 5 conservé sous
+  `tests/runs/claude-v1.0.1/` : **23 RÉUSSITE / 5 DEMI-RÉUSSITE / 0 ÉCHEC**,
+  avec 0 échec sur les cas critiques. Le seuil de release (25/28) n'est pas
+  atteint ; ce run reste la baseline associée au hash
+  `314395cdcfff04a19b6b10660832ea4ef1553ca3301c3b45ee9ee8240b2f2b26`.
+- Correctifs ciblés des cas 05, 09, 18, 22 et 24 : distinction obligatoire
+  convention/CLSPD-CISPD, allotissement avant qualification du marché, oracle
+  factuel sur le recueil de paroles, routage du refus de permis vers le
+  contrôle de légalité, et source exacte du critère d'inscription des chiens.
+- Socle complété avec l'arrêté du 27 avril 1999 (art. 1 et 2) et l'art.
+  L. 211-2 CRPA, vérifiés sur Légifrance le 2026-08-03.
+- Correction de la synthèse de l'art. 21 CPP : recueil des éventuelles
+  observations du contrevenant lors d'une constatation par PV, sans pouvoir
+  général d'audition.
+- La modification de l'oracle du cas 18 change l'empreinte de la suite : la
+  baseline n'est pas rescored rétroactivement et une campagne `r2` est requise.
+- Les nouveaux runs figent désormais leur corpus dans `suite.json`, ce qui
+  permet à `eval_suite.py summarize` de les vérifier même après une évolution
+  ultérieure de `tests/cas-de-test.json`.
+
+### Rejoué — campagne `r2` (2026-08-07/08) — sous le seuil, protocole corrigé
+
+- **L'exécution `r2` du 2026-08-03 est invalidée et remplacée.** Elle avait été
+  conduite sans que le répondant dispose réellement des skills `dpm-fpt`,
+  `recherche-juridique` et `drh-fpt` invocables : elle mesurait le modèle nu,
+  pas le skill. Les 28 cas ont été rejoués avec invocation réelle du skill et
+  de ses dépendances, lecture effective des fichiers de référence et
+  vérification en source primaire ; les artefacts ont été écrasés dans
+  `tests/runs/claude-v1.0.1-r2/`.
+- Run complet Claude Opus 5 (répondant et juge, contextes distincts) :
+  **10 RÉUSSITE / 12 DEMI-RÉUSSITE / 6 ÉCHEC**, hash inchangé
+  `8dbcf5e1915544ab5a4c29475979b479a1ea063bb5f59e936a8c6f3f18c94cb9` (validé
+  par `eval_suite.py summarize`). Le seuil de release (25/28, 0 échec critique)
+  n'est pas atteint — **un échec porte sur le cas critique 14**.
+- **Le sourcing n'est plus la cause dominante** : les 4 ÉCHEC de l'exécution
+  invalidée (01, 02, 06, 28) ne se reproduisent pas ; le sourcing est tenu sur
+  26/28 (résidu sur 11 et 17). Les cas critiques **27 et 28 passent en
+  RÉUSSITE**, l'erreur Rottweiler du cas 24 est corrigée, et aucune fabrication
+  d'identifiant `LEGIARTI` n'est relevée — sans modification du skill.
+- **Nouvelle cause dominante : le renvoi de fichier non nommé**, qui explique
+  la totalité des 12 DEMI et contribue à 3 des 6 ÉCHEC (04, 17, 21). Le
+  répondant qui a réellement lu les fichiers les consomme comme source et ne
+  les cite plus comme destination.
+- **Effet de bord à corriger en priorité** : rendre `drh-fpt` invocable
+  supprime le réflexe de bascule. Cas 14 (critique) et 21 : le répondant produit
+  lui-même le détail statutaire au lieu de déléguer. La frontière RH est
+  franchie par capacité, non par ignorance.
+- Détail complet dans `tests/bareme-cas-de-test.md` (section « Analyse du run
+  r2 rejoué ») et `JOURNAL.md`. Correctifs requis avant republication :
+  durcissement de `SKILL.md` §5.4 (la disponibilité de `drh-fpt` ne vaut pas
+  autorisation de produire) ; arbitrage des attendus de pointeur (imposer la
+  nomination du fichier cible en §7, ou les requalifier en non éliminatoires).
+
 ## [1.0.0] — 2026-07-03 — Première release stable
 
 Première **release** du skill `dpm-fpt` (système expert d'aide à la décision
@@ -290,7 +537,7 @@ pour un Directeur de Police Municipale). Aboutissement des versions 0.1.0 →
 ## [0.5.0] — 2026-06-30 — Phase 4 : générateurs (couche 4)
 
 ### Ajouté
-- **5 générateurs interactifs** dans `assets/` : `pv-contravention.md`,
+- **5 générateurs interactifs** dans `references/templates/` : `pv-contravention.md`,
   `rapport-information.md`, `rapport-mise-a-disposition.md`, `arrete-modele.md`,
   `note-maire-modele.md`.
 - Logique **interactive** (questions une à une → assemblage), règle
@@ -305,7 +552,7 @@ pour un Directeur de Police Municipale). Aboutissement des versions 0.1.0 →
 - **8 objets métier** : `commerce.md`, `manifestation.md`,
   `occupation-domaine-public.md`, `agent.md`, `accident.md`, `fourriere.md`,
   `videoprotection.md`, `police-chiens.md`. Chaque fiche **agrège et pointe**
-  vers les branches `references/` et les générateurs `assets/`, sans dupliquer
+  vers les branches `references/` et les générateurs `references/templates/`, sans dupliquer
   le fond ; rappel du garde-fou APJA en check-list quand l'objet peut le
   déclencher.
 

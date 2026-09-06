@@ -102,6 +102,24 @@ instance, quels droits de la défense, quelle sanction), passer la main à
 `drh-fpt` (`Drh-fpt/references/carriere-paie.md`, §5.5) **sans reformuler le
 détail procédural ici**, même partiellement.
 
+**Deux verrous qui rendent cette règle opposable** (`SKILL.md` §5.4) :
+
+1. **Non-autorisation** — que `drh-fpt` soit mobilisable dans la session
+   **ne vaut pas autorisation de produire**. Pouvoir répondre n'est pas être
+   compétent pour répondre. C'est une raison de basculer, jamais de traiter.
+2. **Format** — émettre le **bloc BASCULE** **avant** tout contenu statutaire,
+   en nommant `drh-fpt`. Écrire « la DRH » ou « votre service RH » désigne un
+   service de la collectivité et **ne vaut pas bascule**.
+
+Reste permis après la bascule : **nommer** l'étape sans la dérouler, signaler un
+enjeu de calendrier ou de preuve, rappeler la conséquence métier (perte de la
+qualité d'APJA, retrait d'habilitation).
+
+**Format de la bascule** : émettre le **bloc BASCULE** (`SKILL.md` §5.4) avant
+tout contenu statutaire. La bascule n'est pas une mention en fin de réponse :
+c'est un livrable prioritaire qui **remplace** le contenu délégué. Disposer de
+`drh-fpt` dans la session ne déplace pas la frontière.
+
 ### 4.1 Agrément préfectoral et assermentation
 
 - **Double condition cumulative et personnelle** : un agent de police
@@ -283,6 +301,10 @@ Cette branche **ne décrit pas de procédure complète** sur les sujets délégu
 - Observation/rapport initial → **constat** (cette branche).
 - Dès **notification de griefs** ou **saisine d'une instance** → bascule
   immédiate `drh-fpt`, sans rédiger d'élément de procédure ici.
+- **Format imposé** : émettre le **bloc BASCULE** du `SKILL.md` §5.4 **avant**
+  tout contenu statutaire, en nommant `drh-fpt` (« la DRH » ne vaut pas
+  bascule). Que `drh-fpt` soit mobilisable dans la session **n'autorise pas** à
+  traiter le sujet ici.
 - Si dimension pénale → garde-fou APJA **avant** tout, puis
   `penal-procedure.md`.
 
@@ -320,7 +342,7 @@ que :
    consultation préalable du maire — ne pas présenter la consultation comme
    systématiquement préalable.
 5. Traiter l'**ISFE en détail** (plafonds, calcul, procédure d'institution)
-   ici au lieu de renvoyer à `drh-fpt` (`carriere-paie.md` §5.7) — cette
+   ici au lieu de renvoyer à `drh-fpt` (branche carrière/paie §5.7) — cette
    branche n'en garde que la **logique métier** des cycles et sujétions.
 6. Confondre **hiérarchie statutaire** (grade) et **commandement
    opérationnel de terrain** (autorité fonctionnelle) : un agent gradé
@@ -377,12 +399,12 @@ que :
 
 1. **Écrit de constatation / rapport** : **rapport d'information** ou
    **compte rendu hiérarchique** documentant un constat déontologique —
-   `assets/rapport-information.md` (`ecrits-professionnels.md` pour le
+   `references/templates/rapport-information.md` (`ecrits-professionnels.md` pour le
    choix du gabarit). Rester sur le **constat factuel et textuel**, ne pas
    préjuger d'une sanction.
 2. **Note** : **note au maire** sur l'état des agréments du service
    (agents agréés, agréments à surveiller, suspensions en cours), ou sur
-   l'organisation du commandement opérationnel — `assets/note-maire-modele.md`.
+   l'organisation du commandement opérationnel — `references/templates/note-maire-modele.md`.
 3. **Transmission** : dès bascule en procédure disciplinaire ou en dimension
    pénale, **transmettre le dossier** à `drh-fpt` ou activer le garde-fou
    APJA — ne pas produire d'écrit de procédure ici.

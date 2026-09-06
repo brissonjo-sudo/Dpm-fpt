@@ -15,7 +15,8 @@
   administratifs), AIPD, traçabilité des consultations de fichiers.
 - **Exclusions** : la **procédure disciplinaire** (saisine du conseil de
   discipline, droits de la défense, échelle des sanctions, prescription) →
-  `drh-fpt` (`references/carriere-paie.md` §5.5). Cette branche s'arrête au
+  activer `drh-fpt` et consulter sa branche carrière/paie (§5.5). Cette branche
+  s'arrête au
   **constat** du manquement déontologique ; dès que la **procédure**
   disciplinaire s'engage, passer la main (`SKILL.md` §5.4).
 
@@ -313,6 +314,15 @@ Règles structurantes (à vérifier au cas d'usage) :
   registre des traitements et de l'information du public — responsable de
   traitement = le maire. Extraction pour une procédure judiciaire = **sur
   réquisition de l'OPJ** (garde-fou APJA, jamais de sa propre initiative).
+- **Usage disciplinaire des images — piège de dérive de périmètre** : le
+  contrôle de l'activité des agents ne figure pas parmi les finalités. Traiter
+  la ligne de partage (interdit de visionner pour chercher un manquement ;
+  extraction admise dans une procédure ouverte sur des faits déjà connus) relève
+  bien de cette branche. Mais **dès que la réponse aborde les garanties
+  statutaires** (communication du dossier, assistance d'un conseil, délai de
+  défense, échelle des sanctions), émettre le **bloc BASCULE `drh-fpt`**
+  (`SKILL.md` §5.4) **avant** ce contenu — même s'il ne s'agit que d'une incise
+  dans une réponse par ailleurs entièrement métier.
 
 > Si le besoin porte sur le **texte exact et les identifiants**, passer par
 > `recherche-juridique` ou un appel d'outil Légifrance avant toute citation en
@@ -369,7 +379,9 @@ Appliquer le socle-sources (`SKILL.md` §5.3 +
    et proportionnalité distinctes) — §4.2.
 2. Traiter un manquement déontologique et la procédure disciplinaire comme un
    seul et même sujet : cette branche s'arrête au **constat** ; la
-   **procédure** est `drh-fpt` (§5.4 du `SKILL.md`).
+   **procédure** est `drh-fpt` (§5.4 du `SKILL.md`). Corollaire : **disposer de
+   `drh-fpt` dans la session n'autorise pas à produire ici** le détail
+   statutaire — la bascule est un livrable, pas une simple mention.
 3. Croire que la voie disciplinaire **exclut** la voie pénale, ou
    inversement : elles sont **cumulables et indépendantes** (§4.3).
 4. Confondre **CRPA** (accès d'un tiers à un document) et **droit d'accès
