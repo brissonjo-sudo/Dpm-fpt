@@ -65,39 +65,38 @@ Boucle `JOURNAL.md` (cas) → `CHANGELOG.md` (versions), décisions tracées dan
 
 ## Version
 
-**v1.0.3 — la jurisprudence entre au socle.** Le garde-fou APJA distingue trois
-issues : appréhension sous les conditions cumulatives des articles 53 et 73 du
-CPP, relevé d'identité selon l'article 78-6, ou absence de pouvoir de rétention.
-Aucune perquisition n'est attribuée à l'agent PM, même en flagrance.
+**v1.0.4 — revue de rentrée 2026 et audit complet (2026-09-14).** Rapport :
+`docs/audit/2026-09-14-audit-v1.0.3.md`. Ce que la version change :
 
-**Dernier score de suite — la campagne complète `claude-v1.0.2-r3`**, achevée le
-2026-09-06 sur les 28 cas, **mesure la v1.0.2** et donne **26 RÉUSSITE /
-0 DEMI-RÉUSSITE / 2 ÉCHEC** : le seuil de release est atteint pour la première
-fois (≥ 25/28 et **0 échec sur les six cas critiques**, dont le cas 14 qui
-échouait auparavant).
+- **Socle recontrôlé** identifiant par identifiant (62/62 sur Légifrance) ;
+  deux versions nouvelles depuis la date consignée, toutes deux issues de la
+  **loi n° 2026-798 du 18 août 2026** : art. 21 CPP (le recueil de
+  déclarations par PV est étendu aux APJA des 1° à 1° ter, **sans les agents
+  de police municipale**) et CSP L. 3332-15 (fermeture des débits de boissons
+  pour atteinte à l'ordre public : 3 mois, 6 en réitération). **17 références**
+  citées dans les branches sans figurer au socle y sont portées (§8), dont
+  R. 325-14 du code de la route, les référés du CJA et l'art. 803 CPP.
+- **Garde-fou APJA** : trois fissures refermées — rétention sur simple
+  soupçon et « mise à disposition automatique » dans l'objet accident,
+  exception « fouille de sécurité » jamais définie (désormais bornée à l'art.
+  L. 511-1 CSI, palpation consentie), menottage sans fondement de rétention
+  (art. 803 CPP).
+- **Fourrière** : le skill affirmait que la PM « ne décide jamais » la mise en
+  fourrière ; l'art. R. 325-14 la fait prescrire par l'OPJ **ou par le chef de
+  la police municipale** (sauf véhicule volé, non identifié ou faussement
+  immatriculé). Branche et objet corrigés.
+- **Frontière RH** étendue aux couches 3 et 4 (objet agent, protection
+  fonctionnelle), description du skill rendue discriminante vis-à-vis de
+  `drh-fpt` et `dpo-ct`, gabarits et pointeurs remis d'équerre.
 
-Les deux échecs (15 et 21) tenaient à des références **hors socle** —
-jurisprudence citée par son nom d'usage, article voisin d'un article tracé —
-citées sans réserve dans des réponses par ailleurs intégralement sourcées. La
-**v1.0.3 corrige cette cause à la racine** : l'arrêt *Benjamin* et l'art. 122-5
-du code pénal sont portés au socle vérifié, la règle de provenance couvre
-explicitement les décisions de justice, et l'auto-vérification du sourcing
-devient un **test à charge** sur le texte produit. Cette version étant
-postérieure à la mesure, une campagne `r4` reste requise pour la scorer.
+**Dernier score de suite — campagne complète `claude-v1.0.2-r3`** (achevée le
+2026-09-06, 28 cas, skill lu depuis le dépôt) : **26 RÉUSSITE / 0 DEMI /
+2 ÉCHEC**, seuil de release atteint (≥ 25/28 et 0 échec sur les six cas
+critiques). Les deux échecs (15, 21) tenaient à des références hors socle,
+corrigées en v1.0.3. La v1.0.4 est mesurée par la campagne `r4`
+(`tests/runs/claude-v1.0.4-r4/`, protocole `r3` reconduit) ; son score est
+consigné dans `tests/bareme-cas-de-test.md` et dans le `CHANGELOG.md`.
 
-La campagne `claude-v1.0.1-r2` a été **rejouée les 2026-08-07/08** : sa première
-exécution avait été conduite sans que le répondant dispose réellement des skills
-invocables, et mesurait donc le modèle nu, pas le skill. Résultat de la
-ré-exécution : **10 RÉUSSITE / 12 DEMI-RÉUSSITE / 6 ÉCHEC**, dont un échec sur
-un cas critique (14). Le sourcing, cause des échecs précédents, est désormais
-tenu sur 26/28 ; la cause dominante devient le renvoi de fichier non nommé
-(12 DEMI sur 12), désormais **requalifié en critère non éliminatoire**.
-
-Enseignement central, traité par cette version : **rendre `drh-fpt` invocable
-supprimait le réflexe de bascule** — le skill produisait le détail statutaire au
-lieu de déléguer. La disponibilité d'un skill délégataire ne vaut plus
-autorisation de produire, et la bascule devient un livrable formaté et
-prioritaire (voir `docs/adr/0003-disponibilite-skill-delegataire.md`). Validation
-partielle requise sur les cas 10, 11, 14, 17 et 21 avant toute campagne
-complète. Détail dans `tests/bareme-cas-de-test.md`. Le package d'exécution est
-limité aux fichiers nécessaires.
+Historique complet des campagnes et des versions : `CHANGELOG.md`,
+`tests/bareme-cas-de-test.md`. Le package d'exécution est limité aux fichiers
+nécessaires (`SKILL.md`, `agents/openai.yaml`, `references/`, `objets/`).

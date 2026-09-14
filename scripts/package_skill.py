@@ -8,7 +8,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "1.0.2"
+VERSION = "1.0.4"
 DEFAULT_OUTPUT = ROOT / "dist" / f"dpm-fpt-{VERSION}.zip"
 FIXED_TIMESTAMP = (2026, 1, 1, 0, 0, 0)
 

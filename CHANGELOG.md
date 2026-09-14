@@ -2,6 +2,111 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [1.0.4] — 2026-09-14 — Revue de rentrée 2026 : audit complet, loi Ripost, garde-fou resserré
+
+Version issue de l'**audit complet du 2026-09-14** (rapport :
+`docs/audit/2026-09-14-audit-v1.0.3.md`), conduit en cinq dimensions —
+vigueur du socle, discipline de sourcing, garde-fou APJA et frontières,
+gabarits et duplication, tests et déclenchement — et de la **revue de rentrée**
+prévue par `SKILL.md` §9.
+
+### Vigueur — socle recontrôlé (62/62) et loi n° 2026-798 du 18 août 2026
+
+- Les 62 identifiants de `references/references-verifiees.md` ont été
+  recontrôlés un à un sur Légifrance : 60 conformes, 2 versions nouvelles,
+  toutes deux issues de la **loi n° 2026-798 (« Ripost »)**, en vigueur au
+  20/08/2026 (`JORFTEXT000054707332`) :
+  - **art. 21 CPP** (`LEGIARTI000054725485`) : recueil par PV des déclarations
+    de témoins ouvert, sous contrôle OPJ et après formation, aux **APJA des 1°
+    à 1° ter** ; même extension à l'**art. 15-3** pour les plaintes. **Les
+    agents PM (2°) en sont exclus** — alerte de vigueur ajoutée en tête du
+    socle, note dans `penal-procedure.md` §4.1 : le garde-fou s'applique tel
+    quel et l'extension ne se transpose pas à la PM par analogie.
+  - **CSP L. 3332-15** (`LEGIARTI000054725387`) : fermeture pour atteinte à
+    l'ordre public portée de 2 à **3 mois** (6 en réitération) ; réitération
+    à 12 mois pour les autres cas ; transmission au préfet sous 3 jours
+    lorsque le maire agit par délégation. `reglementation-appliquee.md` §5.2
+    porte désormais les durées **avec leur provenance** au lieu d'une réserve.
+- **§8 du socle créé** : 17 références citées avec un numéro précis dans les
+  branches sans y figurer sont vérifiées et portées — CGCT L. 2131-1,
+  L. 2131-4, L. 2131-6, L. 2212-3, L. 2212-5 ; CSI L. 241-2 (caméras-piétons
+  PM, non modifié par la loi Ripost), L. 512-2, L. 512-5 ; CG3P L. 2122-3 ;
+  code de la route **R. 325-14** ; CPP 15-3 et **803** ; CJA R. 421-1,
+  L. 521-1, L. 521-2 ; décret n° 2013-1113 (`JORFTEXT000028276865`) ;
+  ordonnance n° 2025-1091 (`JORFTEXT000052650320`).
+- **Réserves périmées levées** (référence au socle mais encore « à
+  confirmer ») dans 14 fichiers ; **étiquettes « vérifié » sans base au
+  socle** corrigées (`contentieux.md` : bloc CJA ; `controle-legalite.md` et
+  `arrete-modele.md` : L. 2131-1 ; `rh-specificites-pm.md` : L. 2212-5).
+- **Deux rattachements faux corrigés** : L. 512-2 CSI ne porte pas sur les
+  plages horaires d'intervention (recrutement intercommunal) ; L. 2212-3 CGCT
+  ne concerne pas la circulation (communes riveraines de la mer). Les plages
+  horaires (partie réglementaire) restent réservées, identifiants non obtenus.
+
+### Corrigé — garde-fou APJA (trois fissures)
+
+- `objets/accident.md` : la « mise à disposition immédiate » sur simple
+  détection d'un délit grave et la rétention sur **soupçon** d'alcoolémie
+  contredisaient `SKILL.md` §5.2 point 4 et la check-list du même fichier.
+  Réécrit : compte rendu immédiat à l'OPJ ; appréhension uniquement sous les
+  conditions cumulatives des art. 53 et 73 ; un soupçon ne fonde rien.
+  Circuit de transmission ramené à l'art. 21-2 (jamais directement au
+  procureur).
+- **Fouille / palpation** : l'exception « fouille de sécurité mise à part »
+  (`penal-procedure.md` §4.4), jamais définie et répétée six fois dans le
+  générateur de mise à disposition, est bornée à l'art. **L. 511-1 CSI al. 6**
+  (manifestation, périmètre de protection, accès à un bâtiment communal ;
+  consentement exprès ; même sexe). Hors ces cas, toute palpation est une
+  fouille : STOP.
+- **Menottage** (`armement-equipements.md`, `penal-procedure.md`) : double
+  verrou — fondement de rétention (53 + 73, ou ordre OPJ sur 78-6) et
+  conditions de l'art. **803 CPP**.
+- `references/templates/pv-contravention.md` : le recueil des observations du
+  contrevenant est borné (spontané, sans question ni confrontation) pour ne
+  pas amorcer une audition.
+
+### Corrigé — fond métier
+
+- **Fourrière** : branche et objet affirmaient que la PM « ne décide jamais
+  seule » et que le maire ou le préfet prescrivait l'enlèvement. L'art.
+  **R. 325-14** du code de la route fait prescrire la mise en fourrière par
+  l'OPJ **ou par l'APJA chef de la police municipale** (sauf véhicule volé,
+  propriétaire non identifié, fausses plaques → OPJ). Réécrit dans
+  `reglementation-appliquee.md` §5.1 et `objets/fourriere.md` §1, §3, §5, §6.
+- **Transfert EPCI** : `pouvoirs-police.md` écartait comme « non vérifié » un
+  article pourtant au socle (L. 5211-9-2) ; le routeur ignorait ce conflit —
+  ligne ajoutée à la table des conflits d'`analyse-situation.md`.
+
+### Corrigé — frontière RH en couches 3 et 4
+
+- `objets/agent.md` faisait produire un acte de **suspension des fonctions**
+  avec voies et délais de recours : c'est un déclencheur de la liste fermée
+  (§5.4). Bloc BASCULE imposé ; ce qui reste permis est explicité.
+- `conformite-deontologie-donnees.md` : la protection fonctionnelle se nomme
+  sans se dérouler ; check-list alignée sur le test à charge de §7 point 8.
+
+### Modifié
+
+- **`SKILL.md` — description** : ajoute « agrément et assermentation »,
+  « caméras-piétons », les objets de terrain, et une exclusion réciproque vers
+  `dpo-ct` (registre, AIPD) symétrique de celle que `dpo-ct` porte vers
+  `dpm-fpt`. Sens et périmètre inchangés.
+- Gabarits : `objets/occupation-domaine-public.md` revient aux 6 sections
+  imposées ; deux notes obsolètes (« objets pas encore rédigés ») retirées ;
+  contradiction interne de `vault/maillage.md` levée ; catégorisation du
+  Rottweiler reformulée sans contredire la règle inscrit/non inscrit.
+- `AGENTS.md` : chemins Windows absolus remplacés par une référence portable.
+- `JOURNAL.md` : deux entrées de la campagne r2 restées « à traiter » sont
+  clôturées ; entrées de revue de rentrée et d'audit ajoutées.
+- `scripts/package_skill.py` : VERSION réalignée (était restée en 1.0.2).
+
+### Mesure
+
+- Le score **26/28** reste celui de la **v1.0.2** (`r3`). La v1.0.4 est
+  mesurée par la campagne complète **`r4`** (`tests/runs/claude-v1.0.4-r4/`,
+  protocole `r3` reconduit, coût consigné) — résultat dans la section
+  « Validé » ci-dessous une fois la campagne achevée.
+
 ## [1.0.3] — 2026-09-06 — La jurisprudence entre au socle ; sourcing en test à charge
 
 Correctif ciblé des **2 seuls échecs** de la campagne `r3` (cas 15 et 21), qui

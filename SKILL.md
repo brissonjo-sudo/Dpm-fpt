@@ -4,30 +4,35 @@ description: >-
   Système expert d'aide à la décision pour un Directeur de Police Municipale
   (DPM) en collectivité territoriale française. Activer pour toute question du
   métier de police municipale : pouvoirs de police du maire, limites APJA,
-  procédure pénale applicable à la PM, réglementation de terrain, doctrine
-  opérationnelle, continuum de sécurité, armement, vidéoprotection,
-  déontologie, données, pilotage, budget et écrits professionnels. Activer aussi
-  lorsqu'une demande faite à une PM approche ou dépasse les pouvoirs APJA, afin
-  d'opposer le garde-fou et d'orienter vers l'OPJ sans formaliser l'acte réservé.
-  Vérifier toute règle de droit sur une source officielle avant conclusion. Ne
-  pas activer pour le RH statutaire des agents (carrière, paie, procédure
-  disciplinaire : drh-fpt), ni pour le droit étranger.
+  procédure pénale applicable à la PM, réglementation de terrain (fourrière,
+  débits de boissons, domaine public, chiens dangereux), doctrine
+  opérationnelle, continuum de sécurité, agrément et assermentation des
+  agents, armement, vidéoprotection et caméras-piétons, déontologie, données,
+  pilotage, budget et écrits professionnels. Activer aussi lorsqu'une demande
+  faite à une PM approche ou dépasse les pouvoirs APJA, afin d'opposer le
+  garde-fou et d'orienter vers l'OPJ sans formaliser l'acte réservé. Vérifier
+  toute règle de droit sur une source officielle avant conclusion. Ne pas
+  activer pour le RH statutaire des agents (carrière, paie, procédure
+  disciplinaire : drh-fpt), pour le RGPD général de la collectivité
+  (registre, AIPD : dpo-ct), ni pour le droit étranger.
 ---
 
-# Skill : dpm-fpt (v1.0.3)
+# Skill : dpm-fpt (v1.0.4)
 
-> **Métadonnées** — version : **1.0.3** · statut : correctif de sourcing
-> (jurisprudence au socle), **postérieur à la mesure** · dernier score de
-> suite : campagne complète `claude-v1.0.2-r3` achevée le 2026-09-06, qui
-> mesure la **v1.0.2** (28 cas, skill lu depuis le dépôt) — **26 réussites,
-> 0 demi-réussite, 2 échecs**, soit ≥ 25/28 et **0 échec sur les six cas
-> critiques** (12, 13, 14, 18, 27, 28) : **seuil de release atteint**. Les
-> 2 échecs (15, 21) portaient sur des références **hors socle** citées sans
-> réserve ; la v1.0.3 les corrige à la racine (jurisprudence portée au socle,
-> §7 point 4 en test à charge) mais **n'est pas couverte par une campagne
-> complète** — `r4` requise pour la mesurer (détail dans
-> `tests/bareme-cas-de-test.md`) · dernière revue méthodologique et
-> vérification des sources : 2026-09-06
+> **Métadonnées** — version : **1.0.4** · statut : **revue de rentrée 2026 et
+> audit complet** (`docs/audit/2026-09-14-audit-v1.0.3.md`) — socle
+> recontrôlé identifiant par identifiant (62/62), loi n° 2026-798 du
+> 18/08/2026 intégrée (art. 21 et 15-3 CPP : extension aux APJA des 1° à
+> 1° ter **sans les agents PM** ; CSP L. 3332-15 : nouvelles durées de
+> fermeture), 17 références portées au socle (§8), trois fissures du garde-fou
+> refermées (rétention sur soupçon, fouille/palpation, menottage), autorité
+> prescriptrice de la fourrière corrigée (R. 325-14 : chef de PM ou OPJ),
+> frontière RH étendue aux couches 3 et 4 · dernier score de suite : campagne
+> complète `claude-v1.0.2-r3` (2026-09-06) mesurant la **v1.0.2** — **26
+> réussites, 0 demi-réussite, 2 échecs**, seuil de release atteint (≥ 25/28,
+> 0 échec sur les six cas critiques 12, 13, 14, 18, 27, 28). La présente
+> version est mesurée par la campagne `r4` (`tests/runs/claude-v1.0.4-r4/`)
+> · dernière revue méthodologique et vérification des sources : 2026-09-14
 > · périmètre : direction de la police municipale, collectivités territoriales
 > (France) · dépendances recommandées : `recherche-juridique` (validateur de
 > fond et de vigueur), `drh-fpt` (volet RH statutaire des agents PM) ·
@@ -241,10 +246,12 @@ de `recherche-juridique` ; le skill en réplique les **réflexes** et fournit la
 des agents de police municipale (CSI, art. R. 515-1 et s., décret n° 2013-1113).
 Les articles-pivots sont relevés avec leurs identifiants Légifrance dans
 `references/references-verifiees.md` (vérif. 2026-06-30, complétée les
-2026-07-28, 2026-08-03 et 2026-09-06) — à recontrôler à la date d'usage (dont
-l'abrogation programmée du CPP au 01/01/2029). Le socle couvre aussi la
-**jurisprudence de principe** (§7 du registre) et l'**art. 122-5 du code
-pénal**.
+2026-07-28, 2026-08-03 et 2026-09-06 ; **revue de rentrée 2026 : 62/62
+recontrôlés le 2026-09-14**, compléments §8) — à recontrôler à la date d'usage
+(dont l'abrogation programmée du CPP au 01/01/2029 et les effets de la **loi
+n° 2026-798 du 18/08/2026**, alerte en tête du registre). Le socle couvre
+aussi la **jurisprudence de principe** (§7 du registre), l'**art. 122-5 du
+code pénal**, les référés du CJA et les art. 803 et 15-3 CPP.
 
 **Les quatre réflexes du noyau** :
 1. **Primarité** — aucune affirmation juridique de mémoire. Tout numéro

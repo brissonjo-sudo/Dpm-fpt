@@ -1,6 +1,6 @@
 ---
 tags: [skill/dpm-fpt, index]
-version: 1.0.3
+version: 1.0.4
 ---
 
 # Index — skill dpm-fpt
@@ -75,8 +75,10 @@ version: 1.0.3
 | Barème de passage des 28 cas (attendus critiques, score de suite) | `../tests/bareme-cas-de-test.md` |
 | Historique des versions (semver) | `../CHANGELOG.md` |
 | Journal des cas significatifs (apprentissage, anonymisé) | `../JOURNAL.md` |
+| **Audit complet 2026-09-14** (revue de rentrée 2026 : vigueur, sourcing, garde-fou, gabarits, tests, déclenchement ; plan P1/P2/P3) | `../docs/audit/2026-09-14-audit-v1.0.3.md` |
 | ADR — adoption du pattern drh-fpt | `../docs/adr/0001-adoption-pattern-drh-fpt.md` |
 | ADR — frontière dpm-fpt / drh-fpt | `../docs/adr/0002-frontiere-dpm-drh.md` |
+| ADR — disponibilité d'un skill délégataire ≠ autorisation de produire | `../docs/adr/0003-disponibilite-skill-delegataire.md` |
 | Présentation générale du repo | `../README.md` |
 
 ## Voir aussi
