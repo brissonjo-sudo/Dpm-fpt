@@ -1,3 +1,5 @@
+# dpm-fpt — métadonnées d'interface Codex. La version du skill est celle de
+# SKILL.md (voir CHANGELOG.md) ; ce fichier n'en porte pas de copie.
 interface:
   display_name: "DPM FPT"
   short_description: "Décisions sûres pour la police municipale"
