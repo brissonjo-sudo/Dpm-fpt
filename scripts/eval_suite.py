@@ -40,7 +40,7 @@ def prepare_run(run_dir: Path, responder: str, judge: str) -> None:
     (run_dir / "suite.json").write_bytes(CASES_PATH.read_bytes())
     manifest = {
         "format_version": 1,
-        "skill_version": "1.0.2",
+        "skill_version": "1.0.4",
         "created_at": datetime.now(UTC).isoformat(),
         "suite_sha256": suite_digest(),
         "responder": responder,
