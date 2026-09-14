@@ -113,8 +113,8 @@ en amont de la production, pas de base légale propre).
 
 ## Couverture du maillage
 
-8 objets sur 8 mobilisent au moins une branche métier et au moins un
-générateur ; 7 sur 8 mobilisent une posture explicite (seul
-`occupation-domaine-public` n'en appelle aucune dans son fil type). Tous les 5
+8 objets sur 8 mobilisent au moins une branche métier, au moins un
+générateur et au moins une posture explicite (`occupation-domaine-public`
+appelle `controle-legalite` pour ses arrêtés faisant grief). Tous les 5
 générateurs convergent vers la même branche pilote (`ecrits-professionnels.md`)
 et vers le même nœud transverse de garde-fou APJA en amont.

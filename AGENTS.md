@@ -1,18 +1,21 @@
 # Instructions projet — dpm-fpt
 
-Les règles globales de `C:\Users\Krn\Documents\ClaudeMemory\AGENTS.md`
-s'appliquent à ce dépôt.
+Les règles globales du vault de mémoire de l'auteur (`ClaudeMemory/AGENTS.md`,
+hors dépôt) s'appliquent à ce dépôt lorsqu'il est disponible.
 
 ## Mémoire projet
 
-Avant toute modification non triviale, consulter :
+Avant toute modification non triviale, consulter — **si le vault de mémoire est
+monté** (poste de l'auteur ; il n'est pas disponible dans un environnement
+distant, où le dépôt se suffit à lui-même) :
 
-- `C:\Users\Krn\Documents\ClaudeMemory\02-Projects\Dpm-fpt\overview.md`
-- `C:\Users\Krn\Documents\ClaudeMemory\02-Projects\Dpm-fpt\conventions.md`
-- `C:\Users\Krn\Documents\ClaudeMemory\02-Projects\Dpm-fpt\decisions.md`
-  si ce fichier existe
-- `C:\Users\Krn\Documents\ClaudeMemory\02-Projects\Dpm-fpt\journal.md`
-  si ce fichier existe
+- `ClaudeMemory/02-Projects/Dpm-fpt/overview.md`
+- `ClaudeMemory/02-Projects/Dpm-fpt/conventions.md`
+- `ClaudeMemory/02-Projects/Dpm-fpt/decisions.md` si ce fichier existe
+- `ClaudeMemory/02-Projects/Dpm-fpt/journal.md` si ce fichier existe
+
+Sans ce vault, les sources de vérité sont dans le dépôt : `README.md`,
+`CHANGELOG.md`, `JOURNAL.md`, `docs/adr/` et `docs/audit/`.
 
 ## Contraintes du skill
 

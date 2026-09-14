@@ -24,6 +24,50 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-09-14 — Revue de rentrée 2026 et audit complet (5 dimensions) — v1.0.4
+- Type : erreur (fond et sûreté) + lacune (vigueur) + cas nouveau (réforme)
+- Branche : (transverse) — socle, penal-procedure, reglementation-appliquee,
+  armement-equipements, conformite-deontologie-donnees, pouvoirs-police,
+  contentieux, rh-specificites-pm ; objets accident, agent, fourriere ;
+  générateurs PV et mise à disposition
+- Contexte (anonymisé) : audit orchestré (7 vérificateurs de vigueur, un par
+  code ; 5 auditeurs, un par dimension ; contextes isolés) tenant lieu de
+  revue de rentrée. Rapport : `docs/audit/2026-09-14-audit-v1.0.3.md`.
+- Constat, par ordre de gravité :
+  1. **Une réforme non détectée** : la loi n° 2026-798 du 18/08/2026 a
+     modifié deux articles du socle (art. 21 CPP, CSP L. 3332-15) dix-huit
+     jours avant la v1.0.3, sans que la « vérification des sources du
+     2026-09-06 » l'ait vue — elle ne portait que sur les deux références
+     ajoutées, pas sur le socle existant. Une revue de rentrée qui ne
+     recontrôle pas identifiant par identifiant ne détecte pas les réformes.
+  2. **Les objets de couche 3 avaient réintroduit ce que `SKILL.md` §5.2
+     interdit** : deux automatismes de rétention dans `accident.md` (mise à
+     disposition sur détection, rétention sur soupçon d'alcoolémie), une
+     route de production d'acte de suspension avec délais de recours dans
+     `agent.md`. La règle était juste en couches 1, 2 et 4 ; elle n'avait pas
+     été propagée là où le skill parle le plus concrètement — le même
+     mécanisme que la frontière RH en v1.0.2.
+  3. **Une exception jamais définie** (« fouille de sécurité mise à part »)
+     traversait la branche pénale puis le générateur de mise à disposition,
+     qui faisait attester sa licéité. Le texte réel (CSI L. 511-1 al. 6) est
+     étroit : trois cadres, consentement exprès, même sexe.
+  4. **Une affirmation fausse sur la fourrière** : « la PM ne décide jamais
+     seule » — R. 325-14 du code de la route fait prescrire la mise en
+     fourrière par l'OPJ ou par le chef de la police municipale. Découverte
+     par l'audit de duplication, pas par les tests : `fourriere.md` a un cas
+     (03) dont les attendus ne nomment pas le prescripteur.
+  5. **Un bloc entier étiqueté « vérifié » sans base au socle** (CJA dans
+     `contentieux.md`) : l'étiquette de vérification est le mensonge le plus
+     coûteux du skill, parce qu'elle désactive la réserve.
+- Action : tout ce qui précède est corrigé en v1.0.4 (détail dans le
+  `CHANGELOG.md`). Trois règles de maintenance en sortent : (a) la revue de
+  rentrée **recontrôle chaque identifiant du socle**, pas seulement les
+  ajouts ; (b) tout correctif de sûreté est **propagé dans les objets et les
+  générateurs** qui touchent le même acte, et l'audit vérifie la présence du
+  bloc (STOP, BASCULE) dans les 4 couches ; (c) une étiquette « vérifié »
+  sans identifiant au socle est traitée comme une **référence de mémoire**.
+- Statut : intégré (v1.0.4) ; mesure par la campagne `r4`.
+
 ### 2026-09-06 — La jurisprudence entre au socle : correctif des 2 échecs de `r3` (v1.0.3)
 - Type : lacune (résolue) + erreur (énoncé faux dans un générateur)
 - Branche : (socle) + pouvoirs-police | controle-legalite |
@@ -226,8 +270,10 @@ Une entrée par cas, au format ci-dessous.
   sur la validité juridique des réponses) ; (3) resserrer la règle de provenance
   sur les articles servant de fondement de compétence cités en incise (cas 11,
   17).
-- Statut : à traiter (correctif §5.4 requis avant toute republication ;
-  arbitrage des attendus de pointeur requis avant campagne `r3`).
+- Statut : intégré (v1.0.2 — bloc BASCULE `SKILL.md` §5.4 et ADR-0003 ;
+  attendus de pointeur requalifiés en non éliminatoires le 2026-08-08 ;
+  règle de provenance §5.3 étendue aux fondements de compétence). Clôturé à
+  l'audit du 2026-09-14.
 
 ### 2026-08-03 — Exécution de la campagne `r2` : régression (19/28) et cause unique identifiée
 > **Entrée invalidée le 2026-08-08** : protocole défaillant (skills non
@@ -265,7 +311,10 @@ Une entrée par cas, au format ci-dessous.
   avant toute qualification d'espèce/race (pas seulement sa présence dans le
   skill). Ne pas republier tant que ces deux points n'ont pas été retestés au
   moins sur les cas 01, 02, 06, 24 et 28.
-- Statut : à traiter (nouveau correctif requis avant campagne `r3`).
+- Statut : intégré (v1.0.2 — « aucune exception de notoriété », `SKILL.md`
+  §5.3 ; retest effectif sur les cas 01, 02, 06, 24 et 28 lors de la campagne
+  `r2` rejouée puis `r3`, tous en RÉUSSITE en `r3`). Clôturé à l'audit du
+  2026-09-14.
 
 ### 2026-08-03 — Baseline Claude v1.0.1 et correction des cinq demi-réussites
 - Type : lacune + correction d'oracle + vérification juridique

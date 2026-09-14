@@ -26,8 +26,7 @@
     non couverts ici) ;
   - le **fond opérationnel détaillé du CSU** (procédures de poste, doctrine de
     visionnage, fiches réflexes) → objet **`objets/videoprotection.md`**
-    (à créer en couche 3 ; à ce stade, ce pointeur est annoncé mais l'objet
-    n'existe pas encore dans le dépôt — ne pas l'halluciner avant création) ;
+    (fiche existante en couche 3, à lire pour le traitement opérationnel) ;
   - la **jurisprudence de fond** (contentieux d'autorisation, contentieux
     d'accès aux images) → `recherche-juridique`.
 

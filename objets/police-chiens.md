@@ -203,9 +203,10 @@ administratif intense en cas d'erreur ou de violation de procédure.
    2026-08-03. Pour les Staffordshire/American Staffordshire, l'inscription à
    un livre généalogique reconnu est un critère décisif : la race inscrite
    relève de la 2e catégorie, tandis que le type morphologique correspondant
-   non inscrit relève de la 1re. Ne pas généraliser cette opposition à toutes
-   les races : l'arrêté classe aussi le Rottweiler et le type assimilable non
-   inscrit en 2e catégorie. Si la race, le pedigree ou la morphologie ne sont
+   non inscrit relève de la 1re. **Cette opposition ne vaut pas pour le
+   Rottweiler** : l'art. 2 de l'arrêté range en 2e catégorie la race
+   Rottweiler **et** les chiens de type Rottweiler non inscrits — un Rottweiler
+   n'est donc jamais de 1re catégorie. Si la race, le pedigree ou la morphologie ne sont
    pas établis, marquer `[INCOMPLET]` et demander les justificatifs.
 
 ### 3.4 Mesures de prévention — garde sécurisée
