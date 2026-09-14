@@ -127,7 +127,11 @@ qualification / témoins / suites** imposée par `SKILL.md` §6 et
 - Q6.3 : « Le contrevenant a-t-il formulé des observations au moment de la
   constatation ? » — rappel : leur recueil est une **faculté**, pas une
   obligation, dans le cadre de l'art. 21 CPP (`ecrits-professionnels.md`
-  §5.3).
+  §5.3). **Garde-fou** : on retranscrit des observations **spontanées**,
+  telles quelles ; aucune question sur les faits, aucune confrontation, aucun
+  recueil orienté — ce serait une audition, acte réservé à l'OPJ (`SKILL.md`
+  §5.2). Si le contrevenant veut « s'expliquer » longuement, noter qu'il a
+  souhaité formuler des observations et renvoyer à l'OPJ.
 
 ### Étape 7 — Suites données
 - Q7.1 : « Une notification ou un avis a-t-il été remis au contrevenant
@@ -256,8 +260,9 @@ Mis en cause : [identité si connue : [NOM Prénom], [date de naissance],
 
 Témoins : [identité(s) et qualité(s) — ou : « néant »].
 
-Observations recueillies du contrevenant : [contenu, si recueillies — ou :
-« aucune observation recueillie »].
+Observations recueillies du contrevenant : [contenu spontané, retranscrit
+sans question ni reformulation, si recueilli — ou : « aucune observation
+recueillie »].
 
 Notification : [modalités — PV remis sur place / avis différé /
 verbalisation électronique — circuit local [INCOMPLET] si non précisé].

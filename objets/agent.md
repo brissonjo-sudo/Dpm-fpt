@@ -87,7 +87,8 @@
 
 ### Actes faisant grief
 - Un éventuel **retrait d'autorisation de port d'armes** par le préfet est un acte de l'État, non produit par cette branche → néanmoins, le DPM peut adresser une **note d'alerte au maire** sur le risque ou l'imminence d'une décision préfectorale, avec pièces justificatives (non-respect de l'entraînement, doute sur l'aptitude).
-- Toute décision communale défavorable à l'agent (refus de dotation, suspension des fonctions) : motivation + voies et délais de recours + vérifier le contrôle de légalité → `controle-legalite.md` avant production.
+- Toute décision communale défavorable à l'agent **relevant du métier** (refus de dotation, retrait d'une habilitation interne, refus d'affectation à une mission armée) : motivation + voies et délais de recours + vérifier le contrôle de légalité → `controle-legalite.md` avant production.
+- **Frontière RH (`SKILL.md` §5.4)** : la **suspension des fonctions**, toute **sanction** et toute mesure de la liste fermée des déclencheurs (conseil de discipline, droits de la défense, quantum, CAP…) ne sont **jamais produites depuis cette fiche**. Émettre le **bloc BASCULE `drh-fpt`** avant tout contenu statutaire, y compris si `drh-fpt` est mobilisable dans la session ; ce qui reste permis : nommer l'étape (« une suspension conservatoire devra être envisagée ») et sa conséquence métier (retrait d'habilitation, perte de la qualité d'APJA).
 
 ---
 

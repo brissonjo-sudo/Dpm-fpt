@@ -102,6 +102,18 @@ En cette qualité, l'agent PM :
   éventuelles observations du contrevenant**. Cette faculté limitée ne doit pas
   être transformée en audition formelle de suspect.
 
+> **Réforme récente — loi n° 2026-798 du 18 août 2026 (art. 55), en vigueur
+> au 20/08/2026.** L'art. 21 CPP (nouvelle version, LEGIARTI000054725485) et
+> l'art. 15-3 CPP ouvrent aux APJA des **1° à 1° ter** (police nationale,
+> gendarmerie, policiers adjoints, réservistes), sous le contrôle d'un OPJ et
+> après formation, la **réception de plaintes** et le **recueil par
+> procès-verbal des déclarations** de témoins et personnes utiles. **Les
+> agents de police municipale (2° de l'art. 21) n'y sont pas inclus** : aucune
+> réception de plainte, aucun PV de déclarations, aucune audition. Une demande
+> qui s'appuie sur cette réforme pour faire recueillir des déclarations par un
+> agent PM déclenche le garde-fou (§4.5) : rediriger vers l'OPJ ou un APJA
+> habilité des forces de l'État.
+
 **Faculté / obligation** : le compte rendu hiérarchique et le compte rendu
 judiciaire (§4.2) sont une **obligation**, pas une faculté. La constatation
 elle-même s'exerce dans le **cadre strict** des textes propres à l'agent
@@ -179,9 +191,9 @@ d'identité légalement autorisé.
 
 ### 4.4 Actes hors pouvoir APJA — qualité d'OPJ et textes propres
 
-**Art. 16 du CPP** *(contenu confirmé sur Légifrance le 2026-06-30 :
-détermine la qualité d'officier de police judiciaire, dont les maires et leurs
-adjoints ; identifiant LEGIARTI précis à reconfirmer au cas d'usage)*.
+**Art. 16 du CPP** *(au socle, LEGIARTI000047052868, version du 26/01/2023,
+recontrôlé le 2026-09-14 : détermine la qualité d'officier de police
+judiciaire, dont les maires et leurs adjoints)*.
 Cet article **ne fonde pas à lui seul** chaque pouvoir d'enquête : vérifier la
 disposition procédurale propre à l'acte concerné.
 
@@ -197,9 +209,24 @@ détail des conditions à vérifier au cas par cas) :
 - **enquête préliminaire ou de flagrance** au sens procédural (ouverture,
   conduite, clôture) ;
 - toute mesure de **contrainte sur la personne** hors des conditions exactes
-  des art. 53 et 73 ou de l'art. 78-6 CPP (fouille de sécurité mise à part,
-  encadrée par des textes propres — à vérifier séparément, hors champ pénal
-  stricto sensu).
+  des art. 53 et 73 ou de l'art. 78-6 CPP ;
+- toute **fouille** d'une personne, de ses bagages ou d'un véhicule comme
+  acte d'enquête. **Seule exception, de sûreté et non d'enquête** : l'art.
+  **L. 511-1 CSI, al. 6** (au socle, LEGIARTI000041587492) autorise les
+  agents PM affectés par le maire à la sécurité d'une manifestation sportive,
+  récréative ou culturelle, d'un périmètre de protection (L. 226-1) ou de
+  l'accès à un bâtiment communal à procéder à l'**inspection visuelle des
+  bagages**, à leur **fouille avec le consentement** du propriétaire et à des
+  **palpations de sécurité avec le consentement exprès** de la personne, par
+  une personne de même sexe. Hors de ces trois cadres ou sans consentement :
+  aucune palpation, aucune fouille ;
+- le **menottage** : il ne se conçoit que dans une appréhension fondée
+  (art. 53 + 73) ou une rétention ordonnée par l'OPJ (art. 78-6), et aux
+  seules conditions de l'art. **803 CPP** (au socle §8,
+  LEGIARTI000006578404) — personne dangereuse pour autrui ou pour elle-même,
+  ou susceptible de prendre la fuite —, sans photographie ni enregistrement
+  de la personne menottée. Menotter sans fondement de rétention est une
+  contrainte illégale.
 
 **Qualification du recueil de paroles** : les seuls mots « entendu » ou « a
 avoué » ne permettent pas de décider si les propos ont été spontanés, s'ils
@@ -324,8 +351,8 @@ avant de conclure dès que :
 
 | Référence | Statut dans cette session |
 |---|---|
-| **Art. 21 CPP** (qualité d'APJA, missions, cadre d'exercice) | **Vérifié sur Légifrance le 2026-06-30** (contenu confirmé ; identifiant LEGIARTI exact et version en vigueur à la date des faits à reconfirmer au cas d'usage) |
-| **Art. 21-2 CPP** (compte rendu au maire et à l'OPJ territorialement compétent) | **Vérifié sur Légifrance le 2026-06-30** (contenu confirmé ; identifiant LEGIARTI exact à reconfirmer au cas d'usage) |
+| **Art. 21 CPP** (qualité d'APJA, missions, cadre d'exercice) | Au socle (§2) : **version du 20/08/2026**, LEGIARTI000054725485, loi n° 2026-798 art. 55, consulté le 2026-09-14. L'extension du recueil de déclarations par PV ne vise que les APJA des 1° à 1° ter : **les agents PM (2°) en sont exclus** |
+| **Art. 21-2 CPP** (compte rendu au maire et à l'OPJ territorialement compétent) | Au socle (§2), LEGIARTI000006574893, version du 16/04/1999, recontrôlé le 2026-09-14 |
 | **Art. 16 CPP** (qualité d'OPJ) | Vérifié sur Légifrance le 2026-07-28 ; identifiant LEGIARTI000047052868. Cet article ne fonde pas à lui seul chaque acte d'enquête |
 | **Art. 53 CPP** (qualification de la flagrance) | Vérifié sur Légifrance le 2026-07-28 ; identifiant LEGIARTI000006575016 |
 | **Art. 56 CPP** (perquisition de flagrance par l'OPJ) | Vérifié sur Légifrance le 2026-07-28 ; identifiant LEGIARTI000049778813 ; aucune perquisition par l'agent PM |
@@ -398,6 +425,7 @@ rendu de perquisition) ne doit être généré par ce skill (§4.5).
 9. Couple **[risque / confiance]** (§10) indiqué quand utile à la décision.
 
 [risque : critique sur le garde-fou APJA et la qualification pénale /
-confiance : stable sur les art. 21 et 21-2 CPP (vérifiés sur Légifrance le
-2026-06-30), à confirmer en version consolidée pour les art. 16 et 73 CPP
-(identifiants LEGIARTI exacts et version en vigueur à la date des faits)]
+confiance : stable sur les art. 16, 21, 21-2, 53, 56, 73 et 78-6 CPP, tous
+au socle avec identifiant et date (`references-verifiees.md` §2, recontrôlés
+le 2026-09-14) ; version en vigueur à confirmer à la date des faits, et
+renumérotation du CPP au 01/01/2029]

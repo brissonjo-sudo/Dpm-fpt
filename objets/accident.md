@@ -38,11 +38,13 @@ intervention sur un crime routier) ne doit être donné de mémoire.
   d'identité et selon la décision de l'OPJ.
 - **Les forces de l'État (OPJ — Police Nationale, Gendarmerie)** : seules
   compétentes pour les actes de police judiciaire (audition de suspects,
-  interpellation, perquisition liée à l'accident), notamment en cas de crime
+  garde à vue, perquisition liée à l'accident), notamment en cas de crime
   routier (homicide involontaire, blessures involontaires aggravées) ou de
-  délit caractérisé (fuite, défaut d'assurance constaté). La PM se **met
-  immédiatement à disposition** en cas de franchissement détecté du seuil de
-  compétence.
+  délit caractérisé (fuite, défaut d'assurance constaté). Dès que le seuil de
+  compétence est franchi, la PM **rend compte immédiatement à l'OPJ**
+  (art. 21-2 CPP). Elle ne présente une personne à l'OPJ que sur un fondement
+  qualifié (art. 53 + 73 ou art. 78-6 CPP, `SKILL.md` §5.2) : le
+  franchissement du seuil, à lui seul, ne crée aucun pouvoir de rétention.
 - **Les secours (SAMU, pompiers)** : interviennent en parallèle de la PM sur
   base juridique propre (aide à personne). La PM **coordonne** sans entraver (→
   `../references/continuum-partenariats.md`).
@@ -150,8 +152,14 @@ intervention sur un crime routier) ne doit être donné de mémoire.
      (art. 21 CPP) → voir procédure 3.4.
    - Délit **grave** ou **crime routier** : fuite du lieu, homicide involontaire
      (mort de la victime), blessures involontaires graves, infractions au code
-     pénal commises avant l'accident (vol du véhicule, braquage) → **mise à
-     disposition immédiate** d'un OPJ (art. 73 CPP, §6 garde-fou).
+     pénal commises avant l'accident (vol du véhicule, braquage) → **compte
+     rendu immédiat à l'OPJ** (art. 21-2 CPP) et garde-fou (§6). L'auteur
+     n'est **appréhendé et conduit devant l'OPJ** que si les conditions
+     cumulatives des art. 53 et 73 CPP sont réunies (crime flagrant, ou délit
+     flagrant puni d'emprisonnement, constaté par l'agent). Une infraction
+     antérieure non flagrante (vol du véhicule des jours plus tôt) ne fonde
+     pas cette appréhension : constatations, compte rendu, aucune rétention
+     (`SKILL.md` §5.2, point 4).
 
 2. **Soupçon d'imprégnation alcoolique ou de stupéfiant** :
    - La PM **ne dispose jamais** du pouvoir de dépistage ou de test biologique
@@ -159,8 +167,12 @@ intervention sur un crime routier) ne doit être donné de mémoire.
      l'OPJ ou à un professionnel de santé sur réquisition de l'OPJ).
    - **Constat d'indices** : odeur d'alcool, discours incohérent, équilibre
      défaillant, refus de souffler → transmettre l'observation à l'OPJ appelé
-     sur site, **sans tenter de test soi-même**, en **mettant la personne à
-     disposition** immédiate.
+     sur site, **sans tenter de test soi-même** et **sans retenir la
+     personne** : un soupçon ne fonde aucun pouvoir de rétention (`SKILL.md`
+     §5.2, point 4). Seule une infraction **flagrante punie d'emprisonnement**,
+     caractérisée par des éléments objectifs constatés (ex. conduite en état
+     d'ivresse manifeste, code de la route — à confirmer en version
+     consolidée), ouvre l'appréhension de l'art. 73 CPP.
 
 3. **Fuite du lieu d'accident** : si l'agent PM ne peut pas identifier le
    conducteur mais dispose d'une immatriculation (témoins, caméras) :
@@ -196,8 +208,11 @@ intervention sur un crime routier) ne doit être donné de mémoire.
    les éléments factuels bruts. La mention du dispositif de constatation
    (radar, observation directe, repérage au compas si localisation) renforce la
    valeur probante du PV.
-4. **Transmettre** au procureur et à la mairie selon la procédure habituelle
-   (délai à confirmer en version consolidée).
+4. **Transmettre** selon le circuit de l'art. 21-2 CPP : à l'OPJ
+   territorialement compétent (qui assure la liaison avec le parquet ou
+   l'officier du ministère public selon la nature de l'infraction) et au
+   maire — jamais directement au procureur (délai à confirmer en version
+   consolidée).
 
 ---
 

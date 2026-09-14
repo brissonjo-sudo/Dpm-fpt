@@ -155,10 +155,11 @@
   responsabilité de l'administration, qui peut ensuite agir contre l'agent.
 - **Protection fonctionnelle** : l'agent mis en cause (pénalement ou
   civilement) pour des faits commis dans l'exercice de ses fonctions peut
-  solliciter la **protection fonctionnelle** de la collectivité (prise en
-  charge des frais de défense, sauf faute personnelle détachable) — régime
-  statutaire, conditions et exclusions à vérifier → volet procédural et
-  instruction de la demande → `drh-fpt`.
+  solliciter la **protection fonctionnelle** de la collectivité. Cette
+  branche se borne à **nommer ce droit** : ses conditions, ses exclusions et
+  l'instruction de la demande relèvent de `drh-fpt` — dès que la question
+  porte sur ce régime, émettre le **bloc BASCULE** (`SKILL.md` §5.4) avant
+  tout contenu.
 - **Cumul procédures administrative / pénale / disciplinaire** : ces trois
   voies sont **indépendantes** (principe d'indépendance des procédures) et
   **cumulables** ; un classement sans suite pénal n'empêche pas une sanction
@@ -485,7 +486,10 @@ le cas échéant → `controle-legalite.md` avant production.
 ## 11. Checklist de branche
 
 1. Distinction posée entre **constat** (cette branche) et **procédure**
-   disciplinaire (`drh-fpt`) ?
+   disciplinaire (`drh-fpt`) ? Test à charge (`SKILL.md` §7 point 8) : le
+   texte produit contient-il un délai, une instance, un droit de la défense,
+   un quantum ou une échelle de sanction ? Si oui, le **bloc BASCULE** a-t-il
+   été émis **avant**, `drh-fpt` nommé ? Sinon, supprimer ce contenu.
 2. Cumul **pénal / administratif / disciplinaire** signalé comme
    indépendant et cumulable, pas exclusif ?
 3. Usage de la force qualifié sous le bon fondement (**légitime défense** vs

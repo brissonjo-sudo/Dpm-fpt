@@ -53,9 +53,14 @@ n'est caractérisée.
    documenter la mesure licite et la remise à l'OPJ**. Si, à un moment
    quelconque du recueil, il apparaît qu'un acte réservé à l'OPJ a été
    pratiqué ou s'apprête à l'être par l'agent PM lui-même (audition formelle,
-   fouille hors cadre de sécurité, garde à vue, perquisition, réquisition
-   judiciaire), afficher **immédiatement** le bloc **STOP** ci-dessous, avant
-   tout autre contenu, et limiter la suite à l'action APJA conforme.
+   fouille, garde à vue, perquisition, réquisition judiciaire), afficher **immédiatement** le bloc **STOP** ci-dessous, avant
+   tout autre contenu, et limiter la suite à l'action APJA conforme. Une
+   **palpation de sécurité** ou une **inspection visuelle de bagages**
+   consentie, dans les seuls cas de l'art. **L. 511-1 CSI** (manifestation,
+   périmètre de protection, accès à un bâtiment communal — au socle §3),
+   n'est pas une fouille : elle se **mentionne** dans le rapport avec son
+   fondement, le consentement recueilli et ses circonstances. Hors de ces
+   cas, une palpation est une fouille : STOP.
 
 ```
 STOP — Cet acte dépasse les pouvoirs de l'agent de police municipale.
@@ -131,12 +136,12 @@ Ordre imposé des questions :
   Pour l'art. 78-6, distinguer le temps nécessaire à l'information et à la
   décision de l'OPJ de la présentation ou rétention ordonnée. **Ne jamais**
   consigner de questions-réponses
-  circonstanciées, de fouille hors cadre de sécurité, ni tout élément pouvant
+  circonstanciées, de fouille, ni tout élément pouvant
   s'apparenter à une audition ou à un acte d'enquête — cela relève
   exclusivement de l'OPJ (`references/penal-procedure.md` §4.3-4.4).
 > *Question posée* : « Quelle contrainte avez-vous exercée sur la personne,
 > et seulement celle-là (ex. interpellation, maintien, escorte) ? Confirmez
-> qu'aucune audition ni fouille hors cadre de sécurité n'a été pratiquée. »
+> qu'aucune audition ni fouille n'a été pratiquée. »
 
 ### Étape 8 — Personne concernée
 - Identité si connue (jamais de donnée nominative en clair dans le canevas —
@@ -238,7 +243,7 @@ Décision et ordre de l'OPJ : [teneur, date/heure, identité/service]
 
 Description de la contrainte exercée, strictement limitée à ce qui a été
 autorisé par le fondement retenu : [description — étape 7]
-Il est précisé qu'aucune audition formelle, fouille hors cadre de sécurité,
+Il est précisé qu'aucune audition formelle, fouille,
 ni mesure assimilable à un acte réservé à l'officier de police judiciaire
 n'a été pratiquée par le rédacteur.
 
@@ -383,7 +388,7 @@ déclenchement du garde-fou ne suffit jamais, à lui seul, à ouvrir ce généra
 
 Si, à n'importe quelle étape du recueil (§1), il apparaît que l'agent PM a
 pratiqué ou s'apprête à pratiquer un acte hors de ses pouvoirs (audition
-formelle, fouille hors cadre de sécurité, garde à vue, perquisition,
+formelle, fouille, garde à vue, perquisition,
 réquisition judiciaire —
 `references/penal-procedure.md` §4.4), interrompre la séquence de questions
 et afficher immédiatement le bloc **STOP** (§0) **avant** de poursuivre quoi
@@ -436,7 +441,7 @@ plus fréquent identifié pour cet écrit.
    `[INCOMPLET]`.
 6. **Description de la contrainte exercée** strictement limitée à la route
    établie et, pour la route 78-6, à la décision de l'OPJ : aucune trace
-   d'audition, de fouille hors cadre de sécurité, ni d'acte d'enquête.
+   d'audition, de fouille, ni d'acte d'enquête.
 7. Qualification, si évoquée, présentée comme hypothèse non tranchée, avec
    renvoi aux branches compétentes (`penal-procedure.md`,
    `reglementation-appliquee.md`).

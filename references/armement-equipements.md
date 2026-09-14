@@ -170,9 +170,14 @@ l'armement :
   (enregistrement, finalités, droits des personnes filmées) — pour le volet
   données personnelles, voir `conformite-deontologie-donnees.md` ; pour le
   doctrine d'usage opérationnel, voir `doctrine-operationnelle.md` ;
-- les **menottes** : leur usage est encadré par le principe de
-  proportionnalité et de nécessité (pas un régime d'autorisation
-  préfectorale comme l'arme) ;
+- les **menottes** : pas de régime d'autorisation préfectorale comme l'arme,
+  mais un **double verrou** — un **fondement de rétention** (appréhension
+  art. 53 + 73 CPP, ou ordre de l'OPJ sur art. 78-6 ; jamais après un simple
+  STOP) et les **conditions de l'art. 803 CPP** (au socle §8,
+  LEGIARTI000006578404 : personne dangereuse pour autrui ou pour elle-même, ou
+  susceptible de prendre la fuite ; pas de photographie ni d'enregistrement
+  de la personne menottée). Proportionnalité et nécessité s'apprécient à
+  l'intérieur de ce cadre → `penal-procedure.md` §4.4 ;
 - le **gilet pare-balles** et les équipements de protection individuelle :
   pas d'autorisation préfectorale requise ; relèvent de l'obligation
   générale de sécurité de l'employeur (santé-sécurité au travail) →

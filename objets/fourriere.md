@@ -27,22 +27,27 @@ fourrière peuvent fragiliser l'acte et exposer à un recours administratif
   stationnement** dans les limites de sa compétence territoriale (voirie
   communale, hors agglomération sous certaines conditions — à confirmer). Il
   fixe les conditions du stationnement par arrêté (emplacements réservés,
-  horaires, interdictions sectorielles) et prescrit, par acte ponctuel ou au
-  titre de son pouvoir de police générale, la mise en fourrière dans les cas et
-  limites fixés par le code de la route (art. L. 325-1 et s. — à confirmer en
-  version consolidée).
+  horaires, interdictions sectorielles) : ce sont ses arrêtés qui fondent la
+  qualification de l'infraction. Il **n'est pas l'autorité qui prescrit** la
+  mise en fourrière d'un véhicule donné (voir ci-dessous, R. 325-14).
 - **Le préfet** : compétent sur les routes à circulation importante, hors
   agglomération, et pouvant se substituer au maire en cas de carence
   (→ `../references/pouvoirs-police.md` §4.5). Attention : clarifier la voirie
   exacte (voie communale / voie préfectorale / route nationale) avant d'engager
   l'action.
-- **La police municipale (PM)** : **constate** la violation (stationnement
-  gênant ou abusif, qualification aux art. R. 417-10 et s. du code de la route
-  — à confirmer), **intègre le constat** dans un PV de contravention,
-  **adresse une injonction verbale ou écrite** au conducteur/propriétaire,
-  **prescrit l'enlèvement** si l'injonction ne suffit pas, et **exécute**
-  l'enlèvement. Elle ne **décide** jamais seule une mise en fourrière : c'est
-  un **acte de l'autorité de police** (maire ou préfet selon la voirie).
+- **La police municipale (PM)** : l'agent **constate** la violation
+  (stationnement gênant ou abusif, qualification aux art. R. 417-10 et s. du
+  code de la route — R. 417-10 au socle), **intègre le constat** dans un PV de
+  contravention, **adresse une injonction verbale ou écrite** au
+  conducteur/propriétaire et, si elle ne suffit pas, **propose** la mise en
+  fourrière. **Qui prescrit** (code de la route, art. **R. 325-14**, au socle,
+  `references-verifiees.md` §8, vérifié le 2026-09-14) : un **OPJ**
+  territorialement compétent **ou l'APJA chef de la police municipale (ou
+  l'agent occupant ces fonctions)**, de sa propre initiative ou sur
+  proposition de l'agent verbalisateur. L'agent de terrain ne prescrit donc
+  jamais seul ; le **chef de service** le peut. **Réserve d'OPJ** : véhicule
+  volé, propriétaire non identifié ou fausses plaques → OPJ seul (ou accord
+  préalable exprès). L'exécution matérielle (enlèvement) suit la prescription.
 - **Le gestionnaire de fourrière** : une structure (commune, groupement,
   prestataire privé sous convention) qui reçoit le véhicule, l'entrepose, le
   garde, informe le propriétaire, accepte les réclamations, restitue sur ordre.
@@ -136,24 +141,30 @@ préfecture avant communication au public.
    code de la route (à confirmer en version consolidée) — typiquement : entraver
    la circulation, créer un danger, ou faire obstacle à une opération de police
    ou de secours.
-2. **Vérification de l'autorité compétente** : identifier la nature de la voie
-   (communale / préfectorale / nationale) et s'assurer que l'autorité qui va
-   prescrire l'enlèvement est la bonne (maire ou préfet selon la juridiction).
-   Consulter la mairie ou la préfecture en cas de doute.
-3. **Prescription de l'enlèvement par l'autorité de police** : cet acte est
-   **décisionnel**. Il peut être pris par le maire au titre de son pouvoir de
-   police (police générale ou police spéciale du stationnement), soit sous la
-   forme d'un **ordre d'enlèvement ponctuel** (note, courrier, ou formulaire
-   adressé au gestionnaire de fourrière), soit au titre d'une **délégation** que
-   le DPM pourrait recevoir du maire pour prescrire l'enlèvement dans les cas
-   standards.
-   - **Si le maire a délégué** : documenter la délégation (arrêté, note de
-     service) et respecter ses limites (typiquement : cas standard, zone de la
-     voirie signalée, durée de la délégation, montant maximal de frais) — ne
-     pas aller au-delà.
-   - **Si aucune délégation** : transmettre une note de proposition
-     d'enlèvement à la signature du maire, avec justification en fait et en
-     droit, avant de procéder.
+2. **Vérification de l'autorité prescriptrice** : la mise en fourrière est
+   **prescrite** (code de la route, art. **R. 325-14**, au socle
+   `references-verifiees.md` §8, vérifié le 2026-09-14) soit par un **OPJ**
+   territorialement compétent, soit par **l'APJA chef de la police municipale
+   ou l'agent occupant ces fonctions**, de sa propre initiative ou sur
+   proposition de l'agent verbalisateur. Identifier aussi la nature de la voie
+   (communale / départementale / nationale) : elle commande l'arrêté de
+   stationnement applicable et la compétence de police (maire / préfet), pas
+   l'identité du prescripteur. En cas de doute, consulter l'OPJ.
+3. **Prescription de la mise en fourrière** : acte **décisionnel** du chef de
+   service (ou de son remplaçant en fonctions) — ou de l'OPJ —, formalisé par
+   un **ordre d'enlèvement** écrit (formulaire ou fiche de prescription
+   adressée au gestionnaire de fourrière) qui vise le PV de constatation,
+   l'injonction restée sans effet et le fondement (L. 325-1 et s., arrêté
+   municipal de stationnement).
+   - **Véhicule volé, propriétaire non identifiable ou fausses plaques** :
+     prescription par un **OPJ seul**, ou avec son accord préalable exprès
+     (R. 325-14, II) — le chef de PM ne prescrit pas dans ces trois cas.
+   - **Chef de service absent** : seul l'agent qui **occupe ces fonctions**
+     (remplaçant désigné) peut prescrire ; un agent de terrain ne prescrit
+     jamais seul. À défaut, saisir l'OPJ.
+   - **Le maire** ne signe pas l'ordre individuel d'enlèvement : son rôle est
+     en amont (arrêtés de stationnement, organisation du service, convention
+     avec le gestionnaire de fourrière).
 4. **Notification au gestionnaire de fourrière** : dès l'ordre d'enlèvement
    signé, informer sans délai le gestionnaire (par téléphone et fax/mail pour
    traçabilité) avec : plaque du véhicule, lieu de l'enlèvement, heure
@@ -289,9 +300,12 @@ propriétaire contestataire :
 - **Proportionnalité et nécessité de l'enlèvement** : mesure de police
   restrictive de liberté ; exigence de proportionnalité (urgence, entrave réelle
   à la circulation, absence de moyen moins attentatoire).
-- **Irrégularité de l'autorité décisionnaire** : si l'enlèvement est prescrit par
-  une autorité incompétente (ex. maire sur voie préfectorale, ou vice-versa),
-  l'acte est annulable en totalité.
+- **Irrégularité de l'autorité décisionnaire** : si l'enlèvement est prescrit
+  par un agent qui n'est ni OPJ ni chef de la police municipale (ou occupant
+  ces fonctions), ou par le chef de PM dans l'un des trois cas réservés à l'OPJ
+  (véhicule volé, propriétaire non identifié, fausses plaques — R. 325-14 II),
+  la mesure est prise par une autorité incompétente : annulation et
+  responsabilité de la collectivité (frais, restitution).
 - **Frais excessifs ou mal justifiés** : contentieux fréquent : propriétaire
   conteste le montant ou demande restitution des frais payés si l'enlèvement est
   jugé irrégulier.
@@ -311,8 +325,11 @@ Avant d'engager une constatation de stationnement gênant et un enlèvement :
    ne pas qualifier de mémoire.
 2. **Voirie identifiée** — distinguer voie communale / voie préfectorale /
    route nationale ; consulter la mairie ou la préfecture en cas de doute.
-3. **Autorité compétente déterminée** — qui va prescrire l'enlèvement (maire ou
-   préfet) selon la voirie et les pouvoirs locaux documentés ?
+3. **Autorité prescriptrice déterminée** — OPJ ou chef de la police
+   municipale (ou agent occupant ces fonctions), R. 325-14 au socle ; cas
+   réservés à l'OPJ (véhicule volé, propriétaire non identifié, fausses
+   plaques) écartés ou accord préalable exprès obtenu ; ordre d'enlèvement
+   écrit et signé.
 4. **Procédure d'injonction préalable respectée** — conducteur ou propriétaire
    contacté et donné délai raisonnable pour faire cesser la violation ; si non
    exécution, constat en PV.
