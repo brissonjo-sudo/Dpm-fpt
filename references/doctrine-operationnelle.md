@@ -130,8 +130,8 @@ levé les variables de risque, d'effectif et de compétence engagée.
   distinguer du **classement ZSP** (§5.4), qui est un dispositif piloté par
   l'État, pas un découpage interne du service PM.
 - Patrouille et **constatation d'infraction** : les pouvoirs exercés en
-  patrouille restent ceux de l'APJA (art. 21 et 21-2 CPP — à confirmer en
-  version consolidée). Toute situation dépassant ce cadre déclenche le
+  patrouille restent ceux de l'APJA (art. 21 et 21-2 CPP — au socle,
+  `references-verifiees.md` §2 ; art. 21 en version du 20/08/2026). Toute situation dépassant ce cadre déclenche le
   garde-fou APJA → `penal-procedure.md`.
 
 ### 5.3 Dispositifs événementiels

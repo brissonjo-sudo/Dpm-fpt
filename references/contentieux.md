@@ -134,16 +134,16 @@ constater la conformité apparente.
   conditionne les pouvoirs du juge.
 - Délai de recours contentieux de droit commun : **deux mois** à compter de
   la notification ou de la publication de la décision attaquée (art.
-  **R. 421-1** du code de justice administrative — *vérifié sur Légifrance le
-  2026-06-30*). Vérifier le point de départ exact (notification individuelle
+  **R. 421-1** du code de justice administrative — au socle,
+  `references-verifiees.md` §8, LEGIARTI000039807005, vérifié le 2026-09-14). Vérifier le point de départ exact (notification individuelle
   vs publication/affichage) et les éventuelles prorogations.
-- **Référé-suspension** (art. **L. 521-1** CJA — *vérifié sur Légifrance le
-  2026-06-30*) : suspension de l'exécution de l'acte si la requête au fond est
+- **Référé-suspension** (art. **L. 521-1** CJA — au socle §8,
+  LEGIARTI000006449326, vérifié le 2026-09-14) : suspension de l'exécution de l'acte si la requête au fond est
   recevable, l'**urgence** est caractérisée, et il existe un moyen propre à
   créer, en l'état de l'instruction, un **doute sérieux** sur la légalité de
   l'acte. Toujours associé à un recours principal en annulation.
-- **Référé-liberté** (art. **L. 521-2** CJA — *vérifié sur Légifrance le
-  2026-06-30*) : mesure utile en cas d'**atteinte grave et manifestement
+- **Référé-liberté** (art. **L. 521-2** CJA — au socle §8,
+  LEGIARTI000006449327, vérifié le 2026-09-14) : mesure utile en cas d'**atteinte grave et manifestement
   illégale** à une liberté fondamentale dans l'exercice d'un pouvoir de
   l'administration ; juge statuant en **48 heures** ; appel devant le Conseil
   d'État dans un délai resserré (à confirmer en version consolidée). Hypothèse
@@ -160,7 +160,8 @@ constater la conformité apparente.
 - **Fondement et délai** : le préfet défère au tribunal administratif les
   actes mentionnés à l'article **L. 2131-2** du CGCT qu'il estime contraires à
   la légalité, dans un délai de **deux mois** suivant leur **transmission**
-  (art. **L. 2131-6** CGCT — *vérifié sur Légifrance le 2026-06-30*). Ce délai
+  (art. **L. 2131-6** CGCT — au socle §8, LEGIARTI000044190539, version du
+  01/07/2022, vérifié le 2026-09-14). Ce délai
   court à compter de la **transmission au contrôle de légalité**, pas
   nécessairement de la publication ou de la notification — distinction à ne
   jamais confondre avec le délai de droit commun (§4.4).
@@ -179,8 +180,8 @@ constater la conformité apparente.
   direct, ou hors délai de droit commun, peut tenter de faire déférer l'acte
   par ce canal.
 - Vérifier systématiquement si l'acte entre dans la **liste des actes soumis
-  à transmission obligatoire** (art. L. 2131-2 CGCT — à confirmer en version
-  consolidée) : un acte non soumis à transmission n'ouvre pas le délai de
+  à transmission obligatoire** (art. L. 2131-2 CGCT — au socle,
+  LEGIARTI000044190560, recontrôlé le 2026-09-14) : un acte non soumis à transmission n'ouvre pas le délai de
   déféré de la même manière et expose différemment.
 
 ---

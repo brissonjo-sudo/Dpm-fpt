@@ -185,7 +185,8 @@ souvent dans cette séquence ; le juge administratif raisonne de même
   exécutoire de plein droit dès qu'il a fait l'objet d'une **publicité**
   (publication/affichage/notification) et, pour les actes de la liste
   art. L. 2131-2, dès sa **transmission** au représentant de l'État —
-  art. **L. 2131-1 du CGCT** *(vérifié sur Légifrance le 2026-06-30)*. Tant
+  art. **L. 2131-1 du CGCT** *(au socle §8, LEGIARTI000044190563, version du
+  01/07/2022, vérifié le 2026-09-14)*. Tant
   que la transmission requise n'est pas faite, l'acte n'est **pas
   exécutoire**, même signé et publié.
 - **Délai de transmission des décisions individuelles** : un délai court
@@ -194,7 +195,8 @@ souvent dans cette séquence ; le juge administratif raisonne de même
   de la décision).
 - **Actes non transmissibles** : certains actes (gestion interne, actes de
   droit privé, actes pris au nom de l'État) sont hors champ — art.
-  **L. 2131-4 du CGCT (à confirmer en version consolidée)** ; ne pas
+  **L. 2131-4 du CGCT** (au socle, `references-verifiees.md` §8,
+  LEGIARTI000044190553, version du 01/07/2022, vérifié le 2026-09-14) ; ne pas
   sur-transmettre par excès de prudence sans vérifier, mais en cas de doute,
   transmettre reste la posture la plus sûre.
 - **Déféré préfectoral** : le préfet dispose d'un délai pour défèrer l'acte
@@ -280,8 +282,8 @@ car le contrôle de légalité porte par construction sur des lignes « Oui » :
   n° 2021-1310 du 7 octobre 2021 (entrée en vigueur 1er juillet 2022) — à
   reconfirmer en version consolidée pour le détail des seuils et catégories
   selon l'objet exact de l'acte.
-- **CGCT**, art. **L. 2131-4** (actes non transmissibles) — à confirmer en
-  version consolidée.
+- **CGCT**, art. **L. 2131-4** (actes non transmissibles) — au socle (§8),
+  LEGIARTI000044190553, version du 01/07/2022, vérifié le 2026-09-14.
 - **CE, Sect., 19 mai 1933, *Benjamin*** (principe de proportionnalité des
   mesures de police) — requêtes n° **17413** et **17520**, **Lebon p. 541**,
   `CETATEXT000007636694`, **vérifié sur Légifrance le 2026-09-06** et porté au

@@ -335,8 +335,8 @@ pas renseignés.
   a priori §4 : compétence et délégation, procédure préalable, base
   légale précise, motivation en fait et en droit si l'acte fait grief,
   proportionnalité, voies et délais de recours, vérification de la
-  transmission au contrôle de légalité — CGCT, art. L. 2131-2, à confirmer
-  en version consolidée).
+  transmission au contrôle de légalité — CGCT, art. L. 2131-2, au socle,
+  LEGIARTI000044190560).
 - **Archivage** : conserver une trace de la version transmise au maire
   (`references/ecrits-professionnels.md` §6.6), utile pour la traçabilité
   de la décision et en cas de contestation ultérieure de l'acte qui en

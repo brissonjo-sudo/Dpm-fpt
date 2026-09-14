@@ -301,7 +301,7 @@ champs ne sont pas renseignés.
   obligatoire** par `references/controle-legalite.md` (grille de contrôle
   a priori, motivation en fait et en droit, voies et délais de recours,
   vérification de la transmission au contrôle de légalité — CGCT, art.
-  L. 2131-2, à confirmer en version consolidée). Le rapport d'information
+  L. 2131-2, au socle, LEGIARTI000044190560). Le rapport d'information
   lui-même, n'étant pas un acte faisant grief, n'est pas soumis à cette
   obligation de transmission au contrôle de légalité, mais ne doit jamais
   être présenté comme tenant lieu d'un tel acte.

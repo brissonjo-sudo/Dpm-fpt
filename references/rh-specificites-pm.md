@@ -183,9 +183,11 @@ c'est un livrable prioritaire qui **remplace** le contenu délégué. Disposer d
   (le service ne peut en principe intervenir qu'entre certaines plages
   horaires sauf exception **gardes statiques** et **manifestations
   organisées par la commune**, sauf stipulation contraire de la convention —
-  CSI, art. **L. 512-2 et s.**, *rattachement à confirmer en version
-  consolidée*, voir `continuum-partenariats.md` pour le contenu de la
-  convention). L'**organisation du cycle de travail** lui-même (durée annuelle
+  règle portée par la **convention de coordination** (CSI, art. **L. 512-4**,
+  au socle) et ses textes d'application (L. 512-5 et s., *à confirmer en
+  version consolidée*) ; **non** par L. 512-2, qui traite du recrutement
+  intercommunal (socle §8). Voir `continuum-partenariats.md` pour le contenu
+  de la convention). L'**organisation du cycle de travail** lui-même (durée annuelle
   de référence, régime des heures supplémentaires, astreintes) relève du
   **temps de travail statutaire général** → `drh-fpt`
   (`Drh-fpt/references/carriere-paie.md`, §5.9). **Ce qui reste ici** : la
@@ -251,7 +253,7 @@ c'est un livrable prioritaire qui **remplace** le contenu délégué. Disposer d
     (chef de poste, coordinateur d'un dispositif événementiel, officier de
     garde) — relève de **cette branche**.
 - Les agents de police municipale agissent **sous l'autorité du maire**
-  (CGCT, art. **L. 2212-5**, *vérifié sur Légifrance le 2026-06-30* —
+  (CGCT, art. **L. 2212-5**, au socle §8, LEGIARTI000025543324, vérifié le 2026-09-14 —
   rattachement confirmé : les agents exécutent, dans la limite de leurs
   attributions et sous l'autorité du maire, les tâches relevant de la
   compétence de celui-ci en matière de prévention et de surveillance du bon
@@ -365,15 +367,19 @@ que :
   2026-06-30*, identifiant LEGIARTI000043540434 ; revérifier la version en
   vigueur à la date des faits (l'article a été modifié, notamment par la loi
   n° 2021-646 du 25 mai 2021 — à confirmer en version consolidée).
-- **CGCT, art. L. 2212-5** (agents PM agissant sous l'autorité du maire,
-  exécution des arrêtés de police, constatation par procès-verbal) — *vérifié
-  sur Légifrance le 2026-06-30* ; revérifier la version en vigueur à la date
-  des faits.
-- **CSI, art. L. 512-2 et s.** (plages horaires d'intervention, convention
-  de coordination, exceptions gardes statiques/manifestations) —
-  *rattachement identifié via recherche Légifrance le 2026-06-30* (article
-  L. 512-5, LEGIARTI000041411429, notamment) ; numéro précis applicable à la
-  question des cycles à reconfirmer en version consolidée. Voir
+- **CGCT, art. L. 2212-5** (missions des agents PM et organisation des
+  services : renvoi au titre Ier du livre V du CSI) — au socle §8,
+  LEGIARTI000025543324, version du 01/05/2012, vérifié le 2026-09-14.
+- **CSI, art. L. 512-4** (convention de coordination, au socle) et **L. 512-5
+  et s.** (plages horaires d'intervention, exceptions gardes
+  statiques/manifestations) — L. 512-2 (recrutement intercommunal, socle §8)
+  n'est pas le bon rattachement —
+  L. 512-5 est au socle §8 (convention **intercommunale**, LEGIARTI000043540455,
+  version du 27/05/2021 — l'identifiant `LEGIARTI000041411429` relevé le
+  2026-06-30 renvoie vers cette version) mais **ne fixe pas les plages
+  horaires** : la règle des interventions de nuit relève de la partie
+  réglementaire (R. 512-5 et s.) et de la convention type, **non consultées,
+  à confirmer en version consolidée**. Voir
   `continuum-partenariats.md` pour le contenu de la convention.
 - **CGFP, art. L. 714-13**, fondement de l'ISFE — *référence reprise de
   `Drh-fpt/references/carriere-paie.md` §5.7, non revérifiée dans cette

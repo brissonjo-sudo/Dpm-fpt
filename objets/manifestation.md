@@ -104,7 +104,7 @@ La commune peut **organiser** un événement ; cela ne transfère pas le pouvoir
 
 1. **Arrêté du maire** édictant les mesures de police générales applicables à l'événement (circulation, stationnement interdit, horaires, zones réservées).
    - Signature : maire seul (pouvoir propre, non délégable).
-   - Motivation : en fait (spécificités de l'événement, risques) et en droit (références CGCT L. 2212-2, éventuellement L. 2212-3 pour circulation, à confirmer).
+   - Motivation : en fait (spécificités de l'événement, risques) et en droit (CGCT L. 2212-2 au socle ; pour la circulation et le stationnement, articles L. 2213-1 et s. — à confirmer en version consolidée ; L. 2212-3 ne concerne que les communes riveraines de la mer).
    - Publication : affichage mairie et lieux pertinents, mention dans presse locale le cas échéant.
    - **Transmission contrôle de légalité** : si acte soumis à obligation (CGCT à confirmer en version consolidée) → via `controle-legalite.md` avant envoi.
    - Copie au DPM pour exécution opérationnelle.
@@ -197,7 +197,7 @@ Ne pas citer de jurisprudence de mémoire ; utiliser les balises `[sourcé]` et 
 - [ ] **Objet de l'arrêté strictement limité** au pouvoir compétent : si maire → police générale du maire ; si commune étatisée + grand rassemblement → ne pas émettre arrêté sur ce périmètre.
 - [ ] **Motivation en fait et en droit présente** : spécificités de l'événement, risques identifiés, références légales vérifiées.
 - [ ] **Mesures proportionnées** : ni trop étendues ni insuffisantes au regard du risque.
-- [ ] **Références légales vérifiées** : CGCT L. 2212-1, L. 2212-2, et si circulation L. 2212-3 (à confirmer) — pas de mémoire.
+- [ ] **Références légales vérifiées** : CGCT L. 2212-1, L. 2212-2 (au socle) ; si circulation, L. 2213-1 et s. (à confirmer en version consolidée) ; L. 2212-3 uniquement pour une commune riveraine de la mer (au socle) — pas de mémoire.
 - [ ] **Transmission au contrôle de légalité** prévue si acte soumis (CGCT L. 2131-2 — à vérifier en version consolidée) ; timing : **avant expédition**, pas après.
 - [ ] **Consultation préfecture effectuée** si événement majeur ou enjeu pluricommunal ?
 

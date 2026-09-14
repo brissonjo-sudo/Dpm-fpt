@@ -22,7 +22,7 @@
 1. **Qualifier les faits** — qui, quand, où, en quelle qualité, contre qui /
    quoi ; nature de l'atteinte (ordre public, validité d'un acte, infraction).
 2. **Police générale ou spéciale** — rattacher à la police générale du maire
-   (CGCT art. L. 2212-1 et L. 2212-2 — à confirmer) ou à une police spéciale
+   (CGCT art. L. 2212-1 et L. 2212-2 — au socle, `references-verifiees.md` §1) ou à une police spéciale
    (route, débits de boissons, etc.).
 3. **Autorité compétente** — maire / préfet / OPJ / autre. Qui détient le
    pouvoir mobilisé ?
@@ -79,6 +79,7 @@ nommer les autorités en présence, la règle de répartition, et le risque.
 | **Maire / préfet** (police générale vs police spéciale de l'État, substitution) | Identifier le titulaire du pouvoir spécial ; signaler le pouvoir de substitution du préfet → `pouvoirs-police.md` |
 | **Maire / OPJ** (police administrative vs judiciaire) | Distinguer la finalité (préventive vs répressive) ; basculer en garde-fou APJA si judiciaire → `penal-procedure.md` |
 | **PM / forces de l'État** (sur le terrain) | Renvoyer à la convention de coordination → `continuum-partenariats.md` |
+| **Maire / président d'EPCI** (police spéciale transférée : déchets, assainissement, stationnement, habitat…) | Vérifier si la police est transférée et si le maire s'y est opposé dans les six mois (CGCT L. 5211-9-2, au socle) ; l'agent PM constate pour le compte du titulaire → `pouvoirs-police.md` §4 |
 
 ---
 

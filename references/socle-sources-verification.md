@@ -14,7 +14,7 @@
 
 1. **Constitution** et **bloc de constitutionnalité** (libertés publiques,
    réserve de compétence du juge judiciaire pour la liberté individuelle —
-   art. 66 Constitution, à confirmer en version consolidée) : plancher de
+   art. 66 Constitution — au socle, LEGIARTI000006527558) : plancher de
    toute mesure de police restrictive de liberté.
 2. **Code général des collectivités territoriales (CGCT)** — volet police du
    maire (police générale, art. **L. 2212-1** et **L. 2212-2**, *vérifiés sur
@@ -24,8 +24,8 @@
    publics, dont **Titre V vidéoprotection, art. L. 251-1 et s.**, *vérifié
    sur Légifrance le 2026-06-30*) et **Livre V** (polices municipales, art.
    **L. 511-1 et s.**, dont le **Chapitre V — déontologie des agents de
-   police municipale**, art. **L. 515-1 A et s.**, *vérifiés sur Légifrance
-   le 2026-06-30*).
+   police municipale**, art. **R. 515-1 à R. 515-21**, partie réglementaire,
+   décret n° 2013-1113 — au socle, *vérifiés sur Légifrance le 2026-06-30*).
 4. **Code de procédure pénale (CPP)** — cadre APJA des agents de police
    municipale (art. **21** : qualité d'agent de police judiciaire adjoint,
    *vérifié sur Légifrance le 2026-06-30* ; art. **21-2** : obligation de
@@ -226,7 +226,8 @@ d'outil effectué dans la session** (WebSearch sur domaine officiel,
 consultation directe de Légifrance). Un identifiant jamais récupéré :
 - **ne se reconstitue jamais de mémoire** ;
 - est **omis**, ou marqué `⚠️ non vérifié — identifiant non récupéré` ;
-- **interdit** l'usage du gabarit de citation pour acte (cf.
+- **interdit** l'usage du gabarit de citation pour acte (cf. skill
+  `recherche-juridique`, fichier
   `droit-francais-skill/skill/references/format-citation.md`, règle de
   provenance P1).
 

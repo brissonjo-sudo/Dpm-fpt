@@ -407,7 +407,7 @@ Fait à [lieu], le [date].
   droit qu'après **publicité** (publication/affichage/notification) et,
   pour les actes figurant à l'art. **L. 2131-2 du CGCT**, après sa
   **transmission** au représentant de l'État — art. **L. 2131-1 du CGCT**
-  *(vérifié sur Légifrance le 2026-06-30)*. Tant que la transmission
+  *(au socle §8, LEGIARTI000044190563, vérifié le 2026-09-14)*. Tant que la transmission
   requise n'est pas faite, l'acte **n'est pas exécutoire**, même signé et
   publié — distinguer cette **absence de caractère exécutoire** de
   l'**illégalité** proprement dite (deux risques distincts,
@@ -417,8 +417,9 @@ Fait à [lieu], le [date].
   version consolidée**, l'article exact étant fonction de la nature de
   la décision (`controle-legalite.md` §4.7, §8).
 - **Actes non transmissibles** (gestion interne, actes de droit privé,
-  actes pris au nom de l'État) : art. **L. 2131-4 du CGCT (à confirmer en
-  version consolidée)** ; en cas de doute, transmettre reste la posture
+  actes pris au nom de l'État) : art. **L. 2131-4 du CGCT** (au socle,
+  LEGIARTI000044190553, version du 01/07/2022, vérifié le 2026-09-14) ; en
+  cas de doute, transmettre reste la posture
   la plus sûre plutôt que de présumer une dispense.
 - **Notification** à l'administré concerné (acte individuel) par voie
   traçable (LRAR / décharge), distincte de la transmission au contrôle de
@@ -474,7 +475,7 @@ Fait à [lieu], le [date].
 sur la collectivité en cas d'irrégularité (compétence, motivation,
 proportionnalité, transmission) / confiance : stable sur les principes
 de `controle-legalite.md` (compétence, motivation CRPA, art. L. 2131-1 et
-L. 2131-2 CGCT — vérifiés sur Légifrance le 2026-06-30 ; proportionnalité
+L. 2131-2 CGCT — au socle, recontrôlés le 2026-09-14 ; proportionnalité
 *Benjamin*, req. n° 17413 et 17520, Lebon p. 541, `CETATEXT000007636694` —
 vérifié le 2026-09-06), à vérifier systématiquement sur la base légale de fond
 propre à chaque police (générale ou spéciale), sur l'existence et le
