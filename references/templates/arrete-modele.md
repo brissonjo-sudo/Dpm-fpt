@@ -16,10 +16,10 @@
 > d'entrée en vigueur portent la réserve **« à confirmer en version
 > consolidée »** tant qu'ils n'ont pas été vérifiés sur la source
 > officielle dans la session en cours (socle-sources, `SKILL.md` §5.3).
-> Référence de gabarit générique d'acte faisant grief :
-> `Drh-fpt/assets/decision-modele.md` (structure visas / considérants /
-> dispositif / voies de recours / check-list — transposée ici au champ
-> police municipale et enrichie de la grille `controle-legalite.md`).
+> Référence de gabarit générique d'acte faisant grief : le gabarit de
+> décision du skill `drh-fpt` (structure visas / considérants / dispositif /
+> voies de recours / check-list — transposée ici au champ police
+> municipale et enrichie de la grille `controle-legalite.md`).
 
 ---
 
@@ -84,8 +84,8 @@ légale »).
 - Q2.2 : « Quelle doit être la date d'effet / d'entrée en vigueur ? »
   — rappel : pour un acte **défavorable à un administré identifié**, la
   date d'effet est en principe celle de la **notification**, pas de la
-  signature (pas de rétroactivité d'un acte faisant grief — cf.
-  `Drh-fpt/assets/decision-modele.md`, check-list).
+  signature (pas de rétroactivité d'un acte faisant grief — cf. le gabarit
+  de décision du skill `drh-fpt`, check-list).
 - Q2.3 : « S'agit-il d'une mesure prise en **urgence** ? » — si oui,
   signaler que certaines formalités préalables (contradictoire,
   consultation) peuvent être allégées, **à vérifier au cas par cas**
@@ -323,7 +323,7 @@ séquence de questions (§1) ou de la grille de contrôle (§3) :
 > Champs entre `[ ]`. Aucune donnée nominative réelle dans ce gabarit.
 > Tout numéro d'article, toute référence de décision, porte sa réserve
 > tant qu'elle n'a pas été vérifiée dans la session en cours. Structure
-> reprise de `Drh-fpt/assets/decision-modele.md`, adaptée au champ police
+> reprise du gabarit de décision du skill `drh-fpt`, adaptée au champ police
 > municipale (police générale/spéciale du maire) et enrichie de la
 > grille `controle-legalite.md`.
 

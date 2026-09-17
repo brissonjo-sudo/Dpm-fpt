@@ -3,7 +3,7 @@
 > Couche 4 (générateur d'écrit), piloté par `references/ecrits-professionnels.md`
 > §4 et §10 (branche de rattachement — lire avant tout usage). Structure de
 > dialogue alignée sur `SKILL.md` §6. Gabarit de mise en forme inspiré de la
-> discipline de `Drh-fpt/assets/decision-modele.md` (champs entre `[ ]`,
+> discipline du gabarit de décision du skill `drh-fpt` (champs entre `[ ]`,
 > aucune donnée nominative en clair dans le canevas, réserves « à confirmer en
 > version consolidée » sur tout visa).
 >

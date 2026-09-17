@@ -147,8 +147,8 @@ souvent dans cette séquence ; le juge administratif raisonne de même
   doit choisir la mesure la moins attentatoire aux libertés permettant
   d'atteindre le but d'intérêt général.
   ```
-  *(Référence d'arrêt de principe reprise telle que citée dans
-  `Drh-fpt/references/...` et la doctrine constante ; numéro de requête non
+  *(Référence d'arrêt de principe reprise telle que citée dans le skill
+  `drh-fpt` et la doctrine constante ; numéro de requête non
   attribué à l'époque — la fiche complète, le contexte et les décisions
   d'application relèvent de `recherche-juridique`.)*
 - **Test pratique en 3 questions** :
