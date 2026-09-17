@@ -277,6 +277,46 @@ consultation directe de Légifrance le 2026-09-14** et portées ici.
 
 ---
 
+## 9. Compléments v1.0.5 — points relevés par des répondants pendant `r4`
+
+Trois points de fond signalés pendant la campagne `r4` (non appliqués à
+chaud, cf. `CHANGELOG.md`), **vérifiés par consultation directe de
+Légifrance le 2026-09-17** et portés ici.
+
+| Référence | Objet | En vigueur depuis | Identifiant |
+|---|---|---|---|
+| **Code de la route L. 413-1** | **Grand excès de vitesse** : dépasser la vitesse maximale autorisée de **50 km/h ou plus** est un **délit dès la première infraction** (3 mois d'emprisonnement, 3 750 € d'amende, confiscation et suspension du permis possibles) | 31/12/2025 | LEGIARTI000051877176 |
+| **CSI R. 511-1** | Habilitation des agents PM à constater par PV, notamment les contraventions de **CP R. 610-5** relatives aux **arrêtés de police municipale pris par le maire ou par le préfet** (CGCT art. L. 2215-1, 1° à 3°) — **ne couvre pas** un arrêté pris par le président d'EPCI | 01/01/2014 | LEGIARTI000028285997 |
+| **Code pénal R. 633-6** | Dépôt d'ordures/déchets hors des conditions fixées par l'autorité compétente (contravention de 3ᵉ classe) — **ne figure pas** dans la liste des contraventions constatables par la PM au titre de R. 511-1 | 05/06/2026 | LEGIARTI000054196263 |
+
+> **Grand excès de vitesse — conséquence métier** : la bascule en délit
+> interdit le PV de simple contravention ; l'agent constate et rend compte
+> immédiatement à l'OPJ (art. 21-2 CPP), sans acte d'enquête ni de garde à
+> vue. Portée dans `reglementation-appliquee.md` §5.1.
+>
+> **CSI R. 511-1 / CP R. 610-5 / CP R. 633-6** : la verbalisation directe
+> « sur le RSD » (règlement sanitaire départemental, arrêté préfectoral) et
+> sur les arrêtés municipaux de salubrité repose sur R. 511-1, **restreinte
+> aux arrêtés du maire ou du préfet** — un arrêté du président d'EPCI n'y
+> figure pas nommément. R. 633-6 (dépôt sauvage) est une contravention
+> pénale distincte, non listée par R. 511-1 : sa constatation par la PM
+> reste à vérifier au cas par cas, pas présumée. Portée dans
+> `reglementation-appliquee.md` §5.3.
+>
+> **Transfert EPCI (CGCT L. 5211-9-2, au socle §1)** : l'article distingue
+> un **transfert de plein droit** (I.A, dont la réglementation de la collecte
+> des déchets ménagers) et un **transfert facultatif** (I.B, dont les
+> prérogatives de **C. env. L. 541-3**), ce dernier décidé par **arrêté
+> préfectoral après accord de tous les maires et du président de l'EPCI**
+> (IV du même article). Le texte ne dit nulle part que les agents PM
+> constatent par PV les contraventions à un arrêté du **président** d'EPCI :
+> CSI L. 511-1 (au socle §3) ne vise que les « arrêtés de police du
+> **maire** ». **Question ouverte, non tranchée par cette version** :
+> l'habilitation générale de R. 511-1 (arrêtés du maire ou du préfet) ne se
+> transpose pas d'elle-même à un arrêté du président d'EPCI ; à vérifier via
+> `recherche-juridique` avant tout acte fondé sur un tel arrêté. Portée dans
+> `pouvoirs-police.md` §4.1.
+
 ## Références restées « non confirmées » (revue de rentrée)
 
 - **Nouvelle numérotation du CPP** applicable au 01/01/2029 (ordonnance

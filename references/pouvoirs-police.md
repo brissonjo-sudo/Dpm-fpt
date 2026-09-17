@@ -91,14 +91,30 @@ autorité incompétente est entachée d'illégalité, quel que soit son contenu.
   l'autorité de police, et, pour le volet répressif, dans les limites de
   leurs pouvoirs d'agent de police judiciaire adjoint (→
   `penal-procedure.md`, ne pas dupliquer ici).
-- **Le président d'EPCI à fiscalité propre** peut être titulaire de certaines
-  polices spéciales transférées de plein droit (assainissement, déchets,
-  aires d'accueil des gens du voyage, voirie et stationnement selon les
-  compétences, habitat…), avec faculté pour chaque maire de s'y opposer dans
-  un délai de **six mois** suivant l'élection du président — **CGCT, art.
-  L. 5211-9-2**, `LEGIARTI000048850168`, version du 31/12/2023, vérifié au
-  socle le 2026-06-30 et recontrôlé le 2026-09-14 (liste exacte des polices
-  et régime de chaque transfert : lire l'article à la date des faits).
+- **Le président d'EPCI à fiscalité propre** peut être titulaire de
+  certaines polices spéciales transférées — **CGCT, art. L. 5211-9-2**,
+  `LEGIARTI000048850168`, version du 31/12/2023, vérifié au socle le
+  2026-06-30, recontrôlé le 2026-09-14 et le 2026-09-17. **L'article
+  distingue deux régimes, à ne pas traiter en bloc** :
+  - **I.A — transfert de plein droit** (assainissement, réglementation de la
+    collecte des déchets ménagers, aires d'accueil des gens du voyage, police
+    de la circulation et du stationnement, autorisations de stationnement
+    taxi, police de la publicité, habitat, selon la compétence de l'EPCI) :
+    chaque maire peut s'y opposer dans un délai de **six mois** (III).
+  - **I.B — transfert facultatif** (dont les prérogatives de **C. env.
+    L. 541-3** en matière de déchets, sécurité des manifestations
+    culturelles/sportives d'établissements communautaires, défense
+    extérieure contre l'incendie) : décidé par **arrêté du représentant de
+    l'État**, après **accord de tous les maires des communes membres et du
+    président de l'EPCI** (IV) — pas de transfert automatique, pas
+    d'opposition à six mois.
+  - **Question ouverte** : le texte ne dit pas que les agents PM constatent
+    par PV les contraventions à un arrêté **du président d'EPCI**. L'habilitation
+    générale de constatation (CSI R. 511-1) ne vise que les arrêtés « du
+    maire ou du préfet » (détail dans `reglementation-appliquee.md` §5.3)
+    — elle ne se transpose pas d'elle-même à un arrêté du président.
+    À vérifier via `recherche-juridique` avant tout acte fondé sur un tel
+    arrêté ; ne jamais présumer l'habilitation.
 - **OPJ / autorité judiciaire** : dès que la finalité bascule du préventif
   (police administrative) au répressif (police judiciaire) → garde-fou APJA
   (`SKILL.md` §5.2) et `penal-procedure.md`.
@@ -364,9 +380,14 @@ Ne **jamais trancher en silence**. Séquence obligatoire :
   contrôle de légalité) — au socle (§1), LEGIARTI000044190560, version du
   01/07/2022, recontrôlé le 2026-09-14.
 - **CGCT, art. L. 5211-9-2** (transfert de polices spéciales au président
-  d'EPCI, opposition du maire dans les six mois) — au socle
-  (`references-verifiees.md` §1, `LEGIARTI000048850168`) ; régime détaillé de
-  chaque police transférée à lire à la date des faits.
+  d'EPCI ; I.A de plein droit avec opposition du maire à six mois, I.B
+  facultatif par arrêté préfectoral — voir §4.1) — au socle
+  (`references-verifiees.md` §1, `LEGIARTI000048850168`) ; recontrôlé le
+  2026-09-17 (`references-verifiees.md` §9).
+- **CSI, art. R. 511-1** (habilitation des agents PM à constater CP R. 610-5,
+  restreinte aux arrêtés du maire ou du préfet — voir §4.1) — au socle
+  (`references-verifiees.md` §9, `LEGIARTI000028285997`, vérifié le
+  2026-09-17).
 - **CE, Sect., 19 mai 1933, *Benjamin*** — principe de proportionnalité des
   mesures de police ; requêtes n° **17413** et **17520**, **Lebon p. 541**,
   `CETATEXT000007636694` — **vérifié sur Légifrance le 2026-09-06**, au socle
