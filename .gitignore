@@ -1,6 +1,11 @@
 # Sorties de packaging
 dist/
 
+# Espaces de travail isolés créés par l'outil Agent (isolation: "worktree")
+# pour l'exécution de sous-agents — infrastructure de session, pas du
+# contenu du dépôt ; auto-nettoyés en fin d'agent.
+.claude/
+
 # Python
 __pycache__/
 *.py[cod]
