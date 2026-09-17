@@ -31,7 +31,7 @@
    jamais citer de mémoire (réserve « à confirmer en version consolidée »).
 10. **Écrits & livrables** — classés par nature (acte / écrit de constatation /
     note / rapport) + éléments obligatoires (ex. motivation, voies de recours
-    pour un acte faisant grief ; pointeur vers le générateur `assets/`).
+    pour un acte faisant grief ; pointeur vers le générateur `references/templates/`).
 11. **Double échelle [risque / confiance]** — repères par sous-domaine
     (cf. `SKILL.md` §5.1).
 12. **Checklist de branche** — contrôles spécifiques avant sortie, dont le

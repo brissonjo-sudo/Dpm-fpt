@@ -1,0 +1,13 @@
+# Sorties de packaging
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Archives locales du dépôt : `package_skill.py` et les sauvegardes manuelles
+# produisent des archives à la racine. Les versionner reviendrait à empaqueter
+# le dépôt dans lui-même à chaque `git add -A`.
+*.7z
+*.zip
+*.tar.gz

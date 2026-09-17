@@ -1,6 +1,6 @@
 # dpm-fpt — Système expert d'aide à la décision pour un Directeur de Police Municipale
 
-Skill Claude destiné à un **Directeur de Police Municipale (DPM)** en
+Skill Codex/Claude destiné à un **Directeur de Police Municipale (DPM)** en
 collectivité territoriale. Il cadre le besoin métier, oriente vers la bonne
 base légale et le bon écrit, et sécurise les frontières de compétence
 (APJA / OPJ, maire / préfet, métier / RH).
@@ -27,7 +27,8 @@ confirmer en version consolidée ».
 1. **Decision Engine** — `references/analyse-situation.md` (routeur, appelé en premier).
 2. **Branches métier** — 11 branches + 3 briques posture dans `references/`.
 3. **Objets métier** — 8 fiches système expert dans `objets/`.
-4. **Générateurs** — écrits interactifs dans `assets/`.
+4. **Générateurs** — modèles Markdown interactifs dans
+   `references/templates/`.
 
 Dispositifs transverses (`SKILL.md` §5) : double échelle confiance × risque,
 garde-fou APJA (« Hard Stop »), socle-sources autonome, délégation `drh-fpt`,
@@ -38,9 +39,11 @@ hiérarchie de co-activation.
 ```
 dpm-fpt/
 ├── SKILL.md                 # noyau : posture + dispositifs transverses
+├── agents/openai.yaml       # métadonnées d'interface Codex
 ├── references/              # couches 1 et 2 (routeur + branches + postures + socle)
+│   └── templates/           # couche 4 (modèles d'écrits)
 ├── objets/                  # couche 3 (fiches système expert)
-├── assets/                  # couche 4 (générateurs d'écrits)
+├── scripts/                 # validation et packaging reproductibles
 ├── tests/                   # cas de test + cas de co-activation
 ├── docs/adr/                # décisions d'architecture (ADR)
 ├── vault/                   # index Obsidian (maillage, non packagé)
@@ -62,12 +65,40 @@ Boucle `JOURNAL.md` (cas) → `CHANGELOG.md` (versions), décisions tracées dan
 
 ## Version
 
-**v1.0.0 — première release stable.** Frontmatter `SKILL.md` conforme aux
-règles Agent Skills de Claude (description ≤ 1 024 caractères, métadonnées
-dans le corps). Complet (4 couches), audité et **testé en
-contexte frais** (26 cas + 5 co-activations, 3 runs ; sécurité transverse,
-sourcing et bascule drh-fpt validés) : routeur, 11 branches + 3 postures +
-socle, 8 objets, 5 générateurs, tests et vault d'index, plus un **socle de
-références vérifiées sur Légifrance** (`references/references-verifiees.md`) et
-les **liens de récupération du RSD par département** (`references/liste-RSD.md`,
-96/101 départements vérifiés au 2026-07-01).
+**v1.0.4 — revue de rentrée 2026 et audit complet (2026-09-14).** Rapport :
+`docs/audit/2026-09-14-audit-v1.0.3.md`. Ce que la version change :
+
+- **Socle recontrôlé** identifiant par identifiant (62/62 sur Légifrance) ;
+  deux versions nouvelles depuis la date consignée, toutes deux issues de la
+  **loi n° 2026-798 du 18 août 2026** : art. 21 CPP (le recueil de
+  déclarations par PV est étendu aux APJA des 1° à 1° ter, **sans les agents
+  de police municipale**) et CSP L. 3332-15 (fermeture des débits de boissons
+  pour atteinte à l'ordre public : 3 mois, 6 en réitération). **17 références**
+  citées dans les branches sans figurer au socle y sont portées (§8), dont
+  R. 325-14 du code de la route, les référés du CJA et l'art. 803 CPP.
+- **Garde-fou APJA** : trois fissures refermées — rétention sur simple
+  soupçon et « mise à disposition automatique » dans l'objet accident,
+  exception « fouille de sécurité » jamais définie (désormais bornée à l'art.
+  L. 511-1 CSI, palpation consentie), menottage sans fondement de rétention
+  (art. 803 CPP).
+- **Fourrière** : le skill affirmait que la PM « ne décide jamais » la mise en
+  fourrière ; l'art. R. 325-14 la fait prescrire par l'OPJ **ou par le chef de
+  la police municipale** (sauf véhicule volé, non identifié ou faussement
+  immatriculé). Branche et objet corrigés.
+- **Frontière RH** étendue aux couches 3 et 4 (objet agent, protection
+  fonctionnelle), description du skill rendue discriminante vis-à-vis de
+  `drh-fpt` et `dpo-ct`, gabarits et pointeurs remis d'équerre.
+
+**Dernier score de suite — campagne complète `claude-v1.0.4-r4`** (achevée le
+2026-09-17, 28 cas, skill lu depuis le dépôt, protocole `r3` reconduit) :
+**28 RÉUSSITE / 0 DEMI / 0 ÉCHEC**, seuil de release atteint (≥ 25/28 et
+0 échec sur les six cas critiques) et premier score parfait du skill. Les deux
+échecs de `r3` (cas 15 et 21, références hors socle) sont corrigés, et le
+contrôle de version est conforme sur 28 réponses sur 28. Trois points de fond
+relevés pendant la campagne sont réservés à la v1.0.5 (`CHANGELOG.md`), aucun
+n'ayant été appliqué à chaud. Détail : `docs/audit/2026-09-14-audit-v1.0.3.md`
+§6 et `tests/runs/claude-v1.0.4-r4/controle-protocole.md`.
+
+Historique complet des campagnes et des versions : `CHANGELOG.md`,
+`tests/bareme-cas-de-test.md`. Le package d'exécution est limité aux fichiers
+nécessaires (`SKILL.md`, `agents/openai.yaml`, `references/`, `objets/`).

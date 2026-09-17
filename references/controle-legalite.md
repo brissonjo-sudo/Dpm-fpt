@@ -5,7 +5,7 @@
 > traitement, la grille de contrôle et la checklist ; on retire les sections
 > sans objet pour une posture (pas de « procédures et délais » dédiées, pas de
 > sous-domaines métier). Appelée **avant toute production d'acte** via
-> `assets/` (arrêté, note au maire, règlement) — voir `SKILL.md` §6 et
+> `references/templates/` (arrêté, note au maire, règlement) — voir `SKILL.md` §6 et
 > `analyse-situation.md` §4.
 
 ## Périmètre / Exclusions
@@ -185,7 +185,8 @@ souvent dans cette séquence ; le juge administratif raisonne de même
   exécutoire de plein droit dès qu'il a fait l'objet d'une **publicité**
   (publication/affichage/notification) et, pour les actes de la liste
   art. L. 2131-2, dès sa **transmission** au représentant de l'État —
-  art. **L. 2131-1 du CGCT** *(vérifié sur Légifrance le 2026-06-30)*. Tant
+  art. **L. 2131-1 du CGCT** *(au socle §8, LEGIARTI000044190563, version du
+  01/07/2022, vérifié le 2026-09-14)*. Tant
   que la transmission requise n'est pas faite, l'acte n'est **pas
   exécutoire**, même signé et publié.
 - **Délai de transmission des décisions individuelles** : un délai court
@@ -194,7 +195,8 @@ souvent dans cette séquence ; le juge administratif raisonne de même
   de la décision).
 - **Actes non transmissibles** : certains actes (gestion interne, actes de
   droit privé, actes pris au nom de l'État) sont hors champ — art.
-  **L. 2131-4 du CGCT (à confirmer en version consolidée)** ; ne pas
+  **L. 2131-4 du CGCT** (au socle, `references-verifiees.md` §8,
+  LEGIARTI000044190553, version du 01/07/2022, vérifié le 2026-09-14) ; ne pas
   sur-transmettre par excès de prudence sans vérifier, mais en cas de doute,
   transmettre reste la posture la plus sûre.
 - **Déféré préfectoral** : le préfet dispose d'un délai pour défèrer l'acte
@@ -217,7 +219,7 @@ souvent dans cette séquence ; le juge administratif raisonne de même
   Mode B.
 - Anticipation des faiblesses après édiction de l'acte, stratégie de défense
   en cas de recours → `contentieux.md`.
-- Production effective de l'écrit (gabarit interactif) → `assets/`, pilotée
+- Production effective de l'écrit (gabarit interactif) → `references/templates/`, pilotée
   par `ecrits-professionnels.md`.
 - Frontière RH (acte individuel concernant un agent : sanction, refus
   d'avancement) → `drh-fpt` dès que la procédure RH statutaire est en jeu
@@ -280,11 +282,13 @@ car le contrôle de légalité porte par construction sur des lignes « Oui » :
   n° 2021-1310 du 7 octobre 2021 (entrée en vigueur 1er juillet 2022) — à
   reconfirmer en version consolidée pour le détail des seuils et catégories
   selon l'objet exact de l'acte.
-- **CGCT**, art. **L. 2131-4** (actes non transmissibles) — à confirmer en
-  version consolidée.
-- **CE, Sect., 19 mai 1933, Benjamin**, Lebon p. 541 (principe de
-  proportionnalité des mesures de police) — arrêt de principe constant ; sa
-  fiche complète et ses déclinaisons jurisprudentielles récentes relèvent de
+- **CGCT**, art. **L. 2131-4** (actes non transmissibles) — au socle (§8),
+  LEGIARTI000044190553, version du 01/07/2022, vérifié le 2026-09-14.
+- **CE, Sect., 19 mai 1933, *Benjamin*** (principe de proportionnalité des
+  mesures de police) — requêtes n° **17413** et **17520**, **Lebon p. 541**,
+  `CETATEXT000007636694`, **vérifié sur Légifrance le 2026-09-06** et porté au
+  socle (`references-verifiees.md` §7) : **le citer avec cette provenance**,
+  jamais de mémoire. Ses déclinaisons jurisprudentielles récentes relèvent de
   `recherche-juridique`.
 - **Délai de transmission des décisions individuelles** (ordre de grandeur
   15 jours) — à confirmer en version consolidée, article exact selon nature
@@ -298,10 +302,10 @@ car le contrôle de légalité porte par construction sur des lignes « Oui » :
 ## 9. Écrits & livrables
 
 Cette brique ne produit pas d'écrit en propre. Elle **conditionne** la
-production de tout acte via `assets/` :
-- **Arrêté** (`assets/arrete-modele.md`) — passer la grille §4 avant
+production de tout acte via `references/templates/` :
+- **Arrêté** (`references/templates/arrete-modele.md`) — passer la grille §4 avant
   rédaction ; intégrer motivation + voies de recours si acte faisant grief.
-- **Note au maire** (`assets/note-maire-modele.md`) — signaler les points de
+- **Note au maire** (`references/templates/note-maire-modele.md`) — signaler les points de
   fragilité identifiés par la grille, même si la décision finale appartient
   au maire.
 - **Règlement / décision** — même grille, adaptée au caractère réglementaire

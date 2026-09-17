@@ -1,0 +1,1 @@
+Nous voulons étendre notre réseau de caméras de voie publique et transmettre certaines images en direct au commissariat. Quelle procédure d'autorisation suivre et qui peut visionner les images au CSU ?

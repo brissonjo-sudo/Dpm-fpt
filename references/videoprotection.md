@@ -26,8 +26,7 @@
     non couverts ici) ;
   - le **fond opérationnel détaillé du CSU** (procédures de poste, doctrine de
     visionnage, fiches réflexes) → objet **`objets/videoprotection.md`**
-    (à créer en couche 3 ; à ce stade, ce pointeur est annoncé mais l'objet
-    n'existe pas encore dans le dépôt — ne pas l'halluciner avant création) ;
+    (fiche existante en couche 3, à lire pour le traitement opérationnel) ;
   - la **jurisprudence de fond** (contentieux d'autorisation, contentieux
     d'accès aux images) → `recherche-juridique`.
 
@@ -374,7 +373,7 @@ usage** :
    (finalité, plan, périmètre, durée de conservation envisagée).
 2. **Note au maire** — opportunité d'un projet de vidéoprotection, choix de
    la finalité, articulation avec le CSU existant → gabarit
-   `assets/note-maire-modele.md`.
+   `references/templates/note-maire-modele.md`.
 3. **Arrêté municipal connexe** (le cas échéant : réglementation d'usage
    interne, organisation du CSU) — **acte faisant grief** seulement s'il
    affecte des droits individuels ; sinon acte d'organisation interne.

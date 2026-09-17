@@ -102,6 +102,24 @@ instance, quels droits de la défense, quelle sanction), passer la main à
 `drh-fpt` (`Drh-fpt/references/carriere-paie.md`, §5.5) **sans reformuler le
 détail procédural ici**, même partiellement.
 
+**Deux verrous qui rendent cette règle opposable** (`SKILL.md` §5.4) :
+
+1. **Non-autorisation** — que `drh-fpt` soit mobilisable dans la session
+   **ne vaut pas autorisation de produire**. Pouvoir répondre n'est pas être
+   compétent pour répondre. C'est une raison de basculer, jamais de traiter.
+2. **Format** — émettre le **bloc BASCULE** **avant** tout contenu statutaire,
+   en nommant `drh-fpt`. Écrire « la DRH » ou « votre service RH » désigne un
+   service de la collectivité et **ne vaut pas bascule**.
+
+Reste permis après la bascule : **nommer** l'étape sans la dérouler, signaler un
+enjeu de calendrier ou de preuve, rappeler la conséquence métier (perte de la
+qualité d'APJA, retrait d'habilitation).
+
+**Format de la bascule** : émettre le **bloc BASCULE** (`SKILL.md` §5.4) avant
+tout contenu statutaire. La bascule n'est pas une mention en fin de réponse :
+c'est un livrable prioritaire qui **remplace** le contenu délégué. Disposer de
+`drh-fpt` dans la session ne déplace pas la frontière.
+
 ### 4.1 Agrément préfectoral et assermentation
 
 - **Double condition cumulative et personnelle** : un agent de police
@@ -165,9 +183,11 @@ détail procédural ici**, même partiellement.
   (le service ne peut en principe intervenir qu'entre certaines plages
   horaires sauf exception **gardes statiques** et **manifestations
   organisées par la commune**, sauf stipulation contraire de la convention —
-  CSI, art. **L. 512-2 et s.**, *rattachement à confirmer en version
-  consolidée*, voir `continuum-partenariats.md` pour le contenu de la
-  convention). L'**organisation du cycle de travail** lui-même (durée annuelle
+  règle portée par la **convention de coordination** (CSI, art. **L. 512-4**,
+  au socle) et ses textes d'application (L. 512-5 et s., *à confirmer en
+  version consolidée*) ; **non** par L. 512-2, qui traite du recrutement
+  intercommunal (socle §8). Voir `continuum-partenariats.md` pour le contenu
+  de la convention). L'**organisation du cycle de travail** lui-même (durée annuelle
   de référence, régime des heures supplémentaires, astreintes) relève du
   **temps de travail statutaire général** → `drh-fpt`
   (`Drh-fpt/references/carriere-paie.md`, §5.9). **Ce qui reste ici** : la
@@ -233,7 +253,7 @@ détail procédural ici**, même partiellement.
     (chef de poste, coordinateur d'un dispositif événementiel, officier de
     garde) — relève de **cette branche**.
 - Les agents de police municipale agissent **sous l'autorité du maire**
-  (CGCT, art. **L. 2212-5**, *vérifié sur Légifrance le 2026-06-30* —
+  (CGCT, art. **L. 2212-5**, au socle §8, LEGIARTI000025543324, vérifié le 2026-09-14 —
   rattachement confirmé : les agents exécutent, dans la limite de leurs
   attributions et sous l'autorité du maire, les tâches relevant de la
   compétence de celui-ci en matière de prévention et de surveillance du bon
@@ -283,6 +303,10 @@ Cette branche **ne décrit pas de procédure complète** sur les sujets délégu
 - Observation/rapport initial → **constat** (cette branche).
 - Dès **notification de griefs** ou **saisine d'une instance** → bascule
   immédiate `drh-fpt`, sans rédiger d'élément de procédure ici.
+- **Format imposé** : émettre le **bloc BASCULE** du `SKILL.md` §5.4 **avant**
+  tout contenu statutaire, en nommant `drh-fpt` (« la DRH » ne vaut pas
+  bascule). Que `drh-fpt` soit mobilisable dans la session **n'autorise pas** à
+  traiter le sujet ici.
 - Si dimension pénale → garde-fou APJA **avant** tout, puis
   `penal-procedure.md`.
 
@@ -320,7 +344,7 @@ que :
    consultation préalable du maire — ne pas présenter la consultation comme
    systématiquement préalable.
 5. Traiter l'**ISFE en détail** (plafonds, calcul, procédure d'institution)
-   ici au lieu de renvoyer à `drh-fpt` (`carriere-paie.md` §5.7) — cette
+   ici au lieu de renvoyer à `drh-fpt` (branche carrière/paie §5.7) — cette
    branche n'en garde que la **logique métier** des cycles et sujétions.
 6. Confondre **hiérarchie statutaire** (grade) et **commandement
    opérationnel de terrain** (autorité fonctionnelle) : un agent gradé
@@ -343,15 +367,19 @@ que :
   2026-06-30*, identifiant LEGIARTI000043540434 ; revérifier la version en
   vigueur à la date des faits (l'article a été modifié, notamment par la loi
   n° 2021-646 du 25 mai 2021 — à confirmer en version consolidée).
-- **CGCT, art. L. 2212-5** (agents PM agissant sous l'autorité du maire,
-  exécution des arrêtés de police, constatation par procès-verbal) — *vérifié
-  sur Légifrance le 2026-06-30* ; revérifier la version en vigueur à la date
-  des faits.
-- **CSI, art. L. 512-2 et s.** (plages horaires d'intervention, convention
-  de coordination, exceptions gardes statiques/manifestations) —
-  *rattachement identifié via recherche Légifrance le 2026-06-30* (article
-  L. 512-5, LEGIARTI000041411429, notamment) ; numéro précis applicable à la
-  question des cycles à reconfirmer en version consolidée. Voir
+- **CGCT, art. L. 2212-5** (missions des agents PM et organisation des
+  services : renvoi au titre Ier du livre V du CSI) — au socle §8,
+  LEGIARTI000025543324, version du 01/05/2012, vérifié le 2026-09-14.
+- **CSI, art. L. 512-4** (convention de coordination, au socle) et **L. 512-5
+  et s.** (plages horaires d'intervention, exceptions gardes
+  statiques/manifestations) — L. 512-2 (recrutement intercommunal, socle §8)
+  n'est pas le bon rattachement —
+  L. 512-5 est au socle §8 (convention **intercommunale**, LEGIARTI000043540455,
+  version du 27/05/2021 — l'identifiant `LEGIARTI000041411429` relevé le
+  2026-06-30 renvoie vers cette version) mais **ne fixe pas les plages
+  horaires** : la règle des interventions de nuit relève de la partie
+  réglementaire (R. 512-5 et s.) et de la convention type, **non consultées,
+  à confirmer en version consolidée**. Voir
   `continuum-partenariats.md` pour le contenu de la convention.
 - **CGFP, art. L. 714-13**, fondement de l'ISFE — *référence reprise de
   `Drh-fpt/references/carriere-paie.md` §5.7, non revérifiée dans cette
@@ -377,12 +405,12 @@ que :
 
 1. **Écrit de constatation / rapport** : **rapport d'information** ou
    **compte rendu hiérarchique** documentant un constat déontologique —
-   `assets/rapport-information.md` (`ecrits-professionnels.md` pour le
+   `references/templates/rapport-information.md` (`ecrits-professionnels.md` pour le
    choix du gabarit). Rester sur le **constat factuel et textuel**, ne pas
    préjuger d'une sanction.
 2. **Note** : **note au maire** sur l'état des agréments du service
    (agents agréés, agréments à surveiller, suspensions en cours), ou sur
-   l'organisation du commandement opérationnel — `assets/note-maire-modele.md`.
+   l'organisation du commandement opérationnel — `references/templates/note-maire-modele.md`.
 3. **Transmission** : dès bascule en procédure disciplinaire ou en dimension
    pénale, **transmettre le dossier** à `drh-fpt` ou activer le garde-fou
    APJA — ne pas produire d'écrit de procédure ici.

@@ -96,11 +96,10 @@ pratiques) relève des objets dédiés, à consulter en complément :
 | Chien dangereux, divagation, morsure | `objets/police-chiens.md` |
 | Occupation du domaine public (terrasse, marché, chantier, manifestation) | `objets/occupation-domaine-public.md` |
 
-> Ces fiches ne sont pas encore rédigées dans l'état actuel du skill (couche
-> 3 à dérouler) ; le routeur (`analyse-situation.md`) y pointe déjà. En leur
-> absence, s'appuyer sur les règles de fond ci-dessous et signaler
-> l'incomplétude de la couche 3 si une checklist opérationnelle fine est
-> demandée.
+> Ces quatre fiches existent (couche 3, `objets/`). Le routeur
+> (`analyse-situation.md`) y pointe. Lire l'objet dès qu'une checklist
+> opérationnelle fine est demandée ; la présente branche pose le cadre de
+> fond et ne le duplique pas.
 
 ---
 
@@ -125,18 +124,25 @@ pratiques) relève des objets dédiés, à consulter en complément :
   l'injonction des agents, **immobilisation et mise en fourrière** peuvent
   être prescrites dans les conditions des art. **L. 325-1 à L. 325-3, code de
   la route** (*art. L. 325-1 vérifié sur Légifrance le 2026-06-30*).
-- **Mise en fourrière** : décidée par l'autorité administrative (ou
-  judiciaire selon le cas) dans les cas et conditions fixés par le code de
-  la route — **art. L. 325-1 et s.** (police de fond) et **art. R. 325-1 et
-  s.** (modalités d'exécution, conditions de garde, restitution, frais) —
-  *L. 325-1 vérifié sur Légifrance le 2026-06-30 ; R. 325-1 et s. à
-  confirmer en version consolidée pour le détail des modalités*.
-- **Rôle de l'agent PM** : constatation (verbalisation), prescription de
-  l'immobilisation/mise en fourrière dans les conditions et limites fixées
-  par le texte et par sa qualité d'APJA (CPP, art. 21 — voir
-  `penal-procedure.md`) ; ne décide pas du régime de garde ni de la
-  restitution, qui relèvent de l'autorité administrative et du gestionnaire
-  de fourrière.
+- **Mise en fourrière** : cas et conditions fixés par le code de la route —
+  **art. L. 325-1 et s.** (police de fond, *L. 325-1 au socle*) et **art.
+  R. 325-1 et s.** (modalités d'exécution, garde, restitution, frais — *à
+  confirmer en version consolidée pour le détail*). **Qui la prescrit** :
+  **art. R. 325-14** (au socle, `references-verifiees.md` §8,
+  LEGIARTI000042039259, version du 01/04/2021, vérifié le 2026-09-14) — soit
+  un **OPJ** territorialement compétent, soit **l'APJA chef de la police
+  municipale (ou l'agent occupant ces fonctions)**, de sa propre initiative ou
+  sur proposition de l'agent verbalisateur. **Exception** : véhicule volé,
+  propriétaire non identifié ou fausses plaques → prescription par un **OPJ
+  seul**, ou avec son accord préalable exprès.
+- **Rôle de l'agent PM** : l'agent verbalisateur **constate** et **propose**
+  la mise en fourrière ; **seul le chef de service (ou son remplaçant en
+  fonctions) la prescrit**, dans les limites de R. 325-14. Le maire fixe le
+  cadre par ses arrêtés de stationnement (police spéciale) mais n'est pas
+  l'autorité prescriptrice de l'acte individuel. Ni l'agent ni le chef ne
+  décident du régime de garde ni de la restitution, qui relèvent du
+  gestionnaire de fourrière et des textes R. 325-1 et s. — voir
+  `penal-procedure.md` pour la qualité d'APJA.
 - **Conduite sous emprise (alcool, stupéfiants), défaut de permis ou
   d'assurance** : constatations qui engagent rapidement des actes réservés à
   l'OPJ (dépistage, vérifications complexes, garde à vue le cas échéant) →
@@ -158,15 +164,23 @@ pratiques) relève des objets dédiés, à consulter en complément :
   d'atteinte à l'**ordre public, la santé, la tranquillité ou la moralité
   publiques**, la fermeture préfectorale peut être prononcée pour une durée
   maximale distincte, réductible si l'exploitant s'engage dans une formation
-  qualifiante — **art. L. 3332-15, code de la santé publique** (*vérifié sur
-  Légifrance le 2026-06-30* ; durées exactes en mois **à confirmer en version
-  consolidée**, ne jamais les citer de mémoire).
+  qualifiante — **art. L. 3332-15, code de la santé publique** (au socle,
+  `references-verifiees.md` §5 : **version du 20/08/2026**, loi n° 2026-798,
+  LEGIARTI000054725387, consulté le 2026-09-14). Durées maximales portées au
+  socle : **6 mois** (infractions aux lois et règlements, 12 mois en cas de
+  réitération), **3 mois** (atteinte à l'ordre public, la santé, la
+  tranquillité ou la moralité publiques, 6 mois en réitération — c'était 2
+  mois avant le 20/08/2026), **6 mois** (actes criminels ou délictueux, 12
+  mois en réitération). Les citer **avec cette provenance et cette date**, et
+  recontrôler à la date des faits.
 - **Le maire** dispose également d'un pouvoir de fermeture administrative
   sur le fondement de ce même article, dans des conditions et limites
   propres (durée plus courte, motifs alignés sur l'ordre public local) ; il
   **transmet au préfet**, dans un délai fixé par le texte, les arrêtés de
   fermeture qu'il prend à ce titre — modalité **vérifiée dans son principe**
-  (art. L. 3332-15 CSP), **délai exact à confirmer en version consolidée**.
+  (art. L. 3332-15 CSP, au socle : **trois jours** à compter de la signature,
+  version du 20/08/2026, LEGIARTI000054725387 — recontrôler à la date des
+  faits).
 - **Articulation police générale / police spéciale** : la police des débits
   de boissons est une police spéciale qui prime la police générale du maire
   sur son champ (heures d'ouverture, conditions de vente). Le maire ne peut
@@ -308,10 +322,10 @@ pratiques) relève des objets dédiés, à consulter en complément :
 - **Garde-fou APJA** : dès qu'un contrôle ou une constatation bascule vers un
   acte réservé à l'OPJ (vérification approfondie d'imprégnation alcoolique
   ou de stupéfiants nécessitant une procédure complète, garde à vue,
-  audition formelle de suspect, perquisition hors flagrance stricte,
-  réquisition judiciaire — CPP, art. 16, à confirmer), afficher le **STOP**
-  prioritaire (`SKILL.md` §5.2) avant toute autre sortie, puis se limiter à
-  l'action APJA conforme et renvoyer à `penal-procedure.md`.
+  audition formelle de suspect, perquisition, réquisition judiciaire), afficher
+  le **STOP** prioritaire (`SKILL.md` §5.2), rendre compte à l'OPJ, puis
+  qualifier l'éventuelle contrainte selon les art. 53/73 ou 78-6. À défaut de
+  fondement, ne pas retenir la personne. Renvoyer à `penal-procedure.md`.
 - **Délais propres à chaque police spéciale** (durée de fermeture
   administrative, délai de garde en fourrière avant vente/destruction, délai
   ouvré avant euthanasie d'un animal, délai de réclamation, délai de mise en
@@ -411,9 +425,13 @@ dès que :
   le 2026-06-30* — recontrôler la version en vigueur à la date des faits ;
   délai ouvé exact **à confirmer en version consolidée**).
 - **Code rural, catégorisation des chiens dangereux (1re/2e catégorie),
-  permis de détention, évaluation comportementale** — articles distincts du
-  même titre, **non vérifiés dans cette session** : à confirmer en version
-  consolidée avant tout acte.
+  permis de détention, évaluation comportementale** — L. 211-12, L. 211-13-1,
+  L. 211-14 et L. 211-16 sont au socle vérifié. La liste concrète des chiens et
+  la distinction inscription/non-inscription à un livre généalogique reconnu
+  relèvent de l'**arrêté du 27 avril 1999**, art. 1 et 2, et non du seul art.
+  L. 211-12. Pour le refus du permis par le maire, traiter la décision
+  individuelle défavorable faisant grief via `controle-legalite.md` et l'art.
+  L. 211-2 CRPA. Recontrôler la version applicable avant tout acte.
 - **Règlement sanitaire départemental (RSD)** — nature réglementaire locale
   (préfet du département) : numéro et contenu **propres à chaque
   département**, à se procurer au cas par cas, jamais à généraliser de
@@ -431,22 +449,23 @@ dès que :
 
 1. **Écrit de constatation** — PV de contravention (stationnement gênant,
    infraction au code de la route, manquement à un arrêté de police) →
-   `assets/pv-contravention.md`.
+   `references/templates/pv-contravention.md`.
 2. **Rapport d'information** — signalement d'un fait relevant d'une police
    spéciale nécessitant une décision de l'autorité (animal dangereux,
-   salubrité, occupation sans titre) → `assets/rapport-information.md`.
+   salubrité, occupation sans titre) → `references/templates/rapport-information.md`.
 3. **Acte de l'autorité de police** — arrêté de fermeture, arrêté sur animal
    dangereux, mise en demeure de régularisation d'occupation du domaine
    public. Acte faisant grief si défavorable : **motivation en fait et en
    droit + voies de recours** + vérification de la transmission au
    **contrôle de légalité** → `controle-legalite.md` avant production, puis
-   `assets/arrete-modele.md`.
+   `references/templates/arrete-modele.md`.
 4. **Note au maire** — sur l'étendue de son pouvoir dans un domaine
    sectoriel, un conflit de compétence (maire/préfet/ARS), ou une situation
-   à fort enjeu (fermeture, animal dangereux) → `assets/note-maire-modele.md`.
-5. **Rapport de mise à disposition** — si la constatation bascule vers un
-   acte réservé à l'OPJ (garde-fou §6) → `assets/rapport-mise-a-disposition.md`
-   + `penal-procedure.md`.
+   à fort enjeu (fermeture, animal dangereux) → `references/templates/note-maire-modele.md`.
+5. **Rapport de mise à disposition** — uniquement si une route 53/73 ou 78-6
+   est établie ; le seul basculement vers un acte réservé à l'OPJ ne suffit
+   pas → `references/templates/rapport-mise-a-disposition.md` +
+   `penal-procedure.md`.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 tags: [skill/dpm-fpt, index]
-version: 0.7.0
+version: 1.0.4
 ---
 
 # Index — skill dpm-fpt
@@ -60,11 +60,11 @@ version: 0.7.0
 
 | Besoin | Fichier repo |
 |--------|--------------|
-| PV de contravention | `../assets/pv-contravention.md` |
-| Rapport d'information | `../assets/rapport-information.md` |
-| Rapport de mise à disposition (art. 73 CPP) | `../assets/rapport-mise-a-disposition.md` |
-| Arrêté (modèle) — acte faisant grief | `../assets/arrete-modele.md` |
-| Note au maire (modèle) | `../assets/note-maire-modele.md` |
+| PV de contravention | `../references/templates/pv-contravention.md` |
+| Rapport d'information | `../references/templates/rapport-information.md` |
+| Rapport de mise à disposition (art. 53/73 ou 78-6 CPP) | `../references/templates/rapport-mise-a-disposition.md` |
+| Arrêté (modèle) — acte faisant grief | `../references/templates/arrete-modele.md` |
+| Note au maire (modèle) | `../references/templates/note-maire-modele.md` |
 
 ### Hors couches — gouvernance et tests
 
@@ -72,11 +72,16 @@ version: 0.7.0
 |--------|--------------|
 | Cas de co-activation (dpm-fpt / drh-fpt / recherche-juridique) | `../tests/cas-co-activation.md` |
 | Jeu de cas de test structuré | `../tests/cas-de-test.json` |
-| Barème de passage des 14 cas (attendus critiques, score de suite) | `../tests/bareme-cas-de-test.md` |
+| Barème de passage des 28 cas (attendus critiques, score de suite) | `../tests/bareme-cas-de-test.md` |
 | Historique des versions (semver) | `../CHANGELOG.md` |
 | Journal des cas significatifs (apprentissage, anonymisé) | `../JOURNAL.md` |
+| **Audit complet 2026-09-14** (revue de rentrée 2026 : vigueur, sourcing, garde-fou, gabarits, tests, déclenchement ; plan P1/P2/P3 ; §6 = campagne `r4`) | `../docs/audit/2026-09-14-audit-v1.0.3.md` |
+| **Campagne `r4`** — mesure de la v1.0.4, 28/28 (28 prompts, réponses, jugements ; `summary.json`, `manifest.json` avec coût) | `../tests/runs/claude-v1.0.4-r4/` |
+| Contrôle de protocole de `r4` (isolation, contrôle de version 28/28, écarts assumés) | `../tests/runs/claude-v1.0.4-r4/controle-protocole.md` |
+| Barème normatif figé servi aux juges (sans historique) | `../tests/runs/claude-v1.0.4-r4/bareme-normatif.md` |
 | ADR — adoption du pattern drh-fpt | `../docs/adr/0001-adoption-pattern-drh-fpt.md` |
 | ADR — frontière dpm-fpt / drh-fpt | `../docs/adr/0002-frontiere-dpm-drh.md` |
+| ADR — disponibilité d'un skill délégataire ≠ autorisation de produire | `../docs/adr/0003-disponibilite-skill-delegataire.md` |
 | Présentation générale du repo | `../README.md` |
 
 ## Voir aussi

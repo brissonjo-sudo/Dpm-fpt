@@ -19,7 +19,7 @@
 3. **Procédures (étapes, délais)** — le déroulé opérationnel pas à pas, avec les
    délais et points de contrôle ; distinguer voie administrative et voie pénale
    si elles se cumulent.
-4. **Écrits associés** — **pointeur** vers le(s) générateur(s) `assets/`
+4. **Écrits associés** — **pointeur** vers le(s) générateur(s) `references/templates/`
    pertinents (PV, rapport, arrêté, note au maire).
 5. **Jurisprudence clé** — **pointeur** vers `recherche-juridique` (ne pas
    recopier le fond) ; signaler seulement les thèmes jurisprudentiels sensibles.

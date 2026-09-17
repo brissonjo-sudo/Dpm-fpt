@@ -1,0 +1,1 @@
+Un administré se plaint qu'un de mes agents a été inutilement brusque et a tenu des propos déplacés lors d'un contrôle. Comment je qualifie ce comportement au regard de la déontologie et que dois-je faire à ce stade ?

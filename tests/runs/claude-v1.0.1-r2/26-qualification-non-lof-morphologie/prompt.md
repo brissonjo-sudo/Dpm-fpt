@@ -1,0 +1,1 @@
+Un nouvel arrivant a un chien qu'il présente comme un "croisé berger", mais qui a toute la morphologie d'un pit-bull et n'a aucun papier LOF. Un voisin s'inquiète. Comment je qualifie ce chien et qu'est-ce que ça implique ?

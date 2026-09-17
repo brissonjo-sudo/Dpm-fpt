@@ -130,8 +130,8 @@ levé les variables de risque, d'effectif et de compétence engagée.
   distinguer du **classement ZSP** (§5.4), qui est un dispositif piloté par
   l'État, pas un découpage interne du service PM.
 - Patrouille et **constatation d'infraction** : les pouvoirs exercés en
-  patrouille restent ceux de l'APJA (art. 21 et 21-2 CPP — à confirmer en
-  version consolidée). Toute situation dépassant ce cadre déclenche le
+  patrouille restent ceux de l'APJA (art. 21 et 21-2 CPP — au socle,
+  `references-verifiees.md` §2 ; art. 21 en version du 20/08/2026). Toute situation dépassant ce cadre déclenche le
   garde-fou APJA → `penal-procedure.md`.
 
 ### 5.3 Dispositifs événementiels
@@ -324,12 +324,12 @@ Appliquer le socle-sources (matrice §2.2 `SKILL.md`) dès que :
 2. **Dispositif événementiel** — ordre d'opération / fiche de dispositif
    (effectifs, missions, points de regroupement, procédure dégradée) ;
    distinct des **autorisations administratives** sous-jacentes, à produire
-   via `assets/arrete-modele.md` le cas échéant.
+   via `references/templates/arrete-modele.md` le cas échéant.
 3. **Gestion de crise** — maincourante de crise, fiche réflexe par type de
    risque, contribution PM au PCS communal.
 4. **Pilotage** — note au maire/DGS sur le dimensionnement du service ou sur
    l'articulation avec un dispositif territorial (ZSP ou équivalent) →
-   `assets/note-maire-modele.md`.
+   `references/templates/note-maire-modele.md`.
 5. **Retour d'expérience** — après tout dispositif événementiel à enjeu ou
    toute gestion de crise → `retex.md`.
 

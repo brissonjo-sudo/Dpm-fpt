@@ -50,7 +50,7 @@
 1. **Occupant adresse une demande** à l'autorité gestionnaire (maire, conseil départemental selon le domaine) ou à ses services (direction générale, urbanisme, domaine public).
 2. **Instruction** : vérification de la conformité (localisation, encombrement, usage demandé, durée), avis des services de police municipale/Gendarmerie si circulation en jeu.
 3. **Octroi ou refus** : arrêté municipal ou décision administrative, assorti(e) d'une redevance et de conditions (accès aux tiers, assurance, durée, conditions de retrait).
-4. **Caractère du titre** : **précaire et révocable** — le gestionnaire peut le retirer à tout moment (CG3P, art. L. 2122-1), sans délai de rétractation obligatoire sauf dispositions locales spéciales ; il n'existe pas de droit acquis à l'occupation.
+4. **Caractère du titre** : **précaire et révocable** — le gestionnaire peut le retirer à tout moment (CG3P, art. L. 2122-1 et L. 2122-3), sans délai de rétractation obligatoire sauf dispositions locales spéciales ; il n'existe pas de droit acquis à l'occupation.
 5. **Durée de l'autorisation** : fixée par le titre (temporaire : saison estivale pour terrasse, marché, durée du chantier) ou sans terme. À préciser systématiquement dans l'acte.
 6. **Paiement de la redevance d'occupation** : fixée par arrêté municipal ou règlement local. Redevance due dès l'octroi du titre.
 
@@ -91,29 +91,57 @@ L'occupation du domaine public croise souvent d'autres polices spéciales :
 
 **Signaler tout cumul explicitement** : l'occupation sans titre est **un** motif d'intervention ; ne pas l'isoler si d'autres fondements s'ajoutent.
 
+### 3.7 Cas particuliers d'occupation (déclinaison par type)
+
+- **Terrasse de restaurant** : demande auprès du maire (gestionnaire) ; avis
+  de l'autorité de police (circulation) ; redevance fixe ; autorisation
+  saisonnière ou annuelle selon la pratique locale.
+- **Marché public ou forain** : étalage régulier, emplacements réservés,
+  cadastre des places ; autorisation spécifique ou titre permanent sous
+  conditions.
+- **Chantier de bâtiment** : occupation temporaire pendant travaux (durée
+  déterminée) ; signalisation, clôtures, prévention du danger ; mise en
+  demeure de retrait dès la fin du chantier déclarée.
+- **Dépôt sauvage de bien meuble** (épave, débris, matériel) : urgence si
+  encombrement ou risque sanitaire ; enlèvement d'office prioritaire ; frais à
+  recouvrer auprès du propriétaire s'il est identifié.
+- **Enseigne, panneau, affiches** : cumul avec la police de la publicité
+  extérieure (police spéciale) — détail hors de cette fiche.
+- **Clôture, barrière, portail** : occupation du domaine public ; même régime
+  que la terrasse.
+
+**Séquence type, toutes occupations confondues** : constat par l'agent PM et
+rapport (3.2) → vérification du titre auprès du gestionnaire → mise en demeure
+(3.3) → enlèvement d'office si le délai est écoulé (3.4) → recours (3.5).
+L'urgence (circulation, danger sanitaire) raccourcit le délai de mise en
+demeure ; à défaut, délai ordinaire **à confirmer en version consolidée** selon
+la collectivité (ordre de grandeur 8 à 15 jours, jamais de mémoire). **Pas de
+droit acquis** : l'occupation, même ancienne, ne crée pas de droit au titre
+(CG3P, art. L. 2122-1 et L. 2122-3 — caractère précaire et révocable).
+
 ---
 
 ## 4. Écrits associés — pointeurs vers les générateurs
 
-**`../assets/rapport-information.md`**
+**`../references/templates/rapport-information.md`**
 - Rapport de constat d'occupation sans titre ou non conforme : adressé à l'autorité compétente pour décision.
 - Champs : localisation précise (photos si possible), nature du trouble, identité de l'occupant identifié, demandes antérieures de régularisation, délai recommandé pour mise en demeure.
 
-**`../assets/arrete-modele.md`** — acte faisant grief : passer d'abord par
+**`../references/templates/arrete-modele.md`** — acte faisant grief : passer d'abord par
 **`../references/controle-legalite.md`** (motivation, voies de recours,
 transmission éventuelle).
 - Arrêté de mise en demeure de régularisation ou de retrait.
 - Champs : occupation précisée, titre absent ou non conforme, délai imparti, conséquence de l'absence de suite (enlèvement d'office + frais à charge de l'occupant), mention de la possibilité de recours.
 
-**`../assets/arrete-modele.md`** (variante)
-- Arrêté d'autorisation d'occupation temporaire : issued après demande conforme.
+**`../references/templates/arrete-modele.md`** (variante)
+- Arrêté d'autorisation d'occupation temporaire : pris après demande conforme.
 - Champs : occupant, localisation et périmètre, durée, redevance, conditions de retrait, caractère précaire et révocable du titre, assurance si applicable.
 
-**`../assets/note-maire-modele.md`**
+**`../references/templates/note-maire-modele.md`**
 - Note sur un conflit de compétence (gestionnaire vs autorité de police) ou sur l'étendue des pouvoirs d'enlèvement d'office.
 - Champs : faits, fondements juridiques, autorité correctement identifiée, recommandation.
 
-**Pas de generateur spécifique à ce stade** pour :
+**Pas de générateur spécifique à ce stade** pour :
 - Contrat ou cahier des charges d'occupation spéciale (marché, chantier sur longue durée).
 - Procédure d'avis et de consultation préalables si obligatoires (CNRLT pour terrasses, par ex.).
 
@@ -129,6 +157,12 @@ transmission éventuelle).
 - **Circulation routière entravée + occupation** : urgence du retrait, police de la circulation (art. R. 417-10 code route) en concours.
 - **Droits du propriétaire du bien enlevé** : conservation raisonnable, frais de gardiennage raisonnables, destruction sans procédure abusive.
 - **Recours contre enlèvement d'office** : conditions d'accès au recours gracieux et contentieux.
+- **Confusion entre droit patrimonial et titre précaire** : un bail ou un
+  contrat peut coexister avec un titre d'occupation sur un même bien ; c'est la
+  nature du titre qui commande l'enlèvement d'office.
+- **Frais d'enlèvement et de gardiennage** : exposés à contestation sans
+  barème public ou règlement local clair ; conservation du bien au-delà du
+  délai nécessaire = risque de recours.
 
 Détail des arrêts pertinents → à rechercher via `recherche-juridique` (CE, arrêts Leclerc-Bouchoux, arrêts sur la proportionnalité des mesures de police, jurisprudence locale si collectivité avec contentieux récent).
 
@@ -146,6 +180,8 @@ Détail des arrêts pertinents → à rechercher via `recherche-juridique` (CE, 
 - [ ] **Urgence du traitement évaluée** : danger immédiat pour la circulation ou la salubrité ? Durée critique de l'obstruction ? Adapter le délai de mise en demeure.
 - [ ] **Cumul de polices détecté** : bruit, salubrité, circulation ? Chaque fondement bien isolé dans l'écrit ?
 - [ ] **Mise en demeure respecte le délai raisonnable** : délai à confirmer en version consolidée selon le contexte local (habituellement 8 à 15 jours, jamais de mémoire).
+- [ ] **Mise en demeure documentée et notifiée** avant tout enlèvement d'office (à défaut : excès de pouvoir).
+- [ ] **Cumul administratif + pénal signalé** le cas échéant (ex. occupation + dégradation ou vol d'un bien public) : deux procédures distinctes, jamais fusionnées.
 - [ ] **Arrêté d'enlèvement d'office comporte tous les éléments** : occupant identifié, localisation précise, constat du défaut de suite à la mise en demeure, taux des frais ou règlement local précisant le coût, droit de réclamation du bien mentionné.
 
 **Garde-fou APJA** : L'occupation sans titre relève de la police administrative et ne déclenche **pas** le garde-fou APJA sauf si la constatation bascule vers une infraction pénale complexe (abus de confiance sur bien d'autrui, destruction volontaire) → renvoi à `penal-procedure.md` selon la qualification exacte. Cas ordinaire : constat simple de contravention de voirie, renvoi administratif au maire.
@@ -155,41 +191,3 @@ Détail des arrêts pertinents → à rechercher via `recherche-juridique` (CE, 
 2. Qualifier le fondement de chacune (pouvoir patrimonial du gestionnaire vs pouvoir de police générale).
 3. Signaler explicitement le risque si les deux ne coordonnent pas.
 4. Recommander le canal : information immédiate du maire et, si doute, saisine du service sécurité pour clarification.
-
----
-
-## 7. Points d'attention particuliers
-
-**Occupations spéciales récurrentes** :
-
-- **Terrasse de restaurant** : demande auprès du maire (gestionnaire) ; franchise à l'autorité de police (circulation) ; redevance fixe ; autorisation saisonnière ou annuelle selon pratique locale.
-- **Marché public ou forain** : étalage régulier, emplacements réservés, cadastre des places ; autorisation spécifique ou titre permanent sous conditions.
-- **Chantier de bâtiment** : occupation temporaire pendant travaux (durée déterminée) ; panneaux de signalisation, clôtures, prévention de danger ; mise en demeure de retrait dès fin du chantier déclarée.
-- **Dépôt sauvage de bien meuble** (épave, débris, matériel) : urgence si encombrement ou risque sanitaire ; enlèvement d'office prioritaire ; frais à recouvrer auprès du propriétaire si identifié.
-- **Enseigne, panneau, affiches** : cumul avec la police de la publicité extérieure (police spéciale) — détail hors cette fiche.
-- **Clôture, barrière, portail** : occupation du domaine public ; même régime que terrasse.
-
-**Risques procéduraux** :
-
-- Confusion entre **droit patrimonial** (bail, contrat) et **titre d'occupation précaire** : les deux peuvent coexister sur un même bien, mais c'est la nature du titre qui prime pour l'adminision d'office.
-- Absence de **mise en demeure documentée** avant enlèvement d'office : risque de recours contentieux pour excès de pouvoir.
-- **Frais d'enlèvement excessifs ou mal justifiés** : exposés à contestation si pas de barème public ou contrat claire.
-- **Gardiennage non raisonnable** : bien enlevé mais conservé au-delà du délai nécessaire ; exposé à recours.
-- **Cumul administratif + pénal** non signalé : ex., occupation + vol de bien public (si le gestionnaire est une personne publique). Distinguer les deux procédures.
-
----
-
-## Résumé opérationnel
-
-**Séquence type** :
-1. **Constat** : agent PM relève occupation sans titre ou non conforme → rapport à l'autorité de police (maire).
-2. **Vérification** : maire (gestionnaire) confirme absence de titre ; sinon, demander titre à l'occupant.
-3. **Mise en demeure** : arrêté du maire fixant délai de régularisation ou de retrait.
-4. **Exécution** : enlèvement d'office si délai écoulé, frais à charge de l'occupant.
-5. **Recours** : occupant peut contester → voie administrative puis contentieuse si nécessaire.
-
-**Facteur d'urgence** : urgence de la circulation ou du danger sanitaire → délai de mise en demeure court ; sinon, délai ordinaire 8-15 jours (à confirmer en version consolidée selon la collectivité).
-
-**Pas de droit acquis** : l'occupation du domaine public, même ancienne, ne crée pas de droit à titre ; elle reste toujours révocable.
-
-[**Risque moyen / Confiance stable dans le principe — modalités locales et délais à vérifier en session**]

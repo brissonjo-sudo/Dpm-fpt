@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "skill_version": "1.0.2",
+  "created_at": "2026-08-08T14:59:37.279884+00:00",
+  "suite_sha256": "8dbcf5e1915544ab5a4c29475979b479a1ea063bb5f59e936a8c6f3f18c94cb9",
+  "responder": "claude-opus-5",
+  "judge": "claude-opus-5",
+  "case_count": 28,
+  "protocol": "Campagne complète r3 sur les 28 cas, mesurant la v1.0.2 du dépôt. IMPORTANT — le skill n'est PAS chargé via l'outil Skill : celui-ci sert une copie de session figée en v1.0.1 (voir JOURNAL.md, entrée du 2026-08-08 « L'outil Skill charge un snapshot de session, pas le dépôt »). Chaque répondant charge le skill par LECTURE DIRECTE de E:/Claude code/Projects/Dpm-fpt/SKILL.md, les chemins relatifs (references/, objets/, references/templates/) étant résolus depuis la racine du dépôt. Écart assumé : le déclenchement automatique par la description du skill n'est pas testé par cette voie, seul son contenu l'est. Les skills délégataires recherche-juridique et drh-fpt restent invocables par l'outil Skill (leur disponibilité fait partie du dispositif testé : la règle de non-autorisation §5.4 pose que la disponibilité d'un délégataire ne vaut pas autorisation de produire). 28 répondants en contexte frais et isolé (un agent par cas), recevant uniquement prompt.md, sans accès aux attendus ni au barème. Puis 28 juges en contexte distinct et isolé, recevant response.md, les attendus[] du cas et bareme-normatif.md (partie normative du barème amendé le 2026-08-08 : protocole, règle de passage, attendus de pointeur non éliminatoires, attendus critiques), SANS l'historique des campagnes afin d'éviter tout ancrage.",
+  "bareme_amendment": "Barème amendé le 2026-08-08 : les attendus dont l'objet UNIQUE est la nomination d'un fichier cible du skill sont non éliminatoires (consignés en observation) ; sur un attendu mixte, seule la composante renvoi est neutralisée. Aucun run antérieur n'est rescoré."
+}

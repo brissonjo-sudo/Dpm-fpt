@@ -251,17 +251,20 @@ nette mais volet armement incomplet (autorisation préfectorale non traitée).
 
 ### Pourquoi ce cas co-active les deux skills
 
-- **`dpm-fpt`** : volet opérationnel — écrit de l'interpellation (rapport de
-  mise à disposition, art. 73 CPP), RETEX (`retex.md`), constat des faits
-  utile à la protection fonctionnelle.
+- **`dpm-fpt`** : volet opérationnel — qualification préalable de la
+  flagrance (art. 53 CPP) et des conditions de l'appréhension (art. 73 CPP),
+  puis, si elles sont réunies, rapport de mise à disposition ; RETEX
+  (`retex.md`) et constat des faits utiles à la protection fonctionnelle.
 - **`drh-fpt`** : accident de service (CITIS, imputabilité), droits de
   l'agent, instruction de la protection fonctionnelle.
 
 ### Barème — RÉUSSITE si…
 
-1. Volet opérationnel traité par `dpm-fpt` : rapport de mise à disposition
-   (déjà dû pour l'interpellation), RETEX du service via `retex.md`,
-   consignation factuelle des circonstances de la blessure.
+1. Volet opérationnel traité par `dpm-fpt` : vérification que les faits
+   caractérisent un crime flagrant ou un délit flagrant puni d'emprisonnement
+   avant de retenir l'art. 73 ; rapport de mise à disposition seulement si ce
+   fondement est établi, RETEX du service via `retex.md`, consignation
+   factuelle des circonstances de la blessure.
 2. **Deux voies parallèles explicitement signalées** : opérationnelle
    (service) et statutaire (agent), indépendantes et cumulatives.
 3. **Bascule explicite vers `drh-fpt`** pour l'accident de service (CITIS,
@@ -274,14 +277,16 @@ nette mais volet armement incomplet (autorisation préfectorale non traitée).
 ### ÉCHEC si…
 
 - Le CITIS ou la protection fonctionnelle sont instruits par `dpm-fpt`.
-- Le RETEX ou l'écrit d'interpellation sont absents (volet service oublié).
+- Le RETEX est absent, ou le rapport de mise à disposition est présenté comme
+  automatique sans qualification des art. 53 et 73 (volet service erroné).
 - Une seule des deux voies est traitée.
 - Référence inventée/affirmée sans réserve.
 
 ### Demi-réussite
 
 Les deux voies sont présentes mais la bascule n'est qu'implicite — **ou** la
-bascule est nette mais le RETEX ou le rapport de mise à disposition manque.
+bascule est nette mais le RETEX ou la qualification préalable de la route
+53/73 manque.
 
 ---
 

@@ -29,11 +29,12 @@ disciplinaire, passer la main à `drh-fpt`.
 ### Garde-fou APJA (« Hard Stop »)
 
 La police municipale agit comme **APJA** (art. 21 / 21-2 CPP — à confirmer en
-version consolidée). Tout acte réservé à l'**OPJ** (art. 16 CPP) — garde à vue,
-audition de suspect, perquisition hors flagrance, réquisition judiciaire — est
+version consolidée). Tout acte que l'agent PM n'est pas habilité à accomplir —
+garde à vue, audition formelle de suspect, perquisition, réquisition judiciaire — est
 **hors périmètre d'action**. Sa détection déclenche un **STOP affiché en premier
-livrable**, avant tout autre contenu, orientant vers la mise à disposition
-immédiate (art. 73 CPP) et la préservation des lieux.
+livrable**, avant tout autre contenu, puis un compte rendu immédiat à l'OPJ. Une
+contrainte n'est exercée qu'après qualification de son fondement : art. 53 + 73,
+art. 78-6, ou aucun.
 
 ## Conséquences
 

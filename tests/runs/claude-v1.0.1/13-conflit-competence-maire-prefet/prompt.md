@@ -1,0 +1,1 @@
+Un rassemblement revendicatif de plusieurs centaines de personnes est annoncé sur la voie publique ce week-end, avec un risque de troubles à l'ordre public débordant sur les communes voisines. Le maire veut prendre un arrêté d'interdiction. Est-ce de sa compétence ou dois-je alerter la préfecture ?

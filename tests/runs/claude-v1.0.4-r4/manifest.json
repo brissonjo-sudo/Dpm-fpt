@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "skill_version": "1.0.4",
+  "created_at": "2026-09-14T20:36:55.816645+00:00",
+  "suite_sha256": "91d794d08e5555d69eb3c6738b834b3efca9d9b09f63075963d0793d451873a4",
+  "responder": "claude-opus-5",
+  "judge": "claude-opus-5",
+  "case_count": 28,
+  "protocol": "Campagne complète r4 sur les 28 cas, mesurant la v1.0.4 du dépôt (HEAD de la branche claude/audit-skill-dpm-x387zc après les correctifs de l'audit du 2026-09-14). Protocole r3 reconduit à l'identique : le skill est chargé par LECTURE DIRECTE de /home/user/Dpm-fpt/SKILL.md (l'outil Skill sert une copie de session figée en v1.0.1), chemins relatifs résolus depuis la racine du dépôt ; 28 répondants Claude Opus 5 en contexte frais et isolé (un agent par cas), recevant uniquement prompt.md, sans accès aux attendus, au barème, à tests/, JOURNAL.md, CHANGELOG.md, README.md, docs/ ; recherche-juridique et drh-fpt restent invocables (leur disponibilité fait partie du dispositif testé, §5.4) ; accès à Légifrance par WebFetch/WebSearch autorisé (voie de repli de recherche-juridique). Puis 28 juges Claude Opus 5 en contexte distinct et isolé, recevant response.md, les attendus[] du cas et bareme-normatif.md (extrait normatif figé en r3, reconduit), SANS historique des campagnes. Écart assumé : le déclenchement automatique par la description n'est pas testé. Empreinte de suite : 91d794d0… est l'empreinte du même corpus que 8dbcf5e1… (r2/r3), après normalisation des fins de ligne (.gitattributes, commit bcd488b du 2026-09-06) — contenu vérifié identique hors CR ; aucun cas modifié.",
+  "skill_md_sha256": "8a461746c0867c7c33adb531f1ffeff3da97c024d09aa70e1523a04e0f3c74a4",
+  "bareme_amendment": "Barème amendé le 2026-08-08 (attendus de pointeur non éliminatoires), reconduit sans changement.",
+  "cost": {
+    "unit": "tokens de sous-agent (entrée + sortie cumulés, tels que rapportés par l'orchestrateur)",
+    "note": "Première campagne dont le coût est consigné. Relevé agent par agent ; les agents interrompus par la limite de forfait et relancés ne sont comptés qu'une fois, sur leur exécution aboutie.",
+    "responder_tokens_total": 3380000,
+    "responder_tokens_mean_per_case": 121000,
+    "judge_tokens_total": 2030000,
+    "judge_tokens_mean_per_case": 72500,
+    "total_tokens": 5410000,
+    "responder_duration_seconds_range": [
+      171,
+      889
+    ],
+    "judge_duration_seconds_range": [
+      98,
+      170
+    ],
+    "wall_clock": "2026-09-14 au 2026-09-17, en paliers imposés par la limite de forfait ; exécution séquentielle (un agent à la fois) à partir du 2026-09-17"
+  }
+}

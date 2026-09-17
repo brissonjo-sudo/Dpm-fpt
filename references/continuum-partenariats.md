@@ -80,6 +80,12 @@ dans la commune concernée.
 
 ### 4.1 Convention de coordination — fondement et seuil
 
+- **Distinction à expliciter dans toute réponse** : la convention de
+  coordination est un instrument bilatéral d'**organisation opérationnelle**
+  entre la police municipale et les forces de sécurité de l'État. Elle ne se
+  confond pas avec le **CLSPD/CISPD**, instance partenariale de concertation et
+  de prévention de la délinquance (§4.2). Traiter une convention impose donc de
+  nommer cette différence, même si le CLSPD/CISPD n'est pas demandé.
 - **Police générale du maire** articulée avec les **polices spéciales et
   missions de l'État** : la convention de coordination organise la
   **complémentarité** des interventions de la police municipale et des
@@ -324,12 +330,12 @@ est traité à une date ultérieure, car le droit évolue) :
 1. **Convention** — projet de convention de coordination (ou avenant) :
    diagnostic, missions prioritaires, modalités de coordination, signataires
    identifiés. Acte conventionnel bilatéral : pas de gabarit dédié dans
-   `assets/` à ce stade ; mobiliser `assets/note-maire-modele.md` pour la
+   `references/templates/` à ce stade ; mobiliser `references/templates/note-maire-modele.md` pour la
    note de préparation au maire et `controle-legalite.md` pour la
    sécurisation préalable.
 2. **Note au maire** — sur l'opportunité d'une convention, le bilan d'un
    CLSPD, ou un point de partage d'information sensible → renvoyer à
-   `assets/note-maire-modele.md`.
+   `references/templates/note-maire-modele.md`.
 3. **Compte rendu / bilan CLSPD-CISPD** — synthèse périodique d'activité du
    conseil ; vérifier le destinataire et la diffusion (donnée parfois
    sensible, cf. `conformite-deontologie-donnees.md`).
@@ -362,13 +368,15 @@ est traité à une date ultérieure, car le droit évolue) :
 
 1. Effectif de la PM et état de la convention de coordination identifiés
    avant toute affirmation sur le caractère obligatoire ou facultatif ?
-2. Niveau institutionnel correct distingué (CLSPD communal vs CISPD
+2. Convention de coordination explicitement distinguée du CLSPD/CISPD
+   (coordination opérationnelle bilatérale vs concertation partenariale) ?
+3. Niveau institutionnel correct distingué (CLSPD communal vs CISPD
    intercommunal, maire-président vs président d'EPCI) ?
-3. Rôle du CLSPD/CISPD rappelé comme **concertation**, pas comme pouvoir de
+4. Rôle du CLSPD/CISPD rappelé comme **concertation**, pas comme pouvoir de
    décision de police ?
-4. Seuils et durées chiffrés vérifiés en version consolidée, jamais de
+5. Seuils et durées chiffrés vérifiés en version consolidée, jamais de
    mémoire ?
-5. Partage d'information distingué entre information opérationnelle
+6. Partage d'information distingué entre information opérationnelle
    immédiate et donnée nominative sensible, avec renvoi à
    `conformite-deontologie-donnees.md` pour le régime de fond ?
 6. Garde-fou APJA rappelé si le partage d'information frôle un acte de

@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "skill_version": "1.0.1",
+  "created_at": "2026-07-28T21:21:47.474701+00:00",
+  "suite_sha256": "314395cdcfff04a19b6b10660832ea4ef1553ca3301c3b45ee9ee8240b2f2b26",
+  "responder": "claude-sonnet-5",
+  "judge": "claude-sonnet-5",
+  "case_count": 28,
+  "protocol": "Le répondant reçoit seulement prompt.md. Le juge reçoit ensuite response.md, les attendus du cas et tests/bareme-cas-de-test.md."
+}

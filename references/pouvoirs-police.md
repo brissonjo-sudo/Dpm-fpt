@@ -92,10 +92,13 @@ autorité incompétente est entachée d'illégalité, quel que soit son contenu.
   leurs pouvoirs d'agent de police judiciaire adjoint (→
   `penal-procedure.md`, ne pas dupliquer ici).
 - **Le président d'EPCI à fiscalité propre** peut être titulaire de certaines
-  polices spéciales transférées de plein droit ou par convention, avec
-  faculté pour chaque maire de s'y opposer dans les conditions et délais
-  fixés par le texte (CGCT — liste et modalités à confirmer en version
-  consolidée, non vérifiées dans cette session).
+  polices spéciales transférées de plein droit (assainissement, déchets,
+  aires d'accueil des gens du voyage, voirie et stationnement selon les
+  compétences, habitat…), avec faculté pour chaque maire de s'y opposer dans
+  un délai de **six mois** suivant l'élection du président — **CGCT, art.
+  L. 5211-9-2**, `LEGIARTI000048850168`, version du 31/12/2023, vérifié au
+  socle le 2026-06-30 et recontrôlé le 2026-09-14 (liste exacte des polices
+  et régime de chaque transfert : lire l'article à la date des faits).
 - **OPJ / autorité judiciaire** : dès que la finalité bascule du préventif
   (police administrative) au répressif (police judiciaire) → garde-fou APJA
   (`SKILL.md` §5.2) et `penal-procedure.md`.
@@ -155,9 +158,10 @@ autorité incompétente est entachée d'illégalité, quel que soit son contenu.
 - **Tous les autres pouvoirs de police** restent exercés par le **maire**, y
   compris le maintien du bon ordre dans les foires, marchés, fêtes et
   cérémonies publiques, spectacles, jeux, cafés, églises et autres lieux
-  publics (CGCT, art. L. 2214-4 — *vérifié sur Légifrance le 2026-06-30* ;
-  périmètre exact des articles de renvoi, L. 2212-2/L. 2212-3, **à confirmer
-  en version consolidée**).
+  publics (CGCT, art. L. 2214-4 — *vérifié sur Légifrance le 2026-06-30*,
+  recontrôlé le 2026-09-14 ; les articles de renvoi L. 2212-2 et L. 2212-3
+  sont au socle — L. 2212-3 ne vise que la police municipale des communes
+  **riveraines de la mer**, LEGIARTI000006390154).
 - Dans une commune à police étatisée, **les forces de police d'État
   exécutent les arrêtés de police du maire** sur le champ resté communal.
   Cela ne transfère pas le pouvoir de décision : seule l'exécution
@@ -351,19 +355,24 @@ Ne **jamais trancher en silence**. Séquence obligatoire :
   substitution par arrêté motivé pour communes limitrophes, réquisition
   d'urgence (*vérifié sur Légifrance le 2026-06-30* — recontrôler la version
   en vigueur à la date des faits).
-- **CGCT, art. L. 2212-3 et articles de police de la circulation/du
-  stationnement** (illustrations détaillées) — numéros et contenu exact **à
-  confirmer en version consolidée**, non vérifiés dans cette session.
+- **CGCT, art. L. 2212-3** (police municipale des communes riveraines de la
+  mer, jusqu'à la limite des eaux) — au socle (§8), LEGIARTI000006390154,
+  vérifié le 2026-09-14. Les articles de **police de la circulation et du
+  stationnement** (L. 2213-1 et s.) restent **à confirmer en version
+  consolidée**, non portés au socle.
 - **CGCT, art. L. 2131-2** (liste des actes soumis à transmission au
-  contrôle de légalité) — à confirmer en version consolidée.
-- Articles relatifs au **transfert de pouvoirs de police au président
-  d'EPCI** (matière connexe, hors détail de cette branche) — à vérifier au
-  cas par cas si la commune appartient à un EPCI ayant reçu transfert.
-- **CE, Sect., 19 mai 1933, Benjamin** — principe de proportionnalité des
-  mesures de police ; numéro de requête et référence Lebon précise **à
-  confirmer** auprès de `recherche-juridique` avant citation en acte
-  contentieux (repère doctrinal stable, non vérifié sur source officielle
-  dans cette session).
+  contrôle de légalité) — au socle (§1), LEGIARTI000044190560, version du
+  01/07/2022, recontrôlé le 2026-09-14.
+- **CGCT, art. L. 5211-9-2** (transfert de polices spéciales au président
+  d'EPCI, opposition du maire dans les six mois) — au socle
+  (`references-verifiees.md` §1, `LEGIARTI000048850168`) ; régime détaillé de
+  chaque police transférée à lire à la date des faits.
+- **CE, Sect., 19 mai 1933, *Benjamin*** — principe de proportionnalité des
+  mesures de police ; requêtes n° **17413** et **17520**, **Lebon p. 541**,
+  `CETATEXT000007636694` — **vérifié sur Légifrance le 2026-09-06**, au socle
+  (`references-verifiees.md` §7). Citable avec cette provenance ; ses
+  **déclinaisons jurisprudentielles récentes** restent à faire approfondir par
+  `recherche-juridique` avant usage en acte contentieux.
 
 ---
 
@@ -373,18 +382,18 @@ Ne **jamais trancher en silence**. Séquence obligatoire :
    mise en demeure, substitution). Acte faisant grief si défavorable :
    **motivation en fait et en droit + voies de recours** + vérification de
    la transmission au **contrôle de légalité** → `controle-legalite.md`
-   avant production, puis `assets/arrete-modele.md`.
+   avant production, puis `references/templates/arrete-modele.md`.
 2. **Note au maire** — sur l'étendue de son pouvoir, un conflit de
    compétence détecté, ou une carence exposant à une substitution
-   préfectorale → `assets/note-maire-modele.md`.
+   préfectorale → `references/templates/note-maire-modele.md`.
 3. **Signalement à la préfecture** — information, alerte sur péril, demande
-   de clarification de compétence. Pas de gabarit dédié dans `assets/` à ce
+   de clarification de compétence. Pas de gabarit dédié dans `references/templates/` à ce
    stade : produire en forme de courrier ou note structurée reprenant la
    qualification des faits, l'autorité présumée compétente, les mesures déjà
    prises, la demande explicite.
 4. **Rapport d'information** — constat d'agent PM sur un fait relevant
    potentiellement d'une police spéciale d'État ou d'une infraction
-   concomitante → `assets/rapport-information.md` + `penal-procedure.md`.
+   concomitante → `references/templates/rapport-information.md` + `penal-procedure.md`.
 
 ---
 

@@ -1,0 +1,10 @@
+{
+  "suite_sha256": "8dbcf5e1915544ab5a4c29475979b479a1ea063bb5f59e936a8c6f3f18c94cb9",
+  "case_count": 28,
+  "totals": {
+    "DEMI-RÉUSSITE": 12,
+    "RÉUSSITE": 10,
+    "ÉCHEC": 6
+  },
+  "completed_at": "2026-08-08T12:51:49.904300+00:00"
+}
