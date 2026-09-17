@@ -65,8 +65,31 @@ Boucle `JOURNAL.md` (cas) → `CHANGELOG.md` (versions), décisions tracées dan
 
 ## Version
 
-**v1.0.4 — revue de rentrée 2026 et audit complet (2026-09-14).** Rapport :
-`docs/audit/2026-09-14-audit-v1.0.3.md`. Ce que la version change :
+**v1.0.5 — trois points de fond de `r4` et pointeurs inter-dépôts neutralisés
+(2026-09-17).** Ce que la version change :
+
+- **Grand excès de vitesse** (C. route L. 413-1, `LEGIARTI000051877176`) :
+  50 km/h ou plus au-dessus de la vitesse maximale est un **délit dès la
+  première infraction** — pas de PV, compte rendu immédiat à l'OPJ.
+- **Habilitation de constatation restreinte** : CSI R. 511-1 ne vise que les
+  arrêtés du **maire ou du préfet** (CP R. 610-5) ; CP R. 633-6 (dépôt
+  sauvage, réécrit le 05/06/2026) n'y figure pas.
+- **Transfert EPCI distingué** : CGCT L. 5211-9-2 sépare le transfert de
+  plein droit (I.A) du transfert facultatif par arrêté préfectoral (I.B) ;
+  question ouverte signalée sur l'habilitation de la PM à constater un
+  arrêté du **président** d'EPCI.
+- **15 pointeurs inter-dépôts neutralisés** (`Drh-fpt/…`,
+  `droit-francais-skill/…`, morts hors clonage multi-dépôts) et
+  `validate_repo.py` détecte désormais cette classe de défaut.
+
+Détail : `CHANGELOG.md`. Ces trois points avaient été relevés par des
+répondants pendant la campagne `r4` (v1.0.4) et réservés à froid, sans
+correctif appliqué en cours de mesure.
+
+### v1.0.4 — revue de rentrée 2026 et audit complet (2026-09-14)
+
+Rapport : `docs/audit/2026-09-14-audit-v1.0.3.md`. Ce que la version
+changeait :
 
 - **Socle recontrôlé** identifiant par identifiant (62/62 sur Légifrance) ;
   deux versions nouvelles depuis la date consignée, toutes deux issues de la
@@ -97,7 +120,9 @@ Boucle `JOURNAL.md` (cas) → `CHANGELOG.md` (versions), décisions tracées dan
 contrôle de version est conforme sur 28 réponses sur 28. Trois points de fond
 relevés pendant la campagne sont réservés à la v1.0.5 (`CHANGELOG.md`), aucun
 n'ayant été appliqué à chaud. Détail : `docs/audit/2026-09-14-audit-v1.0.3.md`
-§6 et `tests/runs/claude-v1.0.4-r4/controle-protocole.md`.
+§6 et `tests/runs/claude-v1.0.4-r4/controle-protocole.md`. La v1.0.5, qui les
+corrige, est mesurée par un **partiel ciblé** (pas une campagne complète) —
+son résultat est consigné dans `tests/bareme-cas-de-test.md`.
 
 Historique complet des campagnes et des versions : `CHANGELOG.md`,
 `tests/bareme-cas-de-test.md`. Le package d'exécution est limité aux fichiers

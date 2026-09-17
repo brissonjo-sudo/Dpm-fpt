@@ -24,6 +24,47 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-09-17 — Trois points de fond de `r4`, pointeurs inter-dépôts neutralisés — v1.0.5
+- Type : lacune (fond, deux points de sourcing) + erreur (dette technique)
+- Branche : reglementation-appliquee (§5.1, §5.3), pouvoirs-police (§4.1),
+  references-verifiees (§9), templates, rh-specificites-pm,
+  socle-sources-verification, controle-legalite, scripts/validate_repo.py
+- Contexte (anonymisé) : contexte double — (a) trois points de fond relevés
+  par des répondants pendant la mesure `r4`, réservés à froid par discipline
+  de protocole ; (b) une dette technique découverte pendant l'inventaire de
+  `DirFi-fpt` pour un plugin regroupant `dpm-fpt`, `drh-fpt`, `dpo-ct` et
+  `DirFi-fpt`.
+- Constat, par ordre de traitement :
+  1. **Grand excès de vitesse non couvert** : C. route L. 413-1 (délit dès
+     50 km/h de dépassement) n'apparaissait dans aucun fichier du dépôt.
+     Un agent risquait de dresser un simple PV là où la loi impose un
+     compte rendu à l'OPJ sans acte d'enquête.
+  2. **Habilitation de constatation surestimée** : CSI R. 511-1 n'habilite
+     la PM que pour les arrêtés du maire ou du préfet (CP R. 610-5) ; CP
+     R. 633-6 (dépôt sauvage) n'y figure pas. Le skill laissait présumer une
+     constatation « sur le RSD » sans jamais nommer cette restriction.
+  3. **Transfert EPCI traité en bloc** : CGCT L. 5211-9-2 distingue un
+     transfert de plein droit (I.A) d'un transfert facultatif par arrêté
+     préfectoral (I.B) — non distingués dans `pouvoirs-police.md`. Question
+     ouverte non tranchée : aucune base ne dit que la PM constate un arrêté
+     du président d'EPCI (CSI L. 511-1 ne vise que le maire).
+  4. **15 pointeurs vers un fichier d'un dépôt voisin**
+     (`Drh-fpt/references/carriere-paie.md`,
+     `Drh-fpt/assets/decision-modele.md`,
+     `droit-francais-skill/skill/references/format-citation.md`), morts hors
+     clonage multi-dépôts. `validate_repo.py` les mettait en **liste
+     blanche** au lieu de les vérifier — c'est pourquoi ils ont traversé
+     l'audit complet du 2026-09-14 sans être détectés.
+- Action : les trois points de fond sont vérifiés à la source
+  (`references-verifiees.md` §9) et portés dans les branches concernées ;
+  les 15 pointeurs sont remplacés par le nom du skill voisin, jamais un
+  chemin de fichier ; `validate_repo.py` détecte désormais activement cette
+  classe de défaut (testé positif et négatif). Constat annexe, non traité
+  ici : le même défaut de version (`plugin.json` en retard sur `SKILL.md`)
+  existe sur `DirFi-fpt` et `droit-francais` — à corriger dans ces dépôts.
+- Statut : intégré (v1.0.5), mesuré par un partiel ciblé (voir
+  `tests/bareme-cas-de-test.md`).
+
 ### 2026-09-14 — Revue de rentrée 2026 et audit complet (5 dimensions) — v1.0.4
 - Type : erreur (fond et sûreté) + lacune (vigueur) + cas nouveau (réforme)
 - Branche : (transverse) — socle, penal-procedure, reglementation-appliquee,

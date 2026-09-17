@@ -1,6 +1,6 @@
 ---
 tags: [skill/dpm-fpt, index]
-version: 1.0.4
+version: 1.0.5
 ---
 
 # Index — skill dpm-fpt
