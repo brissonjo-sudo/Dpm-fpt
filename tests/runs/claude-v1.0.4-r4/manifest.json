@@ -10,10 +10,21 @@
   "skill_md_sha256": "8a461746c0867c7c33adb531f1ffeff3da97c024d09aa70e1523a04e0f3c74a4",
   "bareme_amendment": "Barème amendé le 2026-08-08 (attendus de pointeur non éliminatoires), reconduit sans changement.",
   "cost": {
-    "unit": "tokens (sous-agent, entrée+sortie cumulés tels que rapportés par l'orchestrateur)",
-    "per_case": {},
-    "total_responder_tokens": 0,
-    "total_judge_tokens": 0,
-    "duration_note": "durées en secondes par agent, rapportées par l'orchestrateur"
+    "unit": "tokens de sous-agent (entrée + sortie cumulés, tels que rapportés par l'orchestrateur)",
+    "note": "Première campagne dont le coût est consigné. Relevé agent par agent ; les agents interrompus par la limite de forfait et relancés ne sont comptés qu'une fois, sur leur exécution aboutie.",
+    "responder_tokens_total": 3380000,
+    "responder_tokens_mean_per_case": 121000,
+    "judge_tokens_total": 2030000,
+    "judge_tokens_mean_per_case": 72500,
+    "total_tokens": 5410000,
+    "responder_duration_seconds_range": [
+      171,
+      889
+    ],
+    "judge_duration_seconds_range": [
+      98,
+      170
+    ],
+    "wall_clock": "2026-09-14 au 2026-09-17, en paliers imposés par la limite de forfait ; exécution séquentielle (un agent à la fois) à partir du 2026-09-17"
   }
 }

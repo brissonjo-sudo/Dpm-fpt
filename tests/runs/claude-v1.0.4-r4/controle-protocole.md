@@ -16,7 +16,10 @@ SKILL.md sha256 = 8a461746c0867c7c33adb531f1ffeff3da97c024d09aa70e1523a04e0f3c74
 
 Chaque `response.md` ouvre sur une ligne de contrôle (commentaire HTML)
 rapportant la version lue (`# Skill : dpm-fpt (v1.0.4)`) et l'empreinte
-calculée par le répondant. Résultat du contrôle : _à compléter_.
+calculée par le répondant. **Résultat du contrôle : 28/28.** Les 28 répondants
+ont rapporté `# Skill : dpm-fpt (v1.0.4)` et l'empreinte `8a461746…c74a4`,
+identique à celle calculée sur le dépôt avant lancement. Aucun répondant n'a lu
+la copie de session v1.0.1.
 
 ## Empreinte de suite
 
@@ -55,7 +58,18 @@ non-autorisation, `SKILL.md` §5.4).
 
 Nouveauté `r4` : tokens et durée de chaque répondant et de chaque juge, tels
 que rapportés par l'orchestrateur, sont consignés dans `manifest.json`
-(champ `cost`).
+(champ `cost`). Ordre de grandeur mesuré : **≈ 121 000 tokens par répondant**
+et **≈ 72 500 par juge**, soit **≈ 5,4 M tokens** pour la campagne.
+
+## Écart d'exécution assumé — parallélisme
+
+Contrairement à `r3`, la campagne n'a **pas** été exécutée en vagues parallèles :
+la limite de forfait a interrompu trois vagues successives (12, 12 puis 10
+agents). À partir du 2026-09-17 l'exécution est passée à **un agent à la fois**,
+avec commit après chaque retour. Cet écart porte sur le **calendrier**, pas sur
+le dispositif : chaque agent conserve un contexte frais et isolé, et le
+cloisonnement décrit ci-dessus est inchangé. Les agents interrompus avant
+d'écrire leur fichier ont été **relancés depuis zéro**, jamais repris.
 
 ## Écart assumé
 
