@@ -89,13 +89,15 @@ Boucle `JOURNAL.md` (cas) → `CHANGELOG.md` (versions), décisions tracées dan
   fonctionnelle), description du skill rendue discriminante vis-à-vis de
   `drh-fpt` et `dpo-ct`, gabarits et pointeurs remis d'équerre.
 
-**Dernier score de suite — campagne complète `claude-v1.0.2-r3`** (achevée le
-2026-09-06, 28 cas, skill lu depuis le dépôt) : **26 RÉUSSITE / 0 DEMI /
-2 ÉCHEC**, seuil de release atteint (≥ 25/28 et 0 échec sur les six cas
-critiques). Les deux échecs (15, 21) tenaient à des références hors socle,
-corrigées en v1.0.3. La v1.0.4 est mesurée par la campagne `r4`
-(`tests/runs/claude-v1.0.4-r4/`, protocole `r3` reconduit) ; son score est
-consigné dans `tests/bareme-cas-de-test.md` et dans le `CHANGELOG.md`.
+**Dernier score de suite — campagne complète `claude-v1.0.4-r4`** (achevée le
+2026-09-17, 28 cas, skill lu depuis le dépôt, protocole `r3` reconduit) :
+**28 RÉUSSITE / 0 DEMI / 0 ÉCHEC**, seuil de release atteint (≥ 25/28 et
+0 échec sur les six cas critiques) et premier score parfait du skill. Les deux
+échecs de `r3` (cas 15 et 21, références hors socle) sont corrigés, et le
+contrôle de version est conforme sur 28 réponses sur 28. Trois points de fond
+relevés pendant la campagne sont réservés à la v1.0.5 (`CHANGELOG.md`), aucun
+n'ayant été appliqué à chaud. Détail : `docs/audit/2026-09-14-audit-v1.0.3.md`
+§6 et `tests/runs/claude-v1.0.4-r4/controle-protocole.md`.
 
 Historique complet des campagnes et des versions : `CHANGELOG.md`,
 `tests/bareme-cas-de-test.md`. Le package d'exécution est limité aux fichiers

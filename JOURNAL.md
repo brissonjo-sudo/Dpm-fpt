@@ -66,7 +66,45 @@ Une entrée par cas, au format ci-dessous.
   générateurs** qui touchent le même acte, et l'audit vérifie la présence du
   bloc (STOP, BASCULE) dans les 4 couches ; (c) une étiquette « vérifié »
   sans identifiant au socle est traitée comme une **référence de mémoire**.
-- Statut : intégré (v1.0.4) ; mesure par la campagne `r4`.
+- Statut : intégré (v1.0.4), **mesuré par la campagne `r4` : 28/28** (entrée
+  du 2026-09-17).
+
+### 2026-09-17 — Campagne `r4` : 28/28, et ce que le score parfait ne dit pas
+- Type : cas nouveau (mesure)
+- Branche : (transverse) — suite de test
+- Contexte (anonymisé) : campagne complète de mesure de la v1.0.4,
+  `tests/runs/claude-v1.0.4-r4/`, protocole `r3` reconduit (28 répondants puis
+  28 juges Claude Opus 5, contextes frais et cloisonnés, skill lu depuis le
+  dépôt).
+- Constat :
+  1. **28 RÉUSSITE / 0 DEMI / 0 ÉCHEC.** Les deux échecs de `r3` (cas 15 et 21)
+     passent : le correctif de sourcing — porter au socle les références citées
+     avec un numéro précis — est mesuré, pas seulement déclaré. Les six cas
+     critiques tiennent après la réécriture d'`accident.md` et le bornage de la
+     fouille de sécurité.
+  2. **Un score parfait mesure la suite autant que le skill.** Les verdicts 🟡
+     de l'audit (duplication de fond, angles morts de couverture :
+     `retex.md`, `accident.md`, `commerce.md`, note au maire) ne sont éprouvés
+     par aucun des 28 cas. 28/28 ne les infirme pas ; il ne les teste pas.
+     La suite est due pour un élargissement avant `r5`.
+  3. **Trois points de fond relevés par des répondants pendant la mesure** :
+     C. route L. 413-1 (grand excès de vitesse constitutif d'un délit),
+     articulation CSI R. 511-1 / CP R. 610-5 / CP R. 633-6, distinctions de
+     transfert EPCI. Aucun n'a été appliqué à chaud — la règle du plan a tenu.
+  4. **Le parallélisme n'était pas tenable** : trois vagues d'agents ont épuisé
+     la limite de forfait. La campagne a été menée un agent à la fois, en
+     committant à chaque étape. L'écart porte sur le calendrier, pas sur le
+     cloisonnement, mais il coûte quatre jours au lieu d'une session.
+  5. **Le coût est consigné pour la première fois** (`manifest.json`) :
+     ≈ 121 000 tokens par répondant, ≈ 72 500 par juge, ≈ 5,4 M au total. Une
+     campagne complète n'est pas un geste de routine ; les versions
+     intermédiaires doivent se mesurer par un partiel ciblé.
+- Action proposée : (a) élargir la suite aux angles morts nommés ci-dessus
+  avant `r5` (`tests/cas-de-test.json`, avec nouvelle empreinte assumée) ;
+  (b) traiter les trois points de fond en v1.0.5, mesurée par un partiel ;
+  (c) inscrire au protocole que l'exécution séquentielle est le régime normal
+  et le parallélisme l'exception.
+- Statut : à traiter (a, c) ; (b) réservé à la v1.0.5
 
 ### 2026-09-06 — La jurisprudence entre au socle : correctif des 2 échecs de `r3` (v1.0.3)
 - Type : lacune (résolue) + erreur (énoncé faux dans un générateur)
