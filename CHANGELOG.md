@@ -100,12 +100,61 @@ prévue par `SKILL.md` §9.
   clôturées ; entrées de revue de rentrée et d'audit ajoutées.
 - `scripts/package_skill.py` : VERSION réalignée (était restée en 1.0.2).
 
-### Mesure
+### Validé — campagne complète `r4` : 28/28
 
-- Le score **26/28** reste celui de la **v1.0.2** (`r3`). La v1.0.4 est
-  mesurée par la campagne complète **`r4`** (`tests/runs/claude-v1.0.4-r4/`,
-  protocole `r3` reconduit, coût consigné) — résultat dans la section
-  « Validé » ci-dessous une fois la campagne achevée.
+`tests/runs/claude-v1.0.4-r4/` — menée du 2026-09-14 au 2026-09-17, 28
+répondants puis 28 juges Claude Opus 5 en contextes frais et isolés, protocole
+`r3` reconduit, barème normatif inchangé.
+
+**28 RÉUSSITE / 0 DEMI-RÉUSSITE / 0 ÉCHEC.** Score parfait, premier de
+l'histoire du skill. Ce que la campagne établit :
+
+- **Les deux échecs de `r3` sont corrigés.** Le cas 15 (jurisprudence
+  *Benjamin*, CPP R. 15-33-29-4 et CGCT L. 2131-1 cités sans provenance) et le
+  cas 21 (décision QPC citée sans identifiant) passent en RÉUSSITE. La cause
+  racine — des références hors socle structurellement condamnées à être
+  affirmées de mémoire — a été traitée par la v1.0.3 (jurisprudence au socle)
+  puis par la v1.0.4 (17 références portées au §8).
+- **Les six cas critiques** (12, 13, 14, 18, 27, 28) sont en RÉUSSITE.
+- **Zéro DEMI pour la deuxième campagne consécutive** : l'amendement du
+  2026-08-08 sur les attendus de pointeur reste opérant.
+- **Contrôle de version : 28/28.** Tous les répondants ont lu la v1.0.4
+  (`sha256 8a461746…c74a4`) ; aucun n'a lu la copie de session périmée.
+- **Aucun jugement ne relève de référence citée de mémoire**, y compris en
+  incise ou citée pour être écartée — le test à charge du §7 point 4 tient.
+- **Empreinte de suite** : `91d794d0…`. Elle diffère de `8dbcf5e1…` (r2/r3) par
+  les **seules fins de ligne** (normalisation LF du 2026-09-06) ; contenu
+  vérifié identique, **aucun cas modifié**, la comparaison avec `r3` est valide.
+- **Coût consigné pour la première fois** (`manifest.json`, champ `cost`) :
+  ≈ 121 000 tokens par répondant, ≈ 72 500 par juge, ≈ 5,4 M au total.
+
+**Écart de protocole assumé** : la campagne a été exécutée **un agent à la
+fois** et non en vagues parallèles comme `r3`, la limite de forfait ayant
+interrompu trois vagues successives. L'écart porte sur le calendrier, pas sur
+le cloisonnement : chaque agent conserve un contexte frais et isolé. Consigné
+dans `controle-protocole.md`.
+
+### Constaté pendant `r4` — à traiter en v1.0.5 (non appliqué à chaud)
+
+Conformément à la règle du plan d'audit, aucun correctif de contenu n'a été
+appliqué pendant la mesure. Trois points de fond relevés par les répondants :
+
+- **Code de la route L. 413-1** (`LEGIARTI000051877176`, en vigueur depuis le
+  **31/12/2025**) : le dépassement de **50 km/h ou plus est un délit dès la
+  première infraction**. Conséquence métier : **pas de PV PM**, rapport et
+  compte rendu à l'OPJ. Ni le socle ni `reglementation-appliquee.md` §5.1 ne
+  portent cette bascule.
+- **CSI R. 511-1** : l'habilitation sur **CP R. 610-5** est restreinte aux
+  arrêtés de police municipale du maire ou du préfet, ce qui **fragilise la
+  verbalisation directe « sur le RSD »** — point non couvert. Par ailleurs
+  **CP R. 633-6**, réécrit le 05/06/2026, ne figure pas dans la liste des
+  contraventions constatables par la PM.
+- **Transfert EPCI** : `pouvoirs-police.md` traite en bloc ce que le texte
+  distingue — transfert de plein droit de la réglementation de collecte
+  (L. 5211-9-2, I A) et transfert facultatif des prérogatives de **C. env.
+  L. 541-3** (I B, arrêté préfectoral après accord de tous les maires). Reste
+  ouverte l'habilitation des agents PM sur un arrêté du **président** d'EPCI,
+  CSI L. 511-1 ne visant que les arrêtés du maire.
 
 ## [1.0.3] — 2026-09-06 — La jurisprudence entre au socle ; sourcing en test à charge
 

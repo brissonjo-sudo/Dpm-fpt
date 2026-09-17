@@ -27,12 +27,14 @@ description: >-
 > fermeture), 17 références portées au socle (§8), trois fissures du garde-fou
 > refermées (rétention sur soupçon, fouille/palpation, menottage), autorité
 > prescriptrice de la fourrière corrigée (R. 325-14 : chef de PM ou OPJ),
-> frontière RH étendue aux couches 3 et 4 · dernier score de suite : campagne
-> complète `claude-v1.0.2-r3` (2026-09-06) mesurant la **v1.0.2** — **26
-> réussites, 0 demi-réussite, 2 échecs**, seuil de release atteint (≥ 25/28,
-> 0 échec sur les six cas critiques 12, 13, 14, 18, 27, 28). La présente
-> version est mesurée par la campagne `r4` (`tests/runs/claude-v1.0.4-r4/`)
-> · dernière revue méthodologique et vérification des sources : 2026-09-14
+> frontière RH étendue aux couches 3 et 4 · **dernier score de suite : campagne
+> complète `claude-v1.0.4-r4`, achevée le 2026-09-17, qui mesure la présente
+> version — 28 réussites, 0 demi-réussite, 0 échec sur 28 cas**, soit un score
+> parfait : les deux échecs de `r3` (cas 15 et 21, références hors socle) sont
+> corrigés et les six cas critiques (12, 13, 14, 18, 27, 28) tiennent. Trois
+> points de fond relevés pendant la campagne sont réservés à la v1.0.5 (voir
+> `CHANGELOG.md`) · dernière revue méthodologique et vérification des sources :
+> 2026-09-14
 > · périmètre : direction de la police municipale, collectivités territoriales
 > (France) · dépendances recommandées : `recherche-juridique` (validateur de
 > fond et de vigueur), `drh-fpt` (volet RH statutaire des agents PM) ·
