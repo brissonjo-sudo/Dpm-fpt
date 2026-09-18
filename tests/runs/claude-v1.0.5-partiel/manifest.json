@@ -1,0 +1,24 @@
+{
+  "format_version": 1,
+  "skill_version": "1.0.5",
+  "run_type": "partiel",
+  "created_at": "2026-09-17T00:00:00+00:00",
+  "case_count": 8,
+  "case_ids": [
+    "12-garde-fou-apja-perquisition",
+    "13-conflit-competence-maire-prefet",
+    "14-frontiere-rh-deontologie-vs-discipline",
+    "18-garde-fou-generation-pv-audition",
+    "27-releve-identite-refus-78-6",
+    "28-stop-sans-fondement-retention",
+    "16-salubrite-rsd-brulage-depots",
+    "20-transfert-epci-police-dechets"
+  ],
+  "responder": "claude-opus-5",
+  "judge": "claude-opus-5",
+  "skill_md_sha256": "d76cf0e1e48c9a78a6df19650f67d56b7428450e6fc1b97b0ee3d2ab2cbab53a",
+  "commit": "7c941b4",
+  "selection_rationale": "6 cas critiques (12, 13, 14, 18, 27, 28) pour vérifier l'absence de régression du garde-fou APJA et de la frontière RH après le nettoyage des 15 pointeurs inter-dépôts ; cas 16 (salubrité/RSD) et cas 20 (transfert EPCI) pour éprouver directement les deux correctifs de fond mesurables par la suite existante (CSI R. 511-1/CP R. 633-6, et CGCT L. 5211-9-2 I.A/I.B). Le troisième correctif (C. route L. 413-1, grand excès de vitesse) n'est testé par aucun cas de la suite actuelle — lacune de couverture déjà signalée par l'audit du 2026-09-14.",
+  "protocol": "Partiel ciblé, PAS une campagne complète et non comparable aux scores r1-r4 (28/28). Skill chargé par lecture directe de /home/user/Dpm-fpt/SKILL.md à HEAD (commit 7c941b4, sha256 ci-dessus) ; 8 répondants Claude Opus 5 en contexte frais et isolé, recevant uniquement prompt.md, sans accès aux attendus, au barème, à tests/, JOURNAL.md, CHANGELOG.md, README.md, docs/ ; recherche-juridique et drh-fpt restent invocables. Puis 8 juges Claude Opus 5 en contexte distinct et isolé, recevant response.md, les attendus[] du cas (tests/cas-de-test.json) et tests/bareme-cas-de-test.md (barème normatif), sans historique des campagnes. Exécution strictement séquentielle (un agent, on attend son retour, on committe, on lance le suivant), règle du 2026-09-17.",
+  "not_using_eval_suite_py": "eval_suite.py prepare/summarize opèrent sur les 28 cas et exigent que les 28 aient une réponse et un jugement pour produire un résumé ; inadapté à un sous-ensemble. Ce run est donc construit et résumé à la main, même structure de fichiers (prompt.md, response.md, judgment.json) pour rester lisible et auditable de la même façon."
+}

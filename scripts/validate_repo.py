@@ -8,8 +8,25 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "1.0.4"
+VERSION = "1.0.5"
 RUNTIME_DIRS = ("references", "objets")
+
+# Noms des dépôts voisins de l'écosystème FPT. Un chemin de fichier
+# commençant par l'un d'eux n'existe que dans un environnement multi-dépôts
+# (cloné à plat à côté de celui-ci) et est mort partout ailleurs — skill
+# déployé, plugin, session isolée. La règle : on nomme le skill voisin
+# (`drh-fpt`), jamais le chemin d'un de ses fichiers. Cf. audit v1.0.5,
+# 15 pointeurs de ce type découverts après un audit complet qui ne les
+# détectait pas (l'ancien validateur les mettait en liste blanche).
+SIBLING_REPO_NAMES = frozenset(
+    {
+        "dpm-fpt",
+        "drh-fpt",
+        "dpo-ct",
+        "dirfi-fpt",
+        "droit-francais-skill",
+    }
+)
 FORBIDDEN_PATTERNS = {
     "mise à disposition automatique": re.compile(
         r"mise à disposition (?:immédiate|systématique)", re.IGNORECASE
@@ -246,21 +263,9 @@ def extract_markdown_targets(text: str) -> set[str]:
 
 
 def target_exists(source: Path, target: str) -> bool:
-    """Résout un lien selon les conventions mixtes du dépôt."""
+    """Résout un lien selon les conventions du dépôt."""
     clean = target.split("#", 1)[0].replace("\\", "/")
-    if (
-        not clean
-        or "*" in clean
-        or clean.startswith(
-            (
-                "http://",
-                "https://",
-                "Drh-fpt/",
-                "drh-fpt/",
-                "droit-francais-skill/",
-            )
-        )
-    ):
+    if not clean or "*" in clean or clean.startswith(("http://", "https://")):
         return True
     candidates = (
         source.parent / clean,
@@ -273,10 +278,30 @@ def target_exists(source: Path, target: str) -> bool:
     return any(candidate.resolve().is_file() for candidate in candidates)
 
 
+def sibling_repo_pointer(target: str) -> str | None:
+    """Détecte un chemin vers un fichier d'un dépôt voisin, jamais résoluble
+    hors d'un clonage multi-dépôts à plat. Renvoie le nom du dépôt visé, ou
+    None si le chemin ne relève pas de ce cas."""
+    clean = target.split("#", 1)[0].replace("\\", "/")
+    if "/" not in clean:
+        return None
+    head = clean.split("/", 1)[0]
+    return head if head.lower() in SIBLING_REPO_NAMES else None
+
+
 def validate_runtime_links(validation: Validation) -> None:
     """Vérifie les pointeurs Markdown qui structurent le routage runtime."""
     for path in runtime_markdown_files():
         for target in extract_markdown_targets(read_text(path)):
+            sibling = sibling_repo_pointer(target)
+            validation.require(
+                sibling is None,
+                f"{path.relative_to(ROOT)} : pointeur inter-dépôts interdit "
+                f"({target}) — nommer le skill `{sibling}`, jamais le chemin "
+                f"d'un de ses fichiers (mort hors clonage multi-dépôts)",
+            )
+            if sibling is not None:
+                continue
             validation.require(
                 target_exists(path, target),
                 f"{path.relative_to(ROOT)} : lien local introuvable ({target})",

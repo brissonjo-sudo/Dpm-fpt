@@ -17,24 +17,32 @@ description: >-
   (registre, AIPD : dpo-ct), ni pour le droit étranger.
 ---
 
-# Skill : dpm-fpt (v1.0.4)
+# Skill : dpm-fpt (v1.0.5)
 
-> **Métadonnées** — version : **1.0.4** · statut : **revue de rentrée 2026 et
-> audit complet** (`docs/audit/2026-09-14-audit-v1.0.3.md`) — socle
-> recontrôlé identifiant par identifiant (62/62), loi n° 2026-798 du
-> 18/08/2026 intégrée (art. 21 et 15-3 CPP : extension aux APJA des 1° à
-> 1° ter **sans les agents PM** ; CSP L. 3332-15 : nouvelles durées de
-> fermeture), 17 références portées au socle (§8), trois fissures du garde-fou
-> refermées (rétention sur soupçon, fouille/palpation, menottage), autorité
-> prescriptrice de la fourrière corrigée (R. 325-14 : chef de PM ou OPJ),
-> frontière RH étendue aux couches 3 et 4 · **dernier score de suite : campagne
-> complète `claude-v1.0.4-r4`, achevée le 2026-09-17, qui mesure la présente
-> version — 28 réussites, 0 demi-réussite, 0 échec sur 28 cas**, soit un score
-> parfait : les deux échecs de `r3` (cas 15 et 21, références hors socle) sont
-> corrigés et les six cas critiques (12, 13, 14, 18, 27, 28) tiennent. Trois
-> points de fond relevés pendant la campagne sont réservés à la v1.0.5 (voir
-> `CHANGELOG.md`) · dernière revue méthodologique et vérification des sources :
-> 2026-09-14
+> **Métadonnées** — version : **1.0.5** · statut : **correctif de fond et
+> fermeture de dette technique**, sur les trois points relevés par des
+> répondants pendant la campagne `r4` sans être appliqués à chaud : **grand
+> excès de vitesse** (C. route L. 413-1, délit dès 50 km/h — bascule vers
+> l'OPJ, pas de PV) ; **habilitation de constatation restreinte** (CSI
+> R. 511-1 ne vise que les arrêtés du maire ou du préfet, CP R. 633-6 hors
+> liste) ; **transfert EPCI distingué** (L. 5211-9-2 : I.A de plein droit vs
+> I.B facultatif par arrêté préfectoral, question ouverte sur l'habilitation
+> pour un arrêté du président). Les trois sont vérifiés à la source le
+> 2026-09-17 (`references-verifiees.md` §9) et portés dans
+> `reglementation-appliquee.md` et `pouvoirs-police.md`. **En parallèle** :
+> les **15 pointeurs vers un fichier d'un dépôt voisin** (`Drh-fpt/…`,
+> `droit-francais-skill/…`), morts hors clonage multi-dépôts, sont remplacés
+> par le nom du skill ; `validate_repo.py` détecte désormais cette classe de
+> défaut au lieu de la mettre en liste blanche · **mesure** : partiel ciblé
+> de 8 cas sur les cas touchant la frontière RH, les gabarits et la vitesse
+> (protocole allégé, pas une campagne `r5` complète, non comparable) —
+> **6 réussites, 1 demi-réussite, 1 échec** (échec sur un cas non critique,
+> manquement de forme à la discipline de sourcing, sans lien avec le fond du
+> correctif testé ; 0 échec sur les six cas critiques, seuil de release
+> atteint) — détail : `tests/runs/claude-v1.0.5-partiel/summary.json` ·
+> dernier score de suite complet : campagne `r4`
+> (28 réussites, 0 demi-réussite, 0 échec sur 28 cas, mesurait la v1.0.4) ·
+> dernière revue méthodologique et vérification des sources : 2026-09-17
 > · périmètre : direction de la police municipale, collectivités territoriales
 > (France) · dépendances recommandées : `recherche-juridique` (validateur de
 > fond et de vigueur), `drh-fpt` (volet RH statutaire des agents PM) ·

@@ -4,8 +4,8 @@
 > §4 et §5 (branche de rattachement — lire avant tout usage), et par
 > `references/penal-procedure.md` §4.3 à §4.5 (art. 53/73 et 78-6 CPP,
 > garde-fou APJA — lire avant tout usage). Structure de dialogue alignée sur
-> `SKILL.md` §6. Gabarit de mise en forme inspiré de la discipline de
-> `Drh-fpt/assets/decision-modele.md` (champs entre `[ ]`, aucune donnée
+> `SKILL.md` §6. Gabarit de mise en forme inspiré de la discipline du
+> gabarit de décision du skill `drh-fpt` (champs entre `[ ]`, aucune donnée
 > nominative en clair dans le canevas, réserves « à confirmer en version
 > consolidée » sur tout visa).
 >

@@ -112,6 +112,18 @@ pratiques) relève des objets dédiés, à consulter en complément :
   certaines voies selon le texte — à confirmer en version consolidée) et le
   préfet (routes à grande circulation, hors agglomération). Toujours
   identifier la voirie concernée avant de fonder une mesure.
+- **Grand excès de vitesse — bascule en délit** : dépasser la vitesse
+  maximale autorisée de **50 km/h ou plus** est un **délit dès la première
+  infraction** (trois mois d'emprisonnement, 3 750 € d'amende, confiscation
+  du véhicule possible, suspension du permis jusqu'à trois ans) — **art.
+  L. 413-1, code de la route** (`LEGIARTI000051877176`, en vigueur depuis le
+  31/12/2025, *vérifié le 2026-09-17*). **Conséquence pour l'agent PM** :
+  **pas de PV de simple contravention** — l'agent constate, rend compte
+  immédiatement à l'OPJ (art. 21-2 CPP, jamais directement au procureur) et
+  n'entreprend aucun acte relevant de la garde à vue ou de l'enquête. Cette
+  bascule est distincte de la simple contravention de vitesse (classe
+  fonction de l'écart, hors délit) : vérifier l'écart avant toute
+  qualification.
 - **Stationnement gênant** : qualifié par une liste de situations (notamment
   trottoirs, double file, devant un accès carrossable, sur emplacement
   réservé, espace empêchant l'accès à un autre véhicule ou sa sortie, voies
@@ -218,11 +230,24 @@ pratiques) relève des objets dédiés, à consulter en complément :
 - **Dépôts sauvages de déchets** : qualification pénale et police
   administrative combinées (code de l'environnement, code pénal) ;
   vérifier le texte exact mobilisé selon la nature du dépôt avant de
-  qualifier.
+  qualifier. **Code pénal R. 633-6** (`LEGIARTI000054196263`, en vigueur
+  depuis le 05/06/2026, *vérifié le 2026-09-17*) sanctionne le dépôt hors des
+  conditions fixées par l'autorité compétente (3ᵉ classe) — **cette
+  contravention ne figure pas** dans la liste que l'agent PM peut constater
+  au titre de R. 511-1 (ci-dessous) : sa constatation par la PM n'est pas
+  présumée, à vérifier au cas par cas via `recherche-juridique`.
 - **Agent PM** : constate (RSD, arrêtés municipaux de salubrité), peut
   relever une infraction dans la limite de ses pouvoirs APJA ; les mesures
   de fond (mise en demeure de travaux, évacuation d'un immeuble en péril)
-  relèvent de l'autorité de police, pas de l'agent.
+  relèvent de l'autorité de police, pas de l'agent. **Base de
+  l'habilitation** : **CSI R. 511-1** (`LEGIARTI000028285997`, en vigueur
+  depuis le 01/01/2014, *vérifié le 2026-09-17*) permet la constatation des
+  contraventions de **CP R. 610-5** relatives aux arrêtés de police
+  **restreinte aux arrêtés pris par le maire ou par le préfet** (CGCT
+  L. 2215-1, 1° à 3°). Un arrêté pris par une autre autorité (président
+  d'EPCI notamment, `pouvoirs-police.md` §4.1) **n'entre pas dans ce
+  champ** : ne pas présumer la constatation directe « sur le RSD » ou sur un
+  arrêté de salubrité pris hors maire/préfet sans vérification préalable.
 
 ### 5.4 Domaine public
 

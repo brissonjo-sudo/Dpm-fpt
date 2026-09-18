@@ -2,6 +2,93 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [1.0.5] — 2026-09-17 — Trois points de fond de `r4`, pointeurs inter-dépôts neutralisés
+
+Version issue des trois points de fond **relevés par des répondants pendant
+la campagne `r4`** et réservés à froid (règle du plan d'audit : aucun
+correctif appliqué à chaud pendant une mesure), plus la fermeture d'une
+dette technique découverte pendant la planification d'un plugin regroupant
+`dpm-fpt`, `drh-fpt`, `dpo-ct` et `DirFi-fpt`.
+
+### Corrigé — fond métier, trois points vérifiés le 2026-09-17
+
+- **Grand excès de vitesse** : dépasser la vitesse maximale autorisée de
+  **50 km/h ou plus** est un **délit dès la première infraction** (art.
+  **L. 413-1, code de la route**, `LEGIARTI000051877176`, en vigueur depuis
+  le 31/12/2025). Ni le socle ni `reglementation-appliquee.md` ne portaient
+  cette bascule : le skill risquait de faire établir un simple PV là où
+  l'agent doit rendre compte à l'OPJ sans acte d'enquête. Portée au socle
+  (`references-verifiees.md` §9) et dans `reglementation-appliquee.md` §5.1.
+- **Habilitation de constatation restreinte** : **CSI R. 511-1**
+  (`LEGIARTI000028285997`) n'habilite les agents PM à constater **CP
+  R. 610-5** que pour les arrêtés de police pris par le **maire ou le
+  préfet** (CGCT L. 2215-1) — un arrêté d'une autre autorité n'y entre pas.
+  **CP R. 633-6** (dépôt sauvage, `LEGIARTI000054196263`, réécrit le
+  05/06/2026) **ne figure pas** dans cette liste : sa constatation par la PM
+  n'était présumée par aucun garde-fou explicite. Portés au socle
+  (`references-verifiees.md` §9) et dans `reglementation-appliquee.md` §5.3.
+- **Transfert EPCI distingué** : `pouvoirs-police.md` traitait en bloc ce que
+  **CGCT L. 5211-9-2** distingue — le **transfert de plein droit** (I.A,
+  opposition du maire à six mois) et le **transfert facultatif** (I.B, dont
+  les prérogatives de C. env. L. 541-3, décidé par arrêté préfectoral après
+  accord de tous les maires et du président de l'EPCI, IV). **Question
+  ouverte signalée, non tranchée** : le texte n'habilite nulle part la PM à
+  constater par PV les contraventions à un arrêté du **président** d'EPCI —
+  CSI L. 511-1 ne vise que les arrêtés « du maire ». Portée dans
+  `pouvoirs-police.md` §4.1.
+
+### Corrigé — pointeurs inter-dépôts (dette technique)
+
+- **15 occurrences** dans 7 fichiers désignaient un fichier d'un dépôt voisin
+  par son chemin (`Drh-fpt/references/carriere-paie.md`,
+  `Drh-fpt/assets/decision-modele.md`,
+  `droit-francais-skill/skill/references/format-citation.md`) : mortes hors
+  d'un clonage multi-dépôts à plat, dont le skill déployé, le futur plugin,
+  et toute session isolée. Remplacées par le nom du skill voisin (`drh-fpt`,
+  `recherche-juridique`), jamais par un chemin de fichier.
+- **`scripts/validate_repo.py`** ne détectait pas cette classe de défaut :
+  il mettait ces préfixes de chemin en **liste blanche** au lieu de vérifier
+  qu'ils résolvent. Un contrôle dédié (`sibling_repo_pointer`) échoue
+  désormais sur tout chemin de cette forme, testé positif et négatif.
+- Découverte pendant l'inventaire de `DirFi-fpt` pour le plugin
+  `collectivite-territoriale` : le même défaut existe sur `plugin.json` de
+  ce skill (version 1.0.0 vs `SKILL.md` 1.0.3) et sur `droit-francais`
+  (version 0.8.3 suivant le serveur MCP, pas le skill à 3.5.0) — signalé,
+  pas corrigé ici (hors dépôt).
+
+### Mesure
+
+Partiel ciblé sur les cas touchant la frontière RH, les gabarits d'écrit et
+la vitesse — pas une campagne `r5` complète (`r4` a coûté ≈ 5,4 M tokens
+pour 28 cas ; ces trois points de fond et le nettoyage de pointeurs ne
+touchent que quelques fichiers).
+
+**Résultat** (`tests/runs/claude-v1.0.5-partiel/`, 8 cas sur 28, non
+comparable à r1-r4) : **6 RÉUSSITE / 1 DEMI-RÉUSSITE / 1 ÉCHEC**. Seuil de
+release atteint — 0 échec sur les six cas critiques (12, 13, 14, 18, 27,
+28) : 12, 13, 14, 27, 28 en RÉUSSITE, 18 en DEMI-RÉUSSITE. L'unique échec
+porte sur le cas 20 (non critique, transfert EPCI) : la référence CGCT
+L. 2212-2, pourtant bien au socle vérifié, est citée au §0 de la réponse
+sans sa date de vérification ni renvoi au socle — manquement de forme à la
+discipline de sourcing, sans lien avec le fond du correctif L. 5211-9-2
+lui-même (satisfait). Deux constats non éliminatoires réservés à la
+v1.0.6, non appliqués à chaud :
+
+- Cas 18 : le gabarit rédigé du rapport de mise à disposition est fourni
+  avant que la route art. 53/73 ne soit établie, alors que l'issue par
+  défaut (rapport d'information) reste sans gabarit — hiérarchie des deux
+  écrits à corriger dans les templates.
+- Cas 20 : uniformiser la discipline de citation pour qu'elle s'applique
+  aussi aux références mentionnées dans les paragraphes de qualification
+  (§0/routeur), pas seulement dans le corps de l'analyse.
+
+Incident méthodologique noté et corrigé en cours de mesure : le premier
+jugement du cas 27 (critique), dont le prompt renvoyait au précédent du
+cas 20, avait conclu à tort à un ÉCHEC en appliquant un test de sourcing
+plus strict que le barème ; un second jugement neutre a conclu à
+RÉUSSITE et est le seul consigné. Détail complet :
+`tests/runs/claude-v1.0.5-partiel/summary.json`.
+
 ## [1.0.4] — 2026-09-14 — Revue de rentrée 2026 : audit complet, loi Ripost, garde-fou resserré
 
 Version issue de l'**audit complet du 2026-09-14** (rapport :

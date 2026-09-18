@@ -227,9 +227,7 @@ consultation directe de Légifrance). Un identifiant jamais récupéré :
 - **ne se reconstitue jamais de mémoire** ;
 - est **omis**, ou marqué `⚠️ non vérifié — identifiant non récupéré` ;
 - **interdit** l'usage du gabarit de citation pour acte (cf. skill
-  `recherche-juridique`, fichier
-  `droit-francais-skill/skill/references/format-citation.md`, règle de
-  provenance P1).
+  `recherche-juridique`, règle de format de citation, provenance P1).
 
 Un numéro d'article (ex. « L. 2212-2 CGCT ») peut être cité sans appel
 d'outil **uniquement** assorti de la réserve « à confirmer en version

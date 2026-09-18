@@ -19,9 +19,9 @@
   voir §5.3) ; **instances et dialogue social** (CST, F3SCT) ; **PROCÉDURE
   disciplinaire** (saisine du conseil de discipline, droits de la défense,
   échelle des sanctions) ; **santé/QVT, masse salariale, SI RH,
-  recrutement/formation général**. Pour le détail de ces sujets : voir
-  `Drh-fpt/references/carriere-paie.md` (notamment son §5.7 sur l'ISFE et son
-  §5.5 sur l'échelle disciplinaire) et les autres branches de `drh-fpt`.
+  recrutement/formation général**. Pour le détail de ces sujets : voir le
+  skill `drh-fpt` (branche carrière et paie, notamment son §5.7 sur l'ISFE
+  et son §5.5 sur l'échelle disciplinaire, et les autres branches).
 
 ---
 
@@ -99,7 +99,7 @@ statutaire.
 le constat des faits au regard de ce texte**, `dpm-fpt` répond. Dès qu'elle
 porte sur la **conduite procédurale** (qui notifie, quels délais, quelle
 instance, quels droits de la défense, quelle sanction), passer la main à
-`drh-fpt` (`Drh-fpt/references/carriere-paie.md`, §5.5) **sans reformuler le
+`drh-fpt` (branche carrière et paie, §5.5) **sans reformuler le
 détail procédural ici**, même partiellement.
 
 **Deux verrous qui rendent cette règle opposable** (`SKILL.md` §5.4) :
@@ -190,7 +190,7 @@ c'est un livrable prioritaire qui **remplace** le contenu délégué. Disposer d
   de la convention). L'**organisation du cycle de travail** lui-même (durée annuelle
   de référence, régime des heures supplémentaires, astreintes) relève du
   **temps de travail statutaire général** → `drh-fpt`
-  (`Drh-fpt/references/carriere-paie.md`, §5.9). **Ce qui reste ici** : la
+  (branche carrière et paie, §5.9). **Ce qui reste ici** : la
   **logique métier** du cycle (pourquoi le service est organisé ainsi au
   regard des missions et de la convention), pas le régime juridique du temps
   de travail.
@@ -200,9 +200,9 @@ c'est un livrable prioritaire qui **remplace** le contenu délégué. Disposer d
   l'art. **L. 714-13 du CGFP** et institué par le **décret n° 2024-614 du 26
   juin 2024** (deux parts : fixe + variable liée à l'engagement) — détail
   intégral, plafonds, procédure d'institution, clause de sauvegarde, et
-  abrogation des anciens régimes (décrets n° 97-702, 2000-45, 2006-1397) dans
-  `Drh-fpt/references/carriere-paie.md` (§5.7). **Ne pas redévelopper ce
-  détail ici** : seule la **logique métier** du lien entre sujétions de
+  abrogation des anciens régimes (décrets n° 97-702, 2000-45, 2006-1397) —
+  voir le skill `drh-fpt` (branche carrière et paie, §5.7). **Ne pas
+  redévelopper ce détail ici** : seule la **logique métier** du lien entre sujétions de
   service (nuit, dimanche, jours fériés, astreintes, engagement
   opérationnel) et part variable de l'ISFE relève de cette branche, comme
   élément de pilotage du service (organisation des roulements, valorisation
@@ -232,7 +232,7 @@ c'est un livrable prioritaire qui **remplace** le contenu délégué. Disposer d
   procédure** — notification de griefs, communication du dossier, saisine du
   conseil de discipline, mesures conservatoires (suspension), échelle des
   sanctions, droits de la défense — la main passe **immédiatement** à
-  `drh-fpt` (`Drh-fpt/references/carriere-paie.md`, §5.5). Ce basculement
+  `drh-fpt` (branche carrière et paie, §5.5). Ce basculement
   s'opère **dès le premier acte de procédure**, pas seulement à la sanction
   finale.
 - **Cas particulier — manquement avec dimension pénale** (usage disproportionné
@@ -381,13 +381,13 @@ que :
   réglementaire (R. 512-5 et s.) et de la convention type, **non consultées,
   à confirmer en version consolidée**. Voir
   `continuum-partenariats.md` pour le contenu de la convention.
-- **CGFP, art. L. 714-13**, fondement de l'ISFE — *référence reprise de
-  `Drh-fpt/references/carriere-paie.md` §5.7, non revérifiée dans cette
-  session* — à confirmer en version consolidée avant toute citation en acte ;
-  pour le détail (plafonds, procédure), se reporter à `drh-fpt`.
+- **CGFP, art. L. 714-13**, fondement de l'ISFE — *référence reprise du
+  skill `drh-fpt` (branche carrière et paie, §5.7), non revérifiée dans
+  cette session* — à confirmer en version consolidée avant toute citation en
+  acte ; pour le détail (plafonds, procédure), se reporter à `drh-fpt`.
 - **Décret n° 2024-614 du 26 juin 2024** relatif à l'ISFE des agents de
-  police municipale et gardes champêtres — *référence reprise de
-  `Drh-fpt/references/carriere-paie.md` §5.7, non revérifiée dans cette
+  police municipale et gardes champêtres — *référence reprise du skill
+  `drh-fpt` (branche carrière et paie, §5.7), non revérifiée dans cette
   session* — à confirmer en version consolidée ; détail intégral dans
   `drh-fpt`.
 - **Code de déontologie des agents de police municipale** (CSI, partie
