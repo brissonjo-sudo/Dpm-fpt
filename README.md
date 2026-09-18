@@ -86,6 +86,15 @@ Détail : `CHANGELOG.md`. Ces trois points avaient été relevés par des
 répondants pendant la campagne `r4` (v1.0.4) et réservés à froid, sans
 correctif appliqué en cours de mesure.
 
+**Score du partiel ciblé v1.0.5** (`tests/runs/claude-v1.0.5-partiel/`, 8 cas
+sur 28, **non comparable** aux scores de campagne complète r1-r4) : **6
+RÉUSSITE / 1 DEMI-RÉUSSITE / 1 ÉCHEC**. Aucun échec sur les six cas critiques
+(seuil de release atteint) ; l'unique échec porte sur un cas non critique
+(20 — transfert EPCI), pour un manquement de forme à la discipline de
+sourcing sans rapport avec le fond du correctif testé. Détail et deux
+constats réservés à la v1.0.6 (non appliqués à chaud) :
+`tests/runs/claude-v1.0.5-partiel/summary.json`.
+
 ### v1.0.4 — revue de rentrée 2026 et audit complet (2026-09-14)
 
 Rapport : `docs/audit/2026-09-14-audit-v1.0.3.md`. Ce que la version

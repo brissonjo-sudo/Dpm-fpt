@@ -34,9 +34,13 @@ description: >-
 > `droit-francais-skill/…`), morts hors clonage multi-dépôts, sont remplacés
 > par le nom du skill ; `validate_repo.py` détecte désormais cette classe de
 > défaut au lieu de la mettre en liste blanche · **mesure** : partiel ciblé
-> sur les cas touchant la frontière RH, les gabarits et la vitesse (protocole
-> allégé, pas une campagne `r5` complète) — voir `tests/bareme-cas-de-test.md`
-> pour le résultat · dernier score de suite complet : campagne `r4`
+> de 8 cas sur les cas touchant la frontière RH, les gabarits et la vitesse
+> (protocole allégé, pas une campagne `r5` complète, non comparable) —
+> **6 réussites, 1 demi-réussite, 1 échec** (échec sur un cas non critique,
+> manquement de forme à la discipline de sourcing, sans lien avec le fond du
+> correctif testé ; 0 échec sur les six cas critiques, seuil de release
+> atteint) — détail : `tests/runs/claude-v1.0.5-partiel/summary.json` ·
+> dernier score de suite complet : campagne `r4`
 > (28 réussites, 0 demi-réussite, 0 échec sur 28 cas, mesurait la v1.0.4) ·
 > dernière revue méthodologique et vérification des sources : 2026-09-17
 > · périmètre : direction de la police municipale, collectivités territoriales

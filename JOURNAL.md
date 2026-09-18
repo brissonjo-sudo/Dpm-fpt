@@ -62,8 +62,22 @@ Une entrée par cas, au format ci-dessous.
   classe de défaut (testé positif et négatif). Constat annexe, non traité
   ici : le même défaut de version (`plugin.json` en retard sur `SKILL.md`)
   existe sur `DirFi-fpt` et `droit-francais` — à corriger dans ces dépôts.
-- Statut : intégré (v1.0.5), mesuré par un partiel ciblé (voir
-  `tests/bareme-cas-de-test.md`).
+- Statut : intégré (v1.0.5), mesuré par un partiel ciblé de 8 cas sur 28
+  (`tests/runs/claude-v1.0.5-partiel/`, non comparable à r1-r4) : **6
+  RÉUSSITE, 1 DEMI-RÉUSSITE (cas 18), 1 ÉCHEC (cas 20)**. Zéro échec sur les
+  six cas critiques (12, 13, 14, 18, 27, 28) — seuil de release atteint.
+  L'échec du cas 20 est un manquement de forme (CGCT L. 2212-2, pourtant au
+  socle vérifié, citée au §0 sans sa date de vérification), pas une lacune
+  de fond : le correctif L. 5211-9-2 lui-même est satisfait. Deux constats
+  réservés à la v1.0.6, non appliqués à chaud : hiérarchie inversée des
+  gabarits d'écrit au cas 18 (rapport de mise à disposition pré-rédigé avant
+  établissement de la route art. 53/73) et uniformisation de la discipline
+  de citation aux paragraphes de qualification (cas 20). Incident
+  méthodologique noté : un premier jugement du cas 27 (critique), dont le
+  prompt renvoyait au précédent du cas 20, a appliqué un test de sourcing
+  plus strict que le barème et conclu à tort à un échec ; il a été écarté
+  avant consignation, un second jugement neutre concluant à RÉUSSITE.
+  Détail : `tests/runs/claude-v1.0.5-partiel/summary.json`.
 
 ### 2026-09-14 — Revue de rentrée 2026 et audit complet (5 dimensions) — v1.0.4
 - Type : erreur (fond et sûreté) + lacune (vigueur) + cas nouveau (réforme)

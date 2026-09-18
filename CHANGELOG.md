@@ -61,8 +61,33 @@ dette technique découverte pendant la planification d'un plugin regroupant
 Partiel ciblé sur les cas touchant la frontière RH, les gabarits d'écrit et
 la vitesse — pas une campagne `r5` complète (`r4` a coûté ≈ 5,4 M tokens
 pour 28 cas ; ces trois points de fond et le nettoyage de pointeurs ne
-touchent que quelques fichiers). Résultat consigné dans
-`tests/bareme-cas-de-test.md`.
+touchent que quelques fichiers).
+
+**Résultat** (`tests/runs/claude-v1.0.5-partiel/`, 8 cas sur 28, non
+comparable à r1-r4) : **6 RÉUSSITE / 1 DEMI-RÉUSSITE / 1 ÉCHEC**. Seuil de
+release atteint — 0 échec sur les six cas critiques (12, 13, 14, 18, 27,
+28) : 12, 13, 14, 27, 28 en RÉUSSITE, 18 en DEMI-RÉUSSITE. L'unique échec
+porte sur le cas 20 (non critique, transfert EPCI) : la référence CGCT
+L. 2212-2, pourtant bien au socle vérifié, est citée au §0 de la réponse
+sans sa date de vérification ni renvoi au socle — manquement de forme à la
+discipline de sourcing, sans lien avec le fond du correctif L. 5211-9-2
+lui-même (satisfait). Deux constats non éliminatoires réservés à la
+v1.0.6, non appliqués à chaud :
+
+- Cas 18 : le gabarit rédigé du rapport de mise à disposition est fourni
+  avant que la route art. 53/73 ne soit établie, alors que l'issue par
+  défaut (rapport d'information) reste sans gabarit — hiérarchie des deux
+  écrits à corriger dans les templates.
+- Cas 20 : uniformiser la discipline de citation pour qu'elle s'applique
+  aussi aux références mentionnées dans les paragraphes de qualification
+  (§0/routeur), pas seulement dans le corps de l'analyse.
+
+Incident méthodologique noté et corrigé en cours de mesure : le premier
+jugement du cas 27 (critique), dont le prompt renvoyait au précédent du
+cas 20, avait conclu à tort à un ÉCHEC en appliquant un test de sourcing
+plus strict que le barème ; un second jugement neutre a conclu à
+RÉUSSITE et est le seul consigné. Détail complet :
+`tests/runs/claude-v1.0.5-partiel/summary.json`.
 
 ## [1.0.4] — 2026-09-14 — Revue de rentrée 2026 : audit complet, loi Ripost, garde-fou resserré
 
