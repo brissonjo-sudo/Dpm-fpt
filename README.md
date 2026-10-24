@@ -136,3 +136,9 @@ son résultat est consigné dans `tests/bareme-cas-de-test.md`.
 Historique complet des campagnes et des versions : `CHANGELOG.md`,
 `tests/bareme-cas-de-test.md`. Le package d'exécution est limité aux fichiers
 nécessaires (`SKILL.md`, `agents/openai.yaml`, `references/`, `objets/`).
+
+## Préparation locale des sources
+
+Les évolutions génériques de l’évaluateur et du packager sont décrites dans
+[la note du13octobre2026](docs/assainissement-sources-2026-10-13.md). Elles restent
+préparatoires, sans qualification ou publication nouvelle du runtime.

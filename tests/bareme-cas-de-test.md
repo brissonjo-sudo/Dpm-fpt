@@ -16,6 +16,11 @@
    absent dans la réponse), sans juger le style.
 3. **Artefacts** : préparer un run avec
    `python scripts/eval_suite.py prepare --run-dir tests/runs/<identifiant> --responder "<modèle>" --judge "<modèle>"`.
+   *Commande historique : depuis le candidat du 13/10/2026, `prepare` exige aussi
+   `--skill-version`, `--responder-reasoning`, `--judge-reasoning`,
+   `--source-commit`, `--skill-source dpm-fpt=SKILL.md` et `--bareme
+   tests/bareme-cas-de-test.md` (voir `docs/assainissement-sources-2026-10-13.md`).
+   Les barèmes déjà figés dans les runs ne sont pas modifiés.*
    Le script fige aussi la suite évaluée dans `suite.json`, afin que le run
    reste resynthétisable après une évolution du corpus.
    Conserver, dans chaque dossier de cas, la sortie brute dans `response.md`
