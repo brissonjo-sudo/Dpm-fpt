@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import re
 import sys
 import zipfile
@@ -16,6 +17,13 @@ FIXED_TIMESTAMP = (2026, 1, 1, 0, 0, 0)
 
 def runtime_files(source: Path = ROOT) -> list[Path]:
     """Liste les seuls fichiers nécessaires à l'exécution du skill."""
+    for folder in ("references", "objets"):
+        if not any(path.is_file() for path in (source / folder).rglob("*")):
+            raise ValueError(f"Répertoire runtime requis absent ou vide : {folder}/")
+    cited = set(re.findall(r"(?:references|objets)/[\w./-]+\.md", (source / "SKILL.md").read_text(encoding="utf-8")))
+    missing = sorted(name for name in cited if not (source / name).is_file())
+    if missing:
+        raise ValueError("Fichiers cités par SKILL.md absents de la source : " + ", ".join(missing))
     files = [source / "SKILL.md", source / "agents" / "openai.yaml"]
     files.extend(sorted((source / "references").rglob("*")))
     files.extend(sorted((source / "objets").rglob("*")))
@@ -39,15 +47,21 @@ def checked_output(raw_output: str | None) -> Path:
 
 
 def write_package(output: Path, source: Path = ROOT) -> None:
-    """Écrit une archive triée avec horodatages fixes."""
+    """Écrit une archive triée avec horodatages fixes, sans toucher la cible en cas d'échec."""
+    files = runtime_files(source)
     output.parent.mkdir(parents=True, exist_ok=True)
-    with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED) as archive:
-        for path in runtime_files(source):
-            relative = path.relative_to(source).as_posix()
-            info = zipfile.ZipInfo(relative, FIXED_TIMESTAMP)
-            info.compress_type = zipfile.ZIP_DEFLATED
-            info.external_attr = 0o100644 << 16
-            archive.writestr(info, path.read_bytes())
+    temporary = output.with_name(output.name + ".tmp")
+    try:
+        with zipfile.ZipFile(temporary, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+            for path in files:
+                relative = path.relative_to(source).as_posix()
+                info = zipfile.ZipInfo(relative, FIXED_TIMESTAMP)
+                info.compress_type = zipfile.ZIP_DEFLATED
+                info.external_attr = 0o100644 << 16
+                archive.writestr(info, path.read_bytes())
+        os.replace(temporary, output)
+    finally:
+        temporary.unlink(missing_ok=True)
 
 
 def parse_args() -> argparse.Namespace:
