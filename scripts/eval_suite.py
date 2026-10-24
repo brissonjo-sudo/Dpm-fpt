@@ -49,6 +49,17 @@ def parse_skill_source(value: str) -> dict[str, str]:
     return {"name": name.strip(), "path": str(path), "sha256": file_digest(path)}
 
 
+HISTORY_HEADING = "\n## État d'exécution"
+
+
+def normative_bareme(text: str) -> str:
+    """Garde la seule partie normative : le juge ne reçoit aucun historique de campagne."""
+    normative = text.split(HISTORY_HEADING, 1)[0].rstrip() + "\n"
+    if "### Analyse" in normative:
+        raise ValueError("Le barème figé contient encore des analyses de campagnes")
+    return normative
+
+
 def prepare_run(
     run_dir: Path,
     responder: str,
@@ -80,7 +91,7 @@ def prepare_run(
     if not bareme_path.is_file():
         raise ValueError(f"Barème normatif absent : {bareme_path}")
     frozen_bareme = run_dir / "bareme-normatif.md"
-    frozen_bareme.write_bytes(bareme_path.read_bytes())
+    frozen_bareme.write_bytes(normative_bareme(bareme_path.read_text(encoding="utf-8")).encode("utf-8"))
     manifest = {
         "format_version": 2,
         "skill_version": skill_version,

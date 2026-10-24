@@ -20,6 +20,10 @@ La nouvelle interface exige des paramètres explicites. Exemple à adapter, non 
 python scripts/eval_suite.py prepare --run-dir tests/runs/NOUVEAU_RUN --responder MODELE_REPONDANT --judge MODELE_JUGE --skill-version 1.0.5 --responder-reasoning EFFORT_REPONDANT --judge-reasoning EFFORT_JUGE --source-commit COMMIT_SOURCE --skill-source dpm-fpt=SKILL.md --bareme tests/bareme-cas-de-test.md
 ```
 
+Le barème passé par `--bareme` est figé dans `bareme-normatif.md` sans sa partie historique : tout ce qui suit « ## État d'exécution » est retiré, et le script refuse un barème figé qui contiendrait encore une analyse de campagne. Le juge ne reçoit ainsi aucun résultat antérieur. La commande `summarize` garde son interface, mais sa validation du run et le contenu de `summary.json` changent avec ce candidat.
+
+Le packager valide la source avant d'écrire : `references/` et `objets/` doivent être présents et non vides, chaque fichier cité par `SKILL.md` doit exister, et l'archive est écrite dans un fichier temporaire. Un refus laisse donc intact le paquet déjà présent.
+
 Un format2 nécessite ensuite orchestration.json et les fichiers de contexte des rôles. Réponses/jugements réels, cohérence des déclarations, traces et avis humains restent des contrôles distincts. Ce script ne lance aucun modèle.
 
 ## Contenus conservés sans reprise
