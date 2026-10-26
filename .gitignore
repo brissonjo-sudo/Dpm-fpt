@@ -16,3 +16,6 @@ __pycache__/
 *.7z
 *.zip
 *.tar.gz
+
+# Graphe graphify local, régénérable
+graphify-out/
