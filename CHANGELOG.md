@@ -2,6 +2,15 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [Non publié], 2026-11-01, passage à l'EUPL 1.2
+
+- Le dépôt est diffusé sous licence publique de l'Union européenne (EUPL) 1.2,
+  à compter de cette version.
+- Textes officiels de la Commission européenne : anglais dans `LICENSE`,
+  français dans `LICENCE.fr.txt`.
+- Versions antérieures inchangées : elles restent sous leur régime d'origine.
+- Aucun changement de comportement du skill.
+
 ## [1.0.5] — 2026-09-17 — Trois points de fond de `r4`, pointeurs inter-dépôts neutralisés
 
 Version issue des trois points de fond **relevés par des répondants pendant
