@@ -142,3 +142,12 @@ nécessaires (`SKILL.md`, `agents/openai.yaml`, `references/`, `objets/`).
 Les évolutions génériques de l’évaluateur et du packager sont décrites dans
 [la note du13octobre2026](docs/assainissement-sources-2026-10-13.md). Elles restent
 préparatoires, sans qualification ou publication nouvelle du runtime.
+
+## Licence
+
+Copyright (c) 2026 Jonathan BRISSON (@brissonjo-sudo)
+Licensed under the EUPL
+
+À compter de cette version, ce dépôt est diffusé sous licence publique de l'Union européenne (EUPL) 1.2 : texte anglais dans `LICENSE`, texte français dans `LICENCE.fr.txt`. Toutes les versions linguistiques de l'EUPL approuvées par la Commission européenne ont la même valeur (article 13 de la licence).
+
+Les versions antérieures de ce dépôt ne comportaient pas de licence déclarée ; leur contenu a été diffusé dans le plugin collectivite-territoriale, versions 1.4.0 et antérieures, sous CC-BY-SA-4.0.
