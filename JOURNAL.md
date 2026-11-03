@@ -35,8 +35,12 @@ Une entrée par cas, au format ci-dessous.
   images sur L. 253-5, qui depuis le 21/05/2023 ne prévoit plus que la
   saisine de la commission départementale (défaut déjà signalé en `r4`,
   scénario 07, sans correctif jusqu'ici).
-- Action : identifiants corrigés ; droit d'accès rattaché au RGPD et à la loi
-  n° 78-17 via CSI L. 251-1 (article précis à vérifier, renvoi `dpo-ct`) ;
+- Action : identifiants corrigés ; droit d'accès fondé sur CSI R. 253-6
+  (`LEGIARTI000048476439`, en vigueur depuis le 30/11/2023, lu le
+  2026-11-03 : accès selon le titre, visionnage et motifs de refus au IV,
+  restrictions et CNIL au III), rattaché au régime données par L. 251-1 ;
+  les motifs de refus ont quitté la partie législative (loi n° 2023-380) et
+  non disparu ; choix du titre et délai de réponse renvoyés à `dpo-ct` ;
   alertes datées fourrière (arrêté du 13/09/2026), concours PM (décret
   n° 2026-961), CSI L. 511-1 (2029).
 - Statut : intégré (v1.0.6)

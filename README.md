@@ -67,8 +67,9 @@ Boucle `JOURNAL.md` (cas) → `CHANGELOG.md` (versions), décisions tracées dan
 
 **v1.0.6, veille juridique delta (2026-11-03).** Identifiants CSI L. 251-2 et
 L. 253-5 corrigés ; le droit d'accès aux images n'est plus rattaché à
-L. 253-5 (retiré en 2023 ; régime RGPD et loi n° 78-17 via L. 251-1, renvoi
-`dpo-ct`) ; alertes datées frais de fourrière, concours PM et CSI L. 511-1
+L. 253-5 (retiré de la partie législative en 2023) mais à CSI R. 253-6
+(visionnage, motifs de refus ; rattachement RGPD et loi n° 78-17 via L. 251-1,
+choix du titre et délai : `dpo-ct`) ; alertes datées frais de fourrière, concours PM et CSI L. 511-1
 (2029). Détail : `CHANGELOG.md`. Version non mesurée par une campagne.
 
 **v1.0.5 — trois points de fond de `r4` et pointeurs inter-dépôts neutralisés

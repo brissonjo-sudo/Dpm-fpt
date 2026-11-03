@@ -241,30 +241,62 @@ Conséquence pour le CSU :
 ### 4.8 Droits des personnes filmées
 
 **Correctif de la veille du 2026-11-03.** Le droit d'accès « de droit » aux
-enregistrements, avec motifs de refus limitatifs (sûreté de l'État, défense,
-sécurité publique, procédure, droits des tiers), figurait dans la **version
+enregistrements, avec motifs de refus limitatifs, figurait dans la **version
 2020-2023** de l'art. L. 253-5 CSI (LEGIARTI000038791144, en vigueur du
 01/01/2020 au 21/05/2023). La **loi n° 2023-380 du 19/05/2023, art. 9**, l'a
-retiré. **Ne plus citer L. 253-5 comme fondement du droit d'accès.**
+retiré de la partie législative ; la **partie réglementaire** l'a repris à
+l'**art. R. 253-6 CSI** (LEGIARTI000048476439, en vigueur depuis le
+30/11/2023, texte lu le 2026-11-03). **Ne plus citer L. 253-5 comme fondement
+du droit d'accès.**
 
-- **Fondement actuel** : les systèmes de vidéoprotection sont des traitements
-  de données à caractère personnel régis par le titre V du livre II du CSI,
-  par le **règlement (UE) 2016/679 (RGPD)** et par la **loi n° 78-17 du
-  6 janvier 1978** (art. L. 251-1 CSI, LEGIARTI000047569469, en vigueur depuis
-  le 21/05/2023, consulté le 2026-11-03). Le droit d'accès de la personne
-  filmée relève donc de ce régime de protection des données. **Article
-  précis, limitations et délai de réponse : à vérifier** (non lus dans la
-  session du 2026-11-03) → volet données : DPO de la collectivité, skill
-  `dpo-ct`, et `conformite-deontologie-donnees.md`.
+- **Rattachement** : les systèmes de vidéoprotection sont des traitements de
+  données à caractère personnel soumis au règlement (UE) 2016/679 (RGPD) et à
+  la loi n° 78-17 du 6 janvier 1978 (art. L. 251-1 CSI,
+  LEGIARTI000047569469, consulté le 2026-11-03).
+- **Fondement du droit d'accès : CSI R. 253-6, II.** Selon le titre de la loi
+  n° 78-17 dont relève le traitement :
+  - **titre II** (1°) : accès, rectification, limitation (et, le cas échéant,
+    effacement) **directement auprès du responsable du système**, art. 15, 16,
+    18 et 17 du RGPD ;
+  - **titre III** (2°) : mêmes droits **directement auprès du responsable**,
+    art. 105 et 106 de la loi n° 78-17 ;
+  - **titre IV** (3°) : accès, rectification, effacement **auprès de la
+    CNIL**, art. 118 de la loi n° 78-17.
+- **Droit de visionnage (R. 253-6, IV)** : sans préjudice de la copie (art. 15
+  RGPD) et de la communication (art. 105 loi n° 78-17), toute personne
+  concernée peut s'adresser au responsable du système pour obtenir le
+  **visionnage** des enregistrements. Le **refus** est possible pour un motif
+  tenant à la sûreté de l'État, à la défense, à la sécurité publique, au
+  déroulement de procédures engagées devant les juridictions ou d'opérations
+  préliminaires, ou au **droit des tiers**. Un refus se motive sur l'un de ces
+  motifs.
+- **Restrictions et CNIL (R. 253-6, III)** : pour les traitements du titre II,
+  restriction possible du droit d'accès (art. 23 RGPD : sécurité nationale,
+  menaces pour la sécurité publique) ; pour ceux du titre III, restriction
+  possible (art. 107 loi n° 78-17 : enquêtes, procédures, prévention des
+  infractions). La personne exerce alors son droit **auprès de la CNIL**
+  (art. 52, respectivement art. 108 de la loi n° 78-17).
+- **Pas de droit d'opposition (R. 253-6, V)** : art. 21 RGPD, art. 110 et 117
+  loi n° 78-17 inapplicables.
+- **Information du public (R. 253-6, I)** : affiches ou panonceaux avec
+  pictogramme de caméra ; à défaut de place pour tout, au moins l'identité du
+  responsable, les finalités et les droits, le reste par un autre moyen.
+- **À renvoyer à `dpo-ct`** : le **choix du titre** (II ou III) applicable au
+  système selon sa finalité, et le **délai de réponse** à une demande
+  (non lu dans R. 253-6 ; ne pas l'inventer). Volet RGPD détaillé :
+  `conformite-deontologie-donnees.md`.
 - **Saisine de la commission** : « Toute personne intéressée peut saisir la
   commission départementale de vidéoprotection de toute difficulté tenant au
   fonctionnement d'un système de vidéoprotection. »
 
 > Art. L. 253-5, Code de la sécurité intérieure, LEGIARTI000047569413, en
-> vigueur depuis le 21/05/2023 (consulté le 2026-11-03).
+> vigueur depuis le 21/05/2023 (consulté le 2026-11-03). Art. R. 253-6,
+> LEGIARTI000048476439, en vigueur depuis le 30/11/2023 (consulté le
+> 2026-11-03).
 
 La version en vigueur de L. 253-5 ne mentionne plus la CNIL ni le recours
-juridictionnel ; leur articulation relève du régime RGPD → `dpo-ct`.
+juridictionnel ; la CNIL intervient dans les cas de R. 253-6 II 3° et III
+ci-dessus, le reste de l'articulation relève du régime RGPD → `dpo-ct`.
 
 > Information générale du public (panneaux, mentions d'information, registre
 > des traitements, AIPD) → régime RGPD/CNIL transverse, **non traité ici** →
@@ -332,8 +364,8 @@ Appliquer le socle-sources (matrice §2.2 du `SKILL.md`) dès que :
 7. Traiter le sujet **RGPD/AIPD** dans cette branche au lieu de renvoyer à
    `conformite-deontologie-donnees.md`.
 8. Oublier le **droit d'accès** des personnes filmées lors d'une demande
-   administrée, ou le fonder sur L. 253-5 CSI : depuis le 21/05/2023, il
-   relève du RGPD et de la loi n° 78-17 (L. 251-1 CSI ; §4.8 → `dpo-ct`).
+   administrée, ou le fonder sur L. 253-5 CSI : il relève de R. 253-6 CSI, du
+   RGPD et de la loi n° 78-17 (§4.8 ; choix du titre et délai → `dpo-ct`).
 9. Exploiter le CSU au-delà de la simple **constatation et transmission**
    (analyse, rapprochement actif) sans en mesurer la portée au regard du
    garde-fou APJA (§5.2 SKILL.md).
@@ -359,6 +391,9 @@ consolidée avant tout acte, car ce titre évolue fréquemment) :
 - **Art. L. 252-5 CSI** — **destruction des enregistrements, délai maximum
   d'un mois**, identifiant Légifrance LEGIARTI000025505435 (le plafond de
   conservation relève de cet article, pas de L. 252-3).
+- **Art. R. 253-6 CSI** — information du public, exercice des droits d'accès,
+  visionnage et motifs de refus, identifiant Légifrance LEGIARTI000048476439
+  (en vigueur depuis le **30/11/2023**, *texte lu le 2026-11-03*).
 - **Art. L. 253-5 CSI** — saisine de la commission départementale de
   vidéoprotection par toute personne intéressée, identifiant Légifrance
   LEGIARTI000047569413 (version en vigueur depuis le **21/05/2023**, loi
@@ -368,7 +403,8 @@ consolidée avant tout acte, car ce titre évolue fréquemment) :
 
 **Non vérifiées dans cette session — à confirmer en version consolidée avant
 usage** :
-- Partie réglementaire (articles R. 251 et s., R. 252 et s., R. 253 et s.) :
+- Partie réglementaire (articles R. 251 et s., R. 252 et s., R. 253 et s.,
+  **à l'exception de R. 253-6**, lu le 2026-11-03) :
   composition de la commission départementale, pièces du dossier de demande,
   délais d'instruction.
 - Décret d'application le plus récent du régime (vu en résultat de recherche :
@@ -397,10 +433,11 @@ usage** :
 4. **Fiche de procédure CSU** (habilitations, traçabilité, modalités de
    transmission aux forces de l'État) — articuler avec la convention de
    coordination → `continuum-partenariats.md`.
-5. **Réponse à une demande d'accès aux images** — fondement : RGPD et loi
-   n° 78-17 (art. L. 251-1 CSI) ; motifs de limitation et délai à vérifier
-   avec le DPO (`dpo-ct`). L. 253-5 CSI ne sert qu'à indiquer la saisine
-   possible de la commission départementale.
+5. **Réponse à une demande d'accès aux images** — fondement : CSI R. 253-6
+   (II accès, IV visionnage), RGPD art. 15 ou loi n° 78-17 art. 105 selon le
+   titre ; refus motivé sur l'un des motifs de R. 253-6 IV ; choix du titre et
+   délai de réponse avec le DPO (`dpo-ct`). L. 253-5 CSI ne sert qu'à
+   indiquer la saisine possible de la commission départementale.
 6. **Volet RGPD/AIPD du projet** (registre, analyse d'impact, mentions
    d'information) → ne pas produire ici, renvoyer à
    `conformite-deontologie-donnees.md`.

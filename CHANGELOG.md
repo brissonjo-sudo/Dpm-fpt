@@ -20,10 +20,19 @@ nouvelle version depuis le 2026-09-14. Version non mesurée par une campagne.
   appartenaient à la version 2020-2023, retirée par la loi n° 2023-380
   (art. 9). Le droit d'accès est désormais rattaché au RGPD et à la loi
   n° 78-17, auxquels CSI L. 251-1 (`LEGIARTI000047569469`) soumet les
-  systèmes ; article précis à vérifier, renvoi `dpo-ct`. Défaut déjà signalé
-  par un répondant de la campagne `r4` (scénario 07). Fichiers :
-  `references/videoprotection.md` §4.8, §7, §8, §9 ;
+  systèmes. Les motifs de refus n'ont pas disparu : ils ont quitté la partie
+  législative et figurent dans **CSI R. 253-6 IV**
+  (`LEGIARTI000048476439`, en vigueur depuis le 30/11/2023, lu le
+  2026-11-03). Défaut déjà signalé par un répondant de la campagne `r4`
+  (scénario 07). Fichiers : `references/videoprotection.md` §4.8, §7, §8, §9 ;
   `objets/videoprotection.md` ; `references-verifiees.md` §3.
+- **Fondement du droit d'accès : CSI R. 253-6** : II (accès, rectification,
+  limitation auprès du responsable pour les titres II et III de la loi
+  n° 78-17, art. 15, 16, 18 RGPD et 105, 106 loi 78-17 ; auprès de la CNIL pour
+  le titre IV, art. 118), III (restrictions, CNIL), IV (**visionnage** et
+  motifs de refus), V (pas d'opposition). Ajouté au registre
+  (`references-verifiees.md` §3). Restent renvoyés à `dpo-ct` : le choix du
+  titre selon la finalité et le délai de réponse (non lu).
 
 ### Ajouté (alertes datées)
 
