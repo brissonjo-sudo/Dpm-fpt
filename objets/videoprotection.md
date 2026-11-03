@@ -25,7 +25,7 @@
 ## 2. Textes applicables
 
 ### Régime d'autorisation et cadre général
-- **`../references/videoprotection.md`** — Code de la sécurité intérieure (CSI), **Livre II, Titre V**, articles L. 251-1 à L. 253-5 (*vérifié Légifrance 30/06/2026*, identifiants LEGIARTI relevés pour les articles clés : L. 251-1 LEGIARTI000047569469 ; L. 251-2 LEGIARTI000041599395 ; L. 252-2 LEGIARTI000047569434 ; L. 252-3 LEGIARTI000043540807 ; L. 252-5 LEGIARTI000025505435 (**plafond de conservation d'un mois**) ; L. 253-5 LEGIARTI000038791144 — **à recontrôler en version consolidée** avant tout usage en acte). Autorisation préfectorale obligatoire ; finalités limitativement énumérées ; commission départementale d'avis ; **durée de conservation plafonnée à un mois (art. L. 252-5 CSI)**.
+- **`../references/videoprotection.md`** — Code de la sécurité intérieure (CSI), **Livre II, Titre V**, articles L. 251-1 à L. 253-5 (*vérifié Légifrance 30/06/2026*, identifiants LEGIARTI relevés pour les articles clés : L. 251-1 LEGIARTI000047569469 ; L. 251-2 LEGIARTI000047569457 ; L. 252-2 LEGIARTI000047569434 ; L. 252-3 LEGIARTI000043540807 ; L. 252-5 LEGIARTI000025505435 (**plafond de conservation d'un mois**) ; L. 253-5 LEGIARTI000047569413 — **à recontrôler en version consolidée** avant tout usage en acte). Autorisation préfectorale obligatoire ; finalités limitativement énumérées ; commission départementale d'avis ; **durée de conservation plafonnée à un mois (art. L. 252-5 CSI)**.
 
 ### Conformité données, RGPD, AIPD et traçabilité
 - **`../references/conformite-deontologie-donnees.md`** — Régime RGPD (règlement UE 2016/679, loi Informatique et Libertés, directive police-justice le cas échéant) ; AIPD obligatoire avant déploiement ; traçabilité des consultations et des extractions ; accès des personnes concernées (CRPA / droit d'accès RGPD) ; incident de violation de données (notification CNIL, délai à vérifier).
@@ -99,7 +99,7 @@
 - **Analyse d'impact (AIPD)** — si obligatoire : description du système, évaluation des risques pour les droits et libertés, mesures pour les mitiger, validation avant mise en service → renvoi à `../references/conformite-deontologie-donnees.md` pour la méthodologie CNIL.
 
 ### Écrits de réponse aux demandes d'accès et recours
-- **Réponse à une demande d'accès aux images** (art. L. 253-5 CSI) : accès de droit si aucun motif de refus limitatif ne s'applique ; sinon, courrier de refus **motivé** sur l'un des motifs légaux ; information des voies de recours (commission départementale, CNIL, juge).
+- **Réponse à une demande d'accès aux images** : fondement **CSI R. 253-6** (LEGIARTI000048476439, en vigueur depuis le 30/11/2023, consulté le 2026-11-03) : accès exercé auprès du responsable du système (II : RGPD art. 15 ou loi n° 78-17 art. 105 selon le titre) ou de la CNIL (titre IV ; restrictions, III), **visionnage** sur demande (IV) ; refus **motivé** sur l'un des motifs de R. 253-6 IV (sûreté de l'État, défense, sécurité publique, procédures juridictionnelles ou opérations préliminaires, droit des tiers) ; rattachement au régime données par L. 251-1 CSI. **Choix du titre (II ou III) et délai de réponse : à confirmer avec le DPO** (`dpo-ct`). L. 253-5 CSI (LEGIARTI000047569413) ne fonde que la **saisine de la commission départementale** ; l'accès « de droit » et les motifs de refus de sa version 2020-2023 ont quitté la partie législative (loi n° 2023-380) et figurent dans R. 253-6 IV (veille du 2026-11-03).
 - **Réponse à une demande d'accès CRPA** : distinction entre demandeur (administré tiers, ou personne intéressée cherchant accès à ses propres données) ; application de la grille CRPA (exceptions sécurité publique, procédure judiciaire) + droit d'accès RGPD.
 - **Signalement RGPD au DPO** : en cas d'incident (accès non autorisé, extraction hors cadre, destruction hors délai), fiche d'incident adressée au délégué à la protection des données (DPO).
 
@@ -185,6 +185,6 @@ Ne jamais traiter un de ces trois volets en isolation.
 
 **Mise à jour requise** :
 - **Régime d'autorisation CSI** (articles L. 251 à L. 253) : révision lors de réformes législatives (évolutions fréquentes sur ce titre).
-- **Partie réglementaire** (articles R. 251 et s., R. 252 et s., R. 253 et s.) : composition de la commission, pièces du dossier, délais — à vérifier chaque année.
+- **Partie réglementaire** (articles R. 251 et s., R. 252 et s., R. 253 et s. ; R. 253-6 lu le 2026-11-03) : composition de la commission, pièces du dossier, délais — à vérifier chaque année.
 - **AIPD et méthodologie CNIL** : mise à jour des référentiels CNIL en cas d'évolution des critères de risque.
 - **Convention de coordination PM / forces de l'État** : renouvellement au minimum tous les 2-3 ans ; articulation avec le CSU à clarifier à chaque révision.

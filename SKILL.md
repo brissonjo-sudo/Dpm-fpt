@@ -17,9 +17,13 @@ description: >-
   (registre, AIPD : dpo-ct), ni pour le droit étranger.
 ---
 
-# Skill : dpm-fpt (v1.0.5)
+# Skill : dpm-fpt (v1.0.6)
 
-> **Métadonnées** — version : **1.0.5** · statut : **correctif de fond et
+> **Métadonnées** — version : **1.0.6** (veille juridique du 2026-11-03 :
+> identifiants CSI L. 251-2 et L. 253-5 corrigés, droit d'accès aux images
+> détaché de L. 253-5, alertes fourrière, concours PM et CSI L. 511-1 —
+> détail `CHANGELOG.md` ; non mesurée par une campagne) · base **1.0.5** ·
+> statut de la 1.0.5 : **correctif de fond et
 > fermeture de dette technique**, sur les trois points relevés par des
 > répondants pendant la campagne `r4` sans être appliqués à chaud : **grand
 > excès de vitesse** (C. route L. 413-1, délit dès 50 km/h — bascule vers
@@ -42,7 +46,8 @@ description: >-
 > atteint) — détail : `tests/runs/claude-v1.0.5-partiel/summary.json` ·
 > dernier score de suite complet : campagne `r4`
 > (28 réussites, 0 demi-réussite, 0 échec sur 28 cas, mesurait la v1.0.4) ·
-> dernière revue méthodologique et vérification des sources : 2026-09-17
+> dernière revue méthodologique : 2026-09-17 · dernière veille des sources :
+> 2026-11-03
 > · périmètre : direction de la police municipale, collectivités territoriales
 > (France) · dépendances recommandées : `recherche-juridique` (validateur de
 > fond et de vigueur), `drh-fpt` (volet RH statutaire des agents PM) ·

@@ -25,6 +25,16 @@
 > `JORFTEXT000054707332`) : **art. 21 CPP** (§2) et **CSP L. 3332-15** (§5),
 > mis à jour ci-dessous. Huit références citées dans les branches sans figurer
 > au socle y sont portées (§8), et l'alerte de vigueur est complétée.
+>
+> **Veille du 2026-11-03** : **77 identifiants** recontrôlés par l'API
+> Légifrance ; **0 nouvelle version** depuis le 2026-09-14 ; **2 identifiants
+> corrigés** (CSI L. 251-2 → `LEGIARTI000047569457`, CSI L. 253-5 →
+> `LEGIARTI000047569413`, anciens identifiants de versions 2020-2023). Fond
+> corrigé : **L. 253-5** ne fonde plus le droit d'accès aux images, repris
+> par **CSI R. 253-6** (ajouté au §3 ; note L. 253-5). Alertes ajoutées : frais de fourrière (arrêté du
+> 13/09/2026, `reglementation-appliquee.md` §5.1), décret n° 2026-961
+> (concours PM, renvoi `drh-fpt`), **CSI L. 511-1** modifié au 01/01/2029
+> (alerte CPP).
 
 ---
 
@@ -40,6 +50,12 @@ numérotation. À surveiller à chaque revue de rentrée. L'ordonnance porte
 `JORFTEXT000052650320` (consultée le 2026-09-14) ; son article 5 permet un
 report de l'application par décret jusqu'au 01/09/2030 — confirmer la date
 d'application effective à chaque revue.
+
+**Hors CPP (veille du 2026-11-03)** : l'ordonnance n° 2025-1091 modifie aussi
+**CSI L. 511-1** à compter du **01/01/2029** (art. 55 ; nouvelle version
+`LEGIARTI000052851626`, VIGUEUR_DIFF ; vérifié le 2026-11-03). L'identifiant
+du §3 (`LEGIARTI000041587492`, en vigueur depuis le 01/07/2021) **reste
+applicable** jusqu'au 31/12/2028.
 
 ## ⚠️ Alerte vigueur — loi n° 2026-798 du 18 août 2026 (« Ripost »)
 
@@ -114,6 +130,7 @@ socle :
 | **L. 251-1 et s.** | Vidéoprotection voie publique : autorisation préfectorale, avis commission départementale | 21/05/2023 | LEGIARTI000047569469 |
 | **L. 252-5** | Vidéoprotection : destruction des enregistrements dans un **délai max. d'un mois** (hors enquête/flagrance) | 01/05/2012 | LEGIARTI000025505435 |
 | **R. 252-3** | Contenu de la demande d'autorisation : mention (8°) du délai de conservation, **sans fixer le plafond** (celui-ci = L. 252-5) | 30/11/2023 | LEGIARTI000048480362 |
+| **R. 253-6** | Vidéoprotection, **exercice des droits** : information du public (I) ; accès, rectification, limitation auprès du responsable (titres II et III loi 78-17) ou de la CNIL (titre IV) (II) ; restrictions via la CNIL (III) ; **visionnage** et motifs de refus (IV) ; pas d'opposition (V) | 30/11/2023 | LEGIARTI000048476439 (consulté le 2026-11-03) |
 
 > **Note L. 132-4** : identifiant confirmé après lecture directe de la page —
 > `LEGIARTI000049313006` est la **version en vigueur** (23/03/2024), tandis que
@@ -183,10 +200,10 @@ confirmés, tous en vigueur).
 
 | Référence | Objet | En vigueur depuis | Identifiant |
 |---|---|---|---|
-| **CSI L. 251-2** | Finalités légales de la vidéoprotection | 21/05/2023 | LEGIARTI000041599395 |
+| **CSI L. 251-2** | Finalités légales de la vidéoprotection | 21/05/2023 | LEGIARTI000047569457 |
 | **CSI L. 252-2** | Conditions de visionnage et d'habilitation | 21/05/2023 | LEGIARTI000047569434 |
 | **CSI L. 252-3** | Accès et transmission des enregistrements | 27/05/2021 | LEGIARTI000043540807 |
-| **CSI L. 253-5** | Droit d'accès des personnes filmées / saisine de la commission | 21/05/2023 | LEGIARTI000038791144 |
+| **CSI L. 253-5** | Saisine de la commission départementale de vidéoprotection par toute personne intéressée (ne fonde plus le droit d'accès, voir note) | 21/05/2023 | LEGIARTI000047569413 |
 | **CSI R. 511-12** | Catégories d'armes autorisées pour la PM (décret n° 2020-1775) | 01/01/2021 | LEGIARTI000042957393 |
 | **CSI L. 435-1** | Cadre d'usage des armes (absolue nécessité, proportionnalité) | 02/03/2017 | LEGIARTI000034107970 |
 | **CSI L. 731-3** | Plan communal de sauvegarde | 27/11/2021 | LEGIARTI000044375292 |
@@ -199,6 +216,18 @@ confirmés, tous en vigueur).
 > **Note L. 253-5** : la version en vigueur est celle du **21/05/2023** (loi
 > n° 2023-380) — la note « version 16/10/2020 » qui figurait dans la branche
 > vidéoprotection a été actualisée.
+> **Note L. 253-5 (veille du 2026-11-03)** : texte en vigueur relu
+> (LEGIARTI000047569413) : il ne prévoit plus que la saisine de la commission
+> départementale. Le droit d'accès aux enregistrements et ses motifs de refus
+> figuraient dans la version 2020-2023 (LEGIARTI000038791144, retirés par la
+> loi n° 2023-380, art. 9). Le droit d'accès relève désormais du RGPD et de la
+> loi n° 78-17, auxquels L. 251-1 CSI soumet les systèmes de vidéoprotection
+> (LEGIARTI000047569469, consulté le 2026-11-03), et ses modalités sont
+> fixées par **R. 253-6 CSI** (LEGIARTI000048476439, ligne du §3 : accès
+> auprès du responsable ou de la CNIL selon le titre, visionnage et motifs de
+> refus au IV, repris de l'ancien L. 253-5). Choix du titre (II ou III) et
+> délai de réponse : non lus → `dpo-ct`. Signalé dès la campagne
+> `claude-v1.0.4-r4` (scénario 07).
 > **Note art. 537 CPP** : l'audit du 2026-07-01 a détecté un identifiant
 > divergent (`LEGIARTI000006576892`, version antérieure) dans deux générateurs ;
 > ils ont été réalignés sur la valeur du registre (`LEGIARTI000006576893`,

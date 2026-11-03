@@ -104,7 +104,10 @@ restitution de droit, délai maximal de garde avant saisie du véhicule, délai
 de notification au propriétaire, tarif de frais, procédure de réclamation :
 aucun de ces éléments ne se cite de mémoire. Tous sont marqués « à confirmer en
 version consolidée » ou vérifiés auprès du gestionnaire de fourrière et de la
-préfecture avant communication au public.
+préfecture avant communication au public. **Alerte (veille du 2026-11-03)** :
+tarifs maxima revalorisés par l'arrêté du 13/09/2026 (`JORFTEXT000054877184`,
+JORF du 22/09/2026, effet au 01/10/2026) ; montants à lire sur le texte → voir
+`../references/reglementation-appliquee.md` §5.1.
 
 ---
 

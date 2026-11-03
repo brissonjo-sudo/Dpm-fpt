@@ -24,6 +24,27 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-11-03 — Veille juridique delta, fond CSI L. 253-5 — v1.0.6
+- Type : erreur (identifiants et fond) + veille
+- Branche : videoprotection, reglementation-appliquee (§5.1),
+  rh-specificites-pm (§4.1), references-verifiees
+- Contexte (anonymisé) : veille delta du 2026-09-14 au 2026-11-03,
+  77 identifiants recontrôlés par l'API Légifrance.
+- Constat : deux identifiants CSI (L. 251-2, L. 253-5) désignaient les
+  versions 2020-2023 ; sur le fond, le skill fondait le droit d'accès aux
+  images sur L. 253-5, qui depuis le 21/05/2023 ne prévoit plus que la
+  saisine de la commission départementale (défaut déjà signalé en `r4`,
+  scénario 07, sans correctif jusqu'ici).
+- Action : identifiants corrigés ; droit d'accès fondé sur CSI R. 253-6
+  (`LEGIARTI000048476439`, en vigueur depuis le 30/11/2023, lu le
+  2026-11-03 : accès selon le titre, visionnage et motifs de refus au IV,
+  restrictions et CNIL au III), rattaché au régime données par L. 251-1 ;
+  les motifs de refus ont quitté la partie législative (loi n° 2023-380) et
+  non disparu ; choix du titre et délai de réponse renvoyés à `dpo-ct` ;
+  alertes datées fourrière (arrêté du 13/09/2026), concours PM (décret
+  n° 2026-961), CSI L. 511-1 (2029).
+- Statut : intégré (v1.0.6)
+
 ### 2026-09-17 — Trois points de fond de `r4`, pointeurs inter-dépôts neutralisés — v1.0.5
 - Type : lacune (fond, deux points de sourcing) + erreur (dette technique)
 - Branche : reglementation-appliquee (§5.1, §5.3), pouvoirs-police (§4.1),
