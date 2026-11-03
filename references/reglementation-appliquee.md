@@ -155,13 +155,35 @@ pratiques) relève des objets dédiés, à consulter en complément :
   décident du régime de garde ni de la restitution, qui relèvent du
   gestionnaire de fourrière et des textes R. 325-1 et s. — voir
   `penal-procedure.md` pour la qualité d'APJA.
-- **Alerte tarifs (veille du 2026-11-03)** : tarifs maxima des frais de
-  fourrière automobiles **revalorisés** par l'arrêté du 13/09/2026 modifiant
-  les arrêtés du 14/11/2001 et du 28/11/2003 (JORF n° 0221 du 22/09/2026,
-  `JORFTEXT000054877184`, consulté le 2026-11-03 via legifrance.gouv.fr ;
-  entrée en vigueur au **01/10/2026**, certaines dispositions un an après la
-  publication). Le skill ne cite aucun montant : **lire les montants sur le
-  texte consolidé** avant toute communication au public.
+- **Tarifs maxima des frais de fourrière automobiles (au 01/10/2026)** :
+  revalorisés par l'arrêté du 13/09/2026 modifiant les arrêtés du 14/11/2001
+  et du 28/11/2003 (JORF n° 0221 du 22/09/2026, `JORFTEXT000054877184`). Ce
+  sont des **plafonds** : le montant appliqué se vérifie auprès du
+  gestionnaire de fourrière. Barème général (arrêté du 14/11/2001,
+  annexe II, `LEGIARTI000054879755`, en vigueur depuis le 01/10/2026,
+  consulté le 2026-11-03), en euros :
+
+  | Catégorie | Immobilisation matérielle | Opérations préalables | Enlèvement | Garde journalière | Mise en vente |
+  |---|---|---|---|---|---|
+  | PL 44 t ≥ PTAC > 19 t | 7,60 | 22,90 | 274,40 | 9,20 | 120,00 |
+  | PL 19 t ≥ PTAC > 7,5 t | 7,60 | 22,90 | 213,40 | 9,20 | 120,00 |
+  | PL 7,5 t ≥ PTAC > 3,5 t | 7,60 | 22,90 | 122,00 | 9,20 | 120,00 |
+  | Voitures particulières | 7,60 | 15,20 | 135,00 | 7,15 | 100,00 |
+  | Autres véhicules immatriculés | 7,60 | 7,60 | 45,70 | 3,00 | 50,00 |
+  | Cyclomoteurs, motocyclettes, tricycles et quadricycles à moteur non soumis à réception | 7,60 | 7,60 | 45,70 | 3,00 | 50,00 |
+
+  Communes visées par l'arrêté du 28/11/2003 (consulté le 2026-11-03) :
+  art. 2 (annexe I, `LEGIARTI000054879763`, depuis le 01/10/2026) —
+  voitures particulières : enlèvement 135,00, garde journalière 10,00 ;
+  art. 2 bis (annexe II, `LEGIARTI000029811228`, depuis le 01/01/2015) —
+  voitures particulières : enlèvement 150, garde journalière 29 ;
+  deux-roues et quadricycles à moteur soumis à réception : enlèvement 49,
+  garde journalière 10. Vérifier si la commune relève de ces articles avant
+  d'appliquer ces barèmes.
+
+  À compter d'un an après la publication (septembre 2027), les deux arrêtés
+  prévoient une **révision annuelle** des tarifs : revérifier le barème à
+  la date d'usage.
 - **Conduite sous emprise (alcool, stupéfiants), défaut de permis ou
   d'assurance** : constatations qui engagent rapidement des actes réservés à
   l'OPJ (dépistage, vérifications complexes, garde à vue le cas échéant) →
