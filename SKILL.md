@@ -17,9 +17,11 @@ description: >-
   (registre, AIPD : dpo-ct), ni pour le droit étranger.
 ---
 
-# Skill : dpm-fpt (v1.0.6)
+# Skill : dpm-fpt (v1.0.7)
 
-> **Métadonnées** — version : **1.0.6** (veille juridique du 2026-11-03 :
+> **Métadonnées** — version : **1.0.7** (tarifs maxima des frais de
+> fourrière au 01/10/2026 portés et sourcés ; non mesurée) · version
+> **1.0.6** (veille juridique du 2026-11-03 :
 > identifiants CSI L. 251-2 et L. 253-5 corrigés, droit d'accès aux images
 > détaché de L. 253-5, alertes fourrière, concours PM et CSI L. 511-1 —
 > détail `CHANGELOG.md` ; non mesurée par une campagne) · base **1.0.5** ·

@@ -65,6 +65,11 @@ Boucle `JOURNAL.md` (cas) → `CHANGELOG.md` (versions), décisions tracées dan
 
 ## Version
 
+**v1.0.7, tarifs de fourrière (2026-11-03).** Les tarifs maxima des frais de
+fourrière en vigueur depuis le 01/10/2026 (arrêté du 13/09/2026) sont portés,
+sourcés et datés, dans `references/reglementation-appliquee.md` §5.1 ; ce sont
+des plafonds, le montant appliqué se vérifie auprès du gestionnaire.
+
 **v1.0.6, veille juridique delta (2026-11-03).** Identifiants CSI L. 251-2 et
 L. 253-5 corrigés ; le droit d'accès aux images n'est plus rattaché à
 L. 253-5 (retiré de la partie législative en 2023) mais à CSI R. 253-6

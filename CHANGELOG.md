@@ -2,6 +2,23 @@
 
 Format : versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [1.0.7], 2026-11-03, tarifs maxima des frais de fourrière
+
+Correctif de fond (PATCH). Version non mesurée par une campagne.
+
+### Ajouté
+
+- **Tarifs maxima des frais de fourrière automobiles au 01/10/2026**
+  (arrêté du 13/09/2026, `JORFTEXT000054877184`), lus le 2026-11-03 par
+  l'API Légifrance : barème général de l'arrêté du 14/11/2001, annexe II
+  (`LEGIARTI000054879755`), et barèmes de l'arrêté du 28/11/2003 pour les
+  communes des art. 2 (annexe I, `LEGIARTI000054879763`) et 2 bis
+  (annexe II, `LEGIARTI000029811228`). Portés dans
+  `reglementation-appliquee.md` §5.1 comme **plafonds**, avec la révision
+  annuelle prévue à compter de septembre 2027 ; registre §4 complété.
+- `objets/fourriere.md` : la réserve systématique et la restitution
+  renvoient au §5.1 ; délais et durées de garde restent « à confirmer ».
+
 ## [1.0.6], 2026-11-03, veille juridique delta (2026-09-14 au 2026-11-03)
 
 Revue de veille : 77 identifiants recontrôlés par l'API Légifrance, aucune

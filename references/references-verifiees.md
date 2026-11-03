@@ -167,6 +167,9 @@ socle :
 | **L. 325-1** | Immobilisation / mise en fourrière (maire ou OPJ) | 01/01/2017 | LEGIARTI000033813311 |
 | **R. 325-1** | Modalités de la fourrière (chapitre R. 325-1 à R. 325-52) | 05/01/2012 | LEGIARTI000025111479 |
 | **R. 417-10** | Arrêt / stationnement gênant — **contravention de 2e classe** | 16/01/2022 | LEGIARTI000045025551 |
+| **Arrêté du 14/11/2001, annexe II** | Tarifs maxima des frais de fourrière automobiles (barème général), modifiée par l'arrêté du 13/09/2026 (`JORFTEXT000054877184`) — consulté le 2026-11-03 | 01/10/2026 | LEGIARTI000054879755 |
+| **Arrêté du 28/11/2003, annexe I** | Tarifs maxima, communes visées à l'art. 2 (voitures particulières) — consulté le 2026-11-03 | 01/10/2026 | LEGIARTI000054879763 |
+| **Arrêté du 28/11/2003, annexe II** | Tarifs maxima, communes visées à l'art. 2 bis — consulté le 2026-11-03 | 01/01/2015 | LEGIARTI000029811228 |
 
 ## 5. Divers — animaux, débits de boissons, domaine public, Constitution, code pénal
 

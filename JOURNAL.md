@@ -24,6 +24,13 @@ Une entrée par cas, au format ci-dessous.
 
 ## Entrées
 
+### 2026-11-03 — Tarifs maxima des frais de fourrière portés — v1.0.7
+- Type : lacune (valeurs)
+- Branche : reglementation-appliquee (§5.1), objets/fourriere, references-verifiees (§4)
+- Constat : l'alerte de la v1.0.6 signalait la revalorisation du 01/10/2026 sans montant, faute de lecture du texte intégral.
+- Action : barèmes lus le 2026-11-03 par l'API Légifrance (arrêté du 14/11/2001 annexe II `LEGIARTI000054879755` ; arrêté du 28/11/2003 annexes I `LEGIARTI000054879763` et II `LEGIARTI000029811228`) et portés comme plafonds, avec la révision annuelle à compter de septembre 2027.
+- Statut : intégré (v1.0.7)
+
 ### 2026-11-03 — Veille juridique delta, fond CSI L. 253-5 — v1.0.6
 - Type : erreur (identifiants et fond) + veille
 - Branche : videoprotection, reglementation-appliquee (§5.1),
