@@ -240,18 +240,31 @@ Conséquence pour le CSU :
 
 ### 4.8 Droits des personnes filmées
 
-Toute personne intéressée peut s'adresser au responsable du système pour
-obtenir l'**accès aux enregistrements la concernant**, ou vérifier leur
-destruction dans le délai prescrit. Ce droit est **de droit**, sous réserve de
-motifs de refus limitativement prévus (sûreté de l'État, défense, sécurité
-publique, procédure judiciaire en cours, droits des tiers) :
+**Correctif de la veille du 2026-11-03.** Le droit d'accès « de droit » aux
+enregistrements, avec motifs de refus limitatifs (sûreté de l'État, défense,
+sécurité publique, procédure, droits des tiers), figurait dans la **version
+2020-2023** de l'art. L. 253-5 CSI (LEGIARTI000038791144, en vigueur du
+01/01/2020 au 21/05/2023). La **loi n° 2023-380 du 19/05/2023, art. 9**, l'a
+retiré. **Ne plus citer L. 253-5 comme fondement du droit d'accès.**
 
-> Art. L. 253-5, Code de la sécurité intérieure (vérifié sur Légifrance le
-> 30/06/2026).
+- **Fondement actuel** : les systèmes de vidéoprotection sont des traitements
+  de données à caractère personnel régis par le titre V du livre II du CSI,
+  par le **règlement (UE) 2016/679 (RGPD)** et par la **loi n° 78-17 du
+  6 janvier 1978** (art. L. 251-1 CSI, LEGIARTI000047569469, en vigueur depuis
+  le 21/05/2023, consulté le 2026-11-03). Le droit d'accès de la personne
+  filmée relève donc de ce régime de protection des données. **Article
+  précis, limitations et délai de réponse : à vérifier** (non lus dans la
+  session du 2026-11-03) → volet données : DPO de la collectivité, skill
+  `dpo-ct`, et `conformite-deontologie-donnees.md`.
+- **Saisine de la commission** : « Toute personne intéressée peut saisir la
+  commission départementale de vidéoprotection de toute difficulté tenant au
+  fonctionnement d'un système de vidéoprotection. »
 
-En cas de difficulté, la personne peut saisir la **commission départementale
-de vidéoprotection** ou la **CNIL**, sans préjudice du recours juridictionnel
-(y compris en référé).
+> Art. L. 253-5, Code de la sécurité intérieure, LEGIARTI000047569413, en
+> vigueur depuis le 21/05/2023 (consulté le 2026-11-03).
+
+La version en vigueur de L. 253-5 ne mentionne plus la CNIL ni le recours
+juridictionnel ; leur articulation relève du régime RGPD → `dpo-ct`.
 
 > Information générale du public (panneaux, mentions d'information, registre
 > des traitements, AIPD) → régime RGPD/CNIL transverse, **non traité ici** →
@@ -318,8 +331,9 @@ Appliquer le socle-sources (matrice §2.2 du `SKILL.md`) dès que :
    vidéoprotection existante : fondement distinct à vérifier.
 7. Traiter le sujet **RGPD/AIPD** dans cette branche au lieu de renvoyer à
    `conformite-deontologie-donnees.md`.
-8. Oublier le **droit d'accès** des personnes filmées et ses motifs de refus
-   limitatifs (§4.8) lors d'une demande administrée.
+8. Oublier le **droit d'accès** des personnes filmées lors d'une demande
+   administrée, ou le fonder sur L. 253-5 CSI : depuis le 21/05/2023, il
+   relève du RGPD et de la loi n° 78-17 (L. 251-1 CSI ; §4.8 → `dpo-ct`).
 9. Exploiter le CSU au-delà de la simple **constatation et transmission**
    (analyse, rapprochement actif) sans en mesurer la portée au regard du
    garde-fou APJA (§5.2 SKILL.md).
@@ -333,7 +347,7 @@ consolidée avant tout acte, car ce titre évolue fréquemment) :
 - **Art. L. 251-1 CSI** — disposition générale, identifiant Légifrance
   LEGIARTI000047569469.
 - **Art. L. 251-2 CSI** — finalités légales et cas « commerçants »,
-  identifiant Légifrance LEGIARTI000041599395 (version relevée ; vérifier la
+  identifiant Légifrance LEGIARTI000047569457 (version relevée ; vérifier la
   version applicable à la date des faits).
 - **Art. L. 252-1 CSI** — autorisation préfectorale et commission
   départementale (référence de section confirmée ; identifiant LEGIARTI
@@ -345,10 +359,12 @@ consolidée avant tout acte, car ce titre évolue fréquemment) :
 - **Art. L. 252-5 CSI** — **destruction des enregistrements, délai maximum
   d'un mois**, identifiant Légifrance LEGIARTI000025505435 (le plafond de
   conservation relève de cet article, pas de L. 252-3).
-- **Art. L. 253-5 CSI** — droit d'accès des personnes filmées, identifiant
-  Légifrance LEGIARTI000038791144 (version en vigueur depuis le **21/05/2023**,
-  loi n° 2023-380 — *reconfirmé sur Légifrance le 2026-07-01* ; revérifier la
-  version en vigueur avant citation dans un acte).
+- **Art. L. 253-5 CSI** — saisine de la commission départementale de
+  vidéoprotection par toute personne intéressée, identifiant Légifrance
+  LEGIARTI000047569413 (version en vigueur depuis le **21/05/2023**, loi
+  n° 2023-380, art. 9 — *texte lu le 2026-11-03*). **Ne fonde plus le droit
+  d'accès** (retiré en 2023, voir §4.8) ; revérifier la version en vigueur
+  avant citation dans un acte.
 
 **Non vérifiées dans cette session — à confirmer en version consolidée avant
 usage** :
@@ -381,8 +397,10 @@ usage** :
 4. **Fiche de procédure CSU** (habilitations, traçabilité, modalités de
    transmission aux forces de l'État) — articuler avec la convention de
    coordination → `continuum-partenariats.md`.
-5. **Réponse à une demande d'accès aux images** (art. L. 253-5) — motiver tout
-   refus par l'un des motifs légaux limitatifs ; sinon accès de droit.
+5. **Réponse à une demande d'accès aux images** — fondement : RGPD et loi
+   n° 78-17 (art. L. 251-1 CSI) ; motifs de limitation et délai à vérifier
+   avec le DPO (`dpo-ct`). L. 253-5 CSI ne sert qu'à indiquer la saisine
+   possible de la commission départementale.
 6. **Volet RGPD/AIPD du projet** (registre, analyse d'impact, mentions
    d'information) → ne pas produire ici, renvoyer à
    `conformite-deontologie-donnees.md`.

@@ -157,7 +157,12 @@ c'est un livrable prioritaire qui **remplace** le contenu délégué. Disposer d
 - **Frontière avec `drh-fpt`** : le **recrutement et la titularisation**
   statutaires de l'agent (stage, intégration, mutation) relèvent de
   `drh-fpt` ; **seule** la condition d'agrément/assermentation propre au
-  métier PM reste ici.
+  métier PM reste ici. **Concours et examens professionnels** (épreuves,
+  programmes, dispenses) : `drh-fpt`. Repère de veille (2026-11-03) : décret
+  n° 2026-961 du 15/10/2026 (JORF n° 0243 du 17/10/2026,
+  `JORFTEXT000054992415`, consulté le 2026-11-03), qui modifie les épreuves
+  physiques des concours de la filière PM et de l'examen professionnel de
+  chef de service ; à traiter par `drh-fpt`, non détaillé ici.
 
 ### 4.2 FIA et formation continue armement
 

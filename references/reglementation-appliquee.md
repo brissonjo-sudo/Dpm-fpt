@@ -155,6 +155,13 @@ pratiques) relève des objets dédiés, à consulter en complément :
   décident du régime de garde ni de la restitution, qui relèvent du
   gestionnaire de fourrière et des textes R. 325-1 et s. — voir
   `penal-procedure.md` pour la qualité d'APJA.
+- **Alerte tarifs (veille du 2026-11-03)** : tarifs maxima des frais de
+  fourrière automobiles **revalorisés** par l'arrêté du 13/09/2026 modifiant
+  les arrêtés du 14/11/2001 et du 28/11/2003 (JORF n° 0221 du 22/09/2026,
+  `JORFTEXT000054877184`, consulté le 2026-11-03 via legifrance.gouv.fr ;
+  entrée en vigueur au **01/10/2026**, certaines dispositions un an après la
+  publication). Le skill ne cite aucun montant : **lire les montants sur le
+  texte consolidé** avant toute communication au public.
 - **Conduite sous emprise (alcool, stupéfiants), défaut de permis ou
   d'assurance** : constatations qui engagent rapidement des actes réservés à
   l'OPJ (dépistage, vérifications complexes, garde à vue le cas échéant) →
